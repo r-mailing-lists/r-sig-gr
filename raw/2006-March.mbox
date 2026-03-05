@@ -1,0 +1,1434 @@
+From sds at podval.org  Fri Mar 17 19:48:43 2006
+From: sds at podval.org (Sam Steingold)
+Date: Fri, 17 Mar 2006 13:48:43 -0500
+Subject: [R--gR] deal: network & <NA>
+Message-ID: <alzmjogb5g.fsf@quant8.janestcapital.quant>
+
+Hi,
+I have missing values in my training data, and I see
+> bo.net <- network(bo.df)
+Error in var(data[, node$idx]) : missing observations in cov/cor
+>
+
+what do I do?
+can deal handle missing values?
+Thanks!
+
+-- 
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.memri.org http://www.jihadwatch.org http://www.iris.org.il
+http://www.honestreporting.com http://truepeace.org http://ffii.org
+186,000 Miles per Second.  It's not just a good idea.  IT'S THE LAW.
+
+
+
+From sds at podval.org  Fri Mar 17 21:36:18 2006
+From: sds at podval.org (Sam Steingold)
+Date: Fri, 17 Mar 2006 15:36:18 -0500
+Subject: [R--gR] banlist
+Message-ID: <almzfog665.fsf@quant8.janestcapital.quant>
+
+If I have several nodes (like "sex" and "year" in the "ksl" example)
+that are known to be independent of the others and some other nodes that
+are known not to influence anything, is there a simple way to specify
+those edges by name?
+E.g., something like
+banlist(net) <-
+ CONCATENATE(
+  matrix(c(rep(POSITION(sex,ksl),length(ksl)-1),
+           1:length(ksl)[1:length(ksl) <> POSITION(sex,ksl)]),
+         ncol=2),
+  matrix(c(rep(POSITION(year,ksl),length(ksl)-1),
+           1:length(ksl)[1:length(ksl) <> POSITION(year,ksl)]),
+         ncol=2)
+ )
+
+except that I don't know how to implement POSITION and CONCATENATE.
+
+Thanks!
+
+
+PS Thanks to Susanne for answering my previous question about <NA>.
+   Are there plans to support them in the future?
+
+-- 
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.jihadwatch.org http://pmw.org.il http://www.honestreporting.com
+http://www.dhimmi.com http://www.openvotingconsortium.org http://www.memri.org
+Software is like sex: it's better when it's free.
+
+
+
+From sds at podval.org  Fri Mar 17 21:41:24 2006
+From: sds at podval.org (Sam Steingold)
+Date: Fri, 17 Mar 2006 15:41:24 -0500
+Subject: [R--gR] deal: applying the network
+Message-ID: <alirqcg5xn.fsf@quant8.janestcapital.quant>
+
+suppose I manage to train a network from my data.
+how do I apply it to new observations?
+E.g., if I observe V1=2.4 and V2=5.6,
+how do I get the probability distribution for V3?
+
+Also, is it possible to update the network based on a new observation
+(without re-learning the DAG structure)?
+
+Thanks!
+
+-- 
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.memri.org http://ffii.org http://www.dhimmi.com
+http://truepeace.org http://www.palestinefacts.org http://www.camera.org
+Two wrongs don't make a right, but three rights make a left.
+
+
+
+From tura at centroin.com.br  Sat Mar 18 11:04:12 2006
+From: tura at centroin.com.br (Bernardo Rangel tura)
+Date: Sat, 18 Mar 2006 07:04:12 -0300
+Subject: [R--gR] Hierarchical log-linear models
+Message-ID: <7.0.0.16.2.20060318070407.0265c850@centroin.com.br>
+
+Hi R-masters!
+
+I try using package gRbase for fit a Hierarchical log-linear models 
+and show as graphical model.
+
+I using data about patients of my Hospital (file sm.csv) and my script  is :
+
+
+setwd("F:/INCL/TURA")
+dados<-read.csv("sm.csv")
+attach(dados)
+tab1<-table(obesidade,HAS,TG,DM,HDL)
+require(gRbase)
+dados.g <- as.gmData(tab1)
+m2 <-hllm(~obesidade*HAS*TG*DM*HDL,dados.g)
+m2.f <- fit(m2,engine="loglm")
+
+Well my doubt is why
+
+dynamic.Graph(m2) is the same model of dynamic.Graph(m2.f)
+
+Where I wrong?
+
+
+
+Thanks in advance
+
+Bernardo Rangel Tura, MD, MSc
+National Institute of Cardiology Laranjeiras
+Rio de Janeiro Brazil  
+-------------- next part --------------
+Pgt,fris_HF,fris_Tabagismo,Sexo,fris_DM,fris_HAS,fris_Dislipidemia,obeso,crit_HAS,crit_TG,crit_DM,crit_HDL,n_crit,SM
+B,N,S,M,N,N,S,N,N,N,N,N,0,N
+B,S,N,M,N,N,N,N,N,N,N,N,0,N
+B,N,S,M,N,N,N,N,N,N,N,N,0,N
+R,N,S,F,N,N,S,N,N,N,N,S,1,N
+R,N,N,M,N,N,S,N,N,N,N,S,1,N
+R,N,N,M,N,S,S,N,S,N,N,N,1,N
+B,N,N,M,N,N,S,N,N,N,N,S,1,N
+B,S,N,M,N,S,N,N,S,N,N,N,1,N
+B,N,S,M,N,N,N,N,N,N,N,S,1,N
+B,N,N,M,N,N,S,N,N,N,N,S,1,N
+B,S,N,M,N,N,N,N,N,N,N,S,1,N
+B,S,N,M,N,S,S,N,S,N,N,N,1,N
+B,N,S,M,N,S,S,N,S,N,N,N,1,N
+B,N,N,F,N,S,N,N,S,N,N,N,1,N
+B,N,N,F,N,N,S,S,N,S,N,N,1,N
+B,N,N,F,N,N,S,N,N,N,N,S,1,N
+B,S,N,F,N,N,N,N,N,N,N,S,1,N
+B,N,N,M,N,N,N,N,N,N,N,S,1,N
+B,S,N,M,N,N,S,N,N,N,N,S,1,N
+B,S,N,F,N,N,S,N,N,N,S,N,1,N
+B,S,N,F,N,S,S,N,S,N,N,N,1,N
+B,S,S,M,S,N,N,N,N,N,S,N,1,N
+B,N,N,M,N,N,S,N,N,N,N,S,1,N
+B,S,N,F,N,N,S,N,N,N,N,S,1,N
+B,N,N,F,N,S,N,N,S,N,N,N,1,N
+B,N,S,F,N,S,N,N,S,N,N,N,1,N
+B,S,N,M,N,N,S,S,N,N,N,S,1,N
+B,S,N,F,N,S,N,N,S,N,N,N,1,N
+B,S,N,M,N,S,S,N,S,N,N,N,1,N
+B,S,N,M,N,S,N,N,S,N,N,N,1,N
+R,N,N,M,N,S,S,N,S,N,S,N,2,N
+R,S,N,M,N,S,N,N,S,N,N,S,2,N
+R,S,N,M,N,S,N,N,S,N,N,S,2,N
+R,N,N,M,N,S,S,N,S,N,S,N,2,N
+R,N,N,F,N,S,S,N,S,N,N,S,2,N
+R,S,S,F,N,S,N,N,S,N,S,N,2,N
+R,N,N,F,N,S,N,N,S,N,N,S,2,N
+R,S,N,M,N,N,N,N,N,N,S,S,2,N
+R,N,N,M,N,N,S,N,S,N,N,S,2,N
+R,N,N,F,N,S,S,N,S,N,N,S,2,N
+R,N,N,M,N,S,S,N,S,N,N,S,2,N
+R,N,N,M,N,S,S,S,S,N,N,S,2,S
+R,N,N,M,N,N,N,N,N,N,S,S,2,N
+R,N,N,M,N,S,N,S,S,N,S,N,2,S
+R,N,N,M,N,S,S,N,S,N,N,S,2,N
+R,N,S,M,N,S,S,N,S,S,N,N,2,N
+R,N,N,M,N,S,S,N,S,N,N,S,2,N
+R,S,N,M,N,S,N,N,S,N,N,S,2,N
+R,N,N,M,N,S,N,N,S,S,N,N,2,N
+R,S,N,M,N,S,S,N,S,N,S,N,2,N
+R,N,N,M,N,S,N,N,S,N,N,S,2,N
+B,N,N,M,N,S,N,N,S,N,S,N,2,N
+B,N,S,F,N,N,N,N,N,N,S,S,2,N
+B,N,N,F,N,S,S,N,S,N,N,S,2,N
+B,N,N,F,N,S,S,S,S,N,S,N,2,S
+B,S,N,M,N,N,N,N,S,N,N,S,2,N
+B,N,N,M,N,N,N,N,S,N,S,N,2,N
+B,S,N,M,N,S,N,N,S,N,N,S,2,N
+B,S,N,M,N,S,S,S,S,N,S,N,2,S
+B,S,N,M,S,S,S,S,S,N,S,N,2,S
+B,N,N,M,N,N,S,N,N,S,S,N,2,N
+B,N,N,F,S,N,N,N,N,N,S,S,2,N
+B,N,N,M,N,S,S,N,S,N,S,N,2,N
+B,S,S,M,N,S,S,N,S,N,S,N,2,N
+B,N,N,M,N,N,N,N,S,N,S,N,2,N
+B,S,S,M,N,S,N,N,S,N,S,N,2,N
+B,S,N,M,N,S,N,S,S,N,S,N,2,S
+B,N,N,M,N,S,S,N,S,N,N,S,2,N
+B,N,N,F,N,N,N,N,N,S,S,N,2,N
+B,S,S,M,N,N,S,N,N,S,N,S,2,N
+B,S,N,F,N,S,N,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,S,S,N,N,S,2,S
+B,N,N,M,N,N,N,N,N,N,S,S,2,N
+B,S,N,F,N,S,N,N,S,N,N,S,2,N
+B,N,S,F,N,S,S,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,N,S,N,N,S,2,N
+B,N,N,M,N,S,N,N,S,N,S,N,2,N
+B,N,N,F,N,N,N,N,S,N,S,N,2,N
+B,S,S,M,N,S,N,N,S,N,S,N,2,N
+B,N,S,M,N,S,S,N,S,N,N,S,2,N
+B,S,S,M,S,S,S,N,S,N,S,N,2,N
+B,N,S,F,N,S,S,S,S,N,N,S,2,S
+B,N,N,M,N,S,N,N,S,N,N,S,2,N
+B,S,N,M,N,N,S,N,N,N,S,S,2,N
+B,N,N,M,N,S,N,N,S,N,S,N,2,N
+B,N,N,M,N,N,N,N,N,S,S,N,2,N
+B,N,N,M,N,S,N,N,S,N,N,S,2,N
+B,N,S,M,N,S,S,N,S,N,N,S,2,N
+B,S,N,M,N,S,N,N,S,N,N,S,2,N
+B,N,N,M,N,S,N,N,S,N,N,S,2,N
+B,S,N,M,N,S,N,N,S,N,S,N,2,N
+B,S,N,M,S,S,S,N,S,N,S,N,2,N
+B,N,S,M,N,N,N,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,S,S,N,N,S,2,S
+B,N,S,M,N,S,S,N,S,N,N,S,2,N
+B,S,N,M,N,S,N,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,N,S,N,S,N,2,N
+B,N,N,M,N,N,S,N,N,N,S,S,2,N
+B,S,N,F,N,S,N,N,S,N,N,S,2,N
+B,S,S,M,N,S,N,N,S,N,N,S,2,N
+B,S,N,M,S,N,S,N,N,N,S,S,2,N
+B,N,N,M,N,N,S,N,N,N,S,S,2,N
+B,N,N,M,N,S,N,N,S,N,S,N,2,N
+B,N,S,M,N,S,N,N,S,N,N,S,2,N
+B,N,N,F,N,N,S,S,N,N,S,S,2,S
+B,N,S,M,N,S,S,S,S,S,N,N,2,S
+B,N,S,F,N,S,S,N,S,N,N,S,2,N
+B,N,N,F,N,S,N,N,S,N,N,S,2,N
+B,S,S,M,N,S,S,N,S,N,S,N,2,N
+B,S,N,M,S,N,S,N,N,N,S,S,2,N
+B,N,S,M,N,S,S,N,S,N,N,S,2,N
+B,S,N,M,N,S,N,N,S,N,N,S,2,N
+B,N,S,F,N,N,S,N,N,N,S,S,2,N
+B,N,S,M,N,N,N,N,N,N,S,S,2,N
+B,S,N,F,S,S,S,N,S,N,S,N,2,N
+B,N,S,M,N,S,N,S,S,N,S,N,2,S
+B,N,S,F,S,N,N,N,N,N,S,S,2,N
+B,N,N,M,S,N,N,N,N,S,S,N,2,N
+B,N,S,M,S,N,S,N,N,N,S,S,2,N
+B,S,N,M,S,S,N,N,S,N,S,N,2,N
+B,N,N,M,S,N,S,N,N,N,S,S,2,N
+B,S,S,M,N,N,S,N,N,N,S,S,2,N
+B,N,S,M,N,S,N,N,S,N,S,N,2,N
+B,N,N,M,N,N,N,N,N,S,N,S,2,N
+B,S,N,F,N,S,N,S,S,N,S,N,2,S
+B,S,N,M,N,S,N,N,S,S,N,N,2,N
+B,N,S,M,N,N,N,N,S,N,N,S,2,N
+B,N,S,M,N,S,N,N,S,N,S,N,2,N
+B,N,N,F,N,S,N,N,S,N,N,S,2,N
+B,S,N,M,S,S,S,N,S,N,S,N,2,N
+B,S,N,M,N,S,N,S,S,N,N,S,2,S
+B,S,N,F,N,S,S,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,N,S,N,N,S,2,N
+B,N,N,F,S,S,S,N,S,N,S,N,2,N
+B,S,S,M,N,S,N,S,S,N,N,S,2,S
+B,N,N,M,N,N,S,N,N,N,S,S,2,N
+B,N,N,F,N,S,S,N,S,N,N,S,2,N
+B,N,S,M,N,S,N,N,S,N,S,N,2,N
+B,N,S,F,S,N,N,N,N,N,S,S,2,N
+B,S,N,F,N,S,S,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,N,S,N,N,S,2,N
+B,N,N,M,N,S,N,N,S,N,N,S,2,N
+B,N,N,F,N,S,S,N,S,S,N,N,2,N
+B,N,N,F,N,S,S,N,S,N,N,S,2,N
+B,S,N,F,N,S,N,N,S,N,N,S,2,N
+B,S,N,M,N,S,N,N,S,N,N,S,2,N
+B,N,N,F,N,S,S,N,S,N,N,S,2,N
+B,N,S,M,N,S,S,N,S,N,N,S,2,N
+B,S,S,M,N,N,S,N,N,S,S,N,2,N
+B,S,N,F,N,S,S,N,S,N,N,S,2,N
+B,N,S,F,N,S,N,N,S,N,N,S,2,N
+B,N,N,F,N,S,N,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,N,S,N,N,S,2,N
+B,S,N,M,N,S,N,N,S,N,S,N,2,N
+B,S,N,F,N,S,S,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,N,S,N,N,S,2,N
+B,N,S,M,N,S,S,N,S,N,N,S,2,N
+B,N,N,M,N,N,S,N,N,S,S,N,2,N
+B,S,N,M,N,S,S,N,S,N,N,S,2,N
+B,S,N,M,N,S,S,N,S,N,N,S,2,N
+B,N,N,M,N,S,N,N,S,N,N,S,2,N
+B,N,S,F,N,S,S,N,S,S,N,N,2,N
+B,S,S,M,N,N,N,N,S,N,S,N,2,N
+B,N,N,M,N,N,S,N,S,N,N,S,2,N
+B,N,S,M,N,S,S,N,S,N,N,S,2,N
+B,S,N,M,N,S,S,N,S,N,N,S,2,N
+B,S,N,F,N,S,N,N,S,N,N,S,2,N
+B,N,N,M,N,S,N,N,S,N,N,S,2,N
+B,N,N,M,N,S,S,N,S,N,N,S,2,N
+B,S,N,F,S,S,S,N,S,N,S,N,2,N
+B,N,S,F,N,S,S,N,S,N,N,S,2,N
+B,S,S,M,N,S,N,N,S,N,N,S,2,N
+B,N,N,F,N,S,S,N,S,N,N,S,2,N
+B,N,N,F,N,S,N,N,S,N,N,S,2,N
+B,S,N,M,N,N,S,N,N,S,N,S,2,N
+R,S,N,M,S,S,S,N,S,N,S,S,3,N
+R,S,N,F,N,S,S,N,S,N,S,S,3,N
+R,N,N,M,S,S,S,N,S,N,S,S,3,N
+R,N,N,M,S,S,S,N,S,N,S,S,3,N
+R,S,N,M,S,S,S,S,S,N,S,S,3,S
+R,N,N,F,N,S,S,N,S,N,S,S,3,N
+R,N,N,M,N,S,N,N,S,N,S,S,3,N
+R,N,N,M,S,S,S,N,S,N,S,S,3,N
+R,N,N,F,S,S,S,N,S,N,S,S,3,N
+R,S,N,F,S,S,N,N,S,N,S,S,3,N
+R,N,N,M,N,S,S,N,S,N,S,S,3,N
+R,S,N,F,N,N,N,N,S,N,S,S,3,N
+R,S,N,M,S,S,S,N,S,N,S,S,3,N
+R,N,N,F,S,S,S,S,S,N,S,S,3,S
+R,N,N,M,S,N,S,N,S,N,S,S,3,N
+R,N,N,M,S,S,S,N,S,N,S,S,3,N
+R,S,N,F,S,S,S,S,S,N,S,S,3,S
+R,N,N,M,N,N,S,N,S,N,S,S,3,N
+R,S,S,F,S,S,S,S,S,N,S,S,3,S
+R,N,S,M,N,N,N,N,S,N,S,S,3,N
+R,N,N,M,N,S,N,N,S,N,S,S,3,N
+R,N,N,M,N,S,S,N,S,N,S,S,3,N
+R,N,N,F,N,S,S,N,S,N,S,S,3,N
+R,N,S,F,N,S,N,N,S,N,S,S,3,N
+R,S,N,M,S,S,S,S,S,N,S,S,3,S
+R,N,N,M,S,S,S,N,S,N,S,S,3,N
+R,S,N,M,S,S,S,N,S,N,S,S,3,N
+R,N,N,M,S,S,S,N,S,S,S,N,3,N
+R,S,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,F,N,S,S,S,S,S,N,S,3,S
+B,N,N,M,N,S,N,N,S,N,S,S,3,N
+B,S,S,M,N,N,N,N,N,S,S,S,3,N
+B,N,N,M,S,S,N,N,S,N,S,S,3,N
+B,N,S,F,S,S,N,S,S,N,S,S,3,S
+B,S,N,M,N,S,N,N,S,N,S,S,3,N
+B,N,N,F,S,S,S,N,S,N,S,S,3,N
+B,S,N,M,S,N,N,N,S,N,S,S,3,N
+B,N,S,F,N,S,S,N,S,S,N,S,3,N
+B,S,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,S,M,S,S,S,S,S,N,S,S,3,S
+B,N,S,M,S,S,S,N,S,N,S,S,3,N
+B,N,S,M,N,S,S,S,S,S,S,N,3,S
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,S,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,N,F,S,S,S,S,S,S,S,N,3,S
+B,S,S,F,S,S,S,S,S,N,S,S,3,S
+B,N,N,F,N,N,S,N,S,S,S,N,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,S,F,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,S,F,N,S,N,N,S,S,N,S,3,N
+B,S,N,M,N,N,S,N,S,S,S,N,3,N
+B,N,S,M,N,N,N,N,S,S,N,S,3,N
+B,S,S,M,N,S,S,N,S,S,S,N,3,N
+B,S,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,F,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,N,S,S,N,S,S,3,S
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,S,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,S,S,N,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,S,M,N,S,N,S,S,N,S,S,3,S
+B,S,N,F,N,S,S,N,S,N,S,S,3,N
+B,S,S,M,N,S,N,N,S,S,S,N,3,N
+B,S,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,N,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,S,M,N,N,N,S,S,N,S,S,3,S
+B,N,N,F,N,N,S,N,N,S,S,S,3,N
+B,S,N,M,N,S,N,S,S,N,S,S,3,S
+B,S,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,F,N,S,N,N,S,N,S,S,3,N
+B,N,N,M,N,S,N,N,S,N,S,S,3,N
+B,N,N,F,N,S,S,N,S,N,S,S,3,N
+B,S,N,F,N,N,N,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,S,M,S,S,N,N,S,N,S,S,3,N
+B,N,S,M,S,S,S,S,S,N,S,S,3,S
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,S,M,N,S,N,N,S,N,S,S,3,N
+B,S,N,M,N,S,S,N,S,S,S,N,3,N
+B,S,N,M,N,N,S,N,S,S,N,S,3,N
+B,N,N,F,N,S,S,N,S,N,S,S,3,N
+B,N,N,F,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,S,S,N,S,S,3,S
+B,N,N,F,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,N,S,S,N,S,S,S,3,S
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,N,F,S,S,N,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,S,S,N,3,N
+B,S,S,M,N,S,S,N,S,N,S,S,3,N
+B,S,S,M,N,S,N,N,S,N,S,S,3,N
+B,S,N,M,S,S,S,S,S,N,S,S,3,S
+B,N,N,M,S,N,S,N,S,N,S,S,3,N
+B,N,S,M,S,S,S,N,S,N,S,S,3,N
+B,N,S,M,N,N,N,N,S,N,S,S,3,N
+B,N,S,M,N,N,N,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,F,S,S,S,N,S,N,S,S,3,N
+B,N,N,F,N,N,S,N,S,N,S,S,3,N
+B,N,S,M,S,N,N,N,N,S,S,S,3,N
+B,S,N,F,S,S,N,N,S,N,S,S,3,N
+B,S,N,M,N,S,S,N,S,S,S,N,3,N
+B,N,N,M,S,N,S,N,N,S,S,S,3,N
+B,S,S,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,F,N,S,S,S,S,N,S,S,3,S
+B,S,N,F,N,S,S,S,S,S,N,S,3,S
+B,N,S,M,N,N,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,S,N,M,S,S,N,N,S,N,S,S,3,N
+B,N,N,F,S,S,N,N,S,N,S,S,3,N
+B,S,S,F,N,S,N,N,S,S,N,S,3,N
+B,S,S,M,N,S,S,N,S,S,N,S,3,N
+B,S,S,M,N,N,S,N,N,S,S,S,3,N
+B,S,N,M,N,S,S,N,S,N,S,S,3,N
+B,S,N,F,S,N,N,N,N,S,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,N,F,S,S,N,S,S,N,S,S,3,S
+B,N,N,M,N,S,N,N,S,N,S,S,3,N
+B,N,N,F,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,N,N,S,N,S,S,3,N
+B,N,S,M,N,N,S,N,N,S,S,S,3,N
+B,N,N,F,S,S,N,N,S,S,S,N,3,N
+B,S,N,F,N,S,N,N,S,N,S,S,3,N
+B,N,N,F,N,S,N,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,S,N,S,3,N
+B,S,S,M,N,S,S,N,S,N,S,S,3,N
+B,S,N,F,N,S,N,N,S,N,S,S,3,N
+B,S,S,M,N,S,N,N,S,N,S,S,3,N
+B,N,N,M,N,N,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,N,N,S,S,N,S,3,N
+B,N,N,F,N,S,N,N,S,N,S,S,3,N
+B,S,N,F,S,S,N,N,S,N,S,S,3,N
+B,S,N,M,N,S,S,N,S,S,N,S,3,N
+B,S,N,F,N,S,N,N,S,S,S,N,3,N
+B,N,N,M,S,S,N,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,N,F,N,S,S,N,S,S,N,S,3,N
+B,N,N,M,N,S,S,N,S,S,N,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,S,F,N,S,S,N,S,N,S,S,3,N
+B,N,S,F,N,S,S,N,S,S,N,S,3,N
+B,N,S,M,S,N,N,N,S,N,S,S,3,N
+B,S,N,M,N,S,N,N,S,N,S,S,3,N
+B,S,N,M,N,S,S,N,S,N,S,S,3,N
+B,S,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,S,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,S,M,N,S,S,S,S,N,S,S,3,S
+B,S,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,N,M,N,S,S,N,S,N,S,S,3,N
+B,S,N,F,S,S,S,N,S,N,S,S,3,N
+B,N,N,F,N,S,S,S,S,S,N,S,3,S
+B,N,N,M,S,S,S,S,S,S,S,N,3,S
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,F,S,S,N,S,S,N,S,S,3,S
+B,S,N,M,S,S,N,N,S,N,S,S,3,N
+B,S,N,F,N,S,S,S,S,N,S,S,3,S
+B,N,N,F,N,S,S,S,S,N,S,S,3,S
+B,S,S,F,S,S,S,N,S,N,S,S,3,N
+B,S,N,M,S,S,N,N,S,N,S,S,3,N
+B,N,N,F,N,S,S,N,S,S,N,S,3,N
+B,N,N,M,S,S,N,N,S,N,S,S,3,N
+B,S,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,N,M,S,S,S,N,S,N,S,S,3,N
+B,S,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,N,S,S,N,S,S,3,S
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+B,N,S,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,N,N,S,S,S,N,3,N
+B,N,N,M,S,S,N,S,S,N,S,S,3,S
+B,N,S,M,N,S,N,N,S,N,S,S,3,N
+B,N,N,M,N,S,N,N,S,N,S,S,3,N
+B,N,N,F,N,S,S,N,S,S,N,S,3,N
+B,S,N,F,N,S,N,N,S,S,N,S,3,N
+B,N,N,F,N,S,S,N,S,N,S,S,3,N
+B,N,S,M,S,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,F,N,S,N,S,S,N,S,S,3,S
+B,N,N,M,S,S,S,S,S,N,S,S,3,S
+B,N,N,F,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,N,N,M,S,S,N,N,S,N,S,S,3,N
+B,N,N,M,N,S,S,S,S,N,S,S,3,S
+B,N,N,M,N,S,S,N,S,N,S,S,3,N
+B,S,S,F,N,S,S,N,S,N,S,S,3,N
+B,S,S,M,N,S,S,N,S,S,N,S,3,N
+B,S,N,M,S,N,S,N,N,S,S,S,3,N
+B,N,N,M,S,S,S,N,S,N,S,S,3,N
+R,S,N,F,S,S,S,S,S,S,S,S,4,S
+R,N,N,F,S,S,S,N,S,S,S,S,4,N
+R,S,N,M,N,S,N,S,S,S,S,S,4,S
+R,N,N,M,S,S,S,N,S,S,S,S,4,N
+R,N,S,F,N,N,N,N,S,S,S,S,4,N
+R,N,N,F,N,S,S,N,S,S,S,S,4,N
+R,S,N,M,N,S,S,N,S,S,S,S,4,N
+R,S,S,M,N,S,S,N,S,S,S,S,4,N
+B,S,S,M,N,S,N,N,S,S,S,S,4,N
+B,S,S,F,N,N,N,S,S,S,S,S,4,S
+B,S,N,M,S,S,S,N,S,S,S,S,4,N
+B,S,N,M,N,S,N,N,S,S,S,S,4,N
+B,S,N,F,N,S,S,N,S,S,S,S,4,N
+B,N,S,M,N,S,S,S,S,S,S,S,4,S
+B,S,N,F,S,S,S,N,S,S,S,S,4,N
+B,N,N,M,N,S,N,N,S,S,S,S,4,N
+B,S,N,F,N,S,S,S,S,S,S,S,4,S
+B,N,N,F,N,S,S,N,S,S,S,S,4,N
+B,S,S,M,S,S,S,N,S,S,S,S,4,N
+B,S,S,M,N,N,N,N,S,S,S,S,4,N
+B,S,N,M,N,S,S,N,S,S,S,S,4,N
+B,N,N,F,S,S,S,S,S,S,S,S,4,S
+B,N,N,F,S,S,S,N,S,S,S,S,4,N
+B,S,S,F,S,S,S,N,S,S,S,S,4,N
+B,N,S,F,N,S,N,S,S,S,S,S,4,S
+B,S,S,F,N,N,N,S,S,S,S,S,4,S
+B,N,S,F,S,S,S,S,S,S,S,S,4,S
+B,S,N,M,S,S,S,N,S,S,S,S,4,N
+B,N,N,F,N,S,S,N,S,S,S,S,4,N
+B,N,S,M,S,S,S,N,S,S,S,S,4,N
+B,S,N,M,S,S,S,N,S,S,S,S,4,N
+B,S,N,F,S,S,S,N,S,S,S,S,4,N
+B,N,N,F,S,S,S,S,S,S,S,S,4,S
+B,N,N,F,S,S,S,N,S,S,S,S,4,N
+B,N,N,M,N,S,S,N,S,S,S,S,4,N
+B,S,N,F,S,S,S,N,S,S,S,S,4,N
+B,N,S,M,N,S,S,N,S,S,S,S,4,N
+B,S,S,M,N,S,S,N,S,S,S,S,4,N
+B,N,S,M,N,S,N,N,S,S,S,S,4,N
+B,S,N,F,S,N,S,N,S,S,S,S,4,N
+B,S,S,M,N,S,S,N,S,S,S,S,4,N
+B,S,N,F,N,N,N,N,S,S,S,S,4,N
+B,S,N,F,N,S,S,S,S,S,S,S,4,S
+B,N,N,M,S,S,S,N,S,S,S,S,4,N
+B,N,N,M,S,S,S,N,S,S,S,S,4,N
+B,N,S,M,S,S,S,N,S,S,S,S,4,N
+B,S,N,F,N,S,S,S,S,S,S,S,4,S
+B,S,N,F,N,S,S,S,S,S,S,S,4,S
+B,N,N,F,N,S,S,S,S,S,S,S,4,S
+B,N,N,F,N,S,S,S,S,S,S,S,4,S
+B,S,S,F,N,S,N,N,S,S,S,S,4,N
+B,S,S,F,N,N,N,N,S,S,S,S,4,N
+B,N,N,M,N,S,S,N,S,S,S,S,4,N
+B,N,N,M,N,S,S,N,S,S,S,S,4,N
+B,N,S,M,S,S,S,N,S,S,S,S,4,N
+B,S,N,F,S,S,S,N,S,S,S,S,4,N
+B,S,N,M,N,N,S,N,S,S,S,S,4,N
+B,S,N,M,N,S,S,N,S,S,S,S,4,N
+B,N,N,F,S,S,S,N,S,S,S,S,4,N
+B,N,N,F,S,S,N,N,S,S,S,S,4,N
+B,S,S,M,S,S,S,S,S,S,S,S,4,S
+B,S,N,M,S,S,S,N,S,S,S,S,4,N
+B,N,N,M,S,S,S,N,S,S,S,S,4,N
+B,S,S,M,N,S,S,N,S,S,S,S,4,N
+B,S,N,F,N,S,S,N,S,S,S,S,4,N
+B,S,N,M,S,N,N,N,S,S,S,S,4,N
+B,S,N,M,N,S,S,N,S,S,S,S,4,N
+B,S,N,M,N,S,S,N,S,S,S,S,4,N
+B,N,N,M,S,S,S,N,S,S,S,S,4,N
+B,N,N,M,N,S,N,N,S,S,S,S,4,N
+B,S,N,M,N,S,N,S,S,S,S,S,4,S
+B,N,N,M,S,N,S,N,S,S,S,S,4,N
+B,N,N,F,N,S,N,N,S,S,S,S,4,N
+B,S,N,M,S,S,S,N,S,S,S,S,4,N
+B,N,N,F,N,S,N,N,S,S,S,S,4,N
+
+From sds at podval.org  Tue Mar 21 16:57:04 2006
+From: sds at podval.org (Sam Steingold)
+Date: Tue, 21 Mar 2006 10:57:04 -0500
+Subject: [R--gR] banlist
+In-Reply-To: <35F45D1048ED5D479EE2223581BDD89A18E1B4@SFEXC00002.amtg.NJA.local>
+	(Claus Dethlefsen's message of "Tue, 21 Mar 2006 09:12:27 +0100")
+References: <35F45D1048ED5D479EE2223581BDD89A18E1B4@SFEXC00002.amtg.NJA.local>
+Message-ID: <aly7z3iyen.fsf@quant8.janestcapital.quant>
+
+Dear Claus,
+
+thanks for your kind reply!
+
+> * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:12:27 +0100]:
+>
+> Thank you for your interest in 'deal'. Note, however, that there is a
+> 'deal' mailing-list which would be the right forum for your questions.
+
+is that list available on gmane.org?
+if not, please make it available there!
+
+> I guess your "CONCATENATE" is rbind?
+yes, thanks!
+
+> I guess your "POSITION" can be implemented using 'match'
+
+indeed!
+I implemented it as (1:len)["Sex" == nm]
+but match is more natural!
+
+> No, unfortunately, we have no plans implementing missing values. I am
+> in a new position, leaving little (none?) time for developing 'deal'.
+
+sorry to hear this...
+
+-- 
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://truepeace.org http://www.jihadwatch.org http://www.mideasttruth.com
+http://www.palestinefacts.org http://www.dhimmi.com http://www.camera.org
+There are many reasons not to use Lisp - but no good ones.
+
+
+
+From sds at podval.org  Tue Mar 21 17:34:30 2006
+From: sds at podval.org (Sam Steingold)
+Date: Tue, 21 Mar 2006 11:34:30 -0500
+Subject: [R--gR] deal: applying the network
+In-Reply-To: <35F45D1048ED5D479EE2223581BDD89A18E1B5@SFEXC00002.amtg.NJA.local>
+	(Claus Dethlefsen's message of "Tue, 21 Mar 2006 09:24:28 +0100")
+References: <35F45D1048ED5D479EE2223581BDD89A18E1B5@SFEXC00002.amtg.NJA.local>
+Message-ID: <alslpbiwo9.fsf@quant8.janestcapital.quant>
+
+Dear Claus
+
+> * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:24:28 +0100]:
+>
+> To use the trained network together with evidence, you need to
+> transfer the network to Hugin.
+
+but hugin is a commercial product.
+are you saying that I cannot use the network built by deal without buying
+Hugin?!
+
+how do I evaluate a network built by deal?
+e.g., the residuals? error rate (for discrete nodes)?
+
+> There is no way to incremently update the network, so you would need
+> to relearn the whole thing unfortunately.
+ok.
+
+thanks!
+
+--
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.honestreporting.com http://www.mideasttruth.com http://ffii.org
+http://www.dhimmi.com http://www.savegushkatif.org http://www.memri.org
+It's not just a language, it's an adventure.  Common Lisp.
+
+
+
+From blindglobe at gmail.com  Tue Mar 21 17:40:51 2006
+From: blindglobe at gmail.com (A.J. Rossini)
+Date: Tue, 21 Mar 2006 17:40:51 +0100
+Subject: [R--gR] banlist
+In-Reply-To: <aly7z3iyen.fsf@quant8.janestcapital.quant>
+References: <35F45D1048ED5D479EE2223581BDD89A18E1B4@SFEXC00002.amtg.NJA.local>
+	<aly7z3iyen.fsf@quant8.janestcapital.quant>
+Message-ID: <1abe3fa90603210840m665b0bd4s15e104ffcc782fda@mail.gmail.com>
+
+Sam -
+
+One approximate approach for handling missing values would be multiple
+imputation, where you could explicitly decide what a range of
+appropriate approaches could be.
+
+However, it isn't clear to me what the right way to
+aggregate/summarize the resulting networks would be (this isn't a
+simple averaging, unfortunately).
+
+best,
+-tony
+
+On 3/21/06, Sam Steingold <sds at podval.org> wrote:
+> Dear Claus,
+>
+> thanks for your kind reply!
+>
+> > * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:12:27 +0100]:
+> >
+> > Thank you for your interest in 'deal'. Note, however, that there is a
+> > 'deal' mailing-list which would be the right forum for your questions.
+>
+> is that list available on gmane.org?
+> if not, please make it available there!
+>
+> > I guess your "CONCATENATE" is rbind?
+> yes, thanks!
+>
+> > I guess your "POSITION" can be implemented using 'match'
+>
+> indeed!
+> I implemented it as (1:len)["Sex" == nm]
+> but match is more natural!
+>
+> > No, unfortunately, we have no plans implementing missing values. I am
+> > in a new position, leaving little (none?) time for developing 'deal'.
+>
+> sorry to hear this...
+>
+> --
+> Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+> http://truepeace.org http://www.jihadwatch.org http://www.mideasttruth.com
+> http://www.palestinefacts.org http://www.dhimmi.com http://www.camera.org
+> There are many reasons not to use Lisp - but no good ones.
+>
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+
+
+--
+best,
+-tony
+
+blindglobe at gmail.com
+Muttenz, Switzerland.
+"Commit early,commit often, and commit in a repository from which we can easily
+roll-back your mistakes" (AJR, 4Jan05).
+
+
+
+From sds at podval.org  Tue Mar 21 20:13:37 2006
+From: sds at podval.org (Sam Steingold)
+Date: Tue, 21 Mar 2006 14:13:37 -0500
+Subject: [R--gR] deal: genlatex fails
+Message-ID: <alveu7haqm.fsf@quant8.janestcapital.quant>
+
+I get this:
+
+> genlatex(search)
+Error in if (x == 1) return("\\footnotesize{$1$}") : 
+	argument is of length zero
+
+
+search is returned by autosearch.
+the same error with the return value of heuristic.
+
+pic/scoretable.tex:
+----------------------------------------------------------------
+%% generated automatically Tue Mar 21 14:05:50 2006 - Don't edit by hand
+%% A master file:
+%% documentclass{article}
+%% usepackage{array,pictex}
+%% egin{document}
+%% input{scoretable}
+%% end{document}
+\begin{tabular}{|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|}\hline
+\vspace{-0.9cm}\begin{minipage}[t]{2.4cm}
+\input{pic1.tex}
+\vspace{-1.8cm}\footnotesize{$ 380.0  $}\\
+\footnotesize{$1$}
+\end{minipage}
+&
+----------------------------------------------------------------
+
+note "^H" instead of "b" above.
+
+other questions:
+
+--- is there a way to _prescribe_ arrows (the inverse of banlist)?
+    I do not want to use the gui (drawnetwork), I want something more
+    command-line oriented.
+
+--- how do I print a network to the printer?
+    all I can see now is plot() + print screen.
+
+Thanks!
+
+-- 
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.honestreporting.com http://www.openvotingconsortium.org
+http://truepeace.org http://www.camera.org http://www.jihadwatch.org
+Daddy, what does "format disk c: complete" mean?
+
+
+
+From sds at podval.org  Tue Mar 21 20:14:53 2006
+From: sds at podval.org (Sam Steingold)
+Date: Tue, 21 Mar 2006 14:14:53 -0500
+Subject: [R--gR] deal: genlatex fails
+In-Reply-To: <alveu7haqm.fsf@quant8.janestcapital.quant> (Sam Steingold's
+	message of "Tue, 21 Mar 2006 14:13:37 -0500")
+References: <alveu7haqm.fsf@quant8.janestcapital.quant>
+Message-ID: <alr74vhaoi.fsf@quant8.janestcapital.quant>
+
+> * Sam Steingold <fqf at cbqiny.bet> [2006-03-21 14:13:37 -0500]:
+>
+> I get this:
+>
+>> genlatex(search)
+> Error in if (x == 1) return("\\footnotesize{$1$}") : 
+> 	argument is of length zero
+
+also,
+
+> genpicfile(search)
+
+Generating pic-files...Error in plot.window(xlim, ylim, log, asp, ...) : 
+	need finite 'xlim' values
+In addition: Warning messages:
+1: 'pic' already exists 
+2: NAs introduced by coercion 
+3: no finite arguments to min; returning Inf 
+4: no finite arguments to max; returning -Inf 
+5: parameter "cexscale" could not be set in high-level plot() function 
+6: parameter "arrowlength" could not be set in high-level plot() function 
+7: parameter "notext" could not be set in high-level plot() function 
+> 
+
+-- 
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://ffii.org http://www.openvotingconsortium.org http://www.jihadwatch.org
+http://pmw.org.il http://www.camera.org http://www.savegushkatif.org
+When you talk to God, it's prayer; when He talks to you, it's schizophrenia.
+
+
+
+From sds at podval.org  Wed Mar 22 20:08:40 2006
+From: sds at podval.org (Sam Steingold)
+Date: Wed, 22 Mar 2006 14:08:40 -0500
+Subject: [R--gR] deal: heuristic search lowers the score?
+Message-ID: <allkv2fgav.fsf@quant8.janestcapital.quant>
+
+Hi,
+I noticed that the network created by heuristic() has lower score than
+the one created by autosearch():
+
+prior <- jointprior(net,nrow(df)*10)
+search <- autosearch(net,df,prior,timetrace=TRUE,removecycles=TRUE)
+heuristic <- heuristic(getnetwork(search),df,trylist=gettrylist(search))
+score(getnetwork(search))
+[1] 378.5992
+score(getnetwork(heuristic))
+[1] 357.014
+why?  does this mean that the score is actually the _negative_ of log
+likelihood?
+
+also, it is not clear what the relscore is.
+
+
+PS. I read the paper and the manual...
+
+-- 
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.honestreporting.com http://www.savegushkatif.org
+http://ffii.org http://www.dhimmi.com http://www.camera.org
+Democrats, get out of my wallet! Republicans, get out of my bedroom!
+
+
+
+From aas.claus.dethlefsen at nja.dk  Sat Mar 25 14:13:05 2006
+From: aas.claus.dethlefsen at nja.dk (Claus Dethlefsen / Aalborg Sygehus)
+Date: Sat, 25 Mar 2006 14:13:05 +0100
+Subject: [R--gR] deal: applying the network
+References: <35F45D1048ED5D479EE2223581BDD89A18E1B5@SFEXC00002.amtg.NJA.local>
+	<alslpbiwo9.fsf@quant8.janestcapital.quant>
+Message-ID: <35F45D1048ED5D479EE2223581BDD89A188092@SFEXC00002.amtg.NJA.local>
+
+Dear Sam
+ 
+Deal supports the .net format for Bayesian networks, which can be read by Hugin. There is a (free) light version of Hugin which can be used for 'toy examples'. However, there are many other software packages, some of which also support the .net format, see
+ 
+http://www.cs.ubc.ca/~murphyk/Bayes/bnsoft.html
+ 
+Deal has only the 'learning' capability and inference must be done using methods outside of 'deal'.
+ 
+Best,
+Claus
+ 
+________________________________
+Claus Dethlefsen, Msc, PhD
+Statistiker ved Kardiovaskul?rt Forskningscenter
+
+ 
+Forskningens Hus
+Aalborg Sygehus 
+Sdr. Skovvej 15
+9000 Aalborg
+
+Tlf:   9932 6863
+email: aas.claus.dethlefsen at nja.dk <mailto:aas.claus.dethlefsen at nja.dk> 
+
+________________________________
+
+Fra: r-sig-gr-bounces at stat.math.ethz.ch p? vegne af Sam Steingold
+Sendt: ti 21-03-2006 17:34
+Til: Claus Dethlefsen / Aalborg Sygehus
+Cc: r-sig-gr at stat.math.ethz.ch
+Emne: Re: [R--gR] deal: applying the network
+
+
+
+Dear Claus
+
+> * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:24:28 +0100]:
+>
+> To use the trained network together with evidence, you need to
+> transfer the network to Hugin.
+
+but hugin is a commercial product.
+are you saying that I cannot use the network built by deal without buying
+Hugin?!
+
+how do I evaluate a network built by deal?
+e.g., the residuals? error rate (for discrete nodes)?
+
+> There is no way to incremently update the network, so you would need
+> to relearn the whole thing unfortunately.
+ok.
+
+thanks!
+
+--
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.honestreporting.com http://www.mideasttruth.com http://ffii.org
+http://www.dhimmi.com http://www.savegushkatif.org http://www.memri.org
+It's not just a language, it's an adventure.  Common Lisp.
+
+_______________________________________________
+R-sig-gR mailing list
+R-sig-gR at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From aas.claus.dethlefsen at nja.dk  Sat Mar 25 14:23:42 2006
+From: aas.claus.dethlefsen at nja.dk (Claus Dethlefsen / Aalborg Sygehus)
+Date: Sat, 25 Mar 2006 14:23:42 +0100
+Subject: [R--gR] deal: genlatex fails
+References: <alveu7haqm.fsf@quant8.janestcapital.quant>
+Message-ID: <35F45D1048ED5D479EE2223581BDD89A188093@SFEXC00002.amtg.NJA.local>
+
+Dear Sam
+ 
+genlatex needs an object of class "networklist" as input, which will then be arranged nicely in a table in latex code, where the networks are stored in pictex format. You are inputting a single network, which is not handled by genlatex.
+ 
+The search (heuristic/auto) also returns a table of strings representing all the networks that have been "visited" in the search. The function 'makenw' can take this table and re-create the networks as a networklist, which can then be sorted (according to score) and used as input to genlatex/genpicfile.
+ 
+You probably want to do something along the lines:
+ 
+library(deal)
+data(ksl)
+ksl.nw  <- network(ksl)
+ksl.prior <- jointprior(ksl.nw,64)
+mybanlist <- matrix(c(5,5,6,6,7,7,9,
+                    8,9,8,9,8,9,8),ncol=2)
+banlist(ksl.nw) <- mybanlist                  
+ksl.nw <- getnetwork(learn(ksl.nw,ksl,ksl.prior))
+ksl.search <- autosearch(ksl.nw,ksl,ksl.prior,
+                      trace=TRUE)
+ksl.searchlist <- makenw(ksl.search$table,ksl.search$nw)
+ksl.searchlist <- nwfsort(ksl.searchlist)
+genpicfile(ksl.searchlist)
+genlatex(ksl.searchlist)
+
+ 
+- There is no way to 'glue' arrows into the network (opposite of 'ban').
+ 
+- To print networks, consider using the R devices pdf() or postscript() which will created files with the networks displayed in the graphics window. The files can then be printed.
+ 
+Best,
+Claus
+ 
+________________________________
+Claus Dethlefsen, Msc, PhD
+Statistiker ved Kardiovaskul?rt Forskningscenter
+
+ 
+Forskningens Hus
+Aalborg Sygehus 
+Sdr. Skovvej 15
+9000 Aalborg
+
+Tlf:   9932 6863
+email: aas.claus.dethlefsen at nja.dk <mailto:aas.claus.dethlefsen at nja.dk> 
+
+________________________________
+
+Fra: r-sig-gr-bounces at stat.math.ethz.ch p? vegne af Sam Steingold
+Sendt: ti 21-03-2006 20:13
+Til: r-sig-gr at stat.math.ethz.ch
+Emne: [R--gR] deal: genlatex fails
+
+
+
+I get this:
+
+> genlatex(search)
+Error in if (x == 1) return("\\footnotesize{$1$}") :
+        argument is of length zero
+
+
+search is returned by autosearch.
+the same error with the return value of heuristic.
+
+pic/scoretable.tex:
+----------------------------------------------------------------
+%% generated automatically Tue Mar 21 14:05:50 2006 - Don't edit by hand
+%% A master file:
+%% documentclass{article}
+%% usepackage{array,pictex}
+%% egin{document}
+%% input{scoretable}
+%% end{document}
+\begin{tabular}{|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|}\hline
+\vspace{-0.9cm}\begin{minipage}[t]{2.4cm}
+\input{pic1.tex}
+\vspace{-1.8cm}\footnotesize{$ 380.0  $}\\
+\footnotesize{$1$}
+\end{minipage}
+&
+----------------------------------------------------------------
+
+note "^H" instead of "b" above.
+
+other questions:
+
+--- is there a way to _prescribe_ arrows (the inverse of banlist)?
+    I do not want to use the gui (drawnetwork), I want something more
+    command-line oriented.
+
+--- how do I print a network to the printer?
+    all I can see now is plot() + print screen.
+
+Thanks!
+
+--
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.honestreporting.com http://www.openvotingconsortium.org
+http://truepeace.org http://www.camera.org http://www.jihadwatch.org
+Daddy, what does "format disk c: complete" mean?
+
+_______________________________________________
+R-sig-gR mailing list
+R-sig-gR at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From aas.claus.dethlefsen at nja.dk  Sat Mar 25 14:34:30 2006
+From: aas.claus.dethlefsen at nja.dk (Claus Dethlefsen / Aalborg Sygehus)
+Date: Sat, 25 Mar 2006 14:34:30 +0100
+Subject: [R--gR] deal: heuristic search lowers the score?
+References: <allkv2fgav.fsf@quant8.janestcapital.quant>
+Message-ID: <35F45D1048ED5D479EE2223581BDD89A188094@SFEXC00002.amtg.NJA.local>
+
+Dear Sam
+ 
+The score should not be positive, so something is not right here. This is possibly caused by numerical instabilities, either because the jointprior has a too low size of the imaginary database, or because the continuous variables need to be rescaled. If, for example, you have a continuous variable taking values around 0.001, try multiplying the variable by 1000.
+ 
+I have not explored this further, so I have not got a really good explanation for what is going on.
+ 
+The relscore in a networklist (e.g. after you have sorted the networks according to their score using 'nwfsort') is the relative score of the networks using the network with the highest score as reference. (see help(nwfsort)).
+ 
+Best,
+Claus
+ 
+________________________________
+Claus Dethlefsen, Msc, PhD
+Statistiker ved Kardiovaskul?rt Forskningscenter
+
+ 
+Forskningens Hus
+Aalborg Sygehus 
+Sdr. Skovvej 15
+9000 Aalborg
+
+Tlf:   9932 6863
+email: aas.claus.dethlefsen at nja.dk <mailto:aas.claus.dethlefsen at nja.dk> 
+
+________________________________
+
+Fra: r-sig-gr-bounces at stat.math.ethz.ch p? vegne af Sam Steingold
+Sendt: on 22-03-2006 20:08
+Til: dealsoftware at yahoogroups.com
+Cc: r-sig-gr at stat.math.ethz.ch
+Emne: [R--gR] deal: heuristic search lowers the score?
+
+
+
+Hi,
+I noticed that the network created by heuristic() has lower score than
+the one created by autosearch():
+
+prior <- jointprior(net,nrow(df)*10)
+search <- autosearch(net,df,prior,timetrace=TRUE,removecycles=TRUE)
+heuristic <- heuristic(getnetwork(search),df,trylist=gettrylist(search))
+score(getnetwork(search))
+[1] 378.5992
+score(getnetwork(heuristic))
+[1] 357.014
+why?  does this mean that the score is actually the _negative_ of log
+likelihood?
+
+also, it is not clear what the relscore is.
+
+
+PS. I read the paper and the manual...
+
+--
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.honestreporting.com http://www.savegushkatif.org
+http://ffii.org http://www.dhimmi.com http://www.camera.org
+Democrats, get out of my wallet! Republicans, get out of my bedroom!
+
+_______________________________________________
+R-sig-gR mailing list
+R-sig-gR at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From sds at podval.org  Mon Mar 27 18:27:59 2006
+From: sds at podval.org (Sam Steingold)
+Date: Mon, 27 Mar 2006 11:27:59 -0500
+Subject: [R--gR] deal: genlatex fails
+References: <alveu7haqm.fsf@quant8.janestcapital.quant>
+	<35F45D1048ED5D479EE2223581BDD89A188093@SFEXC00002.amtg.NJA.local>
+Message-ID: <alodzrrgxc.fsf@quant8.janestcapital.quant>
+
+Dear Claus,
+
+> genlatex needs an object of class "networklist" as input, which will
+> then be arranged nicely in a table in latex code, where the networks
+> are stored in pictex format. You are inputting a single network, which
+> is not handled by genlatex.
+
+I see, thanks for your help!
+
+> ksl.searchlist <- makenw(ksl.search$table,ksl.search$nw)
+> ksl.searchlist <- nwfsort(ksl.searchlist)
+> genpicfile(ksl.searchlist)
+> genlatex(ksl.searchlist)
+
+yes, it works, thanks!
+
+it would be nice if a master.tex file were also generated that included
+the table, nice and all the other networks too - for easy viewing.
+
+> - There is no way to 'glue' arrows into the network (opposite of 'ban').
+
+please consider this feature to have been requested.
+
+> pic/scoretable.tex:
+> ----------------------------------------------------------------
+> %% generated automatically Tue Mar 21 14:05:50 2006 - Don't edit by hand
+> %% A master file:
+> %% documentclass{article}
+> %% usepackage{array,pictex}
+> %% egin{document}
+> %% input{scoretable}
+> %% end{document}
+> \begin{tabular}{|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|}\hline
+> \vspace{-0.9cm}\begin{minipage}[t]{2.4cm}
+> \input{pic1.tex}
+> \vspace{-1.8cm}\footnotesize{$ 380.0  $}\\
+> \footnotesize{$1$}
+> \end{minipage}
+> &
+> ----------------------------------------------------------------
+
+
+this is probably due to a spurious backslash in a literal string:
+"\begin" == "^Hegin".
+
+
+-- 
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.openvotingconsortium.org http://www.camera.org
+http://www.memri.org http://www.palestinefacts.org http://www.savegushkatif.org
+Lisp: it's here to save your butt.
+
+
+
+From sds at podval.org  Mon Mar 27 19:06:58 2006
+From: sds at podval.org (Sam Steingold)
+Date: Mon, 27 Mar 2006 12:06:58 -0500
+Subject: [R--gR] deal: genlatex fails
+References: <alveu7haqm.fsf@quant8.janestcapital.quant>
+	<35F45D1048ED5D479EE2223581BDD89A188093@SFEXC00002.amtg.NJA.local>
+	<alodzrrgxc.fsf@quant8.janestcapital.quant>
+Message-ID: <alzmjbq0jx.fsf@quant8.janestcapital.quant>
+
+> * Sam Steingold <fqf at cbqiny.bet> [2006-03-27 11:27:59 -0500]:
+>
+> it would be nice if a master.tex file were also generated that included
+> the table, nice and all the other networks too - for easy viewing.
+
+oops - I did not notice that scoretable.tex actually does contain the list.
+unfortunately, I get the dreaded "TeX capacity exceeded" error:
+
+(./pic28.tex)
+Overfull \hbox (47.34357pt too wide) in paragraph at lines 171--176
+[]|[]| 
+(./pic29.tex)
+Overfull \hbox (47.34357pt too wide) in paragraph at lines 177--182
+[]|[]| 
+(./pic30.tex)
+Overfull \hbox (47.34357pt too wide) in paragraph at lines 183--188
+[]|[]| 
+(./pic31.tex)
+Overfull \hbox (47.34357pt too wide) in paragraph at lines 189--194
+[]|[]| 
+(./pic32.tex)
+Overfull \hbox (47.34357pt too wide) in paragraph at lines 195--200
+[]|[]| 
+(./pic33.tex
+! TeX capacity exceeded, sorry [main memory size=1000000].
+\!plot ...menA \raise \!dimenB \copy \!plotsymbol 
+                                                  \kern -\!dimenA \ignorespa...
+l.35 \plot 67.79 84.12 43.31 76.41 
+                                   /
+No pages of output.
+Transcript written on master.log.
+
+
+--
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.memri.org http://www.savegushkatif.org http://ffii.org
+http://pmw.org.il http://truepeace.org http://www.mideasttruth.com
+There are 3 kinds of people: those who can count and those who cannot.
+
+
+
+From sds at podval.org  Mon Mar 27 19:53:32 2006
+From: sds at podval.org (Sam Steingold)
+Date: Mon, 27 Mar 2006 12:53:32 -0500
+Subject: [R--gR] deal: genlatex fails
+References: <alveu7haqm.fsf@quant8.janestcapital.quant>
+	<35F45D1048ED5D479EE2223581BDD89A188093@SFEXC00002.amtg.NJA.local>
+	<alodzrrgxc.fsf@quant8.janestcapital.quant>
+	<alzmjbq0jx.fsf@quant8.janestcapital.quant>
+Message-ID: <alhd5jpyeb.fsf@quant8.janestcapital.quant>
+
+> * Sam Steingold <fqf at cbqiny.bet> [2006-03-27 12:06:58 -0500]:
+>> * Sam Steingold <fqf at cbqiny.bet> [2006-03-27 11:27:59 -0500]:
+>>
+>> it would be nice if a master.tex file were also generated that included
+>> the table, nice and all the other networks too - for easy viewing.
+>
+> oops - I did not notice that scoretable.tex actually does contain the list.
+> unfortunately, I get the dreaded "TeX capacity exceeded" error:
+>
+> (./pic28.tex)
+> Overfull \hbox (47.34357pt too wide) in paragraph at lines 171--176
+> []|[]| 
+> (./pic29.tex)
+> Overfull \hbox (47.34357pt too wide) in paragraph at lines 177--182
+> []|[]| 
+> (./pic30.tex)
+> Overfull \hbox (47.34357pt too wide) in paragraph at lines 183--188
+> []|[]| 
+> (./pic31.tex)
+> Overfull \hbox (47.34357pt too wide) in paragraph at lines 189--194
+> []|[]| 
+> (./pic32.tex)
+> Overfull \hbox (47.34357pt too wide) in paragraph at lines 195--200
+> []|[]| 
+> (./pic33.tex
+> ! TeX capacity exceeded, sorry [main memory size=1000000].
+> \!plot ...menA \raise \!dimenB \copy \!plotsymbol 
+>                                                   \kern -\!dimenA \ignorespa...
+> l.35 \plot 67.79 84.12 43.31 76.41 
+>                                    /
+> No pages of output.
+> Transcript written on master.log.
+
+and when I trim the list of "pic" files, I get this further error:
+
+(./pic30.tex)
+Overfull \hbox (47.34357pt too wide) in paragraph at lines 183--188
+[]|[]| 
+
+Overfull \hbox (45.83215pt too wide) in paragraph at lines 8--189
+[][] 
+[1]) (./picnice.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 ...ate}  [lB] <0.00pt,0.00pt> at 174.63 83.31
+                                                  
+! Extra }, or forgotten $.
+\!setputobject ...>\setbox \!putobject =\hbox {#1}
+                                                  \!ht =\ht \!putobject \!dp...
+l.15 ...ate}  [lB] <0.00pt,0.00pt> at 174.63 83.31
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...te}  [lB] <0.00pt,0.00pt> at 242.09 158.45
+                                                  
+! Extra }, or forgotten $.
+\!setputobject ...>\setbox \!putobject =\hbox {#1}
+                                                  \!ht =\ht \!putobject \!dp...
+l.17 ...te}  [lB] <0.00pt,0.00pt> at 242.09 158.45
+                                                  
+! Extra }, or forgotten $.
+\endpicture ...bot \global \!Ytop =\!ytop \egroup 
+                                                  \ht \!picbox =\!Ytop \dp \...
+l.157 \endpicture
+                 
+! Extra }, or forgotten $.
+l.158 }
+       
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 \end{document}
+                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 \end{document}
+                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 \end{document}
+                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 \end{document}
+                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 \end{document}
+                  
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 \end{document}
+                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 \end{document}
+                  
+! Display math should end with $$.
+<to be read again> 
+                   \vfil 
+l.7 \end{document}
+                  
+[2] (./master.aux) )
+(see the transcript file for additional information)
+Output written on master.dvi (2 pages, 710520 bytes).
+Transcript written on master.log.
+
+-- 
+Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)
+http://www.palestinefacts.org http://ffii.org http://truepeace.org
+http://pmw.org.il http://www.memri.org http://www.camera.org
+Experience comes with debts.
+
+
+
+From foraita at bips.uni-bremen.de  Tue Mar 28 10:36:28 2006
+From: foraita at bips.uni-bremen.de (Ronja Foraita)
+Date: Tue, 28 Mar 2006 10:36:28 +0200
+Subject: [R--gR] Belief Propagation
+Message-ID: <442911AC.27304.6B5E5B@bips.uni-bremen.de>
+
+Dear all,
+
+has any R-package the "belief propagation algorithm" implemented?
+
+Many thanks,
+Ronja Foraita
+
+---
+Ronja Foraita, Dipl.-Stat.
+Bremen Institute for Prevention Research and Social Medicine (BIPS)
+Linzer Stra?e 10
+D-28359 Bremen
+Tel  +49 421 59 59 6-85
+Fax +49 421 59 59 6-68
+http://www.bips.uni-bremen.de
+
+
+
+From P.J.Green at bristol.ac.uk  Tue Mar 28 10:57:29 2006
+From: P.J.Green at bristol.ac.uk (Peter Green)
+Date: Tue, 28 Mar 2006 09:57:29 +0100
+Subject: [R--gR] Belief Propagation
+In-Reply-To: <442911AC.27304.6B5E5B@bips.uni-bremen.de>
+References: <442911AC.27304.6B5E5B@bips.uni-bremen.de>
+Message-ID: <4428FA79.8030306@bristol.ac.uk>
+
+You could take a look at Grappa: http://www.stats.bris.ac.uk/~peter/Grappa/
+
+- available as a package for Windows and Linux, but with a few health 
+warnings - it doesn't protect you from misspecifying a model, it only 
+deals with the discrete case, and it does not fully comply with CRAN 
+standards (of documentation, etc.)
+
+Peter Green
+
+Ronja Foraita wrote:
+> Dear all,
+>
+> has any R-package the "belief propagation algorithm" implemented?
+>
+> Many thanks,
+> Ronja Foraita
+>
+> ---
+> Ronja Foraita, Dipl.-Stat.
+> Bremen Institute for Prevention Research and Social Medicine (BIPS)
+> Linzer Stra?e 10
+> D-28359 Bremen
+> Tel  +49 421 59 59 6-85
+> Fax +49 421 59 59 6-68
+> http://www.bips.uni-bremen.de
+>
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+
+
+

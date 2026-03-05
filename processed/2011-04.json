@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2011-04",
+  "messages": [
+    {
+      "id": "msg-3ed03d417ba8",
+      "message_id": "<201104202021.p3KKL4pC008824@intrant.uqam.ca>",
+      "from_name": "David Bird",
+      "from_email_hash": "c08aaafd575319de6f4ddbd91a3491c6972c86cde3bede3a88bef74016db2205",
+      "date": "2011-04-20T16:20:57-04:00",
+      "subject": "[R--gR] succession graphic",
+      "subject_clean": "[R--gR] succession graphic",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110420/0994ff17/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110420/0994ff17/attachment.pl>",
+      "thread_id": "thread-3ed03d417ba8",
+      "thread_depth": 0,
+      "month": "2011-04"
+    },
+    {
+      "id": "msg-dd549a1a4dba",
+      "message_id": "<BB11F4B5-15F9-4C33-817A-FBD8FEE7227A@epfl.ch>",
+      "from_name": "Konis Kjell",
+      "from_email_hash": "66720a9d209599d24e647d92630253e95abfbd6e977b9bc29fa4cf3220fb11e3",
+      "date": "2011-04-21T07:47:52Z",
+      "subject": "[R--gR] succession graphic",
+      "subject_clean": "[R--gR] succession graphic",
+      "in_reply_to": "<201104202021.p3KKL4pC008824@intrant.uqam.ca>",
+      "references": [
+        "<201104202021.p3KKL4pC008824@intrant.uqam.ca>"
+      ],
+      "body_plain": "This list is for discussion of graphical models. You'll have better luck asking your question on R help.\n\nKjell\n\n\nOn Apr 20, 2011, at 10:20 PM, David Bird wrote:\n\n> I would like to produce charts of phytoplankton biomass changes \n> through time. Each species has a line, and the biomass varies in \n> mirror form along the line for each species along the X time axis. \n> Here is an example of what I'd like to do: \n> http://www.er.uqam.ca/nobel/r30240/Succession.jpg\n> \n> Thanks\n> David Bird\n> UQAM, Montreal\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "This list is for discussion of graphical models. You'll have better luck asking your question on R help.\n\nKjell\n\n\nOn Apr 20, 2011, at 10:20 PM, David Bird wrote:\n\n> I would like to produce charts of p",
+      "thread_id": "thread-3ed03d417ba8",
+      "thread_depth": 1,
+      "month": "2011-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-3ed03d417ba8",
+      "subject": "[R--gR] succession graphic",
+      "message_count": 2,
+      "participants": [
+        "David Bird",
+        "Konis Kjell"
+      ],
+      "started": "2011-04-20T16:20:57-04:00",
+      "last_reply": "2011-04-21T07:47:52+00:00",
+      "root_message_id": "msg-3ed03d417ba8"
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2009-06",
+  "messages": [
+    {
+      "id": "msg-11c5ae49dcad",
+      "message_id": "<FECA6BD0-1EBF-4D02-A585-D2D52E21690F@unil.ch>",
+      "from_name": "Alex Biedermann",
+      "from_email_hash": "0b195b4223f5fbd8482413ac3a5a8ac926ce2c38ac490dc28609c616e8087d08",
+      "date": "2009-06-05T07:38:12+02:00",
+      "subject": "[R--gR] installing Rgraphviz on mac",
+      "subject_clean": "[R--gR] installing Rgraphviz on mac",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear gRaphical models members\n\nI am not sure if I'd better address my question to the Mac Port SIG.\nI am trying to get Rgraphviz running on a mac ppc vers. 10.4.11.\nThe installation process doesn't complete successfully.\nGraphviz is already installed and should be\nat /usr/local/graphviz-2.14 on my machine,\nbut it seems that when installing Rgraphviz, Graphviz\ncan't be found. Can I tell it so\nmanually? Or, do you see any other way to get\nit running properly?\n\nThanks a lot in advance.\n\nAlex\n\n > biocLite(\"Rgraphviz\",depend=TRUE,type=\"source\")\nRunning biocinstall version 2.4.10 with R version 2.9.0\nYour version of R requires version 2.4 of Bioconductor.\nversuche URL 'http://bioconductor.org/packages/2.4/bioc/src/contrib/ \nRgraphviz_1.22.1.tar.gz'\nContent type 'application/x-gzip' length 569867 bytes (556 Kb)\nURL ge\"offnet\n==================================================\ndownloaded 556 Kb\n\n* Installing *source* package 'Rgraphviz' ...\nchecking for gcc... gcc\nchecking for C compiler default output file name... a.out\nchecking whether the C compiler works... yes\nchecking whether we are cross compiling... no\nchecking for suffix of executables...\nchecking for suffix of object files... o\nchecking whether we are using the GNU C compiler... yes\nchecking whether gcc accepts -g... yes\nchecking for gcc option to accept ISO C89... none needed\nchecking how to run the C preprocessor... gcc -E\nchecking for grep that handles long lines and -e... /usr/bin/grep\nchecking for egrep... /usr/bin/grep -E\nchecking for ANSI C header files... yes\nchecking for sys/types.h... yes\nchecking for sys/stat.h... yes\nchecking for stdlib.h... yes\nchecking for string.h... yes\nchecking for memory.h... yes\nchecking for strings.h... yes\nchecking for inttypes.h... yes\nchecking for stdint.h... yes\nchecking for unistd.h... yes\nchecking for stdbool.h that conforms to C99... yes\nchecking for _Bool... yes\nchecking for whether compiler has bool... yes\nconfigure: No --with-graphviz option was specified. Trying to find  \nGraphviz using other methods.\nchecking for pkg-config... no\nchecking for dotneato-config... no\nconfigure: dotneato-config not found in PATH.\nconfigure: Using default directory /usr/local, consider specifiying -- \nwith-graphviz\nconfigure: error: /usr/local/bin/dot not found.  Check Graphviz  \ninstallation.\nFehler: configuration failed f\"ur Paket 'Rgraphviz'\n* Removing '/Library/Frameworks/R.framework/Versions/2.9/Resources/ \nlibrary/Rgraphviz'\n* Restoring previous '/Library/Frameworks/R.framework/Versions/2.9/ \nResources/library/Rgraphviz'\n\nThe downloaded packages are in\n         '/private/tmp/RtmpnpndCY/downloaded_packages'\nUpdating HTML index of packages in '.Library'\nWarning message:\nIn install.packages(pkgs = pkgs, repos = repos, dependencies =  \ndependencies,  :\n   installation of package 'Rgraphviz' had non-zero exit status",
+      "body_snippet": "Dear gRaphical models members\n\nI am not sure if I'd better address my question to the Mac Port SIG.\nI am trying to get Rgraphviz running on a mac ppc vers. 10.4.11.\nThe installation process doesn't co",
+      "thread_id": "thread-11c5ae49dcad",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-59526a211885",
+      "message_id": "<Pine.LNX.4.64.0906050859230.24778@paninaro.stat-math.wu-wien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2009-06-05T09:02:13+02:00",
+      "subject": "[R--gR] installing Rgraphviz on mac",
+      "subject_clean": "[R--gR] installing Rgraphviz on mac",
+      "in_reply_to": "<FECA6BD0-1EBF-4D02-A585-D2D52E21690F@unil.ch>",
+      "references": [
+        "<FECA6BD0-1EBF-4D02-A585-D2D52E21690F@unil.ch>"
+      ],
+      "body_plain": "On Fri, 5 Jun 2009, Alex Biedermann wrote:\n\n> Dear gRaphical models members\n>\n> I am not sure if I'd better address my question to the Mac Port SIG.\n> I am trying to get Rgraphviz running on a mac ppc vers. 10.4.11.\n> The installation process doesn't complete successfully.\n> Graphviz is already installed and should be\n> at /usr/local/graphviz-2.14 on my machine,\n> but it seems that when installing Rgraphviz, Graphviz\n> can't be found. Can I tell it so\n> manually?\n\nYes, as the configure output says, there is the option\n   --with-graphviz\n\nSee also the README file in the Rgraphviz source package. It comments both \non installation under Mac OSX and on installation from source.\n\nhth,\nZ\n\n> Or, do you see any other way to get\n> it running properly?\n>\n> Thanks a lot in advance.\n>\n> Alex\n>\n>> biocLite(\"Rgraphviz\",depend=TRUE,type=\"source\")\n> Running biocinstall version 2.4.10 with R version 2.9.0\n> Your version of R requires version 2.4 of Bioconductor.\n> versuche URL \n> 'http://bioconductor.org/packages/2.4/bioc/src/contrib/Rgraphviz_1.22.1.tar.gz'\n> Content type 'application/x-gzip' length 569867 bytes (556 Kb)\n> URL ge\"offnet\n> ==================================================\n> downloaded 556 Kb\n>\n> * Installing *source* package 'Rgraphviz' ...\n> checking for gcc... gcc\n> checking for C compiler default output file name... a.out\n> checking whether the C compiler works... yes\n> checking whether we are cross compiling... no\n> checking for suffix of executables...\n> checking for suffix of object files... o\n> checking whether we are using the GNU C compiler... yes\n> checking whether gcc accepts -g... yes\n> checking for gcc option to accept ISO C89... none needed\n> checking how to run the C preprocessor... gcc -E\n> checking for grep that handles long lines and -e... /usr/bin/grep\n> checking for egrep... /usr/bin/grep -E\n> checking for ANSI C header files... yes\n> checking for sys/types.h... yes\n> checking for sys/stat.h... yes\n> checking for stdlib.h... yes\n> checking for string.h... yes\n> checking for memory.h... yes\n> checking for strings.h... yes\n> checking for inttypes.h... yes\n> checking for stdint.h... yes\n> checking for unistd.h... yes\n> checking for stdbool.h that conforms to C99... yes\n> checking for _Bool... yes\n> checking for whether compiler has bool... yes\n> configure: No --with-graphviz option was specified. Trying to find Graphviz \n> using other methods.\n> checking for pkg-config... no\n> checking for dotneato-config... no\n> configure: dotneato-config not found in PATH.\n> configure: Using default directory /usr/local, consider specifiying \n> --with-graphviz\n> configure: error: /usr/local/bin/dot not found.  Check Graphviz installation.\n> Fehler: configuration failed f\"ur Paket 'Rgraphviz'\n> * Removing \n> '/Library/Frameworks/R.framework/Versions/2.9/Resources/library/Rgraphviz'\n> * Restoring previous \n> '/Library/Frameworks/R.framework/Versions/2.9/Resources/library/Rgraphviz'\n>\n> The downloaded packages are in\n>       '/private/tmp/RtmpnpndCY/downloaded_packages'\n> Updating HTML index of packages in '.Library'\n> Warning message:\n> In install.packages(pkgs = pkgs, repos = repos, dependencies = dependencies, \n> :\n> installation of package 'Rgraphviz' had non-zero exit status\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>",
+      "body_snippet": "On Fri, 5 Jun 2009, Alex Biedermann wrote:\n\n> Dear gRaphical models members\n>\n> I am not sure if I'd better address my question to the Mac Port SIG.\n> I am trying to get Rgraphviz running on a mac ppc",
+      "thread_id": "thread-11c5ae49dcad",
+      "thread_depth": 1,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-9cd6b6dffb90",
+      "message_id": "<4A28D3C3.30300@it.uu.se>",
+      "from_name": "Virgil Stokes",
+      "from_email_hash": "b6befdd31db58d8ca98bc491c3d0a7c4348d2320d7fa1da14df4802620c8f9f4",
+      "date": "2009-06-05T10:13:55+02:00",
+      "subject": "[R--gR] General question.",
+      "subject_clean": "[R--gR] General question.",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I am new to this group and would like to know a little more about the \n\"level\" of the group --- how can I look at the archives?\n\nThanks,\n--V. Stokes",
+      "body_snippet": "I am new to this group and would like to know a little more about the \n\"level\" of the group --- how can I look at the archives?\n\nThanks,\n--V. Stokes",
+      "thread_id": "thread-9cd6b6dffb90",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-c3320c7e4a4d",
+      "message_id": "<4A28D4E4.205@it.uu.se>",
+      "from_name": "Virgil Stokes",
+      "from_email_hash": "b6befdd31db58d8ca98bc491c3d0a7c4348d2320d7fa1da14df4802620c8f9f4",
+      "date": "2009-06-05T10:18:44+02:00",
+      "subject": "[R--gR] General question.",
+      "subject_clean": "[R--gR] General question.",
+      "in_reply_to": "<4A28D3C3.30300@it.uu.se>",
+      "references": [
+        "<4A28D3C3.30300@it.uu.se>"
+      ],
+      "body_plain": "Virgil Stokes wrote:\n> I am new to this group and would like to know a little more about the \n> \"level\" of the group --- how can I look at the archives?\n>\n> Thanks,\n> --V. Stokes\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\nI just found them --- sorry for this posting :-(\n\n--V. Stokes",
+      "body_snippet": "Virgil Stokes wrote:\n> I am new to this group and would like to know a little more about the \n> \"level\" of the group --- how can I look at the archives?\n>\n> Thanks,\n> --V. Stokes\n>\n> _________________",
+      "thread_id": "thread-9cd6b6dffb90",
+      "thread_depth": 1,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-5509898cbc7a",
+      "message_id": "<4A28D76F.3080709@it.uu.se>",
+      "from_name": "Virgil Stokes",
+      "from_email_hash": "b6befdd31db58d8ca98bc491c3d0a7c4348d2320d7fa1da14df4802620c8f9f4",
+      "date": "2009-06-05T10:29:35+02:00",
+      "subject": "[R--gR] Dynamic statistics graphics",
+      "subject_clean": "[R--gR] Dynamic statistics graphics",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Has anyone tried to use R and its fantastic graphics to produce \n\"dynamic\" graphics for statistical data? That is, something like Hans \nRosling has produced --- take a look at;\n\n  http://www.gapminder.org/\n\n--V. Stokes",
+      "body_snippet": "Has anyone tried to use R and its fantastic graphics to produce \n\"dynamic\" graphics for statistical data? That is, something like Hans \nRosling has produced --- take a look at;\n\n  http://www.gapminder",
+      "thread_id": "thread-5509898cbc7a",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-f0869285a256",
+      "message_id": "<4A292352.4030205@it.uu.se>",
+      "from_name": "Virgil Stokes",
+      "from_email_hash": "b6befdd31db58d8ca98bc491c3d0a7c4348d2320d7fa1da14df4802620c8f9f4",
+      "date": "2009-06-05T15:53:22+02:00",
+      "subject": "[R--gR] Dynamic statistics graphics",
+      "subject_clean": "[R--gR] Dynamic statistics graphics",
+      "in_reply_to": "<4A28E7EF.3070303@statistik.tu-dortmund.de>",
+      "references": [
+        "<4A28D76F.3080709@it.uu.se>",
+        "<4A28E7EF.3070303@statistik.tu-dortmund.de>"
+      ],
+      "body_plain": "Uwe Ligges wrote:\n>\n>\n> Virgil Stokes wrote:\n>> Has anyone tried to use R and its fantastic graphics to produce \n>> \"dynamic\" graphics for statistical data? That is, something like Hans \n>> Rosling has produced --- take a look at;\n>\n> You are talking about plots rather than graphs [which R-gR is about]. \n> Hence the right list to ask this question is probably R-help ...\n>\n> Uwe Ligges\nOk Uwe,\nYou are probably correct --- perhaps I should not be a member of this list.\n\n--V. Stokes",
+      "body_snippet": "Uwe Ligges wrote:\n>\n>\n> Virgil Stokes wrote:\n>> Has anyone tried to use R and its fantastic graphics to produce \n>> \"dynamic\" graphics for statistical data? That is, something like Hans \n>> Rosling ha",
+      "thread_id": "thread-f0869285a256",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-ef7fd8e666fe",
+      "message_id": "<513861.59998.qm@web38307.mail.mud.yahoo.com>",
+      "from_name": "FMH",
+      "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
+      "date": "2009-06-18T02:20:24-07:00",
+      "subject": "[R--gR] p-value for the parameter in ARIMA model with R",
+      "subject_clean": "[R--gR] p-value for the parameter in ARIMA model with R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090618/af1ed6f8/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090618/af1ed6f8/attachment.pl>",
+      "thread_id": "thread-ef7fd8e666fe",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-190ffa213e98",
+      "message_id": "<124584AFB3A4D449834B67071ACCD55501A7D83D@scomp0040.wurnet.nl>",
+      "from_name": "Lu, Kevin",
+      "from_email_hash": "0a79678e7249a2c09899085032fab95965e0ee55ebc92d8ad4c58ad867e51e24",
+      "date": "2009-06-19T12:31:07+02:00",
+      "subject": "[R--gR] deal package",
+      "subject_clean": "[R--gR] deal package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090619/cb345b51/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090619/cb345b51/attachment.pl>",
+      "thread_id": "thread-190ffa213e98",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-68c7063d9cdb",
+      "message_id": "<570893.37367.qm@web38302.mail.mud.yahoo.com>",
+      "from_name": "FMH",
+      "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
+      "date": "2009-06-22T08:56:55-07:00",
+      "subject": "[R--gR] (no subject)",
+      "subject_clean": "[R--gR] (no subject)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/2ec335e9/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/2ec335e9/attachment.pl>",
+      "thread_id": "thread-68c7063d9cdb",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-567987669a66",
+      "message_id": "<17595.45665.qm@web38305.mail.mud.yahoo.com>",
+      "from_name": "FMH",
+      "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
+      "date": "2009-06-22T08:58:42-07:00",
+      "subject": "[R--gR] standard error and p-value for the estimated parameter in AR model",
+      "subject_clean": "[R--gR] standard error and p-value for the estimated parameter in AR model",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/026f7bb4/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/026f7bb4/attachment.pl>",
+      "thread_id": "thread-567987669a66",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-aea06f2aa1e2",
+      "message_id": "<3495E138-B54E-489A-A299-2CA70C3BC536@epfl.ch>",
+      "from_name": "Kjell Konis",
+      "from_email_hash": "66720a9d209599d24e647d92630253e95abfbd6e977b9bc29fa4cf3220fb11e3",
+      "date": "2009-06-22T19:20:24+02:00",
+      "subject": "[R--gR] standard error and p-value for the estimated parameter in AR model",
+      "subject_clean": "[R--gR] standard error and p-value for the estimated parameter in AR model",
+      "in_reply_to": "<17595.45665.qm@web38305.mail.mud.yahoo.com>",
+      "references": [
+        "<17595.45665.qm@web38305.mail.mud.yahoo.com>"
+      ],
+      "body_plain": "You should ask this question on R-help. Subscribe at http://www.r- \nproject.org/mail.html\n\nKjell\n\nOn Jun 22, 2009, at 5:58 PM, FMH wrote:\n\n> Dear All,\n>\n> I used an  AR(1) model to explain the process of the stationary  \n> residuals and have used an 'ar' command in R. From the results, i  \n> tried to extract the standard error and p-value for the estimated  \n> parameter, but unfortunately, i never find any way to extract  it  \n> from the output.\n>\n> What i did was, i assigned the residuals into the 'residual' object  \n> in R and used an 'ar' function as below.\n>\n>> residual <- residuals\n>> ar(residual, aic = TRUE,  method = \"mle\", order.max = 1)\n>\n> Could someone help me to extract the stadard error and the p-value  \n> for the estimated parameter, please?\n>\n> Thank you\n>\n> Fir\n>\n>\n>\n>\n> \t[[alternative HTML version deleted]]\n>\n> <ATT00001.txt>",
+      "body_snippet": "You should ask this question on R-help. Subscribe at http://www.r- \nproject.org/mail.html\n\nKjell\n\nOn Jun 22, 2009, at 5:58 PM, FMH wrote:\n\n> Dear All,\n>\n> I used an  AR(1) model to explain the process",
+      "thread_id": "thread-567987669a66",
+      "thread_depth": 1,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-994c966f3632",
+      "message_id": "<195583.40081.qm@web53908.mail.re2.yahoo.com>",
+      "from_name": "jaime chumacero",
+      "from_email_hash": "600170cae5595e90bc7939f2fba010950ff45702e47202521252b8861f90706c",
+      "date": "2009-06-24T14:25:00-07:00",
+      "subject": "[R--gR] how have software R?",
+      "subject_clean": "[R--gR] how have software R?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090624/e2a0f348/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090624/e2a0f348/attachment.pl>",
+      "thread_id": "thread-994c966f3632",
+      "thread_depth": 0,
+      "month": "2009-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-11c5ae49dcad",
+      "subject": "[R--gR] installing Rgraphviz on mac",
+      "message_count": 2,
+      "participants": [
+        "Achim Zeileis",
+        "Alex Biedermann"
+      ],
+      "started": "2009-06-05T07:38:12+02:00",
+      "last_reply": "2009-06-05T09:02:13+02:00",
+      "root_message_id": "msg-11c5ae49dcad"
+    },
+    {
+      "id": "thread-9cd6b6dffb90",
+      "subject": "[R--gR] General question.",
+      "message_count": 2,
+      "participants": [
+        "Virgil Stokes"
+      ],
+      "started": "2009-06-05T10:13:55+02:00",
+      "last_reply": "2009-06-05T10:18:44+02:00",
+      "root_message_id": "msg-9cd6b6dffb90"
+    },
+    {
+      "id": "thread-5509898cbc7a",
+      "subject": "[R--gR] Dynamic statistics graphics",
+      "message_count": 1,
+      "participants": [
+        "Virgil Stokes"
+      ],
+      "started": "2009-06-05T10:29:35+02:00",
+      "last_reply": "2009-06-05T10:29:35+02:00",
+      "root_message_id": "msg-5509898cbc7a"
+    },
+    {
+      "id": "thread-f0869285a256",
+      "subject": "[R--gR] Dynamic statistics graphics",
+      "message_count": 1,
+      "participants": [
+        "Virgil Stokes"
+      ],
+      "started": "2009-06-05T15:53:22+02:00",
+      "last_reply": "2009-06-05T15:53:22+02:00",
+      "root_message_id": "msg-f0869285a256"
+    },
+    {
+      "id": "thread-ef7fd8e666fe",
+      "subject": "[R--gR] p-value for the parameter in ARIMA model with R",
+      "message_count": 1,
+      "participants": [
+        "FMH"
+      ],
+      "started": "2009-06-18T02:20:24-07:00",
+      "last_reply": "2009-06-18T02:20:24-07:00",
+      "root_message_id": "msg-ef7fd8e666fe"
+    },
+    {
+      "id": "thread-190ffa213e98",
+      "subject": "[R--gR] deal package",
+      "message_count": 1,
+      "participants": [
+        "Lu, Kevin"
+      ],
+      "started": "2009-06-19T12:31:07+02:00",
+      "last_reply": "2009-06-19T12:31:07+02:00",
+      "root_message_id": "msg-190ffa213e98"
+    },
+    {
+      "id": "thread-68c7063d9cdb",
+      "subject": "[R--gR] (no subject)",
+      "message_count": 1,
+      "participants": [
+        "FMH"
+      ],
+      "started": "2009-06-22T08:56:55-07:00",
+      "last_reply": "2009-06-22T08:56:55-07:00",
+      "root_message_id": "msg-68c7063d9cdb"
+    },
+    {
+      "id": "thread-567987669a66",
+      "subject": "[R--gR] standard error and p-value for the estimated parameter in AR model",
+      "message_count": 2,
+      "participants": [
+        "FMH",
+        "Kjell Konis"
+      ],
+      "started": "2009-06-22T08:58:42-07:00",
+      "last_reply": "2009-06-22T19:20:24+02:00",
+      "root_message_id": "msg-567987669a66"
+    },
+    {
+      "id": "thread-994c966f3632",
+      "subject": "[R--gR] how have software R?",
+      "message_count": 1,
+      "participants": [
+        "jaime chumacero"
+      ],
+      "started": "2009-06-24T14:25:00-07:00",
+      "last_reply": "2009-06-24T14:25:00-07:00",
+      "root_message_id": "msg-994c966f3632"
+    }
+  ]
+}

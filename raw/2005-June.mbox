@@ -1,0 +1,53 @@
+From nehasinha30 at gmail.com  Thu Jun  9 17:59:20 2005
+From: nehasinha30 at gmail.com (Neha Sinha)
+Date: Thu, 9 Jun 2005 11:59:20 -0400
+Subject: [R--gR] Plots in R
+Message-ID: <80b75b6f0506090859776bec9e@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050609/5f8142b9/attachment.pl 
+
+From Achim.Zeileis at wu-wien.ac.at  Thu Jun  9 18:44:00 2005
+From: Achim.Zeileis at wu-wien.ac.at (Achim Zeileis)
+Date: Thu, 9 Jun 2005 18:44:00 +0200
+Subject: [R--gR] Plots in R
+In-Reply-To: <80b75b6f0506090859776bec9e@mail.gmail.com>
+References: <80b75b6f0506090859776bec9e@mail.gmail.com>
+Message-ID: <20050609184400.18e8dd33.Achim.Zeileis@wu-wien.ac.at>
+
+Neha:
+
+1. This mailing list is about "graphical models in R" not about
+"graphics" (or whatever the rationale was for choosing this list).
+R-help is the right mailing list for this kind of questions. If you
+should do so in the future: read the posting guide before.
+
+> I am a beginner in R (using it for about 2-3 days now) and I have a
+> couple of problems I am encountering.
+> 
+> I am working on a windows machine and using putty to ssh into the
+> "box" where R is installed (I think Unix is running on the box I ssh
+> into). The problem I am facing is that when I try to plot using the
+> plot function in R, nothing shows up - no window pops up with the
+> plot. I tried invoking x11 using the command - x11("192.9.200.232:0
+> <http://192.9.200.232:0>.0"), nothing happens - it just hangs. When I
+> use the startx command in cygwin and ssh, the graph pops up.
+
+2. This does not look like a problem with R at all, does it?
+It seems that the X-forwarding does not work when you use putty, and
+that it does work when you use cygwin start an X server and forward X
+with ssh. 
+I'm not sure whether X-forwarding can be done with putty or not or if
+how or...but the R mailing lists are probably not the right place to
+find out about that.
+
+> What is the problem? I am unable to understand. Please help. Thanks.
+
+3. Why don't you simply install R on your Windows machine, a binary
+version for Windows is available from CRAN.
+
+Z
+
+
+

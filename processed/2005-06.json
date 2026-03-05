@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2005-06",
+  "messages": [
+    {
+      "id": "msg-dc36e2cdd9d6",
+      "message_id": "<80b75b6f0506090859776bec9e@mail.gmail.com>",
+      "from_name": "Neha Sinha",
+      "from_email_hash": "c79e027e281efa57c95b75139b2b5049fae0b6a1ed8dbea6caea0c5c3d4438a9",
+      "date": "2005-06-09T11:59:20-04:00",
+      "subject": "[R--gR] Plots in R",
+      "subject_clean": "[R--gR] Plots in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050609/5f8142b9/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050609/5f8142b9/attachment.pl",
+      "thread_id": "thread-dc36e2cdd9d6",
+      "thread_depth": 0,
+      "month": "2005-06"
+    },
+    {
+      "id": "msg-6f28726624ec",
+      "message_id": "<20050609184400.18e8dd33.Achim.Zeileis@wu-wien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2005-06-09T18:44:00+02:00",
+      "subject": "[R--gR] Plots in R",
+      "subject_clean": "[R--gR] Plots in R",
+      "in_reply_to": "<80b75b6f0506090859776bec9e@mail.gmail.com>",
+      "references": [
+        "<80b75b6f0506090859776bec9e@mail.gmail.com>"
+      ],
+      "body_plain": "Neha:\n\n1. This mailing list is about \"graphical models in R\" not about\n\"graphics\" (or whatever the rationale was for choosing this list).\nR-help is the right mailing list for this kind of questions. If you\nshould do so in the future: read the posting guide before.\n\n> I am a beginner in R (using it for about 2-3 days now) and I have a\n> couple of problems I am encountering.\n> \n> I am working on a windows machine and using putty to ssh into the\n> \"box\" where R is installed (I think Unix is running on the box I ssh\n> into). The problem I am facing is that when I try to plot using the\n> plot function in R, nothing shows up - no window pops up with the\n> plot. I tried invoking x11 using the command - x11(\"192.9.200.232:0\n> <http://192.9.200.232:0>.0\"), nothing happens - it just hangs. When I\n> use the startx command in cygwin and ssh, the graph pops up.\n\n2. This does not look like a problem with R at all, does it?\nIt seems that the X-forwarding does not work when you use putty, and\nthat it does work when you use cygwin start an X server and forward X\nwith ssh. \nI'm not sure whether X-forwarding can be done with putty or not or if\nhow or...but the R mailing lists are probably not the right place to\nfind out about that.\n\n> What is the problem? I am unable to understand. Please help. Thanks.\n\n3. Why don't you simply install R on your Windows machine, a binary\nversion for Windows is available from CRAN.\n\nZ",
+      "body_snippet": "Neha:\n\n1. This mailing list is about \"graphical models in R\" not about\n\"graphics\" (or whatever the rationale was for choosing this list).\nR-help is the right mailing list for this kind of questions. I",
+      "thread_id": "thread-dc36e2cdd9d6",
+      "thread_depth": 1,
+      "month": "2005-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-dc36e2cdd9d6",
+      "subject": "[R--gR] Plots in R",
+      "message_count": 2,
+      "participants": [
+        "Achim Zeileis",
+        "Neha Sinha"
+      ],
+      "started": "2005-06-09T11:59:20-04:00",
+      "last_reply": "2005-06-09T18:44:00+02:00",
+      "root_message_id": "msg-dc36e2cdd9d6"
+    }
+  ]
+}

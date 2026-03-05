@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2009-09",
+  "messages": [
+    {
+      "id": "msg-5861d4c1e873",
+      "message_id": "<757992.88367.qm@web38306.mail.mud.yahoo.com>",
+      "from_name": "FMH",
+      "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
+      "date": "2009-09-03T10:28:26-07:00",
+      "subject": "[R--gR] color index in image function",
+      "subject_clean": "[R--gR] color index in image function",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nI was looking for the color index in?image function,?such as from topo.colors and etc. but still never found it. For instance, from the help menu.\n\n\n###########################################\n# Volcano data visualized as matrix. Need to transpose and flip\n# matrix horizontally.\nimage(t(volcano)[ncol(volcano):1,])\n\n# A prettier display of the volcano\nx <- 10*(1:nrow(volcano))\ny <- 10*(1:ncol(volcano))\nimage(x, y, volcano, col = terrain.colors(100), axes = FALSE)\ncontour(x, y, volcano, levels = seq(90, 200, by = 5),\n??????? add = TRUE, col = \"peru\")\naxis(1, at = seq(100, 800, by = 100))\naxis(2, at = seq(100, 600, by = 100))\nbox()\ntitle(main = \"Maunga Whau Volcano\", font.main = 4)\n#########################################",
+      "body_snippet": "Dear All,\n\nI was looking for the color index in?image function,?such as from topo.colors and etc. but still never found it. For instance, from the help menu.\n\n\n########################################",
+      "thread_id": "thread-5861d4c1e873",
+      "thread_depth": 0,
+      "month": "2009-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-5861d4c1e873",
+      "subject": "[R--gR] color index in image function",
+      "message_count": 1,
+      "participants": [
+        "FMH"
+      ],
+      "started": "2009-09-03T10:28:26-07:00",
+      "last_reply": "2009-09-03T10:28:26-07:00",
+      "root_message_id": "msg-5861d4c1e873"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2007-08",
+  "messages": [
+    {
+      "id": "msg-50c3f3eaa92b",
+      "message_id": "<ca0eb5f50708310558pc563521hb74def05e3db2129@mail.gmail.com>",
+      "from_name": "manish gupta",
+      "from_email_hash": "ac4f52725b1214421bf8a5043d1be12895e5779eb2bbd4a9099ed6e98e518c82",
+      "date": "2007-08-31T18:28:21+05:30",
+      "subject": "[R--gR] Manish (India)",
+      "subject_clean": "[R--gR] Manish (India)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070831/704522fe/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070831/704522fe/attachment.pl",
+      "thread_id": "thread-50c3f3eaa92b",
+      "thread_depth": 0,
+      "month": "2007-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-50c3f3eaa92b",
+      "subject": "[R--gR] Manish (India)",
+      "message_count": 1,
+      "participants": [
+        "manish gupta"
+      ],
+      "started": "2007-08-31T18:28:21+05:30",
+      "last_reply": "2007-08-31T18:28:21+05:30",
+      "root_message_id": "msg-50c3f3eaa92b"
+    }
+  ]
+}

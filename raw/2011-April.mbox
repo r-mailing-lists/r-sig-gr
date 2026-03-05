@@ -1,0 +1,43 @@
+From bird.david at uqam.ca  Wed Apr 20 22:20:57 2011
+From: bird.david at uqam.ca (David Bird)
+Date: Wed, 20 Apr 2011 16:20:57 -0400
+Subject: [R--gR] succession graphic
+Message-ID: <201104202021.p3KKL4pC008824@intrant.uqam.ca>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110420/0994ff17/attachment.pl>
+
+From kjell.konis at epfl.ch  Thu Apr 21 09:47:52 2011
+From: kjell.konis at epfl.ch (Konis Kjell)
+Date: Thu, 21 Apr 2011 07:47:52 +0000
+Subject: [R--gR] succession graphic
+In-Reply-To: <201104202021.p3KKL4pC008824@intrant.uqam.ca>
+References: <201104202021.p3KKL4pC008824@intrant.uqam.ca>
+Message-ID: <BB11F4B5-15F9-4C33-817A-FBD8FEE7227A@epfl.ch>
+
+This list is for discussion of graphical models. You'll have better luck asking your question on R help.
+
+Kjell
+
+
+On Apr 20, 2011, at 10:20 PM, David Bird wrote:
+
+> I would like to produce charts of phytoplankton biomass changes 
+> through time. Each species has a line, and the biomass varies in 
+> mirror form along the line for each species along the X time axis. 
+> Here is an example of what I'd like to do: 
+> http://www.er.uqam.ca/nobel/r30240/Succession.jpg
+> 
+> Thanks
+> David Bird
+> UQAM, Montreal
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+

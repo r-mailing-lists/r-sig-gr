@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2006-05",
+  "messages": [
+    {
+      "id": "msg-8f6710bf8c94",
+      "message_id": "<7.0.1.0.2.20060503162055.0275abb8@mcgill.ca>",
+      "from_name": "Mark Goldberg",
+      "from_email_hash": "6324ee7826b933ff3e4277691dfac69536b0813d2bcb9a2ac815473b6c3f1e4c",
+      "date": "2006-05-03T16:24:03-04:00",
+      "subject": "[R--gR] Plotting in Coxph using psplines",
+      "subject_clean": "[R--gR] Plotting in Coxph using psplines",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060503/3e1a937d/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060503/3e1a937d/attachment.pl",
+      "thread_id": "thread-8f6710bf8c94",
+      "thread_depth": 0,
+      "month": "2006-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8f6710bf8c94",
+      "subject": "[R--gR] Plotting in Coxph using psplines",
+      "message_count": 1,
+      "participants": [
+        "Mark Goldberg"
+      ],
+      "started": "2006-05-03T16:24:03-04:00",
+      "last_reply": "2006-05-03T16:24:03-04:00",
+      "root_message_id": "msg-8f6710bf8c94"
+    }
+  ]
+}

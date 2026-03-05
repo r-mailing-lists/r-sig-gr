@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2006-06",
+  "messages": [
+    {
+      "id": "msg-e8dcd3de712b",
+      "message_id": "<OF1AAA235C.2E6EA9C8-ON86257185.0079E2C6-86257186.004D6D6B@americancentury.com>",
+      "from_name": "toby_marks at americancentury.com",
+      "from_email_hash": "972bc072617851982c308a9c45de90e4e5c554994f311077681f55566434e6de",
+      "date": "2006-06-07T09:05:42-05:00",
+      "subject": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
+      "subject_clean": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060607/af7f4113/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060607/af7f4113/attachment.pl",
+      "thread_id": "thread-e8dcd3de712b",
+      "thread_depth": 0,
+      "month": "2006-06"
+    },
+    {
+      "id": "msg-e8d31a7eda22",
+      "message_id": "<20060607173027.2a8b75c9.Achim.Zeileis@wu-wien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2006-06-07T17:30:27+02:00",
+      "subject": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
+      "subject_clean": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
+      "in_reply_to": "<OF1AAA235C.2E6EA9C8-ON86257185.0079E2C6-86257186.004D6D6B@americancentury.com>",
+      "references": [
+        "<OF1AAA235C.2E6EA9C8-ON86257185.0079E2C6-86257186.004D6D6B@americancentury.com>"
+      ],
+      "body_plain": "Toby,\n\nthis is the SIG for \"graphical models\" which is not concerned with\n\"graphics\". It would be more appropriate (and more likely to generate\nanswers) to ask this question on R-help.\n\nBest,\nZ\n\n> I am trying to learn how to use the graphics from the lattice package\n> ( and am very new to R). \n>\n> I am trying to replicate the example plot referenced below, by using\n> the lattice xyplot & lpolygon to create panels.  I get what appears\n> to be the correct shape of the filled region, but cannot get the\n> position to overlay properly.  I have attempted with various settings\n> of position.  ( i.e. position = c(0,0,1,1)  etc settings as well.   I\n> am not understanding something about the positioning panels.  I am\n> missing some subtle difference between polygon & lpolygon, or am\n> missing something about panel overlays &/or panel postions.\n> \n> #http://addictedtor.free.fr/graphiques/graphcode.php?graph=7. \n> par(bg=\"white\") \n> n <- 100\n> set.seed(43214) #just so we have the same exact graph\n> x <- c(0,cumsum(rnorm(n))) \n> y <- c(0,cumsum(rnorm(n))) \n> xx <- c(0:n, n:0)\n> yy <- c(x, rev(y)) \n> plot(xx, yy, type=\"n\", xlab=\"Time\", ylab=\"Distance\") \n> polygon(xx, yy, col=\"gray\") \n> title(\"Distance Between Brownian Motions\") \n> \n> \n> \n> # using lattice.\n> p1 <- xyplot( yy~xx,type='l');\n> p2 <- lpolygon(xx,yy,col='blue');\n> print(p1,position=c(0,0,1,1), more=TRUE);\n> print(p2,position=c(0,0,1,1));\n> \n> \n> \n> \n> \n> ------------------------------------------------------------\n> CONFIDENTIALITY NOTICE: This electronic mail transmission (i...\n> {{dropped}}\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>",
+      "body_snippet": "Toby,\n\nthis is the SIG for \"graphical models\" which is not concerned with\n\"graphics\". It would be more appropriate (and more likely to generate\nanswers) to ask this question on R-help.\n\nBest,\nZ\n\n> I a",
+      "thread_id": "thread-e8dcd3de712b",
+      "thread_depth": 1,
+      "month": "2006-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e8dcd3de712b",
+      "subject": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
+      "message_count": 2,
+      "participants": [
+        "Achim Zeileis",
+        "toby_marks at americancentury.com"
+      ],
+      "started": "2006-06-07T09:05:42-05:00",
+      "last_reply": "2006-06-07T17:30:27+02:00",
+      "root_message_id": "msg-e8dcd3de712b"
+    }
+  ]
+}

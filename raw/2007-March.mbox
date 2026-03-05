@@ -1,0 +1,53 @@
+From rjeffries at ucla.edu  Wed Mar  7 03:26:07 2007
+From: rjeffries at ucla.edu (Robin J)
+Date: Tue, 6 Mar 2007 18:26:07 -0800
+Subject: [R--gR] BRugs speed issue
+Message-ID: <d005fbb50703061826s27a499d6r91630dce2a82e519@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070306/fee7b1fa/attachment.pl 
+
+From gpomonis at upatras.gr  Tue Mar 20 21:50:23 2007
+From: gpomonis at upatras.gr (gpomonis)
+Date: Tue, 20 Mar 2007 22:50:23 +0200
+Subject: [R--gR] Quant Reg Plotting Routines
+Message-ID: <001001c76b31$61878770$0b828c96@pc>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070320/59012cd1/attachment.pl 
+
+From Achim.Zeileis at wu-wien.ac.at  Tue Mar 20 22:01:49 2007
+From: Achim.Zeileis at wu-wien.ac.at (Achim Zeileis)
+Date: Tue, 20 Mar 2007 22:01:49 +0100 (CET)
+Subject: [R--gR] Quant Reg Plotting Routines
+In-Reply-To: <001001c76b31$61878770$0b828c96@pc>
+Message-ID: <Pine.LNX.4.44.0703202159510.11242-100000@disco.wu-wien.ac.at>
+
+On Tue, 20 Mar 2007, gpomonis wrote:
+
+> Hi there,
+> I want to plot two quant reg objects in one figure. For example:
+> plot(summary(rq(......))), plots an object to one figure,
+> plot(....                       ))), plots a second object to a second figure.
+> What I want to do is to have these two objects in one figure.
+> Any help????
+
+This mailing list is concerned with "graphical models" not with
+"graphics", please direct your question to R-help. Maybe you could also
+try to set
+  par(mfrow = c(1, 2))
+and then produce the plot. That might also work...
+Z
+
+> gp
+> 	[[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+>
+

@@ -1,0 +1,152 @@
+From kagba2006 at yahoo.com  Mon Feb  8 18:06:19 2010
+From: kagba2006 at yahoo.com (FMH)
+Date: Mon, 8 Feb 2010 09:06:19 -0800 (PST)
+Subject: [R--gR] Color intervals in image function (image.plot)
+In-Reply-To: <bbdc7ed00909060720r4832e801v1903f268bd157140@mail.gmail.com>
+References: <mailman.15.1248602405.373.r-help@r-project.org>
+	<897987.81801.qm@web38304.mail.mud.yahoo.com>
+	<bbdc7ed00909060720r4832e801v1903f268bd157140@mail.gmail.com>
+Message-ID: <918799.45619.qm@web38308.mail.mud.yahoo.com>
+
+Hi,
+
+The script below is my current coding in order to produce a contour plot of temperature across altitude and time. In my case,?time,altitude and temperature?are represented by x, y and z variables.
+
+
+##############################################
+Brazilan.Pallete <- colorRampPalette(c("blue","green","yellow","red"))
+image.plot(x, y, z, col = Brazilan.Pallete(50))
+contour(x,y,z, levels = seq(1, 20, by = 1), add = TRUE, col = 'peru')
+##############################################
+
+
+
+The plot worked fine but i?found difficult to fix the interval of the color corresponding?to z value. In my case, the range of z values is between 1 and 40 and ?i'd like to fix the color in the image correspoding to?four sub-intervals of z values. For instance:
+
+1.?1 < z < 10 : blue
+2. 11 < z < 20: green
+3. 21 < z < 30: yellow
+4. 31 < z < 40 : red.
+
+I did't find a suitable coding to do this. Could someone please give?an advice on this matter?
+
+Thank you.
+Fir
+
+
+
+
+
+
+From kagba2006 at yahoo.com  Mon Feb  8 18:45:06 2010
+From: kagba2006 at yahoo.com (FMH)
+Date: Mon, 8 Feb 2010 09:45:06 -0800 (PST)
+Subject: [R--gR] Color intervals in image.plot function
+Message-ID: <312327.72491.qm@web38303.mail.mud.yahoo.com>
+
+
+Hi,
+
+The script below is my current coding in order to produce a contour plot of temperature across altitude and time. In my case,?time,altitude and temperature?are represented by x, y and z variables.
+
+
+##############################################
+Brazilan.Pallete <- colorRampPalette(c("blue","green","yellow","red"))
+image.plot(x, y, z, col = Brazilan.Pallete(50))
+contour(x,y,z, levels = seq(1, 40, by = 1), add = TRUE, col = 'peru')
+##############################################
+
+
+
+The plot worked fine but i?found difficult to fix the interval of the color corresponding?to z value. In my case, the range of z values is between 1 and 40 and ?i'd like to fix the color in the image correspoding to?four sub-intervals of z values. For instance:
+
+1.?1 < z < 10 : blue
+2. 11 < z < 20: green
+3. 21 < z < 30: yellow
+4. 31 < z < 40 : red.
+
+I did't find a suitable code to do this. Could someone please give?an advice on this matter?
+
+Thank you.
+Fir
+
+
+
+
+
+From kagba2006 at yahoo.com  Thu Feb 25 16:50:24 2010
+From: kagba2006 at yahoo.com (FMH)
+Date: Thu, 25 Feb 2010 07:50:24 -0800 (PST)
+Subject: [R--gR] How to extract one of four plots in a linear regression
+	model
+In-Reply-To: <49AE88C5-C26C-435F-94AF-562969CE406C@comcast.net>
+References: <mailman.15.1248602405.373.r-help@r-project.org>
+	<897987.81801.qm@web38304.mail.mud.yahoo.com>
+	<bbdc7ed00909060720r4832e801v1903f268bd157140@mail.gmail.com>
+	<918799.45619.qm@web38308.mail.mud.yahoo.com>
+	<49AE88C5-C26C-435F-94AF-562969CE406C@comcast.net>
+Message-ID: <381460.89359.qm@web38301.mail.mud.yahoo.com>
+
+Dear All,
+
+A linear regression model could be fitted by using lm function and the plot function can be used to check the assumption of the model. 
+
+The help menu shows few instances on suitable coding for fitting?such a?linear model.?In addition, four different plots could be extracted simultaneously with only a single plot function?as followed:
+
+
+
+require(graphics)
+## Annette Dobson (1990) "An Introduction to Generalized Linear Models".
+## Page 9: Plant Weight Data.
+ctl <- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)
+trt <- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)
+group <- gl(2,10,20, labels=c("Ctl","Trt"))
+weight <- c(ctl, trt)
+anova(lm.D9 <- lm(weight ~ group))
+opar <- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))
+plot(lm.D9, las = 1)?????
+
+
+
+
+The plot function gives four different plots simulaneously but i just need only part of them, for instance the normality plot. Could someone? give some ideas the way to extract this single plot as i need to copy only this plot and paste it into Word document.
+
+Thanks
+Fir
+
+
+
+
+
+
+From kagba2006 at yahoo.com  Thu Feb 25 17:01:23 2010
+From: kagba2006 at yahoo.com (FMH)
+Date: Thu, 25 Feb 2010 08:01:23 -0800 (PST)
+Subject: [R--gR] How to add a title to represent four different plot in lm
+	function
+Message-ID: <600833.36761.qm@web38307.mail.mud.yahoo.com>
+
+Dear All,
+
+A linear regression model could be fitted by using lm function and the plot function can be used to check the assumptions of the model. The example is as followed.
+
+require(graphics)
+## Annette Dobson (1990) "An Introduction to Generalized Linear Models".
+## Page 9: Plant Weight Data.
+ctl <- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)
+trt <- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)
+group <- gl(2,10,20, labels=c("Ctl","Trt"))
+weight <- c(ctl, trt)
+anova(lm.D9 <- lm(weight ~ group))
+opar <- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))
+plot(lm.D9, las = 1)?????
+
+Could someone advice me the way to add a single title either at the above or bottom of these 4 plots, entitled "The verification of model assumtion via four different plots" ?
+
+Thanks
+Fir
+
+
+
+
+

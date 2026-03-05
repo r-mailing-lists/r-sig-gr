@@ -1,0 +1,47 @@
+From ligges at statistik.uni-dortmund.de  Fri Apr  8 20:04:31 2005
+From: ligges at statistik.uni-dortmund.de (Uwe Ligges)
+Date: Fri, 08 Apr 2005 20:04:31 +0200
+Subject: [R--gR] new R package BRugs
+Message-ID: <4256C7AF.5030700@statistik.uni-dortmund.de>
+
+Hi,
+
+the following message which might be of particular interest to this list 
+has been posted earlier this day to the BUGS and R-devel mailing lists.
+
+Some later dicussion on R-devel 
+(https://stat.ethz.ch/pipermail/r-devel/2005-April/032702.html) points 
+out that you can expect the package BRugs to work on Windows, but 
+currently only on a limited number of Linux machines (if at all).
+
+Best,
+Uwe Ligges
+
+===========================================
+
+Hi,
+
+this is the first announcement of a *developer version* of the R package
+BRugs, which is based on OpenBUGS 2.1.0.
+
+OpenBUGS 2.1.0 has been released earlier this week
+(http://mathstat.helsinki.fi/openbugs/).
+
+BRugs contains a complete OpenBUGS installation as well as R code to
+access OpenBUGS functionality from R. Simply install the package, load
+it and say ?BRugs and ?BRugsFit respectively.
+
+Sources (BRugs_0.2-0.tar.gz) and Windows binaries (BRugs_0.2-0.zip) are
+available from
+http://www.statistik.uni-dortmund.de/~ligges/BRugs/
+(*this is a temporary directory that will be removed after we think
+BRugs is really stable*).
+
+Feedback, bug reports and feature requests to
+sturtz at statistik.uni-dortmund.de are welcome!
+
+All the best,
+Sibylle Sturtz and Uwe Ligges
+
+
+

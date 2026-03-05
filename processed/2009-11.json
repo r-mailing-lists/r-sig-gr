@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2009-11",
+  "messages": [
+    {
+      "id": "msg-98be2d715ef6",
+      "message_id": "<63457.3630.qm@web38302.mail.mud.yahoo.com>",
+      "from_name": "FMH",
+      "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
+      "date": "2009-11-12T06:13:25-08:00",
+      "subject": "[R--gR] A comparison between span in lowess method and h in sm.regression",
+      "subject_clean": "[R--gR] A comparison between span in lowess method and h in sm.regression",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nI have fitted a bivariate and an additive model on a monthly temperature from 1987-2007 via nonparametric regression and would like to compare?between these models via F-test, but having difficulty in determining the possible values of span?with lowess method.\n\nFor instance, these two models are defined in R as: \n\n######################################################\nbivariate.model <- sm.regression(c(month,year), Temperature, h = c(0.2,0.8))?\nadditive.model <- gam(Temperature~lo(month, span=A) + lo(year,span=B)) \n######################################################\n\nHowever, i notice the sm.regression function uses h as a?smoothing parameter ?whilst the gam function uses span as a smoothing parameter, and these models can't just simply be compared?straight? forward,?but?few?adjustments should be made on the values of span in gam function,?corresponding to the values of h in sm.regression function. \n\nCould anyone please advice me ?the possible values of A and B in the gam function above? I'd would be very grateful for any idea and suggestion towards this issue.\n\nThank you\nFir",
+      "body_snippet": "Dear All,\n\nI have fitted a bivariate and an additive model on a monthly temperature from 1987-2007 via nonparametric regression and would like to compare?between these models via F-test, but having di",
+      "thread_id": "thread-98be2d715ef6",
+      "thread_depth": 0,
+      "month": "2009-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-98be2d715ef6",
+      "subject": "[R--gR] A comparison between span in lowess method and h in sm.regression",
+      "message_count": 1,
+      "participants": [
+        "FMH"
+      ],
+      "started": "2009-11-12T06:13:25-08:00",
+      "last_reply": "2009-11-12T06:13:25-08:00",
+      "root_message_id": "msg-98be2d715ef6"
+    }
+  ]
+}

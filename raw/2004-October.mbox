@@ -1,0 +1,355 @@
+From sorenh at mail.dk  Tue Oct  5 20:57:02 2004
+From: sorenh at mail.dk (=?iso-8859-1?Q?S=F8ren_H=F8jsgaard?=)
+Date: Tue, 5 Oct 2004 20:57:02 +0200
+Subject: [R--gR] Paper about mimR available in Journal of Statistical
+	Software, http://www.jstatsoft.org/
+Message-ID: <001901c4ab0d$19fdbb40$fe325c53@djf.agrsci.dk>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041005/26e93b5f/attachment.ksh 
+
+From dethlef at math.aau.dk  Thu Oct  7 08:32:41 2004
+From: dethlef at math.aau.dk (Claus Dethlefsen)
+Date: Thu, 7 Oct 2004 08:32:41 +0200
+Subject: [R--gR] FW: [BUGS] bugs.R for the new OpenBUGS
+Message-ID: <002401c4ac37$7241f340$9230e182@math.auc.dk>
+
+Dear list
+
+The message below from Andrew Gelman posted on the Bugs mailing list is
+likely of interest to the gR-community. If you are already subscribed to the
+Bugs-list and have seen Andrews' message, just disregard this message.
+
+Best,
+Claus
+---------------------------------------------------------------------------
+Assistant Prof. Claus Dethlefsen, PhD
+Department of Mathematical Sciences, Aalborg University 
+Fredrik Bajers Vej 7G, DK-9220 Aalborg, Denmark
+dethlef at math.aau.dk; www.math.aau.dk/~dethlef
+Ph: +45 9635 8878; Fax: +45 9815 8129
+
+
+-----Original Message-----
+From: (The BUGS software mailing list) [mailto:BUGS at JISCMAIL.AC.UK] On
+Behalf Of Andrew Gelman
+Sent: 6. oktober 2004 02:16
+To: BUGS at JISCMAIL.AC.UK
+Subject: [BUGS] bugs.R for the new OpenBUGS
+
+hi all.  i have adapted the bugs.R package (for running Bugs from R) to
+work with the new OpenBUGS announced by andrew thomas in his recent
+email.  you can just download and extract OpenBUGS into "c:/Program
+Files/" and then download the new Bugs.R file and you'll be all
+set--just run bugs() using the option version=1.4 for WinBUGS14 or
+version=2 for OpenBUGS.
+
+OpenBUGS is very nice, and the new brugs functions supplied by andrew
+thomas allow a more convenient implementation (for one thing, you can
+see the progress of the simulations in your R window).  but don't remove
+your copy of WinBUGS14 yet--in at least one example i've tried, OpenBUGS
+is much slower to converge--it must be using a different updating algorithm.
+
+anyway, if anyone has problems with the new bugs.R, just let me know.
+
+yours
+andrew
+
+--
+Andrew Gelman
+Professor, Department of Statistics
+Professor, Department of Political Science
+1255 Amsterdam Ave (at 122 St.), Room 1016
+Columbia University
+New York, NY 10027-5904
+(o) 212-851-2142
+(o-fax) 212-851-2164
+gelman at stat.columbia.edu
+www.stat.columbia.edu/~gelman
+
+-------------------------------------------------------------------
+This list is for discussion of modelling issues and the BUGS software.
+For help with crashes and error messages, first mail bugs at mrc-bsu.cam.ac.uk
+
+To mail the BUGS list, mail to bugs at jiscmail.ac.uk
+Before mailing, please check the archive at
+www.jiscmail.ac.uk/lists/bugs.html
+Please do not mail attachments to the list.
+
+To leave the BUGS list, send LEAVE BUGS to jiscmail at jiscmail.ac.uk
+If this fails, mail bugs-request at jiscmail.ac.uk, NOT the whole list
+
+---
+Incoming mail is certified Virus Free.
+
+
+ 
+
+---
+
+
+
+From tsr at stat.washington.edu  Tue Oct 19 22:19:18 2004
+From: tsr at stat.washington.edu (Thomas Richardson)
+Date: Tue, 19 Oct 2004 13:19:18 -0700 (PDT)
+Subject: [R--gR] Open source packages for viewing and manipulating graphs
+Message-ID: <Pine.LNX.4.58.0410191301350.21906@madrid1.stat.washington.edu>
+
+Hello gRers,
+
+In the (well-attended) session on gR at the JSM meeting in Toronto in
+August I mentioned that other researchers have developed quite powerful
+open source tools for displaying, and interacting with, graphs. Below I
+include some more information on two such packages.
+
+
+(1) Cytoscape
+
+http://www.cytoscape.org
+
+<info from the web-page and elsewhere>
+
+Cytoscape is a cross-platform open source bioinformatics software platform for
+visualizing molecular interaction networks and integrating these
+interactions with gene expression profiles and other state data.
+
+     * Customize network data display using powerful visual styles.
+
+     * Visualize a superposition of continuous and discrete variables on the
+       network nodes and edges.  For example, expression data can be
+       mapped to node color, label, border thickness, or border color,
+       etc. according to user-configurable colors and visualization
+       schemes.
+
+     * Browse various attributes of network nodes and edges.
+
+     * Layout networks in two dimensions.  A variety of layout algorithms
+       are available, including cyclic and spring-embedded layouts.
+       Layouts may be tweaked by hand.
+
+     * Zoom in/out and pan for browsing the network.
+
+     * Use the network manager to easily organize multiple networks.
+
+     * Use the birds eye view to easily navigate large networks.
+
+     * Use a wide range of pre-written "plug-ins"
+       http://cytoscape.org/plugins2.php
+       to perform analyses and manipulations of the networks.
+
+       For example, there is a plug-in (cytotalk) that allows an R session
+       to directly interact with and manipulate a Cytoscape network, using
+       the Bioconductor RSJava package.
+
+      See:  http://www.bioconductor.org
+
+(Thanks to David Reiss, from the Institute for Systems Biology.)
+
+
+
+(2) Zoomgraph is another visualization package developed by HP labs:
+
+http://www.hpl.hp.com/research/idl/papers/zoomgraph1/
+
+
+Best wishes,
+
+Thomas Richardson
+
+
+
+From sorenh at mail.dk  Wed Oct 20 01:26:59 2004
+From: sorenh at mail.dk (=?iso-8859-1?Q?S=F8ren_H=F8jsgaard?=)
+Date: Wed, 20 Oct 2004 01:26:59 +0200
+Subject: [R--gR] Graphs and Metro's
+Message-ID: <011101c4b633$21833210$a258a450@djf.agrsci.dk>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041020/585d04cd/attachment.pl 
+
+From rcastelo at imim.es  Wed Oct 20 14:22:18 2004
+From: rcastelo at imim.es (Castelo, Robert)
+Date: Wed, 20 Oct 2004 14:22:18 +0200
+Subject: [R--gR] Graphs and Metro's
+Message-ID: <1098274938.23026.10.camel@zapiron>
+
+hi,
+
+since i live in Barcelona and use its metro network i'll answer this :)
+
+the area of research for this is called "graph drawing" and a good link
+to get acquainted with it is
+
+http://www.cs.brown.edu/people/rt/gd.html
+
+a friend of mine who works in automated cartography has recommended me
+this link and has told me that the first two links, a book and a
+pdf-tutorial, are quite good as a starting point.
+
+he also pointed out to me that it's very different to draw with straight
+segments than with curves as the number of edge crossings can be very
+different. minimizing crossings is NP-hard however if the number of
+crossings is small the following reference (and references therein) can
+be useful:
+
+Computing Crossing Numbers in Quadratic Time  .
+  Journal of Computer and System Sciences, 68(2):285-302, 2004.
+  Conference version appeared in Proceedings of the 32nd ACM Symposium
+  on Theory of Computing (STOC'01), pp.231-236, 2001.
+  http://www.informatik.hu-berlin.de/~grohe/pub/cross.ps
+
+
+i hope this helps,
+robert.
+
+On Wed, 2004-10-20 at 01:26, S?ren H?jsgaard wrote:
+> Dear all,
+> Yesterday, I looked at a map of the metro in Barcelona, and I came to think about whether we could learn something from such maps when producing graphs for graphical models. (With many variables, a graphical model tends to look "messy").
+> 
+> Edges in metro-maps are often not straight lines - they tend to be composed of line segments forming 0, 45 and 90 degrees angles relative to some coordinate system - and that really makes the maps easier to look at. Have anyone looked at this idea? (It is not a particularly original idea so I guess the answer is "yes"!) 
+> 
+> It should be reasonably straight forward to formulate a heuristic for creating such edges: 1) The length of an edge should be small under the constraints that, 2) there is a "low price" on horisontal and vertical line segments and 3) a "high price" on 45-degree, 135 degree and so on lines. The actual shape of an edge under such requirements is not unique, for example the lines 
+> o--       o-
+>    \        \        .......
+>     --o       ---o
+> will have the same "price" - so some heuristic is needed to choose one from another. 
+> 
+> Comments, ideas, references??
+> 
+> Best regards
+> S?ren
+> 
+> ============================================================================================= 
+> S?ren H?jsgaard,  MSc, PhD (Statistics),        Phone: +45 8999 1703 
+> Head of Biometry Research Unit,                 Fax:     +45 8999 1300 
+> Danish Institute of Agricultural Sciences       E-mail: sorenh at agrsci.dk 
+> Research Centre Foulum, DK-8830 Tjele, Denmark  Homepage : http://www.jbs.agrsci.dk/~sorenh/ 
+> 
+> .... Time flies like an arrow, fruit flies like a banana ....
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From xpsun at ict.ac.cn  Thu Oct 21 11:44:27 2004
+From: xpsun at ict.ac.cn (XP Sun)
+Date: Thu, 21 Oct 2004 17:44:27 +0800
+Subject: [R--gR] smooth="periodic.lowess"???
+Message-ID: <200410210944.i9L9iVER007900@hypatia.math.ethz.ch>
+
+hi, everyone,
+
+this is the first time for me to use R,
+would you like to tell me how to use this command? thank you in advance.
+
+fit <- principal.curve(y, plot = TRUE, smooth="periodic.lowess", iter=0)
+
+when i uesd the parameter 
+
+   smooth="periodic.lowess", 
+
+i met a error. the message is:
+
+   Error in cbind(...) : number of rows of matrices must match (see arg 2)
+
+any help is appreciated.
+
+best, 
+
+????????Sun
+????????xpsun at ict.ac.cn
+??????????2004-10-21
+
+
+
+From Achim.Zeileis at wu-wien.ac.at  Thu Oct 21 12:11:25 2004
+From: Achim.Zeileis at wu-wien.ac.at (Achim Zeileis)
+Date: Thu, 21 Oct 2004 12:11:25 +0200
+Subject: [R--gR] smooth="periodic.lowess"???
+In-Reply-To: <200410210944.i9L9iVER007900@hypatia.math.ethz.ch>
+References: <200410210944.i9L9iVER007900@hypatia.math.ethz.ch>
+Message-ID: <20041021121125.458f0b47.Achim.Zeileis@wu-wien.ac.at>
+
+Moved to R-help from R-SIG-gR.
+
+On Thu, 21 Oct 2004 17:44:27 +0800 XP Sun wrote:
+
+> hi, everyone,
+> 
+> this is the first time for me to use R,
+> would you like to tell me how to use this command? thank you in
+> advance.
+> 
+> fit <- principal.curve(y, plot = TRUE, smooth="periodic.lowess",
+> iter=0)
+> 
+> when i uesd the parameter 
+> 
+>    smooth="periodic.lowess", 
+> 
+> i met a error. the message is:
+> 
+>    Error in cbind(...) : number of rows of matrices must match (see
+>    arg 2)
+> 
+> any help is appreciated.
+
+Several comments:
+  1. Why did you send this request to R-SIG-gR?
+     This is a SIG (special interest group) on gR (graphical models
+     in R) and your request does not seem to be related to that!
+  2. A better place to ask questions like the above is R-help.
+     But one should read the posting guide before doing so.
+       http://www.R-project.org/posting-guide.html
+  3. If you read the posting guide, it will tell you that:
+     If you have problems with some function, please do give a 
+     reproducible example (including your version of R and OS,
+     indicate add-on packages you use, etc.).
+
+For your request above, there is nothing much that we could do. After I
+had found out that this is about a function in the package princurve (do
+note that there is a second CRAN package pcurve for the same task), all
+I can say is that
+
+  R> library(princurve)
+  R> example(principal.curve)
+  R> fit <- principal.curve(x, plot = TRUE, smooth="periodic.lowess",
+       iter= 0)
+
+gives some warnings but does not throw an error as you indicated above.
+This is on Linux with today's R-devel (2.1.0 to be) with the current
+CRAN version of princurve.
+Z
+
+
+> best, 
+> 
+> ????????????????Sun
+> ????????????????xpsun at ict.ac.cn
+> ????????????????????2004-10-21
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+
+
+
+From ded at novonordisk.com  Tue Oct 26 09:43:40 2004
+From: ded at novonordisk.com (DED (David George Edwards))
+Date: Tue, 26 Oct 2004 09:43:40 +0200
+Subject: [R--gR] Model selection for high-dimensional graphical models
+Message-ID: <36A25802686476479FBE08B99D1C111C026B01E5@exdkba023.novo.dk>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041026/6bfabc46/attachment.pl 
+

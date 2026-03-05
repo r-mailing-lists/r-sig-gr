@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2011-11",
+  "messages": [
+    {
+      "id": "msg-5d28fe38687c",
+      "message_id": "<18EF08266D889C41A14D1099C7102CE2BB336A0E0A@UH-MAILSTOR.herts.ac.uk>",
+      "from_name": "Spencer, Neil",
+      "from_email_hash": "ecd66fbc8d093d8befe98013c64d9f97bfe991b3cef0e9cee7411db6294d786c",
+      "date": "2011-11-11T17:00:08Z",
+      "subject": "[R--gR] COMPUTING FOR GRAPHICAL MODELS, 16 December 2011, RSS, London",
+      "subject_clean": "[R--gR] COMPUTING FOR GRAPHICAL MODELS, 16 December 2011, RSS, London",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20111111/22702b38/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20111111/22702b38/attachment.pl>",
+      "thread_id": "thread-5d28fe38687c",
+      "thread_depth": 0,
+      "month": "2011-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-5d28fe38687c",
+      "subject": "[R--gR] COMPUTING FOR GRAPHICAL MODELS, 16 December 2011, RSS, London",
+      "message_count": 1,
+      "participants": [
+        "Spencer, Neil"
+      ],
+      "started": "2011-11-11T17:00:08+00:00",
+      "last_reply": "2011-11-11T17:00:08+00:00",
+      "root_message_id": "msg-5d28fe38687c"
+    }
+  ]
+}

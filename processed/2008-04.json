@@ -1,0 +1,38 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2008-04",
+  "messages": [
+    {
+      "id": "msg-4e7a080a2d9b",
+      "message_id": "<4808C345.3010504@utoronto.ca>",
+      "from_name": "Nicholas Mitsakakis",
+      "from_email_hash": "bd84d4fbc9addbd18a7cd8a845539ef326805c275dfdc38e79f0f9f4578901ff",
+      "date": "2008-04-18T11:50:29-04:00",
+      "subject": "[R--gR] gRlist: Compstat08 Computation for Graphical Models and Bayes Nets",
+      "subject_clean": "[R--gR] gRlist: Compstat08 Computation for Graphical Models and Bayes Nets",
+      "in_reply_to": "<4731976B.8020504@lancaster.ac.uk>",
+      "references": [
+        "<4731976B.8020504@lancaster.ac.uk>"
+      ],
+      "body_plain": "Dr. Whittaker,\n\nSome time ago you sent a message to the gRlist about the possibility of \norganising a session with contributed papers on Graphical Models for the \nCompstat08 meeting in Porto this August. I was wondering if you were \nable to organise this session and if you have the programme of the \nspeakers and the topics. I am thinking of attend this meeting so I would \nlike to know.\n\nPlease let me know about that.\n\nI am looking forward to hearing from you.\n\nNicholas Mitsakakis\n\nJoe Whittaker wrote:\n> Hi Graphical Modellers,\n> We are organising a session at the Compstat08 meeting in Porto\n> entitled Computation for Graphical Models and Bayes Nets. The invited\n> session will consist of talks from Giovanni Marchetti, Soren\n> Hoesgaard, and Mathias Drton.  Steffen Lauritzen will be among the\n> participants.  \n>\n> We hope to organise a second session from contributed papers on the\n> same theme, concentrating on developments in R.  The deadline for\n> submission of full papers (invited and contributed papers) is January\n> 20th, 2008.\n>\n> Compstat08: International Conference on Computational Statistics\n> Porto - Portugal, August 24-29, 2008\n> http://www.fep.up.pt/compstat08/\n>\n> Please contact joe.whittaker at lancaster.ac.uk for any more information,\n> especially if you wish to contribute a talk.  Best wishes, Joe\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>   \n\n\n-- \nNicholas Mitsakakis\nPhD Candidate - Biostatistics\nDepartment of Public Health Sciences\nUniversity of Toronto",
+      "body_snippet": "Dr. Whittaker,\n\nSome time ago you sent a message to the gRlist about the possibility of \norganising a session with contributed papers on Graphical Models for the \nCompstat08 meeting in Porto this Augu",
+      "thread_id": "thread-4e7a080a2d9b",
+      "thread_depth": 0,
+      "month": "2008-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-4e7a080a2d9b",
+      "subject": "[R--gR] gRlist: Compstat08 Computation for Graphical Models and Bayes Nets",
+      "message_count": 1,
+      "participants": [
+        "Nicholas Mitsakakis"
+      ],
+      "started": "2008-04-18T11:50:29-04:00",
+      "last_reply": "2008-04-18T11:50:29-04:00",
+      "root_message_id": "msg-4e7a080a2d9b"
+    }
+  ]
+}

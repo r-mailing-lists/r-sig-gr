@@ -1,0 +1,111 @@
+From pshannon at systemsbiology.org  Thu Dec 18 15:24:19 2003
+From: pshannon at systemsbiology.org (Paul Shannon)
+Date: 18 Dec 2003 06:24:19 -0800
+Subject: [R--gR] R data structure for network graphs?
+Message-ID: <EXCHANGEbYTHrdusluC00000ec0@exchange.systemsbiology.net>
+
+Hello all,
+
+I am brand new to this list; forgive me if I mis-step!
+
+I am relatively new, also, to R, which I am using  in
+conjunction with an open source java network visualization
+tool, cytoscape (see http://www.cytoscape.org).  We have
+lots of whole-genome,high throughput biological data -- microarray, ICAT,
+MPSS -- and R (of course!) is very useful in exploring these
+data.
+
+I wonder:  has this group defined an R data structure for
+representing network graphs, with nodes and edges (and
+perhaps with node and edge attributes as well)?  I wish
+to include this view of our data along side our experimental
+data.
+
+Thank you,
+
+  - Paul Shannon
+    Institute for Systems Biology
+    Seattle
+
+
+
+From gmm at ds.unifi.it  Fri Dec 19 12:00:26 2003
+From: gmm at ds.unifi.it (Giovanni Marchetti)
+Date: Fri, 19 Dec 2003 12:00:26 +0100
+Subject: [R--gR] R data structure for network graphs?
+In-Reply-To: <EXCHANGEbYTHrdusluC00000ec0@exchange.systemsbiology.net>
+References: <EXCHANGEbYTHrdusluC00000ec0@exchange.systemsbiology.net>
+Message-ID: <200312191200.26730.gmm@ds.unifi.it>
+
+On Thursday 18 December 2003 15:24, Paul Shannon wrote:
+
+> I wonder:  has this group defined an R data structure for
+> representing network graphs, with nodes and edges (and
+> perhaps with node and edge attributes as well)?  I wish
+> to include this view of our data along side our experimental
+> data.
+
+Dear Paul
+
+I think that the only structure available in R for graphs
+is class graph defined in package graph by 
+Robert Gentleman.  It is a Bioconductor package. 
+Look at http://www.bioconductor.org/
+
+Package: graph
+
+ 
+
+ Description: A package that implements some simple graph handling 
+capabilities.
+ Version: 1.1.9
+ Author: R. Gentleman, Elizabeth Whalen
+ Maintainer: R. Gentleman 
+ Dependencies: R (>= 1.7), cluster, XML
+ SystemRequirements: NA
+ License: LGPL
+
+Giovanni
+ 
+
+-- 
+< Giovanni M. Marchetti >
+Dipartimento di Statistica, Univ. di Firenze   Phone:  +39 055 4237 204
+viale Morgagni, 59                             Fax:    +39 055 4223 560
+I 50134 Firenze, Italy                         email:  gmm at ds.unifi.it
+
+
+
+From jrs at denny.farviolet.com  Fri Dec 19 21:04:26 2003
+From: jrs at denny.farviolet.com (Jeremy Semeiks)
+Date: Fri, 19 Dec 2003 12:04:26 -0800
+Subject: [R--gR] R data structure for network graphs?
+In-Reply-To: <200312191200.26730.gmm@ds.unifi.it>
+References: <EXCHANGEbYTHrdusluC00000ec0@exchange.systemsbiology.net>
+	<200312191200.26730.gmm@ds.unifi.it>
+Message-ID: <20031219200425.GA1149@64.81.242.180>
+
+On Fri, Dec 19, 2003 at 12:00:26PM +0100, Giovanni Marchetti wrote:
+> On Thursday 18 December 2003 15:24, Paul Shannon wrote:
+> 
+> > I wonder:  has this group defined an R data structure for
+> > representing network graphs, with nodes and edges (and
+> > perhaps with node and edge attributes as well)?  I wish
+> > to include this view of our data along side our experimental
+> > data.
+> 
+> Dear Paul
+> 
+> I think that the only structure available in R for graphs
+> is class graph defined in package graph by 
+> Robert Gentleman.  It is a Bioconductor package. 
+> Look at http://www.bioconductor.org/
+
+Bioconductor also provides the RBGL class, which is based on the C++
+Boost graph libraries. RBGL provides some basic graph algorithms as
+well. But I find it to be fairly slow for large graphs.
+
+- Jeremy
+
+
+

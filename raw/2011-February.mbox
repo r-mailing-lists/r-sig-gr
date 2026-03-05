@@ -1,0 +1,44 @@
+From wangchun.mjun at gmail.com  Wed Feb 23 20:10:47 2011
+From: wangchun.mjun at gmail.com (Chun Wang)
+Date: Wed, 23 Feb 2011 20:10:47 +0100
+Subject: [R--gR] mai in par
+Message-ID: <AANLkTi=oL=wApHLYqq_jV1ZwZV4z4QdP+U=jq9zR=DtW@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110223/ce1bb859/attachment.pl>
+
+From kjell.konis at epfl.ch  Thu Feb 24 21:53:09 2011
+From: kjell.konis at epfl.ch (Konis Kjell)
+Date: Thu, 24 Feb 2011 20:53:09 +0000
+Subject: [R--gR] mai in par
+In-Reply-To: <AANLkTi=oL=wApHLYqq_jV1ZwZV4z4QdP+U=jq9zR=DtW@mail.gmail.com>
+Message-ID: <C98C8328.2179%kjell.konis@epfl.ch>
+
+This list is for graphical models - not graphics. You should ask questions
+like this on the R-help list. Regarding your question, you should read the
+man page for par carefully. All of the various methods for setting the
+plot margins are documented there.
+Kjell
+
+On 2/23/11 8:10 PM, "Chun Wang" <wangchun.mjun at gmail.com> wrote:
+
+>Dear R users,
+>
+>In using par, it seems one can adjust the plot location using mai. but
+>what
+>is the unit for the number used in mai? Can I normalize it to the interval
+>(0,1)? Thank you very much for any help in advance.
+>
+>with best regards,
+>
+>Chun
+>
+>    [[alternative HTML version deleted]]
+>
+>_______________________________________________
+>R-sig-gR mailing list
+>R-sig-gR at r-project.org
+>https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+

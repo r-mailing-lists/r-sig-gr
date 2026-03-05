@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2012-06",
+  "messages": [
+    {
+      "id": "msg-ab24394c17a8",
+      "message_id": "<CAANJWG+bbEW9TTEESS1t7T5xu_XjQtf-q=dxSbDhc1tLksTN3g@mail.gmail.com>",
+      "from_name": "stef salvez",
+      "from_email_hash": "b167700ff18fc85b8d20abd834d826ad85b197e23284ddbe6cbccf996a686b02",
+      "date": "2012-06-02T16:36:27+01:00",
+      "subject": "[R--gR] ploting a sequence of string dates",
+      "subject_clean": "[R--gR] ploting a sequence of string dates",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all, I have a panel data across countries and individuals. For\neach country I have a sequence of dates For France for example\n22/02/09\n 22/03/09\n19/04/09\n17/05/09\n12/07/09\n 09/08/09\n06/09/09\n04/10/09\n 01/11/09\n29/11/09\n27/12/09\n31/01/10\n\nFor Italy\n14/06/09\n12/07/09\n09/08/09\n06/09/09\n04/10/09\n 01/11/09\n 29/11/09\n27/12/09\n31/01/10\n 28/02/10\n 28/03/10\n\nI have these sequence of dates in an excel file. The structure of the\nexcel file is\nFrance              Italy                        ......\n22/02/09\t       14/06/09\n 22/03/09 \t12/7/2009\n19/04/09   \t9/8/2009\n17/05/09 \t        6/9/2009\n12/7/2009\t4/10/2009\n 09/08/09 \t 01/11/09\n6/9/2009\t        29/11/09\n4/10/2009\t27/12/09\n 01/11/09   \t31/01/10\n29/11/09 \t      28/02/10\n27/12/09 \t      28/03/10\n31/01/10\t\n\n\nand so forth\n\n\n And I want to ?plot? (in one graph) these sequences of dates in the\nsense that I want to have a?visual? contact of the behavior of the\nseries of dates because as you can see I do not have the same start\ndate and end date and the next date is not always every 28 days. So I\nhave a jump in some cases. I would like to visualize these\ncharacteristics of the two series of dates by making a plot. And I\nwould like the distance (in days)  between successive dates for one\ncountry to be written on the graph. Any suggestions? A strip plot\nwould be ok but I have no idea how to use it to construct nice plots.\nAny code would be greatly appreciated\n\nThanks",
+      "body_snippet": "Dear all, I have a panel data across countries and individuals. For\neach country I have a sequence of dates For France for example\n22/02/09\n 22/03/09\n19/04/09\n17/05/09\n12/07/09\n 09/08/09\n06/09/09\n04/1",
+      "thread_id": "thread-ab24394c17a8",
+      "thread_depth": 0,
+      "month": "2012-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-ab24394c17a8",
+      "subject": "[R--gR] ploting a sequence of string dates",
+      "message_count": 1,
+      "participants": [
+        "stef salvez"
+      ],
+      "started": "2012-06-02T16:36:27+01:00",
+      "last_reply": "2012-06-02T16:36:27+01:00",
+      "root_message_id": "msg-ab24394c17a8"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2009-07",
+  "messages": [
+    {
+      "id": "msg-3ab20b598a74",
+      "message_id": "<20090701072251.240690@gmx.net>",
+      "from_name": "Matthias Buehlmaier",
+      "from_email_hash": "92f5f028ec672f3812f0e87cea70f0f515b00a5b89c9046ffe2dfd6fecb94a42",
+      "date": "2009-07-01T09:22:51+02:00",
+      "subject": "[R--gR] deal package",
+      "subject_clean": "[R--gR] deal package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi Kevin, \n\nYou mentioned that your problem is the following: bnlearn cannot cope with both discrete and continuous variables. \n\nOne potential solution would be to simply discretize your continuous variables using some (not necessarily equidistant) grid. I am unsure whether or not this is the best solution, but it should work. \n\nCheers, \n\nMatthias \n\n\nLu, Kevin wrote:\n> Dear all,\n> \n> I learn something from my colleagues about the beauty of Bayesian\n> network. I want to use the deal package to analyze my genetic data. I\n> have 3575 subjects. For each subject, I have 20 genetic marker\n> information (discrete, three levels) and his or her plasma cholesterol\n> levels (continuous). I want to construct the markov blanket of plasma\n> cholesterol levels. I tried the deal in my computer and computer\n> cluster. Due to so many genetic markers, I can not successfully pass the\n> calculation of the prior probability of my network. The maximum\n> variables I could put into the network is about 12. I can not add more.\n> \n> The algorithms (gs, iamb, hc) in bnlearn package can not deal the\n> discete and continuous variables at the same time. Could someone give me\n> some suggestions how I should do it? \n> \n> Thanks in advanve,\n> \n> Kevin\n-- \n\nf?r nur 19,99 Euro/mtl.!* http://portal.gmx.net/de/go/dsl02",
+      "body_snippet": "Hi Kevin, \n\nYou mentioned that your problem is the following: bnlearn cannot cope with both discrete and continuous variables. \n\nOne potential solution would be to simply discretize your continuous va",
+      "thread_id": "thread-3ab20b598a74",
+      "thread_depth": 0,
+      "month": "2009-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-3ab20b598a74",
+      "subject": "[R--gR] deal package",
+      "message_count": 1,
+      "participants": [
+        "Matthias Buehlmaier"
+      ],
+      "started": "2009-07-01T09:22:51+02:00",
+      "last_reply": "2009-07-01T09:22:51+02:00",
+      "root_message_id": "msg-3ab20b598a74"
+    }
+  ]
+}

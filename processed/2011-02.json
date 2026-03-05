@@ -1,0 +1,53 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2011-02",
+  "messages": [
+    {
+      "id": "msg-710982045492",
+      "message_id": "<AANLkTi=oL=wApHLYqq_jV1ZwZV4z4QdP+U=jq9zR=DtW@mail.gmail.com>",
+      "from_name": "Chun Wang",
+      "from_email_hash": "6aae2623aff58d55a05ced88386f83b341514bbd68c4288726d5c1978b73eec6",
+      "date": "2011-02-23T20:10:47+01:00",
+      "subject": "[R--gR] mai in par",
+      "subject_clean": "[R--gR] mai in par",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110223/ce1bb859/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110223/ce1bb859/attachment.pl>",
+      "thread_id": "thread-710982045492",
+      "thread_depth": 0,
+      "month": "2011-02"
+    },
+    {
+      "id": "msg-2fa1323ee0a5",
+      "message_id": "<C98C8328.2179%kjell.konis@epfl.ch>",
+      "from_name": "Konis Kjell",
+      "from_email_hash": "66720a9d209599d24e647d92630253e95abfbd6e977b9bc29fa4cf3220fb11e3",
+      "date": "2011-02-24T20:53:09Z",
+      "subject": "[R--gR] mai in par",
+      "subject_clean": "[R--gR] mai in par",
+      "in_reply_to": "<AANLkTi=oL=wApHLYqq_jV1ZwZV4z4QdP+U=jq9zR=DtW@mail.gmail.com>",
+      "references": [],
+      "body_plain": "This list is for graphical models - not graphics. You should ask questions\nlike this on the R-help list. Regarding your question, you should read the\nman page for par carefully. All of the various methods for setting the\nplot margins are documented there.\nKjell\n\nOn 2/23/11 8:10 PM, \"Chun Wang\" <wangchun.mjun at gmail.com> wrote:\n\n>Dear R users,\n>\n>In using par, it seems one can adjust the plot location using mai. but\n>what\n>is the unit for the number used in mai? Can I normalize it to the interval\n>(0,1)? Thank you very much for any help in advance.\n>\n>with best regards,\n>\n>Chun\n>\n>    [[alternative HTML version deleted]]\n>\n>_______________________________________________\n>R-sig-gR mailing list\n>R-sig-gR at r-project.org\n>https://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "This list is for graphical models - not graphics. You should ask questions\nlike this on the R-help list. Regarding your question, you should read the\nman page for par carefully. All of the various met",
+      "thread_id": "thread-710982045492",
+      "thread_depth": 1,
+      "month": "2011-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-710982045492",
+      "subject": "[R--gR] mai in par",
+      "message_count": 2,
+      "participants": [
+        "Chun Wang",
+        "Konis Kjell"
+      ],
+      "started": "2011-02-23T20:10:47+01:00",
+      "last_reply": "2011-02-24T20:53:09+00:00",
+      "root_message_id": "msg-710982045492"
+    }
+  ]
+}

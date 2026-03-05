@@ -1,0 +1,222 @@
+From lzhtom at hotmail.com  Mon Nov  7 03:07:17 2005
+From: lzhtom at hotmail.com (zhihua li)
+Date: Mon, 07 Nov 2005 02:07:17 +0000
+Subject: [R--gR] Hello!
+In-Reply-To: <000801c5e25c$02305e00$364e6181@sharp>
+Message-ID: <BAY110-F35B3B31E1F91E76A3420DAC7650@phx.gbl>
+
+Hi,Dr.Zhou
+
+Nice to receive your letter. If A activates B, it is conceivable that their 
+expression profiles tend to be similar. But this seems to arise from a 
+common sense or thumb rule. I've never seen a paper studying the details of 
+"similarity" of expression profiles. Instead different people use their own 
+defination of similatiry and develop different kinds of algorithms, like 
+euclean distance in clustering, or conditinal propability in BNT.
+As for the golden pathway to be tested usint the new algorithms, I think 
+the starting point is other people's published datasets. There are numerous 
+papers emerging in bioinforamtics/computational biology journals describing 
+different algorithms every month. Almost each of them uses some datasets 
+and presents their re-constructed networks. I think you can run your 
+algorithm with their datasets and compare your results with theirs and 
+known biological facts. In fact, I don't think there exists a "golden 
+pathway" which is the touchstone of modeling genetic networks. 
+
+Hope this may help.
+
+Li
+
+
+
+>From: "Dr. Zonglin Zhou" <z6zhou at bioinformatics.uwaterloo.ca>
+>To: "'lzhtom'" <lzhtom at hotmail.com>
+>Subject: Hello!
+>Date: Sat, 5 Nov 2005 17:55:25 -0500
+>
+
+
+
+From dwittenberg at uni-bielefeld.de  Mon Nov 28 18:10:43 2005
+From: dwittenberg at uni-bielefeld.de (Dennis Wittenberg)
+Date: Mon, 28 Nov 2005 18:10:43 +0100
+Subject: [R--gR] Problems with autosearch() in deal-package
+Message-ID: <000301c5f43e$ae52aa50$0301a8c0@skaos>
+
+Hello everybody,
+
+currently I'm trying to understand the autosearch-function in the
+deal-package. I have implemented a data generating function (dat.fr)
+with variable sample size T. The two variables x and z are randomly
+generated. y depends on x and z.
+
+The R-code:
+
+dat.fr=function(T) 
+{ 
+u1=matrix(rnorm(T*1),T,1); 
+u2=matrix(rnorm(T*1),T,1); 
+u3=matrix(rnorm(T*1),T,1); 
+x=u1; 
+z=u2; 
+a=1; 
+b=2; 
+y=a*x+b*z+u3; 
+data.frame(x,y,z) 
+} 
+
+Applied to autosearch I expect a network x-->y<--z, no matter which
+sample size is used or how often dat.fr() is renewed. 
+
+Unfortunately, for repeated trials, autosearch provides several,
+different network-outputs. Sometimes the output is conform to the
+expected network, sometimes it isn't. I cannot determine the reason for
+this.
+
+Any help with my problem would be greatly appreciated.
+
+R-code:
+
+df=dat.fr(100)
+
+df.nw=network(df); 
+df.prior=jointprior(df.nw,4); 
+df.nw=getnetwork(learn(df.nw,df,df.prior)); 
+df.search=autosearch(df.nw,df,df.prior,trace=TRUE)
+
+Thanks and best wishes,
+
+Dennis Wittenberg
+
+
+
+From aas.claus.dethlefsen at nja.dk  Mon Nov 28 20:39:37 2005
+From: aas.claus.dethlefsen at nja.dk (Claus Dethlefsen / Aalborg Sygehus)
+Date: Mon, 28 Nov 2005 20:39:37 +0100
+Subject: [R--gR] Problems with autosearch() in deal-package
+References: <000301c5f43e$ae52aa50$0301a8c0@skaos>
+Message-ID: <878184D41285C04B92FE9DBAD4E86671583C2F@SFEXC00002.amtg.NJA.local>
+
+Dear Dennis
+ 
+The 'deal mailinglist' is a better forum for this question (to join, check www.math.aau.dk/~dethlef/novo/deal)
+ 
+The 'autosearch' function is not guaranteed to find the network with the highest score. I repeated your R code using set.seed(109) before the call to dat.fr() to get a situation where autosearch finds the wrong network.
+ 
+The trace says:
+ 
+[Autosearch (1) -509.0712 [x][y][z|y]
+(2) -483.6722 [x][y][z|x:y]
+(3) -471.8518 [x|y][y][z|x:y]
+(4) -471.8518 [x][y|x][z|x:y]
+Total 0.28 add 0.12 rem 0.03 turn 0.03 sort 0 choose 0.01 rest 0.09 ]
+
+from which I read that the algorithm first inserts the arrow y->z, then x->z, then y->x, then turns the arrow x->y and terminates since none of the three step (remove, add, turn) will increase the score.
+ 
+By calculating the network score for all possible networks, we get an explanation,
+ 
+nwf <- getnetwork(networkfamily(df,prior=df.prior))
+plot(nwf)
+print(nwf)
+
+The top-10 scores are:
+ 
+  log(Score)    |Relscore       |Network
+------------------------------------------------------------
+1. -470.0185    1               [x][y|xz][z]
+2. -471.8518    0.1598712       [x][y|x][z|xy]
+3. -471.8518    0.1598712       [x|z][y|xz][z]
+4. -471.8518    0.1598712       [x|y][y][z|xy]
+5. -471.8518    0.1598712       [x][y|xz][z|x]
+6. -471.8518    0.1598712       [x|yz][y|z][z]
+7. -471.8518    0.1598712       [x|yz][y][z|y]
+8. -483.6722    1.175623e-06    [x][y][z|xy]
+9. -497.2509    1.489746e-12    [x][y|x][z|y]
+10. -497.2509   1.489746e-12    [x|y][y|z][z]
+
+Thus we see, that 'autosearch' has terminated at a network with second highest score. Since the algorithm is greedy and we cannot get to the 'best' network in one move, the algorithm terminates.
+ 
+This is one reason why 'deal' also provides the function 'heuristic' which will restart 'autosearch' in different initial networks created by 'randomly' inserting, turning and deleting arrows from the provided 'initnw'.
+ 
+Try e.g. 
+df.heuristic=heuristic(df.nw,df,df.prior,trace=TRUE,restart=100)
+ 
+The backdrop is, that this can be very slow and very memory-consuming.
+ 
+Hope this helps,
+ 
+Claus
+ 
+________________________________
+Claus Dethlefsen, Msc, PhD
+Statistiker ved Kardiovaskul?rt Forskningscenter
+
+ 
+Forskningens Hus
+Aalborg Sygehus 
+Sdr. Skovvej 15
+9000 Aalborg
+
+Tlf:   9932 6863
+email: aas.claus.dethlefsen at nja.dk <mailto:aas.claus.dethlefsen at nja.dk> 
+
+________________________________
+
+Fra: r-sig-gr-bounces at stat.math.ethz.ch p? vegne af Dennis Wittenberg
+Sendt: ma 28-11-2005 18:10
+Til: r-sig-gr at stat.math.ethz.ch
+Emne: [R--gR] Problems with autosearch() in deal-package
+
+
+
+Hello everybody,
+
+currently I'm trying to understand the autosearch-function in the
+deal-package. I have implemented a data generating function (dat.fr)
+with variable sample size T. The two variables x and z are randomly
+generated. y depends on x and z.
+
+The R-code:
+
+dat.fr=function(T)
+{
+u1=matrix(rnorm(T*1),T,1);
+u2=matrix(rnorm(T*1),T,1);
+u3=matrix(rnorm(T*1),T,1);
+x=u1;
+z=u2;
+a=1;
+b=2;
+y=a*x+b*z+u3;
+data.frame(x,y,z)
+}
+
+Applied to autosearch I expect a network x-->y<--z, no matter which
+sample size is used or how often dat.fr() is renewed.
+
+Unfortunately, for repeated trials, autosearch provides several,
+different network-outputs. Sometimes the output is conform to the
+expected network, sometimes it isn't. I cannot determine the reason for
+this.
+
+Any help with my problem would be greatly appreciated.
+
+R-code:
+
+df=dat.fr(100)
+
+df.nw=network(df);
+df.prior=jointprior(df.nw,4);
+df.nw=getnetwork(learn(df.nw,df,df.prior));
+df.search=autosearch(df.nw,df,df.prior,trace=TRUE)
+
+Thanks and best wishes,
+
+Dennis Wittenberg
+
+_______________________________________________
+R-sig-gR mailing list
+R-sig-gR at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+

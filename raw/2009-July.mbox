@@ -1,0 +1,42 @@
+From Mat_1 at gmx.net  Wed Jul  1 09:22:51 2009
+From: Mat_1 at gmx.net (Matthias Buehlmaier)
+Date: Wed, 01 Jul 2009 09:22:51 +0200
+Subject: [R--gR] deal package
+Message-ID: <20090701072251.240690@gmx.net>
+
+Hi Kevin, 
+
+You mentioned that your problem is the following: bnlearn cannot cope with both discrete and continuous variables. 
+
+One potential solution would be to simply discretize your continuous variables using some (not necessarily equidistant) grid. I am unsure whether or not this is the best solution, but it should work. 
+
+Cheers, 
+
+Matthias 
+
+
+Lu, Kevin wrote:
+> Dear all,
+> 
+> I learn something from my colleagues about the beauty of Bayesian
+> network. I want to use the deal package to analyze my genetic data. I
+> have 3575 subjects. For each subject, I have 20 genetic marker
+> information (discrete, three levels) and his or her plasma cholesterol
+> levels (continuous). I want to construct the markov blanket of plasma
+> cholesterol levels. I tried the deal in my computer and computer
+> cluster. Due to so many genetic markers, I can not successfully pass the
+> calculation of the prior probability of my network. The maximum
+> variables I could put into the network is about 12. I can not add more.
+> 
+> The algorithms (gs, iamb, hc) in bnlearn package can not deal the
+> discete and continuous variables at the same time. Could someone give me
+> some suggestions how I should do it? 
+> 
+> Thanks in advanve,
+> 
+> Kevin
+-- 
+
+f?r nur 19,99 Euro/mtl.!* http://portal.gmx.net/de/go/dsl02
+
+

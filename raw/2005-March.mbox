@@ -1,0 +1,197 @@
+From Soren.Hojsgaard at agrsci.dk  Mon Mar 21 15:27:55 2005
+From: Soren.Hojsgaard at agrsci.dk (=?iso-8859-1?Q?S=F8ren_H=F8jsgaard?=)
+Date: Mon, 21 Mar 2005 15:27:55 +0100
+Subject: [R--gR] Graph algorithms - SCILAB
+Message-ID: <C83C5E3DEEE97E498B74729A33F6EAEC02A6D36C@DJFPOST01.djf.agrsci.dk>
+
+Dear all,
+I came across the scilab software (not unlike matlab as I understand it), http://scilabsoft.inria.fr/
+
+Scilab has an entire module for graph manipulations - it is called Metanet. Perhaps something could be of interest in our context. 
+Best regards
+S?ren
+
+============================================================================================= 
+S?ren H?jsgaard,  MSc, PhD (Statistics),                Phone: +45 8999 1703 
+Head of Statistics and Decision Theory Research Group,  Fax:   +45 8999 1300 
+Danish Institute of Agricultural Sciences               sorenh at agrsci.dk 
+Research Centre Foulum, DK-8830 Tjele, Denmark          http://genetics.agrsci.dk/~sorenh 
+.... Time flies like an arrow, fruit flies like a banana ....
+
+
+
+From lzhtom at hotmail.com  Thu Mar 24 15:23:55 2005
+From: lzhtom at hotmail.com (zhihua li)
+Date: Thu, 24 Mar 2005 14:23:55 +0000
+Subject: [R--gR] (no subject)
+Message-ID: <BAY12-F165FB85EC0476372F19C2FC7400@phx.gbl>
+
+hi netters:
+
+I have a series of  discrete variables which form a network and  I want to 
+learn the network structure from some training data. I could have used 
+packages like deal but there are two problems.
+
+First of all, I have 10000 variables. So the possible network structure is 
+awfully huge, I don't know how long it will take my PC to find the 
+highest-scoring network..........maybe a month?
+Secondly, I have some prior knowledge that only 500 out of the 10000 
+variales are possible parents. In another word, only those arrows startting 
+from the 500 variables and pointing to the remaining 99500 variables are 
+allowed in the network.  In deal an assignment to "banlist" should help me 
+rule out the impossible arrows. But in my case the number of "impossible 
+arrows" is  500*499+99500*99549, and so the "banlist" would get 
+unacceptable long. Are there any methods (in deal or other packages) to 
+specify the parents set in advance?
+
+Thanks a lot!
+
+
+
+From lzhtom at hotmail.com  Fri Mar 25 06:13:23 2005
+From: lzhtom at hotmail.com (zhihua li)
+Date: Fri, 25 Mar 2005 05:13:23 +0000
+Subject: [R--gR] learning networks with a large number of variables and
+	pre-set parents.
+In-Reply-To: <BAY12-F165FB85EC0476372F19C2FC7400@phx.gbl>
+Message-ID: <BAY12-F34713F9618A7E4D3FB72AEC7410@phx.gbl>
+
+hi netters: 
+
+I have a series of  discrete variables which form a network and  I want to 
+learn the network structure from some training data. I could have used 
+packages like deal but there are two problems. 
+
+First of all, I have 10000 variables. So the possible network structure is 
+awfully huge, I don't know how long it will take my PC to find the 
+highest-scoring network..........maybe a month? 
+Secondly, I have some prior knowledge that only 500 out of the 10000 
+variales are possible parents. In another word, only those arrows startting 
+from the 500 variables and pointing to the remaining 99500 variables are 
+allowed in the network.  In deal an assignment to "banlist" should help me 
+rule out the impossible arrows. But in my case the number of "impossible 
+arrows" is  500*499+99500*99549, and so the "banlist" would get 
+unacceptable long. Are there any methods (in deal or other packages) to 
+specify the parents set in advance? 
+
+Thanks a lot!
+
+
+
+From ded at novonordisk.com  Tue Mar 29 10:23:23 2005
+From: ded at novonordisk.com (DED (David George Edwards))
+Date: Tue, 29 Mar 2005 10:23:23 +0200
+Subject: [R--gR] learning networks with a large number of variables and
+	pre-set parents.
+Message-ID: <36A25802686476479FBE08B99D1C111C026B0331@exdkba023.novo.dk>
+
+Hi zhilua li
+
+I dont know of any software that can handle 10000 (discrete) variables.
+CoCo can handle a couple of hundred I believe.
+I dont think that gR is looking at this type of problem as yet, this
+must be phase 2.
+
+Best regards
+David 
+
+
+-----Original Message-----
+From: r-sig-gr-bounces at stat.math.ethz.ch
+[mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of zhihua li
+Sent: 25. marts 2005 06:13
+To: r-sig-gr at stat.math.ethz.ch
+Cc: r-help at stat.math.ethz.ch
+Subject: [R--gR] learning networks with a large number of variables
+andpre-set parents.
+
+
+hi netters: 
+
+I have a series of  discrete variables which form a network and  I want
+to 
+learn the network structure from some training data. I could have used 
+packages like deal but there are two problems. 
+
+First of all, I have 10000 variables. So the possible network structure
+is 
+awfully huge, I don't know how long it will take my PC to find the 
+highest-scoring network..........maybe a month? 
+Secondly, I have some prior knowledge that only 500 out of the 10000 
+variales are possible parents. In another word, only those arrows
+startting 
+from the 500 variables and pointing to the remaining 99500 variables are
+
+allowed in the network.  In deal an assignment to "banlist" should help
+me 
+rule out the impossible arrows. But in my case the number of "impossible
+
+arrows" is  500*499+99500*99549, and so the "banlist" would get 
+unacceptable long. Are there any methods (in deal or other packages) to 
+specify the parents set in advance? 
+
+Thanks a lot!
+
+_______________________________________________
+R-sig-gR mailing list
+R-sig-gR at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From mailingr at yahoo.it  Wed Mar 30 14:45:22 2005
+From: mailingr at yahoo.it (. .)
+Date: Wed, 30 Mar 2005 14:45:22 +0200 (CEST)
+Subject: [R--gR] locfit
+Message-ID: <20050330124522.29380.qmail@web25805.mail.ukl.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050330/a61488c9/attachment.pl 
+
+From Achim.Zeileis at wu-wien.ac.at  Wed Mar 30 15:41:01 2005
+From: Achim.Zeileis at wu-wien.ac.at (Achim Zeileis)
+Date: Wed, 30 Mar 2005 15:41:01 +0200 (CEST)
+Subject: [R--gR] locfit
+In-Reply-To: <20050330124522.29380.qmail@web25805.mail.ukl.yahoo.com>
+References: <20050330124522.29380.qmail@web25805.mail.ukl.yahoo.com>
+Message-ID: <Pine.LNX.4.58.0503301537370.14726@thorin.ci.tuwien.ac.at>
+
+On Wed, 30 Mar 2005, . . wrote:
+
+> Hallo all,
+> can somebody tell me if is possible use the locfit function to fit a
+> semiparametric model. I need to  use two explicative variables and one of
+> them is a dummy variable.
+
+This is the second time within a couple of hours that you ask the same
+question to a different mailing list. Furthermore, this mailing list is
+about graphical models...
+Finally, you will need a better question to get a useful answer. But
+before you ask that, look at
+  ?locfit
+to see whether you might be able to solve your problem alone.
+
+Also do read the posting guide.
+Z
+
+> Thanks Michele
+>
+>
+>
+>
+>
+> ---------------------------------
+>
+>  Giochi, Rubrica
+ Scaricalo ora!
+> 	[[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+
+
+

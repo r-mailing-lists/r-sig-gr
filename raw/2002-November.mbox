@@ -1,0 +1,29 @@
+From ded at novonordisk.com  Wed Nov  6 14:54:25 2002
+From: ded at novonordisk.com (DED (David George Edwards))
+Date: Wed, 6 Nov 2002 14:54:25 +0100 
+Subject: [R--gR] R--gR: Model specification in gR
+Message-ID: <FF503547C1F8D211BD2C0008C7C56401088FA8D8@exdkba06.novo.dk>
+
+Some ideas about specifying models in gR.
+
+Quick Win
+----------
+1. For graphical models (ie where the graph is sufficient to define the
+model, the distributional part being implicit), just use the graph as it is
+(will be) defined in R (a clique list, for example). For high dimensional
+models, model formulae get so long as to be completely unmanageable. 
+2. For DAGs and other types of model constructed from univariate response
+models, use  Wilkinson and Roger's notation for each vertex, as Giovanni
+suggests. 
+
+Slow Haul
+---------
+3. For the other (non-graphical, non-univariate response) models we need to
+be careful. It would be helpful if model formula handling in R could be
+'objectified' and so made accessible to the programmer.   
+
+Regards
+David
+
+
+

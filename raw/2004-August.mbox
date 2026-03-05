@@ -1,0 +1,1457 @@
+From steffen at stats.ox.ac.uk  Wed Aug 11 12:48:49 2004
+From: steffen at stats.ox.ac.uk (Steffen Lauritzen)
+Date: Wed, 11 Aug 2004 11:48:49 +0100
+Subject: [R--gR] gR is alive and kicking
+Message-ID: <002001c47f90$c999e220$135601a3@SHELDUCK>
+
+Dear gRs
+
+The mailing list has been silent for a long time and this little newsletter
+is an attempt to bring it a bit to life again.
+
+Many things have indeed happened within gR:
+
+Personally, I have moved to Oxford, but will continue my engagement in gR
+from there, including my cooperation with the Danish gRoup. PostDoc
+positions and money for targeted visits will be available in Oxford. My
+coordinates are on this letter.
+
+MIM has become open source, I hope David Edwards will write to the list and
+give further details.
+
+gRbase is on CRAN, using dynamicGraph to interact with model! Claus and
+Soren will write separately on that.
+
+CoCo, including CoCoCg is now fully operational within R, but not on CRAN.
+Jens Henrik has already informed the list about this.
+
+Mathias Drton has made a model selection program in R for Gaussian graphical
+models, SIN, based on joint work with Michael Perlman using simultaneous
+confidence intervals. First time the type I (or II?) error can be fully
+controlled. I hope Mathias will inform you all separately on that.
+
+the gRaph module in gRbase is not yet implemented but work on this will soon
+begin.
+
+I am sure that more has happened than this. Please tell us about it!
+
+Keep up the good work and please discuss issues on this list rather than in
+small groups, so we can combine efforts of all of us!
+
+Best wishes to all
+Steffen
+--
+Steffen L. Lauritzen
+Department of Statistics, University of Oxford
+1 South Parks Road, Oxford OX1 3TG, United Kingdom
+Tel: +44 1865 272877; Fax: +44 1865 272595
+email: steffen at stats.ox.ac.uk
+
+
+
+From steffen at stats.ox.ac.uk  Wed Aug 11 13:21:30 2004
+From: steffen at stats.ox.ac.uk (Steffen Lauritzen)
+Date: Wed, 11 Aug 2004 12:21:30 +0100
+Subject: [R--gR] Fw: AISTATS 2005 - Barbados - Call for Papers (due Sep 14)
+Message-ID: <004f01c47f95$5a202fd0$135601a3@SHELDUCK>
+
+This workshop could well be of interest to the gRpeople. Hope to see many of
+you there.
+
+Greetings from Toronto, where the gR session was very well attended.
+
+Steffen
+
+----- Original Message ----- 
+From: "Zoubin Ghahramani" <zoubin at gatsby.ucl.ac.uk>
+To: <allstat at jiscmail.ac.uk>
+Sent: Tuesday, August 03, 2004 2:36 PM
+Subject: AISTATS 2005 - Barbados - Call for Papers (due Sep 14)
+
+
+>                         ** Call for Papers **
+>
+>                              AISTATS 2005
+>
+>                    Tenth International Workshop on
+>                 Artificial Intelligence and Statistics
+>
+>            January 6-8,  2005, The Savannah Hotel, Barbados
+>
+>                  http://www.gatsby.ucl.ac.uk/aistats/
+>
+>             ** Submission Deadline:  September 14, 2004 **
+>
+> This is the tenth workshop on Artificial Intelligence and Statistics,
+> an interdisciplinary gathering of researchers at the intersection of
+> computer science, statistics, and related areas. Since its inception
+> in 1985, the primary goal of this workshop has been to broaden
+> research in both of these fields by promoting the exchange of ideas
+> between them. We encourage the submission of all papers which are in
+> keeping with this objective.
+>
+> Presentations will include invited talks, contributed talks, and
+> posters. Papers for poster sessions will be treated equally
+> with papers for presentation in publications.
+>
+> Papers on all aspects of the interface between AI & Statistics are
+> strongly encouraged, including but not limited to
+>
+>          Active learning and experimental design
+>          Approximate Inference
+>          Automated data analysis
+>          Bayesian networks
+>          Bayesian statistics
+>          Causal modelling
+>          Density Estimation
+>          Error correcting codes
+>          Information retrieval
+>          Game theory
+>          Cluster analysis and unsupervised learning
+>          Graphical models
+>          Integrated man-machine modeling methods
+>          Interpretability in modelling
+>          Kernel methods
+>          Knowledge discovery in databases
+>          Machine learning
+>          Metadata and the design of statistical data bases
+>          Model uncertainty, multiple models
+>          Online learning
+>          Pattern recognition
+>          Prediction: classification and regression
+>          Probabilistic neural networks
+>          Probability and search
+>          Semi-supervised learning
+>          Vision, robotics, natural language processing, speech recognition
+>          Visualization of very large datasets
+>
+> Submission Requirements:
+> -------------------------
+>
+> Electronic submission of papers is required. The papers (up to 8 pages
+> in length) should be submitted through the AI and Statistics
+> Conference Management page. More specific instructions will be made
+> available soon.
+>
+> Submissions will be considered if they are received by 11:59 PM
+> September 14, 2004, Pacific Daylight Time. Receipt of all submissions
+> will be confirmed via electronic mail. Acceptance notices will be
+> emailed by November 2, 2004.
+>
+> Final papers (up to 8 pages, double column) must be received by
+> November 24, 2004. These papers will be made available on the web, and
+> distributed at the workshop in electronic form.
+>
+> Invited Speakers
+> ----------------
+>
+> Craig Boutelier (University of Toronto)
+> Nir Friedman (Hebrew University)
+> Tommi Jaakkola (MIT)
+> Steffen Lauritzen (University of Oxford)
+> Tom Minka (Microsoft Research)
+>
+> Program Chairs:
+> ----------------
+>
+> Robert Cowell,  Actuarial Science and Statistics, City University, London
+> Zoubin Ghahramani, Gatsby Unit, University College London
+>
+
+
+
+From ded at novonordisk.com  Wed Aug 11 14:49:03 2004
+From: ded at novonordisk.com (DED (David George Edwards))
+Date: Wed, 11 Aug 2004 14:49:03 +0200
+Subject: [R--gR] MIM now open source
+Message-ID: <36A25802686476479FBE08B99D1C111C026B0161@exdkba023.novo.dk>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040811/a08ebe2c/attachment.ksh 
+
+From sorenh at agrsci.dk  Thu Aug 12 02:07:02 2004
+From: sorenh at agrsci.dk (=?iso-8859-1?Q?S=F8ren_H=F8jsgaard?=)
+Date: Thu, 12 Aug 2004 02:07:02 +0200
+Subject: [R--gR] New version of mimR
+Message-ID: <004601c48000$4edb0b70$b0feff0a@djf.agrsci.dk>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040812/cdd21964/attachment.asc 
+
+From drton at Math.Berkeley.EDU  Wed Aug 18 00:46:40 2004
+From: drton at Math.Berkeley.EDU (Mathias Drton)
+Date: Tue, 17 Aug 2004 15:46:40 -0700 (PDT)
+Subject: [R--gR] SIN model selection
+Message-ID: <Pine.SOL.4.44.0408171509500.7071-100000@blue1>
+
+Dear gR-folk!
+
+As Steffen previously announced, Michael Perlman and I have been doing
+some work on model selection in Gaussian graphical models.
+
+In a Gaussian graphical model, the conditional independences that define
+the model hold iff partial correlation coefficients are zero. Thus, for
+model selection (i.e. determination of a graph from data) we can simply
+test, for each possible edge, a hypothesis about a zero partial corr.
+coeff.  If the hypothesis is accepted, then we do not include the
+associated edge in the graph.  If it is rejected, then we include the
+edge.
+
+In a paper appearing in September's issue of Biometrika, see
+
+http://www.stat.washington.edu/drton/Papers/2004sin.pdf
+
+for a preprint, we show, in the setting of undirected graphs, how Fisher's
+z-transform and Sidak's inequality can be used to test these multiple
+hypotheses simultaneously. Carrying out the tests simultaneously, we can
+control the overall error rate of incorrect edge inclusion in our model
+selection.
+
+In a follow-up paper, we show how to apply this model selection procedure
+(which we named SIN) in the setting of DAGs and chain graphs. This paper
+is available as Univ. of Washington Tech. Report 457 at
+
+http://www.stat.washington.edu/www/research/reports/
+
+In particular, we improve our simultaneous testing procedure using a
+p-value adjustment due to Holm. The paper also provides a brief overview
+of Gaussian graphical models, which might be interesting in its own right.
+
+I have prepared a version 0.1 of an R package that implements SIN model
+selection. The package with name 'SIN' can be downloaded from
+
+http://cran.r-project.org/
+
+I am planning on revising the package over the next few weeks as I am not
+happy with how I handled the labelling of the variables (be careful with
+the chain graph routines).  Suggestions are welcome.
+
+Best wishes,
+
+Mathias (Drton)
+
+
+
+From dethlef at math.aau.dk  Thu Aug 19 08:18:49 2004
+From: dethlef at math.aau.dk (Claus Dethlefsen)
+Date: Thu, 19 Aug 2004 08:18:49 +0200
+Subject: [R--gR] gRbase released !
+Message-ID: <001901c485b4$640d57a0$9230e182@math.auc.dk>
+
+Dear all
+
+- gRbase version 0.1.2 is soon available on CRAN (the previous version 0.1.0
+released last week is thereby obsolete). An easy way to install gRbase (and
+dynamicGraph which is needed) is to start R, be connected to the internet
+and call
+
+> install.packages(c("dynamicGraph","gRbase"))
+
+A quick try-out is to try the demos. In R, call
+> library(gRbase)
+> demo(reinis)
+> demo(gmData)
+
+For more on gRbase, check 
+http://www.math.aau.dk/research/reports/R-2004-19.pdf
+
+The class "hllm" is our suggestion for how to implement a graphical model
+class using the defined basic classes "gmData" and "gModel". Currently it
+uses the loglin/loglm engines for fitting. Comments are very welcome.
+
+-----------------
+
+In addition, the package "deal" for learning Bayesian networks is updated
+now making the dynamicGraph userinterface applicable. In R, call
+
+> install.packages("deal")
+> library(deal)
+> demo(reinis)
+
+Note the User menu items.
+
+The best,
+Claus
+
+---
+
+
+
+From steffen at stats.ox.ac.uk  Thu Aug 19 11:39:21 2004
+From: steffen at stats.ox.ac.uk (Steffen Lauritzen)
+Date: Thu, 19 Aug 2004 10:39:21 +0100
+Subject: [R--gR] Modelformulae
+Message-ID: <003c01c485d0$68795390$145601a3@SHELDUCK>
+
+Dear gR-folks
+
+The Danish gR-gang have been talking about describing a model language for
+graphical models that
+
+1) could specify at least chain graph models, based on the most general
+hierarchical mixed models as
+described in Lauritzen (1996) [my book], section 6.4, pages 199-216. (More
+general than MIM-models).
+
+2) did not confuse people who were accustomed to glim-type notation and
+formulae
+
+3) did not conflict too much with existing formula conventions (MIM, ggm)
+
+4) was clear and unambiguous, and immediately understandable without too
+much explanation
+
+5) did not conflict too much with the whole idea and setup of graphical
+interaction models
+
+6) accomodates idea of multiple response variables
+
+Here is a first attempt. It may well work, but I would appreciate having
+response back if I have overlooked some nasty conflicts or bad sides to
+this.
+
+The whole issue is somewhat plagued by the "coincidental" fact that
+*intrinsically multivariate* log-linear models via "the Poisson trick" can
+be described through univariate response models for the counts.
+
+Below I will first describe the basic general setup, then some conventions
+which enable people to use alternative, more traditional approaches, without
+ambiguity.
+
+What do you all think of this? Please reply to the entire list...;-)
+
+If it works, the suggestion would be for gRbase to adopt it and abandon
+MIM-notation alltogether, as the latter is slightly different in style.
+
+Hopefully it can also be extended to cover BUGS-type models without too many
+direct conflicts.
+
+Best regards
+Steffen
+
+--
+Steffen L. Lauritzen
+Department of Statistics, University of Oxford
+1 South Parks Road, Oxford OX1 3TG, United Kingdom
+Tel: +44 1865 272877; Fax: +44 1865 272595
+email: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/
+
+---------
+
+
+The following signs are (at least) permissible:  ~, + , *  ,  :  ,  ^  ,  .
+and  |
+
+~ indicates the beginning of a formula. Implicitly think of
+
+log f ~ ....
+
+| denotes parenthood in graph, equiv to normalising/conditioning
+
++ denotes multiplicative combination (log-additive). Chain components must
+be contained within parentheses.
+
+* or : denotes (tensor)product of interaction terms, decomposed into terms
+of lower order or not, i.e.
+A*B*C specifies all subsets of ABC, whereas A:B:C only uses ABC.
+
+strength of bindings   (*,:)   >   +   >  |
+
+examples of legal formulae (same model with three chain components
+specified)
+
+m <- gm( log f ~ (A:B+C:D|D)+(B*E|E)+(D*E|E))
+
+m <- gm( ~ (A:B+C*D|D), ~(B*E|E)+(D*E|E))
+
+hierarchical models, as in  CoCoCg and Lauritzen (1996)cf p. 213
+
+~ A+B:X+B*Y+A*B*X^2+A*X:Y+Y^2 not a mim-model
+
+~ A+B:X+A*Y+A*(X+Y)^2 = mim(A+B/AX+BY/AXY)
+
+some different models
+
+m1<- gm(~A*B+C*D|B*D) equiv  gm(~A*B+C*D+B*D|B*D)
+
+m2<-gm(~((B+D)*E)|E)
+
+m<-b(m1,m2)
+
+m <- gm( ~ (A*B)+(C*D|D)+(B*E+D*E|E))
+
+m<- gm( ~ (A*B)+(C|D)+(B+D|E))
+
+CONVENTION for compatibility with standard regression and ggm:
+
+Y~X+U:A is the same as ~(Y:X+Y:U:A |XUA) = ~(Y:(X+U:A) |XUA),
+
+that is: *If * there is a variable on the left hand side of ~, this is a
+response to the variables on the right hand side, and the interaction
+structure is the product of right and left hand sides.
+
+Work still needs to be done to identify when models are legal, the same, and
+parse them for proper and correct analysis.
+
+Is this the way ahead?
+
+
+
+From ded at novonordisk.com  Thu Aug 19 14:44:19 2004
+From: ded at novonordisk.com (DED (David George Edwards))
+Date: Thu, 19 Aug 2004 14:44:19 +0200
+Subject: [R--gR] Modelformulae
+Message-ID: <36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>
+
+Dear Steffen (and other gRs)
+
+I think it is absolutely the way ahead. Some quick questions and
+comments
+
+1. At first sight it seems confusing to use parentheses to mark block
+components, I think I'd prefer 
+some special symbol (eg & ?) or the b() notation:
+
+~ (A+B)*C|D & B*E|E & D|E   or equivalently
+~ b(A+B)*C|D, B*E|E, D|E)
+
+2. Syntax constraints 
+*	Interactions between continuous variables of max order 2, eg
+X*Y*Z is illegal
+*	(I suppose X*X is equivalent to X^2?)
+*     Higher order continuous interactions could be disallowed or
+ignored (prefer the former)
+*	Categorical variables are 'factors' in R (sorry for the
+Rothamsted ambience here)
+*     I suppose A*A is illegal if A is a factor, or is it just
+equivalent to A?
+*	Conditioning symbol | is followed by a simple variable list eg
+(X,Y,A)
+*	no directed cycles for chain graph models
+*	more ?
+
+eg ~ A*(X+Y+Z)^2|(X,Y,Z)
+
+3. Functions can be used, eg ~Z+log(X), sqrt(x-min(x)) 
+
+4. Ramifications of ':'
+*     My understanding is that the use of ':' rather than '*' relates to
+different parametrisations of the same space. 
+	In principle when specifying a model this should be irrelevant.
+Or do we want to commit ourselves to a certain
+      parametrisation - if so, why? 
+*     I suppose if ':' is allowed we should also allow %in% and /
+(nested).
+
+5. Question to the (ha)R(d)-core: can the existing R formula parser be
+used with these formulae? Or how should it be done?
+If we need a special parser, what should this return?
+
+Best regards
+David 
+
+-----Original Message-----
+From: r-sig-gr-bounces at stat.math.ethz.ch
+[mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of Steffen
+Lauritzen
+Sent: 19. august 2004 11:39
+To: gRlist
+Subject: [R--gR] Modelformulae
+
+
+Dear gR-folks
+
+The Danish gR-gang have been talking about describing a model language
+for graphical models that
+
+1) could specify at least chain graph models, based on the most general
+hierarchical mixed models as described in Lauritzen (1996) [my book],
+section 6.4, pages 199-216. (More general than MIM-models).
+
+2) did not confuse people who were accustomed to glim-type notation and
+formulae
+
+3) did not conflict too much with existing formula conventions (MIM,
+ggm)
+
+4) was clear and unambiguous, and immediately understandable without too
+much explanation
+
+5) did not conflict too much with the whole idea and setup of graphical
+interaction models
+
+6) accomodates idea of multiple response variables
+
+Here is a first attempt. It may well work, but I would appreciate having
+response back if I have overlooked some nasty conflicts or bad sides to
+this.
+
+The whole issue is somewhat plagued by the "coincidental" fact that
+*intrinsically multivariate* log-linear models via "the Poisson trick"
+can be described through univariate response models for the counts.
+
+Below I will first describe the basic general setup, then some
+conventions which enable people to use alternative, more traditional
+approaches, without ambiguity.
+
+What do you all think of this? Please reply to the entire list...;-)
+
+If it works, the suggestion would be for gRbase to adopt it and abandon
+MIM-notation alltogether, as the latter is slightly different in style.
+
+Hopefully it can also be extended to cover BUGS-type models without too
+many direct conflicts.
+
+Best regards
+Steffen
+
+--
+Steffen L. Lauritzen
+Department of Statistics, University of Oxford
+1 South Parks Road, Oxford OX1 3TG, United Kingdom
+Tel: +44 1865 272877; Fax: +44 1865 272595
+email: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/
+
+---------
+
+
+The following signs are (at least) permissible:  ~, + , *  ,  :  ,  ^  ,
+. and  |
+
+~ indicates the beginning of a formula. Implicitly think of
+
+log f ~ ....
+
+| denotes parenthood in graph, equiv to normalising/conditioning
+
++ denotes multiplicative combination (log-additive). Chain components 
++ must
+be contained within parentheses.
+
+* or : denotes (tensor)product of interaction terms, decomposed into
+terms of lower order or not, i.e. A*B*C specifies all subsets of ABC,
+whereas A:B:C only uses ABC.
+
+strength of bindings   (*,:)   >   +   >  |
+
+examples of legal formulae (same model with three chain components
+specified)
+
+m <- gm( log f ~ (A:B+C:D|D)+(B*E|E)+(D*E|E))
+
+m <- gm( ~ (A:B+C*D|D), ~(B*E|E)+(D*E|E))
+
+hierarchical models, as in  CoCoCg and Lauritzen (1996)cf p. 213
+
+~ A+B:X+B*Y+A*B*X^2+A*X:Y+Y^2 not a mim-model
+
+~ A+B:X+A*Y+A*(X+Y)^2 = mim(A+B/AX+BY/AXY)
+
+some different models
+
+m1<- gm(~A*B+C*D|B*D) equiv  gm(~A*B+C*D+B*D|B*D)
+
+m2<-gm(~((B+D)*E)|E)
+
+m<-b(m1,m2)
+
+m <- gm( ~ (A*B)+(C*D|D)+(B*E+D*E|E))
+
+m<- gm( ~ (A*B)+(C|D)+(B+D|E))
+
+CONVENTION for compatibility with standard regression and ggm:
+
+Y~X+U:A is the same as ~(Y:X+Y:U:A |XUA) = ~(Y:(X+U:A) |XUA),
+
+that is: *If * there is a variable on the left hand side of ~, this is a
+response to the variables on the right hand side, and the interaction
+structure is the product of right and left hand sides.
+
+Work still needs to be done to identify when models are legal, the same,
+and parse them for proper and correct analysis.
+
+Is this the way ahead?
+
+_______________________________________________
+R-sig-gR mailing list
+R-sig-gR at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From david.meyer at wu-wien.ac.at  Thu Aug 19 15:22:04 2004
+From: david.meyer at wu-wien.ac.at (David Meyer)
+Date: Thu, 19 Aug 2004 15:22:04 +0200
+Subject: [R--gR] Modelformulae
+In-Reply-To: <36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>
+References: <36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>
+Message-ID: <20040819152204.58f7b86c.david.meyer@wu-wien.ac.at>
+
+just 2 comments:
+
+> 
+> ~ (A+B)*C|D & B*E|E & D|E   or equivalently
+> ~ b(A+B)*C|D, B*E|E, D|E)
+
+I think you will have to use the b() notation. The '&' operator will
+probably confuse the formula parser.
+
+> *	Conditioning symbol | is followed by a simple variable list eg
+> (X,Y,A)
+> 
+> eg ~ A*(X+Y+Z)^2|(X,Y,Z)
+
+This is illegal in R. You will need to use a separator like + or again a
+grouping function:
+
+~ A * (X+Y+Z) | X + Y + Z
+or
+~ A * (X+Y+Z) | l(X,Y,Z)
+
+just my 2c
+
+David
+
+
+> 
+> 3. Functions can be used, eg ~Z+log(X), sqrt(x-min(x)) 
+> 
+> 4. Ramifications of ':'
+> *     My understanding is that the use of ':' rather than '*' relates
+> to different parametrisations of the same space. 
+> 	In principle when specifying a model this should be irrelevant.
+> Or do we want to commit ourselves to a certain
+>       parametrisation - if so, why? 
+> *     I suppose if ':' is allowed we should also allow %in% and /
+> (nested).
+> 
+> 5. Question to the (ha)R(d)-core: can the existing R formula parser be
+> used with these formulae? Or how should it be done?
+> If we need a special parser, what should this return?
+> 
+> Best regards
+> David 
+> 
+> -----Original Message-----
+> From: r-sig-gr-bounces at stat.math.ethz.ch
+> [mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of Steffen
+> Lauritzen
+> Sent: 19. august 2004 11:39
+> To: gRlist
+> Subject: [R--gR] Modelformulae
+> 
+> 
+> Dear gR-folks
+> 
+> The Danish gR-gang have been talking about describing a model language
+> for graphical models that
+> 
+> 1) could specify at least chain graph models, based on the most
+> general hierarchical mixed models as described in Lauritzen (1996) [my
+> book], section 6.4, pages 199-216. (More general than MIM-models).
+> 
+> 2) did not confuse people who were accustomed to glim-type notation
+> and formulae
+> 
+> 3) did not conflict too much with existing formula conventions (MIM,
+> ggm)
+> 
+> 4) was clear and unambiguous, and immediately understandable without
+> too much explanation
+> 
+> 5) did not conflict too much with the whole idea and setup of
+> graphical interaction models
+> 
+> 6) accomodates idea of multiple response variables
+> 
+> Here is a first attempt. It may well work, but I would appreciate
+> having response back if I have overlooked some nasty conflicts or bad
+> sides to this.
+> 
+> The whole issue is somewhat plagued by the "coincidental" fact that
+> *intrinsically multivariate* log-linear models via "the Poisson trick"
+> can be described through univariate response models for the counts.
+> 
+> Below I will first describe the basic general setup, then some
+> conventions which enable people to use alternative, more traditional
+> approaches, without ambiguity.
+> 
+> What do you all think of this? Please reply to the entire list...;-)
+> 
+> If it works, the suggestion would be for gRbase to adopt it and
+> abandon MIM-notation alltogether, as the latter is slightly different
+> in style.
+> 
+> Hopefully it can also be extended to cover BUGS-type models without
+> too many direct conflicts.
+> 
+> Best regards
+> Steffen
+> 
+> --
+> Steffen L. Lauritzen
+> Department of Statistics, University of Oxford
+> 1 South Parks Road, Oxford OX1 3TG, United Kingdom
+> Tel: +44 1865 272877; Fax: +44 1865 272595
+> email: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/
+> 
+> ---------
+> 
+> 
+> The following signs are (at least) permissible:  ~, + , *  ,  :  ,  ^ 
+> ,. and  |
+> 
+> ~ indicates the beginning of a formula. Implicitly think of
+> 
+> log f ~ ....
+> 
+> | denotes parenthood in graph, equiv to normalising/conditioning
+> 
+> + denotes multiplicative combination (log-additive). Chain components 
+> + must
+> be contained within parentheses.
+> 
+> * or : denotes (tensor)product of interaction terms, decomposed into
+> terms of lower order or not, i.e. A*B*C specifies all subsets of ABC,
+> whereas A:B:C only uses ABC.
+> 
+> strength of bindings   (*,:)   >   +   >  |
+> 
+> examples of legal formulae (same model with three chain components
+> specified)
+> 
+> m <- gm( log f ~ (A:B+C:D|D)+(B*E|E)+(D*E|E))
+> 
+> m <- gm( ~ (A:B+C*D|D), ~(B*E|E)+(D*E|E))
+> 
+> hierarchical models, as in  CoCoCg and Lauritzen (1996)cf p. 213
+> 
+> ~ A+B:X+B*Y+A*B*X^2+A*X:Y+Y^2 not a mim-model
+> 
+> ~ A+B:X+A*Y+A*(X+Y)^2 = mim(A+B/AX+BY/AXY)
+> 
+> some different models
+> 
+> m1<- gm(~A*B+C*D|B*D) equiv  gm(~A*B+C*D+B*D|B*D)
+> 
+> m2<-gm(~((B+D)*E)|E)
+> 
+> m<-b(m1,m2)
+> 
+> m <- gm( ~ (A*B)+(C*D|D)+(B*E+D*E|E))
+> 
+> m<- gm( ~ (A*B)+(C|D)+(B+D|E))
+> 
+> CONVENTION for compatibility with standard regression and ggm:
+> 
+> Y~X+U:A is the same as ~(Y:X+Y:U:A |XUA) = ~(Y:(X+U:A) |XUA),
+> 
+> that is: *If * there is a variable on the left hand side of ~, this is
+> a response to the variables on the right hand side, and the
+> interaction structure is the product of right and left hand sides.
+> 
+> Work still needs to be done to identify when models are legal, the
+> same, and parse them for proper and correct analysis.
+> 
+> Is this the way ahead?
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+> 
+
+
+-- 
+Dr. David Meyer
+Department of Information Systems
+
+Vienna University of Economics and Business Administration
+Augasse 2-6, A-1090 Wien, Austria, Europe
+Fax: +43-1-313 36x746 
+Tel: +43-1-313 36x4393
+HP:  http://wi.wu-wien.ac.at/Wer_sind_wir/meyer/
+
+
+
+From Achim.Zeileis at wu-wien.ac.at  Thu Aug 19 16:56:14 2004
+From: Achim.Zeileis at wu-wien.ac.at (Achim Zeileis)
+Date: Thu, 19 Aug 2004 16:56:14 +0200
+Subject: [R--gR] gR web page updated
+Message-ID: <20040819165614.5be7f938.Achim.Zeileis@wu-wien.ac.at>
+
+It's great to see so much going within gR: I tried to reflect the latest
+advances on the gR web page
+  http://www.R-project.org/gR/
+by adding prominent links to the release announcements.
+
+I also tried to update the list of CRAN packages somehow related to gR.
+In addition to the packages announced on this list, two interfaces to
+BUGS became available as CRAN packages.
+
+Let me know if I missed anything.
+
+For the CRAN package authors (i.e. in particular Claus, Jens Henrik,
+Mathias, S?ren): I guess it would be a good idea to announce the new
+packages on the R-packages list
+  https://stat.ethz.ch/mailman/listinfo/r-packages
+(which is sort of under-used anyway). Probably, you'll gain a few more
+interested users (i.e., potential bug-fixers etc.) by doing so.
+
+Best wishes,
+Achim
+
+
+
+From steffen at stats.ox.ac.uk  Thu Aug 19 17:53:38 2004
+From: steffen at stats.ox.ac.uk (Steffen Lauritzen)
+Date: Thu, 19 Aug 2004 16:53:38 +0100
+Subject: [R--gR] Modelformulae
+References: <36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>
+Message-ID: <000f01c48604$b3e336a0$1b5601a3@SHELDUCK>
+
+Just a quick reply to some of David E's comments (David M's comments have
+been recorded):
+
+> 2. Syntax constraints
+> * Interactions between continuous variables of max order 2, eg
+> X*Y*Z is illegal
+> * (I suppose X*X is equivalent to X^2?)
+
+This needs thinking, but you are probably right.
+
+Generally the formulas on the left hand side of the conditioning symbols
+should refer to vector spaces and one should think about this all  the time
+when formulas are abbreviated and combined in strange ways. Somebody (Svante
+and I?) should look carefully into this.
+
+For the moment, in my head X^2 is span(1, x, x^2). Generally X is span(1,
+x).
+
+For vectorspaces U and V, U:V denotes span of all componentwise products of
+basis vectors for U and V, embedded into suitable (tensor)productspaces.
+
+A "factor" A is span(e_alpha, alpha\in levels of A), where e_alpha =1 in
+cell alpha and 0 otherwise.
+
+A:B is then what we want it to be and X:X is X^2.
+
+X:Y:Z (or X*Y*Z) should be deemed illegal unless one of them is a factor.
+
+But some care may have to be taken with what products mean and how they are
+interpreted.
+
+> *     Higher order continuous interactions could be disallowed or
+> ignored (prefer the former)
+
+OK
+
+> * Categorical variables are 'factors' in R (sorry for the
+> Rothamsted ambience here)
+
+OK, probably no way to get rid of this...
+
+> *     I suppose A*A is illegal if A is a factor, or is it just
+> equivalent to A?
+
+with the above definition, A*A=A, but X*X is not X, when X is not a factor.
+
+> * Conditioning symbol | is followed by a simple variable list eg
+> (X,Y,A)
+
+yes, but not with parentheses (as commented by David M)
+
+> * no directed cycles for chain graph models
+> * more ?
+>
+> eg ~ A*(X+Y+Z)^2|(X,Y,Z)
+>
+
+Here (X+Y+Z)^2= span(1,x,y,z)*span(1,x,y,z)= X^2+Y^2+Z^2+X:Y+X:Z+Y:Z
+
+> 3. Functions can be used, eg ~Z+log(X), sqrt(x-min(x))
+>
+
+Careful! Translation to vector spaces needs to be clear.
+
+> 4. Ramifications of ':'
+> *     My understanding is that the use of ':' rather than '*' relates to
+> different parametrisations of the same space.
+
+A little more than that. It also specifies a lattice of models, rather than
+a single one, namely the hierarchical submodels obtained be removing terms
+of higher order.
+
+> In principle when specifying a model this should be irrelevant.
+
+Old Rothamstead ambience: Nelder implicitly specifies much more than a model
+with a formula, namely a full ANOVA of the data.... He never writes so in
+the theoretical part, but does so in his examples. Confusing, but true... I
+a
+
+> Or do we want to commit ourselves to a certain
+>       parametrisation - if so, why?
+
+No, not other than by the above. With a given parametrisation it becomes
+particularly easy to analyse all models by very few computations (only a
+single one in the normal case).
+
+> *     I suppose if ':' is allowed we should also allow %in% and /
+> (nested).
+>
+
+In principle yes, but we have to identify what it means. Split models?
+
+Best regards
+Steffen
+
+
+
+From steffen at stats.ox.ac.uk  Thu Aug 19 17:56:59 2004
+From: steffen at stats.ox.ac.uk (Steffen Lauritzen)
+Date: Thu, 19 Aug 2004 16:56:59 +0100
+Subject: [R--gR] Modelformulae: reference?
+Message-ID: <001b01c48605$31d8b260$1b5601a3@SHELDUCK>
+
+By the way, does anyone know an authoritative reference for the usual "model
+algebra", originating (I presume) with Nelder and Wilkinson and forming the
+basis for GLIM model specification and analysis?
+
+Regards
+Steffen
+
+--
+Steffen L. Lauritzen
+Department of Statistics, University of Oxford
+1 South Parks Road, Oxford OX1 3TG, United Kingdom
+Tel: +44 1865 272877; Fax: +44 1865 272595
+email: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/
+
+
+
+From david.meyer at wu-wien.ac.at  Thu Aug 19 18:25:27 2004
+From: david.meyer at wu-wien.ac.at (David Meyer)
+Date: Thu, 19 Aug 2004 18:25:27 +0200
+Subject: [R--gR] Modelformulae
+In-Reply-To: <000f01c48604$b3e336a0$1b5601a3@SHELDUCK>
+References: <36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>
+	<000f01c48604$b3e336a0$1b5601a3@SHELDUCK>
+Message-ID: <20040819182527.55cf1fa1.david.meyer@wu-wien.ac.at>
+
+[...]
+
+> 
+> > * Conditioning symbol | is followed by a simple variable list eg
+> > (X,Y,A)
+> 
+> yes, but not with parentheses (as commented by David M)
+
+and neither with colons: things like
+
+fun(~ A + B | C, D)
+
+are clearly misunderstood by the parser.
+
+-d
+
+
+
+From Friedrich.Leisch at tuwien.ac.at  Fri Aug 20 08:45:58 2004
+From: Friedrich.Leisch at tuwien.ac.at (Friedrich.Leisch at tuwien.ac.at)
+Date: Fri, 20 Aug 2004 08:45:58 +0200
+Subject: [R--gR] Modelformulae: reference?
+In-Reply-To: <001b01c48605$31d8b260$1b5601a3@SHELDUCK>
+References: <001b01c48605$31d8b260$1b5601a3@SHELDUCK>
+Message-ID: <16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>
+
+>>>>> On Thu, 19 Aug 2004 16:56:59 +0100,
+>>>>> Steffen Lauritzen (SL) wrote:
+
+  > By the way, does anyone know an authoritative reference for the usual "model
+  > algebra", originating (I presume) with Nelder and Wilkinson and forming the
+  > basis for GLIM model specification and analysis?
+
+I think the original paper is
+
+@Article{flm:Wilkinson+Rogers:1973,
+  author       = {G. N. Wilkinson and C. E Rogers},
+  title	       = {Symbolic Description of Factorial Models for
+                  Analysis of Variance},
+  journal      = {Applied Statistics},
+  year	       = 1973,
+  volume       = 22,
+  pages	       = {392--399}
+}
+
+but I don't have a copy of the paper, so I don't know what's in there.
+
+best,
+fritz
+
+
+
+From steffen at stats.ox.ac.uk  Fri Aug 20 09:12:34 2004
+From: steffen at stats.ox.ac.uk (Steffen Lauritzen)
+Date: Fri, 20 Aug 2004 08:12:34 +0100
+Subject: [R--gR] Modelformulae: reference?
+References: <001b01c48605$31d8b260$1b5601a3@SHELDUCK>
+	<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>
+Message-ID: <001c01c48685$11431d80$155601a3@SHELDUCK>
+
+Yes, I am sure this is right, thank you. It has no doubt developed a bit
+since then, possibly in a partly anarchistic way.
+
+Steffen
+
+----- Original Message ----- 
+From: <Friedrich.Leisch at tuwien.ac.at>
+To: "Steffen Lauritzen" <steffen at stats.ox.ac.uk>
+Cc: "gRlist" <R-sig-gR at stat.math.ethz.ch>
+Sent: Friday, August 20, 2004 7:45 AM
+Subject: Re: [R--gR] Modelformulae: reference?
+
+
+> >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,
+> >>>>> Steffen Lauritzen (SL) wrote:
+>
+>   > By the way, does anyone know an authoritative reference for the usual
+"model
+>   > algebra", originating (I presume) with Nelder and Wilkinson and
+forming the
+>   > basis for GLIM model specification and analysis?
+>
+> I think the original paper is
+>
+> @Article{flm:Wilkinson+Rogers:1973,
+>   author       = {G. N. Wilkinson and C. E Rogers},
+>   title        = {Symbolic Description of Factorial Models for
+>                   Analysis of Variance},
+>   journal      = {Applied Statistics},
+>   year        = 1973,
+>   volume       = 22,
+>   pages        = {392--399}
+> }
+>
+> but I don't have a copy of the paper, so I don't know what's in there.
+>
+> best,
+> fritz
+>
+
+
+
+From svante at math.aau.dk  Fri Aug 20 09:33:27 2004
+From: svante at math.aau.dk (Poul Svante Eriksen)
+Date: Fri, 20 Aug 2004 09:33:27 +0200
+Subject: [R--gR] Modelformulae
+In-Reply-To: <003c01c485d0$68795390$145601a3@SHELDUCK>
+References: <003c01c485d0$68795390$145601a3@SHELDUCK>
+Message-ID: <4125A947.2080102@math.auc.dk>
+
+A few comments - just to clear my mind.
+
+Steffen Lauritzen wrote:
+
+>Dear gR-folks
+>
+>The Danish gR-gang have been talking about describing a model language for
+>graphical models that
+>
+>1) could specify at least chain graph models, based on the most general
+>hierarchical mixed models as
+>described in Lauritzen (1996) [my book], section 6.4, pages 199-216. (More
+>general than MIM-models).
+>  
+>
+Are we limiting the discussion to the Conditionally Gaussian(CG) case 
+with independent and identically distributed observations?
+That would make life much more easy and clearly rule out X*Y*Z between 
+continuous variables.
+And I have no problem with interpreting "~" as "log f ~" as long as we 
+are careful to include quadratic terms of  continuos variables.
+But it also rules out things like ~Z+log(X)  and is far from having the 
+same flexibility as the BUGS syntax.
+We might allow ~Z*(Z+log(X))|X  and thereby leaving CG, but sticking to 
+gaussian error.
+
+If we want a more general BUGS/glim-like syntax, we need to consider,
+how to include information on link and errordistribution. And it would 
+be nice
+to facilitate correlation across unit, e.g. by allowing ~X*B(X)|B(X), 
+where B is the backshift operator.
+
+Regards, svante
+
+-- 
+----------------------------------------------------
+Poul Svante Eriksen, office G1-113
+Department of Mathematical Sciences
+Aalborg University
+Fredrik Bajers Vej 7G, DK-9220 Aalborg East, Denmark
+tel.: (+45) 96358868
+
+
+
+From steffen at stats.ox.ac.uk  Fri Aug 20 11:14:47 2004
+From: steffen at stats.ox.ac.uk (Steffen Lauritzen)
+Date: Fri, 20 Aug 2004 10:14:47 +0100
+Subject: [R--gR] Modelformulae
+References: <003c01c485d0$68795390$145601a3@SHELDUCK>
+	<4125A947.2080102@math.auc.dk>
+Message-ID: <006701c48696$23fbd6e0$155601a3@SHELDUCK>
+
+In a slightly longer perspective, I think the "CoCoCg"-models are far from
+being sufficient, so the language should preferably be extendable to express
+many other models, and their combinations, to achieve a long-term goal of
+"Programming with models".
+
+This may not be easy to do in a single step, but there is no reason to
+exclude anything from the language which can be given a clear and
+unambiguous meaning.
+
+If terms are included like log(X) or X*Y*Z, the CoCoCg-parser can just say
+that this model is not available as a CoCoCg-model.
+
+But some crisp conventions should be formulated in any case.
+
+Steffen
+
+
+----- Original Message ----- 
+From: "Poul Svante Eriksen" <svante at math.aau.dk>
+To: "Steffen Lauritzen" <steffen at stats.ox.ac.uk>
+Cc: "gRlist" <R-sig-gR at stat.math.ethz.ch>
+Sent: Friday, August 20, 2004 8:33 AM
+Subject: Re: [R--gR] Modelformulae
+
+
+> A few comments - just to clear my mind.
+>
+> Steffen Lauritzen wrote:
+>
+> >Dear gR-folks
+> >
+> >The Danish gR-gang have been talking about describing a model language
+for
+> >graphical models that
+> >
+> >1) could specify at least chain graph models, based on the most general
+> >hierarchical mixed models as
+> >described in Lauritzen (1996) [my book], section 6.4, pages 199-216.
+(More
+> >general than MIM-models).
+> >
+> >
+> Are we limiting the discussion to the Conditionally Gaussian(CG) case
+> with independent and identically distributed observations?
+> That would make life much more easy and clearly rule out X*Y*Z between
+> continuous variables.
+> And I have no problem with interpreting "~" as "log f ~" as long as we
+> are careful to include quadratic terms of  continuos variables.
+> But it also rules out things like ~Z+log(X)  and is far from having the
+> same flexibility as the BUGS syntax.
+> We might allow ~Z*(Z+log(X))|X  and thereby leaving CG, but sticking to
+> gaussian error.
+>
+> If we want a more general BUGS/glim-like syntax, we need to consider,
+> how to include information on link and errordistribution. And it would
+> be nice
+> to facilitate correlation across unit, e.g. by allowing ~X*B(X)|B(X),
+> where B is the backshift operator.
+>
+> Regards, svante
+>
+> -- 
+> ----------------------------------------------------
+> Poul Svante Eriksen, office G1-113
+> Department of Mathematical Sciences
+> Aalborg University
+> Fredrik Bajers Vej 7G, DK-9220 Aalborg East, Denmark
+> tel.: (+45) 96358868
+> ----------------------------------------------------
+>
+>
+
+
+
+From Friedrich.Leisch at tuwien.ac.at  Fri Aug 20 12:43:11 2004
+From: Friedrich.Leisch at tuwien.ac.at (Friedrich.Leisch at tuwien.ac.at)
+Date: Fri, 20 Aug 2004 12:43:11 +0200
+Subject: [R--gR] Modelformulae: reference?
+In-Reply-To: <001c01c48685$11431d80$155601a3@SHELDUCK>
+References: <001b01c48605$31d8b260$1b5601a3@SHELDUCK>
+	<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>
+	<001c01c48685$11431d80$155601a3@SHELDUCK>
+Message-ID: <16677.54719.268290.408162@celebrian.ci.tuwien.ac.at>
+
+>>>>> On Fri, 20 Aug 2004 08:12:34 +0100,
+>>>>> Steffen Lauritzen (SL) wrote:
+
+  > Yes, I am sure this is right, thank you.
+
+You're welcome.
+
+  > It has no doubt developed a bit
+  > since then, possibly in a partly anarchistic way.
+
+Yes, certainly. For S, the white book is the key reference.
+
+Best,
+Fritz
+
+
+
+From Achim.Zeileis at wu-wien.ac.at  Fri Aug 20 13:25:02 2004
+From: Achim.Zeileis at wu-wien.ac.at (Achim Zeileis)
+Date: Fri, 20 Aug 2004 13:25:02 +0200
+Subject: [R--gR] Modelformulae: reference?
+In-Reply-To: <16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>
+References: <001b01c48605$31d8b260$1b5601a3@SHELDUCK>
+	<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>
+Message-ID: <20040820132502.258c4bf1.Achim.Zeileis@wu-wien.ac.at>
+
+On Fri, 20 Aug 2004 08:45:58 +0200 Friedrich.Leisch at tuwien.ac.at wrote:
+
+> >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,
+> >>>>> Steffen Lauritzen (SL) wrote:
+> 
+>   > By the way, does anyone know an authoritative reference for the
+>   > usual "model algebra", originating (I presume) with Nelder and
+>   > Wilkinson and forming the basis for GLIM model specification and
+>   > analysis?
+> 
+> I think the original paper is
+> 
+> @Article{flm:Wilkinson+Rogers:1973,
+>   author       = {G. N. Wilkinson and C. E Rogers},
+>   title	       = {Symbolic Description of Factorial Models for
+>                   Analysis of Variance},
+>   journal      = {Applied Statistics},
+>   year	       = 1973,
+>   volume       = 22,
+>   pages	       = {392--399}
+> }
+> 
+> but I don't have a copy of the paper, so I don't know what's in there.
+
+I put up a pdf copy from JSTOR at
+  http://www.R-project.org/gR/papers/
+
+Best,
+Z
+
+> best,
+> fritz
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+
+
+
+From ded at novonordisk.com  Fri Aug 20 13:34:49 2004
+From: ded at novonordisk.com (DED (David George Edwards))
+Date: Fri, 20 Aug 2004 13:34:49 +0200
+Subject: [R--gR] Modelformulae: reference?
+Message-ID: <36A25802686476479FBE08B99D1C111C026B0178@exdkba023.novo.dk>
+
+Peter McCullagh has done some work on 'model algebra' that's possibly
+relevant?:
+http://galton.uchicago.edu/~pmcc/TR.html
+br David
+
+-----Original Message-----
+From: r-sig-gr-bounces at stat.math.ethz.ch
+[mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of Achim Zeileis
+Sent: 20. august 2004 13:25
+To: Friedrich.Leisch at tuwien.ac.at
+Cc: R-sig-gR at stat.math.ethz.ch
+Subject: Re: [R--gR] Modelformulae: reference?
+
+
+On Fri, 20 Aug 2004 08:45:58 +0200 Friedrich.Leisch at tuwien.ac.at wrote:
+
+> >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,
+> >>>>> Steffen Lauritzen (SL) wrote:
+> 
+>   > By the way, does anyone know an authoritative reference for the
+>   > usual "model algebra", originating (I presume) with Nelder and
+>   > Wilkinson and forming the basis for GLIM model specification and
+>   > analysis?
+> 
+> I think the original paper is
+> 
+> @Article{flm:Wilkinson+Rogers:1973,
+>   author       = {G. N. Wilkinson and C. E Rogers},
+>   title	       = {Symbolic Description of Factorial Models for
+>                   Analysis of Variance},
+>   journal      = {Applied Statistics},
+>   year	       = 1973,
+>   volume       = 22,
+>   pages	       = {392--399}
+> }
+> 
+> but I don't have a copy of the paper, so I don't know what's in there.
+
+I put up a pdf copy from JSTOR at
+  http://www.R-project.org/gR/papers/
+
+Best,
+Z
+
+> best,
+> fritz
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+
+_______________________________________________
+R-sig-gR mailing list
+R-sig-gR at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From p.dalgaard at biostat.ku.dk  Fri Aug 20 13:46:14 2004
+From: p.dalgaard at biostat.ku.dk (Peter Dalgaard)
+Date: 20 Aug 2004 13:46:14 +0200
+Subject: [R--gR] Modelformulae: reference?
+In-Reply-To: <16677.54719.268290.408162@celebrian.ci.tuwien.ac.at>
+References: <001b01c48605$31d8b260$1b5601a3@SHELDUCK>
+	<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>
+	<001c01c48685$11431d80$155601a3@SHELDUCK>
+	<16677.54719.268290.408162@celebrian.ci.tuwien.ac.at>
+Message-ID: <x2vffem3qx.fsf@biostat.ku.dk>
+
+Friedrich.Leisch at tuwien.ac.at writes:
+
+> >>>>> On Fri, 20 Aug 2004 08:12:34 +0100,
+> >>>>> Steffen Lauritzen (SL) wrote:
+> 
+>   > Yes, I am sure this is right, thank you.
+> 
+> You're welcome.
+> 
+>   > It has no doubt developed a bit
+>   > since then, possibly in a partly anarchistic way.
+> 
+> Yes, certainly. For S, the white book is the key reference.
+
+...although much of the "anarchy" is probably of a later date. AFAIR,
+the white book model formulas basically copies Genstat notation from
+1977 for the lm/glm models (introducing the ~ operator and changing
+"." to ":" is about the extent of it, I think), which in turn more or
+less *is* Wilkinson/Rogers. Usage in other contexts and things like
+the "|" for conditioning in coplot or strata() terms came in later. 
+
+Of course the department copy of the white book is nowhere to be found
+so I can't verify.
+
+-- 
+   O__  ---- Peter Dalgaard             Blegdamsvej 3  
+  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   
+ (*) \(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918
+~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907
+
+
+
+From Achim.Zeileis at wu-wien.ac.at  Fri Aug 20 13:53:46 2004
+From: Achim.Zeileis at wu-wien.ac.at (Achim Zeileis)
+Date: Fri, 20 Aug 2004 13:53:46 +0200
+Subject: [R--gR] Modelformulae: reference?
+In-Reply-To: <36A25802686476479FBE08B99D1C111C026B0178@exdkba023.novo.dk>
+References: <36A25802686476479FBE08B99D1C111C026B0178@exdkba023.novo.dk>
+Message-ID: <20040820135346.5516b0ae.Achim.Zeileis@wu-wien.ac.at>
+
+On Fri, 20 Aug 2004 13:34:49 +0200 DED (David George Edwards) wrote:
+
+> Peter McCullagh has done some work on 'model algebra' that's possibly
+> relevant?:
+> http://galton.uchicago.edu/~pmcc/TR.html
+
+I think someone pointed out last year (maybe even directly after gR
+2002) that the Annals of Statistics paper "What is a statistical model?"
+could be a relevant paper to the gR project. My impression (and I guess
+also the impression of the other guys from our group) was that it's
+rather theoretical and wouldn't help much in finding practical solutions
+for gR.
+Z
+
+
+> br David
+> 
+> -----Original Message-----
+> From: r-sig-gr-bounces at stat.math.ethz.ch
+> [mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of Achim Zeileis
+> Sent: 20. august 2004 13:25
+> To: Friedrich.Leisch at tuwien.ac.at
+> Cc: R-sig-gR at stat.math.ethz.ch
+> Subject: Re: [R--gR] Modelformulae: reference?
+> 
+> 
+> On Fri, 20 Aug 2004 08:45:58 +0200 Friedrich.Leisch at tuwien.ac.at
+> wrote:
+> 
+> > >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,
+> > >>>>> Steffen Lauritzen (SL) wrote:
+> > 
+> >   > By the way, does anyone know an authoritative reference for the
+> >   > usual "model algebra", originating (I presume) with Nelder and
+> >   > Wilkinson and forming the basis for GLIM model specification and
+> >   > analysis?
+> > 
+> > I think the original paper is
+> > 
+> > @Article{flm:Wilkinson+Rogers:1973,
+> >   author       = {G. N. Wilkinson and C. E Rogers},
+> >   title	       = {Symbolic Description of Factorial Models for
+> >                   Analysis of Variance},
+> >   journal      = {Applied Statistics},
+> >   year	       = 1973,
+> >   volume       = 22,
+> >   pages	       = {392--399}
+> > }
+> > 
+> > but I don't have a copy of the paper, so I don't know what's in
+> > there.
+> 
+> I put up a pdf copy from JSTOR at
+>   http://www.R-project.org/gR/papers/
+> 
+> Best,
+> Z
+> 
+> > best,
+> > fritz
+> > 
+> > _______________________________________________
+> > R-sig-gR mailing list
+> > R-sig-gR at stat.math.ethz.ch 
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+> >
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+
+
+

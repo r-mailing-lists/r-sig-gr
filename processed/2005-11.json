@@ -1,0 +1,82 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2005-11",
+  "messages": [
+    {
+      "id": "msg-4aee100be7ef",
+      "message_id": "<BAY110-F35B3B31E1F91E76A3420DAC7650@phx.gbl>",
+      "from_name": "zhihua li",
+      "from_email_hash": "ff11108de4446b31d30785ff5d0a725ff1744eb07a212656784374fc9a2682af",
+      "date": "2005-11-07T02:07:17Z",
+      "subject": "[R--gR] Hello!",
+      "subject_clean": "[R--gR] Hello!",
+      "in_reply_to": "<000801c5e25c$02305e00$364e6181@sharp>",
+      "references": [],
+      "body_plain": "Hi,Dr.Zhou\n\nNice to receive your letter. If A activates B, it is conceivable that their \nexpression profiles tend to be similar. But this seems to arise from a \ncommon sense or thumb rule. I've never seen a paper studying the details of \n\"similarity\" of expression profiles. Instead different people use their own \ndefination of similatiry and develop different kinds of algorithms, like \neuclean distance in clustering, or conditinal propability in BNT.\nAs for the golden pathway to be tested usint the new algorithms, I think \nthe starting point is other people's published datasets. There are numerous \npapers emerging in bioinforamtics/computational biology journals describing \ndifferent algorithms every month. Almost each of them uses some datasets \nand presents their re-constructed networks. I think you can run your \nalgorithm with their datasets and compare your results with theirs and \nknown biological facts. In fact, I don't think there exists a \"golden \npathway\" which is the touchstone of modeling genetic networks. \n\nHope this may help.\n\nLi\n\n\n\n>From: \"Dr. Zonglin Zhou\" <z6zhou at bioinformatics.uwaterloo.ca>\n>To: \"'lzhtom'\" <lzhtom at hotmail.com>\n>Subject: Hello!\n>Date: Sat, 5 Nov 2005 17:55:25 -0500\n>",
+      "body_snippet": "Hi,Dr.Zhou\n\nNice to receive your letter. If A activates B, it is conceivable that their \nexpression profiles tend to be similar. But this seems to arise from a \ncommon sense or thumb rule. I've never ",
+      "thread_id": "thread-4aee100be7ef",
+      "thread_depth": 0,
+      "month": "2005-11"
+    },
+    {
+      "id": "msg-9afbf22af4d2",
+      "message_id": "<000301c5f43e$ae52aa50$0301a8c0@skaos>",
+      "from_name": "Dennis Wittenberg",
+      "from_email_hash": "7e243576f4eeb0ca28d1fba4dadb2d81d6dc3c938a0d2b7fa59b7eef2bf911eb",
+      "date": "2005-11-28T18:10:43+01:00",
+      "subject": "[R--gR] Problems with autosearch() in deal-package",
+      "subject_clean": "[R--gR] Problems with autosearch() in deal-package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello everybody,\n\ncurrently I'm trying to understand the autosearch-function in the\ndeal-package. I have implemented a data generating function (dat.fr)\nwith variable sample size T. The two variables x and z are randomly\ngenerated. y depends on x and z.\n\nThe R-code:\n\ndat.fr=function(T) \n{ \nu1=matrix(rnorm(T*1),T,1); \nu2=matrix(rnorm(T*1),T,1); \nu3=matrix(rnorm(T*1),T,1); \nx=u1; \nz=u2; \na=1; \nb=2; \ny=a*x+b*z+u3; \ndata.frame(x,y,z) \n} \n\nApplied to autosearch I expect a network x-->y<--z, no matter which\nsample size is used or how often dat.fr() is renewed. \n\nUnfortunately, for repeated trials, autosearch provides several,\ndifferent network-outputs. Sometimes the output is conform to the\nexpected network, sometimes it isn't. I cannot determine the reason for\nthis.\n\nAny help with my problem would be greatly appreciated.\n\nR-code:\n\ndf=dat.fr(100)\n\ndf.nw=network(df); \ndf.prior=jointprior(df.nw,4); \ndf.nw=getnetwork(learn(df.nw,df,df.prior)); \ndf.search=autosearch(df.nw,df,df.prior,trace=TRUE)\n\nThanks and best wishes,\n\nDennis Wittenberg",
+      "body_snippet": "Hello everybody,\n\ncurrently I'm trying to understand the autosearch-function in the\ndeal-package. I have implemented a data generating function (dat.fr)\nwith variable sample size T. The two variables ",
+      "thread_id": "thread-9afbf22af4d2",
+      "thread_depth": 0,
+      "month": "2005-11"
+    },
+    {
+      "id": "msg-f78437071440",
+      "message_id": "<878184D41285C04B92FE9DBAD4E86671583C2F@SFEXC00002.amtg.NJA.local>",
+      "from_name": "Claus Dethlefsen / Aalborg Sygehus",
+      "from_email_hash": "54f077df8e9cdd0063b4ced3fbb26bad9bf3e8407be35d90baeb0a77dff9c67d",
+      "date": "2005-11-28T20:39:37+01:00",
+      "subject": "[R--gR] Problems with autosearch() in deal-package",
+      "subject_clean": "[R--gR] Problems with autosearch() in deal-package",
+      "in_reply_to": null,
+      "references": [
+        "<000301c5f43e$ae52aa50$0301a8c0@skaos>"
+      ],
+      "body_plain": "Dear Dennis\n \nThe 'deal mailinglist' is a better forum for this question (to join, check www.math.aau.dk/~dethlef/novo/deal)\n \nThe 'autosearch' function is not guaranteed to find the network with the highest score. I repeated your R code using set.seed(109) before the call to dat.fr() to get a situation where autosearch finds the wrong network.\n \nThe trace says:\n \n[Autosearch (1) -509.0712 [x][y][z|y]\n(2) -483.6722 [x][y][z|x:y]\n(3) -471.8518 [x|y][y][z|x:y]\n(4) -471.8518 [x][y|x][z|x:y]\nTotal 0.28 add 0.12 rem 0.03 turn 0.03 sort 0 choose 0.01 rest 0.09 ]\n\nfrom which I read that the algorithm first inserts the arrow y->z, then x->z, then y->x, then turns the arrow x->y and terminates since none of the three step (remove, add, turn) will increase the score.\n \nBy calculating the network score for all possible networks, we get an explanation,\n \nnwf <- getnetwork(networkfamily(df,prior=df.prior))\nplot(nwf)\nprint(nwf)\n\nThe top-10 scores are:\n \n  log(Score)    |Relscore       |Network\n------------------------------------------------------------\n1. -470.0185    1               [x][y|xz][z]\n2. -471.8518    0.1598712       [x][y|x][z|xy]\n3. -471.8518    0.1598712       [x|z][y|xz][z]\n4. -471.8518    0.1598712       [x|y][y][z|xy]\n5. -471.8518    0.1598712       [x][y|xz][z|x]\n6. -471.8518    0.1598712       [x|yz][y|z][z]\n7. -471.8518    0.1598712       [x|yz][y][z|y]\n8. -483.6722    1.175623e-06    [x][y][z|xy]\n9. -497.2509    1.489746e-12    [x][y|x][z|y]\n10. -497.2509   1.489746e-12    [x|y][y|z][z]\n\nThus we see, that 'autosearch' has terminated at a network with second highest score. Since the algorithm is greedy and we cannot get to the 'best' network in one move, the algorithm terminates.\n \nThis is one reason why 'deal' also provides the function 'heuristic' which will restart 'autosearch' in different initial networks created by 'randomly' inserting, turning and deleting arrows from the provided 'initnw'.\n \nTry e.g. \ndf.heuristic=heuristic(df.nw,df,df.prior,trace=TRUE,restart=100)\n \nThe backdrop is, that this can be very slow and very memory-consuming.\n \nHope this helps,\n \nClaus\n \n________________________________\nClaus Dethlefsen, Msc, PhD\nStatistiker ved Kardiovaskul?rt Forskningscenter\n\n \nForskningens Hus\nAalborg Sygehus \nSdr. Skovvej 15\n9000 Aalborg\n\nTlf:   9932 6863\nemail: aas.claus.dethlefsen at nja.dk <mailto:aas.claus.dethlefsen at nja.dk> \n\n________________________________\n\nFra: r-sig-gr-bounces at stat.math.ethz.ch p? vegne af Dennis Wittenberg\nSendt: ma 28-11-2005 18:10\nTil: r-sig-gr at stat.math.ethz.ch\nEmne: [R--gR] Problems with autosearch() in deal-package\n\n\n\nHello everybody,\n\ncurrently I'm trying to understand the autosearch-function in the\ndeal-package. I have implemented a data generating function (dat.fr)\nwith variable sample size T. The two variables x and z are randomly\ngenerated. y depends on x and z.\n\nThe R-code:\n\ndat.fr=function(T)\n{\nu1=matrix(rnorm(T*1),T,1);\nu2=matrix(rnorm(T*1),T,1);\nu3=matrix(rnorm(T*1),T,1);\nx=u1;\nz=u2;\na=1;\nb=2;\ny=a*x+b*z+u3;\ndata.frame(x,y,z)\n}\n\nApplied to autosearch I expect a network x-->y<--z, no matter which\nsample size is used or how often dat.fr() is renewed.\n\nUnfortunately, for repeated trials, autosearch provides several,\ndifferent network-outputs. Sometimes the output is conform to the\nexpected network, sometimes it isn't. I cannot determine the reason for\nthis.\n\nAny help with my problem would be greatly appreciated.\n\nR-code:\n\ndf=dat.fr(100)\n\ndf.nw=network(df);\ndf.prior=jointprior(df.nw,4);\ndf.nw=getnetwork(learn(df.nw,df,df.prior));\ndf.search=autosearch(df.nw,df,df.prior,trace=TRUE)\n\nThanks and best wishes,\n\nDennis Wittenberg\n\n_______________________________________________\nR-sig-gR mailing list\nR-sig-gR at stat.math.ethz.ch\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Dear Dennis\n \nThe 'deal mailinglist' is a better forum for this question (to join, check www.math.aau.dk/~dethlef/novo/deal)\n \nThe 'autosearch' function is not guaranteed to find the network with the ",
+      "thread_id": "thread-9afbf22af4d2",
+      "thread_depth": 1,
+      "month": "2005-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-4aee100be7ef",
+      "subject": "[R--gR] Hello!",
+      "message_count": 1,
+      "participants": [
+        "zhihua li"
+      ],
+      "started": "2005-11-07T02:07:17+00:00",
+      "last_reply": "2005-11-07T02:07:17+00:00",
+      "root_message_id": "msg-4aee100be7ef"
+    },
+    {
+      "id": "thread-9afbf22af4d2",
+      "subject": "[R--gR] Problems with autosearch() in deal-package",
+      "message_count": 2,
+      "participants": [
+        "Claus Dethlefsen / Aalborg Sygehus",
+        "Dennis Wittenberg"
+      ],
+      "started": "2005-11-28T18:10:43+01:00",
+      "last_reply": "2005-11-28T20:39:37+01:00",
+      "root_message_id": "msg-9afbf22af4d2"
+    }
+  ]
+}

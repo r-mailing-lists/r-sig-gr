@@ -1,0 +1,23 @@
+From JensHenrik.Badsberg at agrsci.dk  Fri Jul 16 16:32:27 2004
+From: JensHenrik.Badsberg at agrsci.dk (Jens Henrik Badsberg)
+Date: Fri, 16 Jul 2004 16:32:27 +0200
+Subject: [R--gR] CoCo 1.6.2
+Message-ID: <C83C5E3DEEE97E498B74729A33F6EAECECD54E@DJFPOST01.djf.agrsci.dk>
+
+
+ Version 1.6.2 of CoCo is now available from
+ http://www.jbs.agrsci.dk/Biometry/Software-Datasets/CoCo/CoCo.1.6
+ and soon also from http://www.math.auc.dk/gr/material/CoCo/ .
+
+ A first draft to manual pages is now included.
+
+ Return of fitted parameters (mean and covariances) is now enabled.
+ Fix of mix up of homogeneous and non-homogeneous models for reuse of tests. 
+ Re-computation of Log(L) when the set of cases changes at missing values.
+
+ Regards,
+
+ Jens Henrik Badsberg
+
+
+

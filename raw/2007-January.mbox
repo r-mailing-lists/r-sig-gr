@@ -1,0 +1,67 @@
+From alberto.roverato at unibo.it  Fri Jan 12 14:25:08 2007
+From: alberto.roverato at unibo.it (Alberto Roverato)
+Date: Fri, 12 Jan 2007 14:25:08 +0100
+Subject: [R--gR] qp package
+Message-ID: <45A78C34.7020205@unibo.it>
+
+Dear All,
+a new R package is now available on CRAN. It is named "qp" and 
+implements the procedure described in
+
+Castelo, R. and Roverato, A. (2006). A robust procedure for Gaussian 
+graphical model search from microarray data with p larger than n. 
+Journal of Machine Learning Research, 7, 2621-2650.
+
+http://jmlr.csail.mit.edu/papers/volume7/castelo06a/castelo06a.pdf
+
+Best regards
+
+alberto
+
+
+-- 
+____________________________________________
+
+    Alberto Roverato
+    Dipartimento di Scienze Statistiche
+    Universita' di Bologna
+    Via Belle Arti, 41 - 40126 Bologna - Italy
+    Tel       +39 051 2098235
+    Fax       +39 051 232153
+    e-mail    alberto.roverato at unibo.it
+    homepage  http://www2.stat.unibo.it/roverato/homepage.html
+  _____________________________________________
+
+
+
+From gabrielle.kelly at ucd.ie  Wed Jan 24 16:46:06 2007
+From: gabrielle.kelly at ucd.ie (Gabrielle Kelly)
+Date: Wed, 24 Jan 2007 15:46:06 +0000
+Subject: [R--gR] geoR/glsm.mcmc
+Message-ID: <45B77F3E.13337.191EDDC@Gabrielle.Kelly.ucd.ie>
+
+Dear group members,
+I have tried using the function likfit in geoRglm and got some output. Howvever my data is 
+Bernoulli so it is more appropriate to use glsm.mcmc. I used the following code: 
+----------------------------------------------------------------------------------------------------------------- 
+testc<-glsm.mcmc(coords=data3geo$coords,data=data3geo$data, 
+units.m=data3geo$realisations, model=list(family="binomial", 
+link="logit", trend=~x1+x2+x3+x4, 
+beta=c(-.05,0.3,0.3,0.3,0.2), 
+cov.pars=c(0.5,0.5),cov.model="spherical",nugget=0.3), 
+mcmc.input=mcmc.control(S.scale=0.2, thin=1)) 
+------------------------------------------------------------------- 
+However I got the following error message: 
+-------------------------------------------------------------------- 
+Error in if (all(round(fisher.l) == 0)) fisher.l <- data * 0.025 : 
+ missing value where TRUE/FALSE needed 
+
+Perhaps this is elementary - I would be grateful if someone could point me in the right 
+direction.
+Thanks in advance.
+Gabrielle Kelly, Ph.D.
+UCD School of Mathematical Sciences
+University College Dublin, Ireland
+
+
+

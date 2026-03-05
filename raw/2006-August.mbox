@@ -1,0 +1,210 @@
+From mcelligo at ohsu.edu  Wed Aug 23 22:00:49 2006
+From: mcelligo at ohsu.edu (Dan McElligott)
+Date: Wed, 23 Aug 2006 13:00:49 -0700
+Subject: [R--gR] scatterplot.matrix
+Message-ID: <s4ec5188.090@ohsu.edu>
+
+Hi there,
+
+I wonder does anybody know if it's possible to just print only one scatterplot per comparison (A is a function of B, but B is not a function of A) using the scatterplot.matrix module. I know this is possible in Statistica but can't seem to find out if its possible in R. The main reason I want to print only half the plots is the hope that is will significantly speed up generating the matrix plot. If anyone has any ideas to how this could be achieved, I very much appreciate a response.
+
+Thanks in advance
+
+Dan 
+
+Dan McElligott, M.Res., M.Sc.
+Bioinformaticist 
+OHSU Affymetrix Microarray Core
+mailcode VGTI
+Oregon Health and Science University
+505 NW 185th Ave
+Beaverton, OR 97006
+
+503 418 2738
+mcelligo at ohsu.edu
+
+
+
+From ligges at statistik.uni-dortmund.de  Wed Aug 23 23:03:07 2006
+From: ligges at statistik.uni-dortmund.de (Uwe Ligges)
+Date: Wed, 23 Aug 2006 23:03:07 +0200
+Subject: [R--gR] scatterplot.matrix
+In-Reply-To: <s4ec5188.090@ohsu.edu>
+References: <s4ec5188.090@ohsu.edu>
+Message-ID: <44ECC28B.8050804@statistik.uni-dortmund.de>
+
+
+
+Dan McElligott wrote:
+> Hi there,
+> 
+> I wonder does anybody know if it's possible to just print only one scatterplot per comparison (A is a function of B, but B is not a function of A) using the scatterplot.matrix module. I know this is possible in Statistica but can't seem to find out if its possible in R. The main reason I want to print only half the plots is the hope that is will significantly speed up generating the matrix plot. If anyone has any ideas to how this could be achieved, I very much appreciate a response.
+>
+
+So you are talking about package car?
+Why is this related to mailing list gr? I think this would have been a 
+better question for R-help, or whatever ....
+
+Use argument "upper.panel", which is passed down to pairs(), as follows:
+
+scatterplot.matrix(~income + education + prestige | type, data=Duncan,
+     upper.panel=NULL)
+
+
+Uwe Ligges
+
+
+> Thanks in advance
+> 
+> Dan 
+> 
+> Dan McElligott, M.Res., M.Sc.
+> Bioinformaticist 
+> OHSU Affymetrix Microarray Core
+> mailcode VGTI
+> Oregon Health and Science University
+> 505 NW 185th Ave
+> Beaverton, OR 97006
+> 
+> 503 418 2738
+> mcelligo at ohsu.edu
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From Michael.Grant at Colorado.EDU  Mon Aug 28 22:03:23 2006
+From: Michael.Grant at Colorado.EDU (Michael Grant)
+Date: Mon, 28 Aug 2006 14:03:23 -0600
+Subject: [R--gR] unordered, 3 variable scatter plotting
+Message-ID: <9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>
+
+I am unable to persuade any high level routine in R to provide image,
+contour or perspective plots of unordered 3 dimensional triples
+(y1,y2,y3) in the same way that plot (y1,y2) will do.  Pairwise
+combinations I can do but would like to have a cohesive pseudo-three
+dimensional graphical display the data points which do not form
+ascending values.
+
+Can anyone remove my ignorance?
+
+Thank you in advance.
+
+Michael Grant
+
+
+
+From ligges at statistik.uni-dortmund.de  Tue Aug 29 08:56:18 2006
+From: ligges at statistik.uni-dortmund.de (Uwe Ligges)
+Date: Tue, 29 Aug 2006 08:56:18 +0200
+Subject: [R--gR] unordered, 3 variable scatter plotting
+In-Reply-To: <9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>
+References: <9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>
+Message-ID: <44F3E512.5010900@statistik.uni-dortmund.de>
+
+
+
+Michael Grant wrote:
+> I am unable to persuade any high level routine in R to provide image,
+> contour or perspective plots of unordered 3 dimensional triples
+> (y1,y2,y3) in the same way that plot (y1,y2) will do.  Pairwise
+> combinations I can do but would like to have a cohesive pseudo-three
+> dimensional graphical display the data points which do not form
+> ascending values.
+
+
+See cloud() in package "lattice", scatterplot3d() in "scatterplot3d", or 
+plot3d() in "rgl".
+
+Uwe Ligges
+
+
+> Can anyone remove my ignorance?
+> 
+> Thank you in advance.
+> 
+> Michael Grant
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From ligges at statistik.uni-dortmund.de  Tue Aug 29 08:58:09 2006
+From: ligges at statistik.uni-dortmund.de (Uwe Ligges)
+Date: Tue, 29 Aug 2006 08:58:09 +0200
+Subject: [R--gR] unordered, 3 variable scatter plotting
+In-Reply-To: <44F3E512.5010900@statistik.uni-dortmund.de>
+References: <9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>
+	<44F3E512.5010900@statistik.uni-dortmund.de>
+Message-ID: <44F3E581.9040708@statistik.uni-dortmund.de>
+
+BTW: This is more an R-help question but has not much to do with the 
+topic of this list, AFAICS.
+
+Uwe Ligges wrote:
+> 
+> 
+> Michael Grant wrote:
+>> I am unable to persuade any high level routine in R to provide image,
+>> contour or perspective plots of unordered 3 dimensional triples
+>> (y1,y2,y3) in the same way that plot (y1,y2) will do.  Pairwise
+>> combinations I can do but would like to have a cohesive pseudo-three
+>> dimensional graphical display the data points which do not form
+>> ascending values.
+> 
+> 
+> See cloud() in package "lattice", scatterplot3d() in "scatterplot3d", or 
+> plot3d() in "rgl".
+> 
+> Uwe Ligges
+> 
+> 
+>> Can anyone remove my ignorance?
+>>
+>> Thank you in advance.
+>>
+>> Michael Grant
+>>
+>> _______________________________________________
+>> R-sig-gR mailing list
+>> R-sig-gR at stat.math.ethz.ch
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+
+
+
+From maechler at stat.math.ethz.ch  Tue Aug 29 09:02:34 2006
+From: maechler at stat.math.ethz.ch (Martin Maechler)
+Date: Tue, 29 Aug 2006 09:02:34 +0200
+Subject: [R--gR] unordered, 3 variable scatter plotting
+In-Reply-To: <9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>
+References: <9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>
+Message-ID: <17651.59018.889843.269681@stat.math.ethz.ch>
+
+PLEASE, Michael,
+
+do not (again !?) misuse the R-sig-gR  mailing list for simple
+question about R -- which clearly belong to nowhere else but R-help !
+
+> I am unable to persuade any high level routine in R
+> to provide image, contour or perspective plots of
+> unordered 3 dimensional triples (y1,y2,y3) in the
+> same way that plot (y1,y2) will do.  Pairwise
+> combinations I can do but would like to have a
+> cohesive pseudo-three dimensional graphical display
+> the data points which do not form ascending values.
+
+> Can anyone remove my ignorance?
+
+> Thank you in advance.
+
+> Michael Grant
+
+
+

@@ -1,0 +1,359 @@
+From alex.biedermann at unil.ch  Fri Jun  5 07:38:12 2009
+From: alex.biedermann at unil.ch (Alex Biedermann)
+Date: Fri, 5 Jun 2009 07:38:12 +0200
+Subject: [R--gR] installing Rgraphviz on mac
+Message-ID: <FECA6BD0-1EBF-4D02-A585-D2D52E21690F@unil.ch>
+
+Dear gRaphical models members
+
+I am not sure if I'd better address my question to the Mac Port SIG.
+I am trying to get Rgraphviz running on a mac ppc vers. 10.4.11.
+The installation process doesn't complete successfully.
+Graphviz is already installed and should be
+at /usr/local/graphviz-2.14 on my machine,
+but it seems that when installing Rgraphviz, Graphviz
+can't be found. Can I tell it so
+manually? Or, do you see any other way to get
+it running properly?
+
+Thanks a lot in advance.
+
+Alex
+
+ > biocLite("Rgraphviz",depend=TRUE,type="source")
+Running biocinstall version 2.4.10 with R version 2.9.0
+Your version of R requires version 2.4 of Bioconductor.
+versuche URL 'http://bioconductor.org/packages/2.4/bioc/src/contrib/ 
+Rgraphviz_1.22.1.tar.gz'
+Content type 'application/x-gzip' length 569867 bytes (556 Kb)
+URL ge"offnet
+==================================================
+downloaded 556 Kb
+
+* Installing *source* package 'Rgraphviz' ...
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables...
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for whether compiler has bool... yes
+configure: No --with-graphviz option was specified. Trying to find  
+Graphviz using other methods.
+checking for pkg-config... no
+checking for dotneato-config... no
+configure: dotneato-config not found in PATH.
+configure: Using default directory /usr/local, consider specifiying -- 
+with-graphviz
+configure: error: /usr/local/bin/dot not found.  Check Graphviz  
+installation.
+Fehler: configuration failed f"ur Paket 'Rgraphviz'
+* Removing '/Library/Frameworks/R.framework/Versions/2.9/Resources/ 
+library/Rgraphviz'
+* Restoring previous '/Library/Frameworks/R.framework/Versions/2.9/ 
+Resources/library/Rgraphviz'
+
+The downloaded packages are in
+         '/private/tmp/RtmpnpndCY/downloaded_packages'
+Updating HTML index of packages in '.Library'
+Warning message:
+In install.packages(pkgs = pkgs, repos = repos, dependencies =  
+dependencies,  :
+   installation of package 'Rgraphviz' had non-zero exit status
+
+
+From Achim.Zeileis at wu-wien.ac.at  Fri Jun  5 09:02:13 2009
+From: Achim.Zeileis at wu-wien.ac.at (Achim Zeileis)
+Date: Fri, 5 Jun 2009 09:02:13 +0200 (CEST)
+Subject: [R--gR] installing Rgraphviz on mac
+In-Reply-To: <FECA6BD0-1EBF-4D02-A585-D2D52E21690F@unil.ch>
+References: <FECA6BD0-1EBF-4D02-A585-D2D52E21690F@unil.ch>
+Message-ID: <Pine.LNX.4.64.0906050859230.24778@paninaro.stat-math.wu-wien.ac.at>
+
+On Fri, 5 Jun 2009, Alex Biedermann wrote:
+
+> Dear gRaphical models members
+>
+> I am not sure if I'd better address my question to the Mac Port SIG.
+> I am trying to get Rgraphviz running on a mac ppc vers. 10.4.11.
+> The installation process doesn't complete successfully.
+> Graphviz is already installed and should be
+> at /usr/local/graphviz-2.14 on my machine,
+> but it seems that when installing Rgraphviz, Graphviz
+> can't be found. Can I tell it so
+> manually?
+
+Yes, as the configure output says, there is the option
+   --with-graphviz
+
+See also the README file in the Rgraphviz source package. It comments both 
+on installation under Mac OSX and on installation from source.
+
+hth,
+Z
+
+> Or, do you see any other way to get
+> it running properly?
+>
+> Thanks a lot in advance.
+>
+> Alex
+>
+>> biocLite("Rgraphviz",depend=TRUE,type="source")
+> Running biocinstall version 2.4.10 with R version 2.9.0
+> Your version of R requires version 2.4 of Bioconductor.
+> versuche URL 
+> 'http://bioconductor.org/packages/2.4/bioc/src/contrib/Rgraphviz_1.22.1.tar.gz'
+> Content type 'application/x-gzip' length 569867 bytes (556 Kb)
+> URL ge"offnet
+> ==================================================
+> downloaded 556 Kb
+>
+> * Installing *source* package 'Rgraphviz' ...
+> checking for gcc... gcc
+> checking for C compiler default output file name... a.out
+> checking whether the C compiler works... yes
+> checking whether we are cross compiling... no
+> checking for suffix of executables...
+> checking for suffix of object files... o
+> checking whether we are using the GNU C compiler... yes
+> checking whether gcc accepts -g... yes
+> checking for gcc option to accept ISO C89... none needed
+> checking how to run the C preprocessor... gcc -E
+> checking for grep that handles long lines and -e... /usr/bin/grep
+> checking for egrep... /usr/bin/grep -E
+> checking for ANSI C header files... yes
+> checking for sys/types.h... yes
+> checking for sys/stat.h... yes
+> checking for stdlib.h... yes
+> checking for string.h... yes
+> checking for memory.h... yes
+> checking for strings.h... yes
+> checking for inttypes.h... yes
+> checking for stdint.h... yes
+> checking for unistd.h... yes
+> checking for stdbool.h that conforms to C99... yes
+> checking for _Bool... yes
+> checking for whether compiler has bool... yes
+> configure: No --with-graphviz option was specified. Trying to find Graphviz 
+> using other methods.
+> checking for pkg-config... no
+> checking for dotneato-config... no
+> configure: dotneato-config not found in PATH.
+> configure: Using default directory /usr/local, consider specifiying 
+> --with-graphviz
+> configure: error: /usr/local/bin/dot not found.  Check Graphviz installation.
+> Fehler: configuration failed f"ur Paket 'Rgraphviz'
+> * Removing 
+> '/Library/Frameworks/R.framework/Versions/2.9/Resources/library/Rgraphviz'
+> * Restoring previous 
+> '/Library/Frameworks/R.framework/Versions/2.9/Resources/library/Rgraphviz'
+>
+> The downloaded packages are in
+>       '/private/tmp/RtmpnpndCY/downloaded_packages'
+> Updating HTML index of packages in '.Library'
+> Warning message:
+> In install.packages(pkgs = pkgs, repos = repos, dependencies = dependencies, 
+> :
+> installation of package 'Rgraphviz' had non-zero exit status
+>
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+>
+
+
+From vs at it.uu.se  Fri Jun  5 10:13:55 2009
+From: vs at it.uu.se (Virgil Stokes)
+Date: Fri, 05 Jun 2009 10:13:55 +0200
+Subject: [R--gR] General question.
+Message-ID: <4A28D3C3.30300@it.uu.se>
+
+I am new to this group and would like to know a little more about the 
+"level" of the group --- how can I look at the archives?
+
+Thanks,
+--V. Stokes
+
+
+From vs at it.uu.se  Fri Jun  5 10:18:44 2009
+From: vs at it.uu.se (Virgil Stokes)
+Date: Fri, 05 Jun 2009 10:18:44 +0200
+Subject: [R--gR] General question.
+In-Reply-To: <4A28D3C3.30300@it.uu.se>
+References: <4A28D3C3.30300@it.uu.se>
+Message-ID: <4A28D4E4.205@it.uu.se>
+
+Virgil Stokes wrote:
+> I am new to this group and would like to know a little more about the 
+> "level" of the group --- how can I look at the archives?
+>
+> Thanks,
+> --V. Stokes
+>
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+I just found them --- sorry for this posting :-(
+
+--V. Stokes
+
+
+From vs at it.uu.se  Fri Jun  5 10:29:35 2009
+From: vs at it.uu.se (Virgil Stokes)
+Date: Fri, 05 Jun 2009 10:29:35 +0200
+Subject: [R--gR] Dynamic statistics graphics
+Message-ID: <4A28D76F.3080709@it.uu.se>
+
+Has anyone tried to use R and its fantastic graphics to produce 
+"dynamic" graphics for statistical data? That is, something like Hans 
+Rosling has produced --- take a look at;
+
+  http://www.gapminder.org/
+
+--V. Stokes
+
+
+From vs at it.uu.se  Fri Jun  5 15:53:22 2009
+From: vs at it.uu.se (Virgil Stokes)
+Date: Fri, 05 Jun 2009 15:53:22 +0200
+Subject: [R--gR] Dynamic statistics graphics
+In-Reply-To: <4A28E7EF.3070303@statistik.tu-dortmund.de>
+References: <4A28D76F.3080709@it.uu.se>
+	<4A28E7EF.3070303@statistik.tu-dortmund.de>
+Message-ID: <4A292352.4030205@it.uu.se>
+
+Uwe Ligges wrote:
+>
+>
+> Virgil Stokes wrote:
+>> Has anyone tried to use R and its fantastic graphics to produce 
+>> "dynamic" graphics for statistical data? That is, something like Hans 
+>> Rosling has produced --- take a look at;
+>
+> You are talking about plots rather than graphs [which R-gR is about]. 
+> Hence the right list to ask this question is probably R-help ...
+>
+> Uwe Ligges
+Ok Uwe,
+You are probably correct --- perhaps I should not be a member of this list.
+
+--V. Stokes
+
+
+From kagba2006 at yahoo.com  Thu Jun 18 11:20:24 2009
+From: kagba2006 at yahoo.com (FMH)
+Date: Thu, 18 Jun 2009 02:20:24 -0700 (PDT)
+Subject: [R--gR] p-value for the parameter in ARIMA model with R
+Message-ID: <513861.59998.qm@web38307.mail.mud.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090618/af1ed6f8/attachment.pl>
+
+From kevin.lu at wur.nl  Fri Jun 19 12:31:07 2009
+From: kevin.lu at wur.nl (Lu, Kevin)
+Date: Fri, 19 Jun 2009 12:31:07 +0200
+Subject: [R--gR] deal package
+Message-ID: <124584AFB3A4D449834B67071ACCD55501A7D83D@scomp0040.wurnet.nl>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090619/cb345b51/attachment.pl>
+
+From kagba2006 at yahoo.com  Mon Jun 22 17:56:55 2009
+From: kagba2006 at yahoo.com (FMH)
+Date: Mon, 22 Jun 2009 08:56:55 -0700 (PDT)
+Subject: [R--gR] (no subject)
+Message-ID: <570893.37367.qm@web38302.mail.mud.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/2ec335e9/attachment.pl>
+
+From kagba2006 at yahoo.com  Mon Jun 22 17:58:42 2009
+From: kagba2006 at yahoo.com (FMH)
+Date: Mon, 22 Jun 2009 08:58:42 -0700 (PDT)
+Subject: [R--gR] standard error and p-value for the estimated parameter in
+	AR model
+Message-ID: <17595.45665.qm@web38305.mail.mud.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/026f7bb4/attachment.pl>
+
+From kjell.konis at epfl.ch  Mon Jun 22 19:20:24 2009
+From: kjell.konis at epfl.ch (Kjell Konis)
+Date: Mon, 22 Jun 2009 19:20:24 +0200
+Subject: [R--gR] standard error and p-value for the estimated parameter
+	in AR model
+In-Reply-To: <17595.45665.qm@web38305.mail.mud.yahoo.com>
+References: <17595.45665.qm@web38305.mail.mud.yahoo.com>
+Message-ID: <3495E138-B54E-489A-A299-2CA70C3BC536@epfl.ch>
+
+You should ask this question on R-help. Subscribe at http://www.r- 
+project.org/mail.html
+
+Kjell
+
+On Jun 22, 2009, at 5:58 PM, FMH wrote:
+
+> Dear All,
+>
+> I used an  AR(1) model to explain the process of the stationary  
+> residuals and have used an 'ar' command in R. From the results, i  
+> tried to extract the standard error and p-value for the estimated  
+> parameter, but unfortunately, i never find any way to extract  it  
+> from the output.
+>
+> What i did was, i assigned the residuals into the 'residual' object  
+> in R and used an 'ar' function as below.
+>
+>> residual <- residuals
+>> ar(residual, aic = TRUE,  method = "mle", order.max = 1)
+>
+> Could someone help me to extract the stadard error and the p-value  
+> for the estimated parameter, please?
+>
+> Thank you
+>
+> Fir
+>
+>
+>
+>
+> 	[[alternative HTML version deleted]]
+>
+> <ATT00001.txt>
+
+
+From jchumacer at yahoo.com  Wed Jun 24 23:25:00 2009
+From: jchumacer at yahoo.com (jaime chumacero)
+Date: Wed, 24 Jun 2009 14:25:00 -0700 (PDT)
+Subject: [R--gR] how have software R?
+Message-ID: <195583.40081.qm@web53908.mail.re2.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090624/e2a0f348/attachment.pl>
+

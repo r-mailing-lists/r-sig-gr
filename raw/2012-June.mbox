@@ -1,0 +1,68 @@
+From loggyedy at googlemail.com  Sat Jun  2 17:36:27 2012
+From: loggyedy at googlemail.com (stef salvez)
+Date: Sat, 2 Jun 2012 16:36:27 +0100
+Subject: [R--gR] ploting a sequence of string dates
+Message-ID: <CAANJWG+bbEW9TTEESS1t7T5xu_XjQtf-q=dxSbDhc1tLksTN3g@mail.gmail.com>
+
+Dear all, I have a panel data across countries and individuals. For
+each country I have a sequence of dates For France for example
+22/02/09
+ 22/03/09
+19/04/09
+17/05/09
+12/07/09
+ 09/08/09
+06/09/09
+04/10/09
+ 01/11/09
+29/11/09
+27/12/09
+31/01/10
+
+For Italy
+14/06/09
+12/07/09
+09/08/09
+06/09/09
+04/10/09
+ 01/11/09
+ 29/11/09
+27/12/09
+31/01/10
+ 28/02/10
+ 28/03/10
+
+I have these sequence of dates in an excel file. The structure of the
+excel file is
+France              Italy                        ......
+22/02/09	       14/06/09
+ 22/03/09 	12/7/2009
+19/04/09   	9/8/2009
+17/05/09 	        6/9/2009
+12/7/2009	4/10/2009
+ 09/08/09 	 01/11/09
+6/9/2009	        29/11/09
+4/10/2009	27/12/09
+ 01/11/09   	31/01/10
+29/11/09 	      28/02/10
+27/12/09 	      28/03/10
+31/01/10	
+
+
+and so forth
+
+
+ And I want to ?plot? (in one graph) these sequences of dates in the
+sense that I want to have a?visual? contact of the behavior of the
+series of dates because as you can see I do not have the same start
+date and end date and the next date is not always every 28 days. So I
+have a jump in some cases. I would like to visualize these
+characteristics of the two series of dates by making a plot. And I
+would like the distance (in days)  between successive dates for one
+country to be written on the graph. Any suggestions? A strip plot
+would be ok but I have no idea how to use it to construct nice plots.
+Any code would be greatly appreciated
+
+Thanks
+
+

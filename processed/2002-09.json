@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2002-09",
+  "messages": [
+    {
+      "id": "msg-0b0e024ed9f4",
+      "message_id": "<3D88A9C1.CE82933D@ci.tuwien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
+      "date": "2002-09-18T18:28:49+02:00",
+      "subject": "[R--gR] gR ToDo list",
+      "subject_clean": "[R--gR] gR ToDo list",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear gR 2002 participants and new R-sig-gR subscribers,\n\nat the end of the gR 2002 workshop we created a ToDo list with a couple\nof points to really get the gR project started, which I would like to\nsend out as a summary reminder.\nBest wishes from Vienna,\nZ\n\n\n*******\ngR ToDo\n*******\n\n* 3 packages => CRAN:\n  deal [Claus Dethlefsen]\n  \"CoCoR\" [CoCo port to R by Jens Henrik Badsberg]\n  \"MIMIR\" [MIM Interface for R by Soren Hojsgaard]\n\n* article for R-News [Steffen Lauritzen, deadline: Oct 15]\n\n* DSC 2003 plenary / afternoon [Mar 20-22, 2003 @ Vienna]\n\n* fill gR 2002 web page [everyone, mails to Z]\n  started web site\n    http://www.ci.tuwien.ac.at/Conferences/gR-2002/Presentations/\n\n* gR mailing list [done, Z is maintainer]\n\n* \"Book Project\" [to be reassessed at DSC 2003]\n\n* (book or not book:) discussion paper [Steffen Lauritzen together with\n  Peter Dalgaard and Peter Green, until Nov 15]\n\n* gR web page [Z, first version done]\n    http://www.R-project.org/gR/\n  This is just the first version, (constructive) suggestions for\n  improvement are very welcome.\n\n* gR CRAN view/manifest maintainer: Claus Dethlefsen [action required\nonce\n  the new repository management tools are up and running]\n\n* link to gR web page from R homepage [FL, done]\n\n* graph wish list to Fritz Leisch ASAP [everyone]\n\n* gR workshop @ DK [Sep 2003, Steffen will organize?]\n\n* collect key algorithms?",
+      "body_snippet": "Dear gR 2002 participants and new R-sig-gR subscribers,\n\nat the end of the gR 2002 workshop we created a ToDo list with a couple\nof points to really get the gR project started, which I would like to\ns",
+      "thread_id": "thread-0b0e024ed9f4",
+      "thread_depth": 0,
+      "month": "2002-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0b0e024ed9f4",
+      "subject": "[R--gR] gR ToDo list",
+      "message_count": 1,
+      "participants": [
+        "Achim Zeileis"
+      ],
+      "started": "2002-09-18T18:28:49+02:00",
+      "last_reply": "2002-09-18T18:28:49+02:00",
+      "root_message_id": "msg-0b0e024ed9f4"
+    }
+  ]
+}

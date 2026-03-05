@@ -1,0 +1,38 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2025-09",
+  "messages": [
+    {
+      "id": "msg-0d96a517736d",
+      "message_id": "<a5c2800b5077465eb3990efc0adf6f5a@transmittingscience.com>",
+      "from_name": "Soledad De Esteban-Trivigno",
+      "from_email_hash": "8f86d344535c2d752798833f8aa7b9b289c3f06b2847533734edeade3b9f0d42",
+      "date": "2025-09-29T08:34:12Z",
+      "subject": "[R--gR] Live online course: “Mapas y operaciones espaciales (SIG) con R”, 20-24 de octubre, 2025",
+      "subject_clean": "[R--gR] Live online course: “Mapas y operaciones espaciales (SIG) con R”, 20-24 de octubre, 2025",
+      "in_reply_to": "<f132d11162a80bb058271f5f0d7a9a38@transmittingscience.com>",
+      "references": [
+        "<f132d11162a80bb058271f5f0d7a9a38@transmittingscience.com>"
+      ],
+      "body_plain": "Dear colleagues,\n\nRegistration is now open for the course \"Mapas y operaciones espaciales \n(SIG) con R\". This course will be held live online (synchronous). \nMaximum 16 participants.\n\nDates: 20-24 de octubre, 2025, from 15:00 to 18:00 live sessions.\n\nLanguage of the course: Spanish\n\nMore information can be found at \nhttps://www.transmittingscience.com/courses/ecology/mapas-y-analisis-espacial-sig-con-r/ \nor by writing to courses at transmittingscience.com\n\nBests wishes\n\nSole\n\n-- \nSoledad De Esteban-Trivigno, PhD\nDirector\nTransmitting Science\nwww.transmittingscience.com/courses\n\nBluesky @soledeesteban.bsky.social\nX @SoleDeEsteban\nOrcid: https://orcid.org/0000-0002-2049-0890\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear colleagues,\n\nRegistration is now open for the course \"Mapas y operaciones espaciales \n(SIG) con R\". This course will be held live online (synchronous). \nMaximum 16 participants.\n\nDates: 20-24 de ",
+      "thread_id": "thread-0d96a517736d",
+      "thread_depth": 0,
+      "month": "2025-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0d96a517736d",
+      "subject": "[R--gR] Live online course: “Mapas y operaciones espaciales (SIG) con R”, 20-24 de octubre, 2025",
+      "message_count": 1,
+      "participants": [
+        "Soledad De Esteban-Trivigno"
+      ],
+      "started": "2025-09-29T08:34:12+00:00",
+      "last_reply": "2025-09-29T08:34:12+00:00",
+      "root_message_id": "msg-0d96a517736d"
+    }
+  ]
+}

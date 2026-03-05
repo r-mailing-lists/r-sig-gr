@@ -1,0 +1,520 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2004-08",
+  "messages": [
+    {
+      "id": "msg-d1bafa458076",
+      "message_id": "<002001c47f90$c999e220$135601a3@SHELDUCK>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2004-08-11T11:48:49+01:00",
+      "subject": "[R--gR] gR is alive and kicking",
+      "subject_clean": "[R--gR] gR is alive and kicking",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear gRs\n\nThe mailing list has been silent for a long time and this little newsletter\nis an attempt to bring it a bit to life again.\n\nMany things have indeed happened within gR:\n\nPersonally, I have moved to Oxford, but will continue my engagement in gR\nfrom there, including my cooperation with the Danish gRoup. PostDoc\npositions and money for targeted visits will be available in Oxford. My\ncoordinates are on this letter.\n\nMIM has become open source, I hope David Edwards will write to the list and\ngive further details.\n\ngRbase is on CRAN, using dynamicGraph to interact with model! Claus and\nSoren will write separately on that.\n\nCoCo, including CoCoCg is now fully operational within R, but not on CRAN.\nJens Henrik has already informed the list about this.\n\nMathias Drton has made a model selection program in R for Gaussian graphical\nmodels, SIN, based on joint work with Michael Perlman using simultaneous\nconfidence intervals. First time the type I (or II?) error can be fully\ncontrolled. I hope Mathias will inform you all separately on that.\n\nthe gRaph module in gRbase is not yet implemented but work on this will soon\nbegin.\n\nI am sure that more has happened than this. Please tell us about it!\n\nKeep up the good work and please discuss issues on this list rather than in\nsmall groups, so we can combine efforts of all of us!\n\nBest wishes to all\nSteffen\n--\nSteffen L. Lauritzen\nDepartment of Statistics, University of Oxford\n1 South Parks Road, Oxford OX1 3TG, United Kingdom\nTel: +44 1865 272877; Fax: +44 1865 272595\nemail: steffen at stats.ox.ac.uk",
+      "body_snippet": "Dear gRs\n\nThe mailing list has been silent for a long time and this little newsletter\nis an attempt to bring it a bit to life again.\n\nMany things have indeed happened within gR:\n\nPersonally, I have mo",
+      "thread_id": "thread-d1bafa458076",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-fccff74f2384",
+      "message_id": "<004f01c47f95$5a202fd0$135601a3@SHELDUCK>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2004-08-11T12:21:30+01:00",
+      "subject": "[R--gR] Fw: AISTATS 2005 - Barbados - Call for Papers (due Sep 14)",
+      "subject_clean": "[R--gR] Fw: AISTATS 2005 - Barbados - Call for Papers (due Sep 14)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This workshop could well be of interest to the gRpeople. Hope to see many of\nyou there.\n\nGreetings from Toronto, where the gR session was very well attended.\n\nSteffen\n\n----- Original Message ----- \nFrom: \"Zoubin Ghahramani\" <zoubin at gatsby.ucl.ac.uk>\nTo: <allstat at jiscmail.ac.uk>\nSent: Tuesday, August 03, 2004 2:36 PM\nSubject: AISTATS 2005 - Barbados - Call for Papers (due Sep 14)\n\n\n>                         ** Call for Papers **\n>\n>                              AISTATS 2005\n>\n>                    Tenth International Workshop on\n>                 Artificial Intelligence and Statistics\n>\n>            January 6-8,  2005, The Savannah Hotel, Barbados\n>\n>                  http://www.gatsby.ucl.ac.uk/aistats/\n>\n>             ** Submission Deadline:  September 14, 2004 **\n>\n> This is the tenth workshop on Artificial Intelligence and Statistics,\n> an interdisciplinary gathering of researchers at the intersection of\n> computer science, statistics, and related areas. Since its inception\n> in 1985, the primary goal of this workshop has been to broaden\n> research in both of these fields by promoting the exchange of ideas\n> between them. We encourage the submission of all papers which are in\n> keeping with this objective.\n>\n> Presentations will include invited talks, contributed talks, and\n> posters. Papers for poster sessions will be treated equally\n> with papers for presentation in publications.\n>\n> Papers on all aspects of the interface between AI & Statistics are\n> strongly encouraged, including but not limited to\n>\n>          Active learning and experimental design\n>          Approximate Inference\n>          Automated data analysis\n>          Bayesian networks\n>          Bayesian statistics\n>          Causal modelling\n>          Density Estimation\n>          Error correcting codes\n>          Information retrieval\n>          Game theory\n>          Cluster analysis and unsupervised learning\n>          Graphical models\n>          Integrated man-machine modeling methods\n>          Interpretability in modelling\n>          Kernel methods\n>          Knowledge discovery in databases\n>          Machine learning\n>          Metadata and the design of statistical data bases\n>          Model uncertainty, multiple models\n>          Online learning\n>          Pattern recognition\n>          Prediction: classification and regression\n>          Probabilistic neural networks\n>          Probability and search\n>          Semi-supervised learning\n>          Vision, robotics, natural language processing, speech recognition\n>          Visualization of very large datasets\n>\n> Submission Requirements:\n> -------------------------\n>\n> Electronic submission of papers is required. The papers (up to 8 pages\n> in length) should be submitted through the AI and Statistics\n> Conference Management page. More specific instructions will be made\n> available soon.\n>\n> Submissions will be considered if they are received by 11:59 PM\n> September 14, 2004, Pacific Daylight Time. Receipt of all submissions\n> will be confirmed via electronic mail. Acceptance notices will be\n> emailed by November 2, 2004.\n>\n> Final papers (up to 8 pages, double column) must be received by\n> November 24, 2004. These papers will be made available on the web, and\n> distributed at the workshop in electronic form.\n>\n> Invited Speakers\n> ----------------\n>\n> Craig Boutelier (University of Toronto)\n> Nir Friedman (Hebrew University)\n> Tommi Jaakkola (MIT)\n> Steffen Lauritzen (University of Oxford)\n> Tom Minka (Microsoft Research)\n>\n> Program Chairs:\n> ----------------\n>\n> Robert Cowell,  Actuarial Science and Statistics, City University, London\n> Zoubin Ghahramani, Gatsby Unit, University College London\n>",
+      "body_snippet": "This workshop could well be of interest to the gRpeople. Hope to see many of\nyou there.\n\nGreetings from Toronto, where the gR session was very well attended.\n\nSteffen\n\n----- Original Message ----- \nFr",
+      "thread_id": "thread-fccff74f2384",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-7728aaecb312",
+      "message_id": "<36A25802686476479FBE08B99D1C111C026B0161@exdkba023.novo.dk>",
+      "from_name": "DED (David George Edwards)",
+      "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
+      "date": "2004-08-11T14:49:03+02:00",
+      "subject": "[R--gR] MIM now open source",
+      "subject_clean": "[R--gR] MIM now open source",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040811/a08ebe2c/attachment.ksh",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040811/a08ebe2c/attachment.ksh",
+      "thread_id": "thread-7728aaecb312",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-109f05f825a6",
+      "message_id": "<004601c48000$4edb0b70$b0feff0a@djf.agrsci.dk>",
+      "from_name": "Søren Højsgaard",
+      "from_email_hash": "b94b20299bb437c3325d339c2f11f7a19abe1a48326165952574fbdd92e73e60",
+      "date": "2004-08-12T02:07:02+02:00",
+      "subject": "[R--gR] New version of mimR",
+      "subject_clean": "[R--gR] New version of mimR",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040812/cdd21964/attachment.asc",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040812/cdd21964/attachment.asc",
+      "thread_id": "thread-109f05f825a6",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-d1485c3e95bb",
+      "message_id": "<Pine.SOL.4.44.0408171509500.7071-100000@blue1>",
+      "from_name": "Mathias Drton",
+      "from_email_hash": "da9e2eed5434da008488397da25ee0e67a98f7e31c1f07b647705a3464baad13",
+      "date": "2004-08-17T15:46:40-07:00",
+      "subject": "[R--gR] SIN model selection",
+      "subject_clean": "[R--gR] SIN model selection",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear gR-folk!\n\nAs Steffen previously announced, Michael Perlman and I have been doing\nsome work on model selection in Gaussian graphical models.\n\nIn a Gaussian graphical model, the conditional independences that define\nthe model hold iff partial correlation coefficients are zero. Thus, for\nmodel selection (i.e. determination of a graph from data) we can simply\ntest, for each possible edge, a hypothesis about a zero partial corr.\ncoeff.  If the hypothesis is accepted, then we do not include the\nassociated edge in the graph.  If it is rejected, then we include the\nedge.\n\nIn a paper appearing in September's issue of Biometrika, see\n\nhttp://www.stat.washington.edu/drton/Papers/2004sin.pdf\n\nfor a preprint, we show, in the setting of undirected graphs, how Fisher's\nz-transform and Sidak's inequality can be used to test these multiple\nhypotheses simultaneously. Carrying out the tests simultaneously, we can\ncontrol the overall error rate of incorrect edge inclusion in our model\nselection.\n\nIn a follow-up paper, we show how to apply this model selection procedure\n(which we named SIN) in the setting of DAGs and chain graphs. This paper\nis available as Univ. of Washington Tech. Report 457 at\n\nhttp://www.stat.washington.edu/www/research/reports/\n\nIn particular, we improve our simultaneous testing procedure using a\np-value adjustment due to Holm. The paper also provides a brief overview\nof Gaussian graphical models, which might be interesting in its own right.\n\nI have prepared a version 0.1 of an R package that implements SIN model\nselection. The package with name 'SIN' can be downloaded from\n\nhttp://cran.r-project.org/\n\nI am planning on revising the package over the next few weeks as I am not\nhappy with how I handled the labelling of the variables (be careful with\nthe chain graph routines).  Suggestions are welcome.\n\nBest wishes,\n\nMathias (Drton)",
+      "body_snippet": "Dear gR-folk!\n\nAs Steffen previously announced, Michael Perlman and I have been doing\nsome work on model selection in Gaussian graphical models.\n\nIn a Gaussian graphical model, the conditional indepen",
+      "thread_id": "thread-d1485c3e95bb",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-0a1fba60b1b3",
+      "message_id": "<001901c485b4$640d57a0$9230e182@math.auc.dk>",
+      "from_name": "Claus Dethlefsen",
+      "from_email_hash": "48e6709cd362023eb65ed9bec9662a1f01e94978d5c5ac385fbb13896d4bdc25",
+      "date": "2004-08-19T08:18:49+02:00",
+      "subject": "[R--gR] gRbase released !",
+      "subject_clean": "[R--gR] gRbase released !",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all\n\n- gRbase version 0.1.2 is soon available on CRAN (the previous version 0.1.0\nreleased last week is thereby obsolete). An easy way to install gRbase (and\ndynamicGraph which is needed) is to start R, be connected to the internet\nand call\n\n> install.packages(c(\"dynamicGraph\",\"gRbase\"))\n\nA quick try-out is to try the demos. In R, call\n> library(gRbase)\n> demo(reinis)\n> demo(gmData)\n\nFor more on gRbase, check \nhttp://www.math.aau.dk/research/reports/R-2004-19.pdf\n\nThe class \"hllm\" is our suggestion for how to implement a graphical model\nclass using the defined basic classes \"gmData\" and \"gModel\". Currently it\nuses the loglin/loglm engines for fitting. Comments are very welcome.\n\n-----------------\n\nIn addition, the package \"deal\" for learning Bayesian networks is updated\nnow making the dynamicGraph userinterface applicable. In R, call\n\n> install.packages(\"deal\")\n> library(deal)\n> demo(reinis)\n\nNote the User menu items.\n\nThe best,\nClaus\n\n---",
+      "body_snippet": "Dear all\n\n- gRbase version 0.1.2 is soon available on CRAN (the previous version 0.1.0\nreleased last week is thereby obsolete). An easy way to install gRbase (and\ndynamicGraph which is needed) is to s",
+      "thread_id": "thread-0a1fba60b1b3",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-ad9ac72c7d38",
+      "message_id": "<003c01c485d0$68795390$145601a3@SHELDUCK>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2004-08-19T10:39:21+01:00",
+      "subject": "[R--gR] Modelformulae",
+      "subject_clean": "[R--gR] Modelformulae",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear gR-folks\n\nThe Danish gR-gang have been talking about describing a model language for\ngraphical models that\n\n1) could specify at least chain graph models, based on the most general\nhierarchical mixed models as\ndescribed in Lauritzen (1996) [my book], section 6.4, pages 199-216. (More\ngeneral than MIM-models).\n\n2) did not confuse people who were accustomed to glim-type notation and\nformulae\n\n3) did not conflict too much with existing formula conventions (MIM, ggm)\n\n4) was clear and unambiguous, and immediately understandable without too\nmuch explanation\n\n5) did not conflict too much with the whole idea and setup of graphical\ninteraction models\n\n6) accomodates idea of multiple response variables\n\nHere is a first attempt. It may well work, but I would appreciate having\nresponse back if I have overlooked some nasty conflicts or bad sides to\nthis.\n\nThe whole issue is somewhat plagued by the \"coincidental\" fact that\n*intrinsically multivariate* log-linear models via \"the Poisson trick\" can\nbe described through univariate response models for the counts.\n\nBelow I will first describe the basic general setup, then some conventions\nwhich enable people to use alternative, more traditional approaches, without\nambiguity.\n\nWhat do you all think of this? Please reply to the entire list...;-)\n\nIf it works, the suggestion would be for gRbase to adopt it and abandon\nMIM-notation alltogether, as the latter is slightly different in style.\n\nHopefully it can also be extended to cover BUGS-type models without too many\ndirect conflicts.\n\nBest regards\nSteffen\n\n--\nSteffen L. Lauritzen\nDepartment of Statistics, University of Oxford\n1 South Parks Road, Oxford OX1 3TG, United Kingdom\nTel: +44 1865 272877; Fax: +44 1865 272595\nemail: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/\n\n---------\n\n\nThe following signs are (at least) permissible:  ~, + , *  ,  :  ,  ^  ,  .\nand  |\n\n~ indicates the beginning of a formula. Implicitly think of\n\nlog f ~ ....\n\n| denotes parenthood in graph, equiv to normalising/conditioning\n\n+ denotes multiplicative combination (log-additive). Chain components must\nbe contained within parentheses.\n\n* or : denotes (tensor)product of interaction terms, decomposed into terms\nof lower order or not, i.e.\nA*B*C specifies all subsets of ABC, whereas A:B:C only uses ABC.\n\nstrength of bindings   (*,:)   >   +   >  |\n\nexamples of legal formulae (same model with three chain components\nspecified)\n\nm <- gm( log f ~ (A:B+C:D|D)+(B*E|E)+(D*E|E))\n\nm <- gm( ~ (A:B+C*D|D), ~(B*E|E)+(D*E|E))\n\nhierarchical models, as in  CoCoCg and Lauritzen (1996)cf p. 213\n\n~ A+B:X+B*Y+A*B*X^2+A*X:Y+Y^2 not a mim-model\n\n~ A+B:X+A*Y+A*(X+Y)^2 = mim(A+B/AX+BY/AXY)\n\nsome different models\n\nm1<- gm(~A*B+C*D|B*D) equiv  gm(~A*B+C*D+B*D|B*D)\n\nm2<-gm(~((B+D)*E)|E)\n\nm<-b(m1,m2)\n\nm <- gm( ~ (A*B)+(C*D|D)+(B*E+D*E|E))\n\nm<- gm( ~ (A*B)+(C|D)+(B+D|E))\n\nCONVENTION for compatibility with standard regression and ggm:\n\nY~X+U:A is the same as ~(Y:X+Y:U:A |XUA) = ~(Y:(X+U:A) |XUA),\n\nthat is: *If * there is a variable on the left hand side of ~, this is a\nresponse to the variables on the right hand side, and the interaction\nstructure is the product of right and left hand sides.\n\nWork still needs to be done to identify when models are legal, the same, and\nparse them for proper and correct analysis.\n\nIs this the way ahead?",
+      "body_snippet": "Dear gR-folks\n\nThe Danish gR-gang have been talking about describing a model language for\ngraphical models that\n\n1) could specify at least chain graph models, based on the most general\nhierarchical mi",
+      "thread_id": "thread-ad9ac72c7d38",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-fc313dcb12f6",
+      "message_id": "<36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>",
+      "from_name": "DED (David George Edwards)",
+      "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
+      "date": "2004-08-19T14:44:19+02:00",
+      "subject": "[R--gR] Modelformulae",
+      "subject_clean": "[R--gR] Modelformulae",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear Steffen (and other gRs)\n\nI think it is absolutely the way ahead. Some quick questions and\ncomments\n\n1. At first sight it seems confusing to use parentheses to mark block\ncomponents, I think I'd prefer \nsome special symbol (eg & ?) or the b() notation:\n\n~ (A+B)*C|D & B*E|E & D|E   or equivalently\n~ b(A+B)*C|D, B*E|E, D|E)\n\n2. Syntax constraints \n*\tInteractions between continuous variables of max order 2, eg\nX*Y*Z is illegal\n*\t(I suppose X*X is equivalent to X^2?)\n*     Higher order continuous interactions could be disallowed or\nignored (prefer the former)\n*\tCategorical variables are 'factors' in R (sorry for the\nRothamsted ambience here)\n*     I suppose A*A is illegal if A is a factor, or is it just\nequivalent to A?\n*\tConditioning symbol | is followed by a simple variable list eg\n(X,Y,A)\n*\tno directed cycles for chain graph models\n*\tmore ?\n\neg ~ A*(X+Y+Z)^2|(X,Y,Z)\n\n3. Functions can be used, eg ~Z+log(X), sqrt(x-min(x)) \n\n4. Ramifications of ':'\n*     My understanding is that the use of ':' rather than '*' relates to\ndifferent parametrisations of the same space. \n\tIn principle when specifying a model this should be irrelevant.\nOr do we want to commit ourselves to a certain\n      parametrisation - if so, why? \n*     I suppose if ':' is allowed we should also allow %in% and /\n(nested).\n\n5. Question to the (ha)R(d)-core: can the existing R formula parser be\nused with these formulae? Or how should it be done?\nIf we need a special parser, what should this return?\n\nBest regards\nDavid \n\n-----Original Message-----\nFrom: r-sig-gr-bounces at stat.math.ethz.ch\n[mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of Steffen\nLauritzen\nSent: 19. august 2004 11:39\nTo: gRlist\nSubject: [R--gR] Modelformulae\n\n\nDear gR-folks\n\nThe Danish gR-gang have been talking about describing a model language\nfor graphical models that\n\n1) could specify at least chain graph models, based on the most general\nhierarchical mixed models as described in Lauritzen (1996) [my book],\nsection 6.4, pages 199-216. (More general than MIM-models).\n\n2) did not confuse people who were accustomed to glim-type notation and\nformulae\n\n3) did not conflict too much with existing formula conventions (MIM,\nggm)\n\n4) was clear and unambiguous, and immediately understandable without too\nmuch explanation\n\n5) did not conflict too much with the whole idea and setup of graphical\ninteraction models\n\n6) accomodates idea of multiple response variables\n\nHere is a first attempt. It may well work, but I would appreciate having\nresponse back if I have overlooked some nasty conflicts or bad sides to\nthis.\n\nThe whole issue is somewhat plagued by the \"coincidental\" fact that\n*intrinsically multivariate* log-linear models via \"the Poisson trick\"\ncan be described through univariate response models for the counts.\n\nBelow I will first describe the basic general setup, then some\nconventions which enable people to use alternative, more traditional\napproaches, without ambiguity.\n\nWhat do you all think of this? Please reply to the entire list...;-)\n\nIf it works, the suggestion would be for gRbase to adopt it and abandon\nMIM-notation alltogether, as the latter is slightly different in style.\n\nHopefully it can also be extended to cover BUGS-type models without too\nmany direct conflicts.\n\nBest regards\nSteffen\n\n--\nSteffen L. Lauritzen\nDepartment of Statistics, University of Oxford\n1 South Parks Road, Oxford OX1 3TG, United Kingdom\nTel: +44 1865 272877; Fax: +44 1865 272595\nemail: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/\n\n---------\n\n\nThe following signs are (at least) permissible:  ~, + , *  ,  :  ,  ^  ,\n. and  |\n\n~ indicates the beginning of a formula. Implicitly think of\n\nlog f ~ ....\n\n| denotes parenthood in graph, equiv to normalising/conditioning\n\n+ denotes multiplicative combination (log-additive). Chain components \n+ must\nbe contained within parentheses.\n\n* or : denotes (tensor)product of interaction terms, decomposed into\nterms of lower order or not, i.e. A*B*C specifies all subsets of ABC,\nwhereas A:B:C only uses ABC.\n\nstrength of bindings   (*,:)   >   +   >  |\n\nexamples of legal formulae (same model with three chain components\nspecified)\n\nm <- gm( log f ~ (A:B+C:D|D)+(B*E|E)+(D*E|E))\n\nm <- gm( ~ (A:B+C*D|D), ~(B*E|E)+(D*E|E))\n\nhierarchical models, as in  CoCoCg and Lauritzen (1996)cf p. 213\n\n~ A+B:X+B*Y+A*B*X^2+A*X:Y+Y^2 not a mim-model\n\n~ A+B:X+A*Y+A*(X+Y)^2 = mim(A+B/AX+BY/AXY)\n\nsome different models\n\nm1<- gm(~A*B+C*D|B*D) equiv  gm(~A*B+C*D+B*D|B*D)\n\nm2<-gm(~((B+D)*E)|E)\n\nm<-b(m1,m2)\n\nm <- gm( ~ (A*B)+(C*D|D)+(B*E+D*E|E))\n\nm<- gm( ~ (A*B)+(C|D)+(B+D|E))\n\nCONVENTION for compatibility with standard regression and ggm:\n\nY~X+U:A is the same as ~(Y:X+Y:U:A |XUA) = ~(Y:(X+U:A) |XUA),\n\nthat is: *If * there is a variable on the left hand side of ~, this is a\nresponse to the variables on the right hand side, and the interaction\nstructure is the product of right and left hand sides.\n\nWork still needs to be done to identify when models are legal, the same,\nand parse them for proper and correct analysis.\n\nIs this the way ahead?\n\n_______________________________________________\nR-sig-gR mailing list\nR-sig-gR at stat.math.ethz.ch\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Dear Steffen (and other gRs)\n\nI think it is absolutely the way ahead. Some quick questions and\ncomments\n\n1. At first sight it seems confusing to use parentheses to mark block\ncomponents, I think I'd p",
+      "thread_id": "thread-fc313dcb12f6",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-f726c3dd11ee",
+      "message_id": "<20040819152204.58f7b86c.david.meyer@wu-wien.ac.at>",
+      "from_name": "David Meyer",
+      "from_email_hash": "654c29c8b08ea0942273319b5f403abebb4f0324f6059c016cd0832242a33418",
+      "date": "2004-08-19T15:22:04+02:00",
+      "subject": "[R--gR] Modelformulae",
+      "subject_clean": "[R--gR] Modelformulae",
+      "in_reply_to": "<36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>",
+      "references": [
+        "<36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>"
+      ],
+      "body_plain": "just 2 comments:\n\n> \n> ~ (A+B)*C|D & B*E|E & D|E   or equivalently\n> ~ b(A+B)*C|D, B*E|E, D|E)\n\nI think you will have to use the b() notation. The '&' operator will\nprobably confuse the formula parser.\n\n> *\tConditioning symbol | is followed by a simple variable list eg\n> (X,Y,A)\n> \n> eg ~ A*(X+Y+Z)^2|(X,Y,Z)\n\nThis is illegal in R. You will need to use a separator like + or again a\ngrouping function:\n\n~ A * (X+Y+Z) | X + Y + Z\nor\n~ A * (X+Y+Z) | l(X,Y,Z)\n\njust my 2c\n\nDavid\n\n\n> \n> 3. Functions can be used, eg ~Z+log(X), sqrt(x-min(x)) \n> \n> 4. Ramifications of ':'\n> *     My understanding is that the use of ':' rather than '*' relates\n> to different parametrisations of the same space. \n> \tIn principle when specifying a model this should be irrelevant.\n> Or do we want to commit ourselves to a certain\n>       parametrisation - if so, why? \n> *     I suppose if ':' is allowed we should also allow %in% and /\n> (nested).\n> \n> 5. Question to the (ha)R(d)-core: can the existing R formula parser be\n> used with these formulae? Or how should it be done?\n> If we need a special parser, what should this return?\n> \n> Best regards\n> David \n> \n> -----Original Message-----\n> From: r-sig-gr-bounces at stat.math.ethz.ch\n> [mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of Steffen\n> Lauritzen\n> Sent: 19. august 2004 11:39\n> To: gRlist\n> Subject: [R--gR] Modelformulae\n> \n> \n> Dear gR-folks\n> \n> The Danish gR-gang have been talking about describing a model language\n> for graphical models that\n> \n> 1) could specify at least chain graph models, based on the most\n> general hierarchical mixed models as described in Lauritzen (1996) [my\n> book], section 6.4, pages 199-216. (More general than MIM-models).\n> \n> 2) did not confuse people who were accustomed to glim-type notation\n> and formulae\n> \n> 3) did not conflict too much with existing formula conventions (MIM,\n> ggm)\n> \n> 4) was clear and unambiguous, and immediately understandable without\n> too much explanation\n> \n> 5) did not conflict too much with the whole idea and setup of\n> graphical interaction models\n> \n> 6) accomodates idea of multiple response variables\n> \n> Here is a first attempt. It may well work, but I would appreciate\n> having response back if I have overlooked some nasty conflicts or bad\n> sides to this.\n> \n> The whole issue is somewhat plagued by the \"coincidental\" fact that\n> *intrinsically multivariate* log-linear models via \"the Poisson trick\"\n> can be described through univariate response models for the counts.\n> \n> Below I will first describe the basic general setup, then some\n> conventions which enable people to use alternative, more traditional\n> approaches, without ambiguity.\n> \n> What do you all think of this? Please reply to the entire list...;-)\n> \n> If it works, the suggestion would be for gRbase to adopt it and\n> abandon MIM-notation alltogether, as the latter is slightly different\n> in style.\n> \n> Hopefully it can also be extended to cover BUGS-type models without\n> too many direct conflicts.\n> \n> Best regards\n> Steffen\n> \n> --\n> Steffen L. Lauritzen\n> Department of Statistics, University of Oxford\n> 1 South Parks Road, Oxford OX1 3TG, United Kingdom\n> Tel: +44 1865 272877; Fax: +44 1865 272595\n> email: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/\n> \n> ---------\n> \n> \n> The following signs are (at least) permissible:  ~, + , *  ,  :  ,  ^ \n> ,. and  |\n> \n> ~ indicates the beginning of a formula. Implicitly think of\n> \n> log f ~ ....\n> \n> | denotes parenthood in graph, equiv to normalising/conditioning\n> \n> + denotes multiplicative combination (log-additive). Chain components \n> + must\n> be contained within parentheses.\n> \n> * or : denotes (tensor)product of interaction terms, decomposed into\n> terms of lower order or not, i.e. A*B*C specifies all subsets of ABC,\n> whereas A:B:C only uses ABC.\n> \n> strength of bindings   (*,:)   >   +   >  |\n> \n> examples of legal formulae (same model with three chain components\n> specified)\n> \n> m <- gm( log f ~ (A:B+C:D|D)+(B*E|E)+(D*E|E))\n> \n> m <- gm( ~ (A:B+C*D|D), ~(B*E|E)+(D*E|E))\n> \n> hierarchical models, as in  CoCoCg and Lauritzen (1996)cf p. 213\n> \n> ~ A+B:X+B*Y+A*B*X^2+A*X:Y+Y^2 not a mim-model\n> \n> ~ A+B:X+A*Y+A*(X+Y)^2 = mim(A+B/AX+BY/AXY)\n> \n> some different models\n> \n> m1<- gm(~A*B+C*D|B*D) equiv  gm(~A*B+C*D+B*D|B*D)\n> \n> m2<-gm(~((B+D)*E)|E)\n> \n> m<-b(m1,m2)\n> \n> m <- gm( ~ (A*B)+(C*D|D)+(B*E+D*E|E))\n> \n> m<- gm( ~ (A*B)+(C|D)+(B+D|E))\n> \n> CONVENTION for compatibility with standard regression and ggm:\n> \n> Y~X+U:A is the same as ~(Y:X+Y:U:A |XUA) = ~(Y:(X+U:A) |XUA),\n> \n> that is: *If * there is a variable on the left hand side of ~, this is\n> a response to the variables on the right hand side, and the\n> interaction structure is the product of right and left hand sides.\n> \n> Work still needs to be done to identify when models are legal, the\n> same, and parse them for proper and correct analysis.\n> \n> Is this the way ahead?\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n> \n\n\n-- \nDr. David Meyer\nDepartment of Information Systems\n\nVienna University of Economics and Business Administration\nAugasse 2-6, A-1090 Wien, Austria, Europe\nFax: +43-1-313 36x746 \nTel: +43-1-313 36x4393\nHP:  http://wi.wu-wien.ac.at/Wer_sind_wir/meyer/",
+      "body_snippet": "just 2 comments:\n\n> \n> ~ (A+B)*C|D & B*E|E & D|E   or equivalently\n> ~ b(A+B)*C|D, B*E|E, D|E)\n\nI think you will have to use the b() notation. The '&' operator will\nprobably confuse the formula parser",
+      "thread_id": "thread-fc313dcb12f6",
+      "thread_depth": 1,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-16630eb0eb3b",
+      "message_id": "<20040819165614.5be7f938.Achim.Zeileis@wu-wien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2004-08-19T16:56:14+02:00",
+      "subject": "[R--gR] gR web page updated",
+      "subject_clean": "[R--gR] gR web page updated",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "It's great to see so much going within gR: I tried to reflect the latest\nadvances on the gR web page\n  http://www.R-project.org/gR/\nby adding prominent links to the release announcements.\n\nI also tried to update the list of CRAN packages somehow related to gR.\nIn addition to the packages announced on this list, two interfaces to\nBUGS became available as CRAN packages.\n\nLet me know if I missed anything.\n\nFor the CRAN package authors (i.e. in particular Claus, Jens Henrik,\nMathias, S?ren): I guess it would be a good idea to announce the new\npackages on the R-packages list\n  https://stat.ethz.ch/mailman/listinfo/r-packages\n(which is sort of under-used anyway). Probably, you'll gain a few more\ninterested users (i.e., potential bug-fixers etc.) by doing so.\n\nBest wishes,\nAchim",
+      "body_snippet": "It's great to see so much going within gR: I tried to reflect the latest\nadvances on the gR web page\n  http://www.R-project.org/gR/\nby adding prominent links to the release announcements.\n\nI also trie",
+      "thread_id": "thread-16630eb0eb3b",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-2a9b76a196a9",
+      "message_id": "<000f01c48604$b3e336a0$1b5601a3@SHELDUCK>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2004-08-19T16:53:38+01:00",
+      "subject": "[R--gR] Modelformulae",
+      "subject_clean": "[R--gR] Modelformulae",
+      "in_reply_to": null,
+      "references": [
+        "<36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>"
+      ],
+      "body_plain": "Just a quick reply to some of David E's comments (David M's comments have\nbeen recorded):\n\n> 2. Syntax constraints\n> * Interactions between continuous variables of max order 2, eg\n> X*Y*Z is illegal\n> * (I suppose X*X is equivalent to X^2?)\n\nThis needs thinking, but you are probably right.\n\nGenerally the formulas on the left hand side of the conditioning symbols\nshould refer to vector spaces and one should think about this all  the time\nwhen formulas are abbreviated and combined in strange ways. Somebody (Svante\nand I?) should look carefully into this.\n\nFor the moment, in my head X^2 is span(1, x, x^2). Generally X is span(1,\nx).\n\nFor vectorspaces U and V, U:V denotes span of all componentwise products of\nbasis vectors for U and V, embedded into suitable (tensor)productspaces.\n\nA \"factor\" A is span(e_alpha, alpha\\in levels of A), where e_alpha =1 in\ncell alpha and 0 otherwise.\n\nA:B is then what we want it to be and X:X is X^2.\n\nX:Y:Z (or X*Y*Z) should be deemed illegal unless one of them is a factor.\n\nBut some care may have to be taken with what products mean and how they are\ninterpreted.\n\n> *     Higher order continuous interactions could be disallowed or\n> ignored (prefer the former)\n\nOK\n\n> * Categorical variables are 'factors' in R (sorry for the\n> Rothamsted ambience here)\n\nOK, probably no way to get rid of this...\n\n> *     I suppose A*A is illegal if A is a factor, or is it just\n> equivalent to A?\n\nwith the above definition, A*A=A, but X*X is not X, when X is not a factor.\n\n> * Conditioning symbol | is followed by a simple variable list eg\n> (X,Y,A)\n\nyes, but not with parentheses (as commented by David M)\n\n> * no directed cycles for chain graph models\n> * more ?\n>\n> eg ~ A*(X+Y+Z)^2|(X,Y,Z)\n>\n\nHere (X+Y+Z)^2= span(1,x,y,z)*span(1,x,y,z)= X^2+Y^2+Z^2+X:Y+X:Z+Y:Z\n\n> 3. Functions can be used, eg ~Z+log(X), sqrt(x-min(x))\n>\n\nCareful! Translation to vector spaces needs to be clear.\n\n> 4. Ramifications of ':'\n> *     My understanding is that the use of ':' rather than '*' relates to\n> different parametrisations of the same space.\n\nA little more than that. It also specifies a lattice of models, rather than\na single one, namely the hierarchical submodels obtained be removing terms\nof higher order.\n\n> In principle when specifying a model this should be irrelevant.\n\nOld Rothamstead ambience: Nelder implicitly specifies much more than a model\nwith a formula, namely a full ANOVA of the data.... He never writes so in\nthe theoretical part, but does so in his examples. Confusing, but true... I\na\n\n> Or do we want to commit ourselves to a certain\n>       parametrisation - if so, why?\n\nNo, not other than by the above. With a given parametrisation it becomes\nparticularly easy to analyse all models by very few computations (only a\nsingle one in the normal case).\n\n> *     I suppose if ':' is allowed we should also allow %in% and /\n> (nested).\n>\n\nIn principle yes, but we have to identify what it means. Split models?\n\nBest regards\nSteffen",
+      "body_snippet": "Just a quick reply to some of David E's comments (David M's comments have\nbeen recorded):\n\n> 2. Syntax constraints\n> * Interactions between continuous variables of max order 2, eg\n> X*Y*Z is illegal\n>",
+      "thread_id": "thread-fc313dcb12f6",
+      "thread_depth": 1,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-02924cfd1d14",
+      "message_id": "<001b01c48605$31d8b260$1b5601a3@SHELDUCK>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2004-08-19T16:56:59+01:00",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "subject_clean": "[R--gR] Modelformulae: reference?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "By the way, does anyone know an authoritative reference for the usual \"model\nalgebra\", originating (I presume) with Nelder and Wilkinson and forming the\nbasis for GLIM model specification and analysis?\n\nRegards\nSteffen\n\n--\nSteffen L. Lauritzen\nDepartment of Statistics, University of Oxford\n1 South Parks Road, Oxford OX1 3TG, United Kingdom\nTel: +44 1865 272877; Fax: +44 1865 272595\nemail: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/",
+      "body_snippet": "By the way, does anyone know an authoritative reference for the usual \"model\nalgebra\", originating (I presume) with Nelder and Wilkinson and forming the\nbasis for GLIM model specification and analysis",
+      "thread_id": "thread-02924cfd1d14",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-2f3e11a39102",
+      "message_id": "<20040819182527.55cf1fa1.david.meyer@wu-wien.ac.at>",
+      "from_name": "David Meyer",
+      "from_email_hash": "654c29c8b08ea0942273319b5f403abebb4f0324f6059c016cd0832242a33418",
+      "date": "2004-08-19T18:25:27+02:00",
+      "subject": "[R--gR] Modelformulae",
+      "subject_clean": "[R--gR] Modelformulae",
+      "in_reply_to": "<000f01c48604$b3e336a0$1b5601a3@SHELDUCK>",
+      "references": [
+        "<36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>",
+        "<000f01c48604$b3e336a0$1b5601a3@SHELDUCK>"
+      ],
+      "body_plain": "[...]\n\n> \n> > * Conditioning symbol | is followed by a simple variable list eg\n> > (X,Y,A)\n> \n> yes, but not with parentheses (as commented by David M)\n\nand neither with colons: things like\n\nfun(~ A + B | C, D)\n\nare clearly misunderstood by the parser.\n\n-d",
+      "body_snippet": "[...]\n\n> \n> > * Conditioning symbol | is followed by a simple variable list eg\n> > (X,Y,A)\n> \n> yes, but not with parentheses (as commented by David M)\n\nand neither with colons: things like\n\nfun(~ A +",
+      "thread_id": "thread-fc313dcb12f6",
+      "thread_depth": 2,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-5fb83c29f158",
+      "message_id": "<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at tuwien.ac.at",
+      "from_email_hash": "30d001dc747c04b1219ea5f62f9a8f3508c5053baeb93f159bc28cd315fb6ad9",
+      "date": "2004-08-20T08:45:58+02:00",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "subject_clean": "[R--gR] Modelformulae: reference?",
+      "in_reply_to": "<001b01c48605$31d8b260$1b5601a3@SHELDUCK>",
+      "references": [
+        "<001b01c48605$31d8b260$1b5601a3@SHELDUCK>"
+      ],
+      "body_plain": ">>>>> On Thu, 19 Aug 2004 16:56:59 +0100,\n>>>>> Steffen Lauritzen (SL) wrote:\n\n  > By the way, does anyone know an authoritative reference for the usual \"model\n  > algebra\", originating (I presume) with Nelder and Wilkinson and forming the\n  > basis for GLIM model specification and analysis?\n\nI think the original paper is\n\n@Article{flm:Wilkinson+Rogers:1973,\n  author       = {G. N. Wilkinson and C. E Rogers},\n  title\t       = {Symbolic Description of Factorial Models for\n                  Analysis of Variance},\n  journal      = {Applied Statistics},\n  year\t       = 1973,\n  volume       = 22,\n  pages\t       = {392--399}\n}\n\nbut I don't have a copy of the paper, so I don't know what's in there.\n\nbest,\nfritz",
+      "body_snippet": ">>>>> On Thu, 19 Aug 2004 16:56:59 +0100,\n>>>>> Steffen Lauritzen (SL) wrote:\n\n  > By the way, does anyone know an authoritative reference for the usual \"model\n  > algebra\", originating (I presume) wi",
+      "thread_id": "thread-02924cfd1d14",
+      "thread_depth": 1,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-e4ef8e428935",
+      "message_id": "<001c01c48685$11431d80$155601a3@SHELDUCK>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2004-08-20T08:12:34+01:00",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "subject_clean": "[R--gR] Modelformulae: reference?",
+      "in_reply_to": null,
+      "references": [
+        "<001b01c48605$31d8b260$1b5601a3@SHELDUCK>",
+        "<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>"
+      ],
+      "body_plain": "Yes, I am sure this is right, thank you. It has no doubt developed a bit\nsince then, possibly in a partly anarchistic way.\n\nSteffen\n\n----- Original Message ----- \nFrom: <Friedrich.Leisch at tuwien.ac.at>\nTo: \"Steffen Lauritzen\" <steffen at stats.ox.ac.uk>\nCc: \"gRlist\" <R-sig-gR at stat.math.ethz.ch>\nSent: Friday, August 20, 2004 7:45 AM\nSubject: Re: [R--gR] Modelformulae: reference?\n\n\n> >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,\n> >>>>> Steffen Lauritzen (SL) wrote:\n>\n>   > By the way, does anyone know an authoritative reference for the usual\n\"model\n>   > algebra\", originating (I presume) with Nelder and Wilkinson and\nforming the\n>   > basis for GLIM model specification and analysis?\n>\n> I think the original paper is\n>\n> @Article{flm:Wilkinson+Rogers:1973,\n>   author       = {G. N. Wilkinson and C. E Rogers},\n>   title        = {Symbolic Description of Factorial Models for\n>                   Analysis of Variance},\n>   journal      = {Applied Statistics},\n>   year        = 1973,\n>   volume       = 22,\n>   pages        = {392--399}\n> }\n>\n> but I don't have a copy of the paper, so I don't know what's in there.\n>\n> best,\n> fritz\n>",
+      "body_snippet": "Yes, I am sure this is right, thank you. It has no doubt developed a bit\nsince then, possibly in a partly anarchistic way.\n\nSteffen\n\n----- Original Message ----- \nFrom: <Friedrich.Leisch at tuwien.ac.",
+      "thread_id": "thread-02924cfd1d14",
+      "thread_depth": 2,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-ab63d4ec5b2e",
+      "message_id": "<4125A947.2080102@math.auc.dk>",
+      "from_name": "Poul Svante Eriksen",
+      "from_email_hash": "9cc5f58f1579730be0e0050605771898d3bf82232910961125237f6adf5d1c8e",
+      "date": "2004-08-20T09:33:27+02:00",
+      "subject": "[R--gR] Modelformulae",
+      "subject_clean": "[R--gR] Modelformulae",
+      "in_reply_to": "<003c01c485d0$68795390$145601a3@SHELDUCK>",
+      "references": [
+        "<003c01c485d0$68795390$145601a3@SHELDUCK>"
+      ],
+      "body_plain": "A few comments - just to clear my mind.\n\nSteffen Lauritzen wrote:\n\n>Dear gR-folks\n>\n>The Danish gR-gang have been talking about describing a model language for\n>graphical models that\n>\n>1) could specify at least chain graph models, based on the most general\n>hierarchical mixed models as\n>described in Lauritzen (1996) [my book], section 6.4, pages 199-216. (More\n>general than MIM-models).\n>  \n>\nAre we limiting the discussion to the Conditionally Gaussian(CG) case \nwith independent and identically distributed observations?\nThat would make life much more easy and clearly rule out X*Y*Z between \ncontinuous variables.\nAnd I have no problem with interpreting \"~\" as \"log f ~\" as long as we \nare careful to include quadratic terms of  continuos variables.\nBut it also rules out things like ~Z+log(X)  and is far from having the \nsame flexibility as the BUGS syntax.\nWe might allow ~Z*(Z+log(X))|X  and thereby leaving CG, but sticking to \ngaussian error.\n\nIf we want a more general BUGS/glim-like syntax, we need to consider,\nhow to include information on link and errordistribution. And it would \nbe nice\nto facilitate correlation across unit, e.g. by allowing ~X*B(X)|B(X), \nwhere B is the backshift operator.\n\nRegards, svante\n\n-- \n----------------------------------------------------\nPoul Svante Eriksen, office G1-113\nDepartment of Mathematical Sciences\nAalborg University\nFredrik Bajers Vej 7G, DK-9220 Aalborg East, Denmark\ntel.: (+45) 96358868",
+      "body_snippet": "A few comments - just to clear my mind.\n\nSteffen Lauritzen wrote:\n\n>Dear gR-folks\n>\n>The Danish gR-gang have been talking about describing a model language for\n>graphical models that\n>\n>1) could speci",
+      "thread_id": "thread-ad9ac72c7d38",
+      "thread_depth": 1,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-16c750ddb42d",
+      "message_id": "<006701c48696$23fbd6e0$155601a3@SHELDUCK>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2004-08-20T10:14:47+01:00",
+      "subject": "[R--gR] Modelformulae",
+      "subject_clean": "[R--gR] Modelformulae",
+      "in_reply_to": null,
+      "references": [
+        "<003c01c485d0$68795390$145601a3@SHELDUCK>",
+        "<4125A947.2080102@math.auc.dk>"
+      ],
+      "body_plain": "In a slightly longer perspective, I think the \"CoCoCg\"-models are far from\nbeing sufficient, so the language should preferably be extendable to express\nmany other models, and their combinations, to achieve a long-term goal of\n\"Programming with models\".\n\nThis may not be easy to do in a single step, but there is no reason to\nexclude anything from the language which can be given a clear and\nunambiguous meaning.\n\nIf terms are included like log(X) or X*Y*Z, the CoCoCg-parser can just say\nthat this model is not available as a CoCoCg-model.\n\nBut some crisp conventions should be formulated in any case.\n\nSteffen\n\n\n----- Original Message ----- \nFrom: \"Poul Svante Eriksen\" <svante at math.aau.dk>\nTo: \"Steffen Lauritzen\" <steffen at stats.ox.ac.uk>\nCc: \"gRlist\" <R-sig-gR at stat.math.ethz.ch>\nSent: Friday, August 20, 2004 8:33 AM\nSubject: Re: [R--gR] Modelformulae\n\n\n> A few comments - just to clear my mind.\n>\n> Steffen Lauritzen wrote:\n>\n> >Dear gR-folks\n> >\n> >The Danish gR-gang have been talking about describing a model language\nfor\n> >graphical models that\n> >\n> >1) could specify at least chain graph models, based on the most general\n> >hierarchical mixed models as\n> >described in Lauritzen (1996) [my book], section 6.4, pages 199-216.\n(More\n> >general than MIM-models).\n> >\n> >\n> Are we limiting the discussion to the Conditionally Gaussian(CG) case\n> with independent and identically distributed observations?\n> That would make life much more easy and clearly rule out X*Y*Z between\n> continuous variables.\n> And I have no problem with interpreting \"~\" as \"log f ~\" as long as we\n> are careful to include quadratic terms of  continuos variables.\n> But it also rules out things like ~Z+log(X)  and is far from having the\n> same flexibility as the BUGS syntax.\n> We might allow ~Z*(Z+log(X))|X  and thereby leaving CG, but sticking to\n> gaussian error.\n>\n> If we want a more general BUGS/glim-like syntax, we need to consider,\n> how to include information on link and errordistribution. And it would\n> be nice\n> to facilitate correlation across unit, e.g. by allowing ~X*B(X)|B(X),\n> where B is the backshift operator.\n>\n> Regards, svante\n>\n> -- \n> ----------------------------------------------------\n> Poul Svante Eriksen, office G1-113\n> Department of Mathematical Sciences\n> Aalborg University\n> Fredrik Bajers Vej 7G, DK-9220 Aalborg East, Denmark\n> tel.: (+45) 96358868\n> ----------------------------------------------------\n>\n>",
+      "body_snippet": "In a slightly longer perspective, I think the \"CoCoCg\"-models are far from\nbeing sufficient, so the language should preferably be extendable to express\nmany other models, and their combinations, to ac",
+      "thread_id": "thread-ad9ac72c7d38",
+      "thread_depth": 2,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-ce59f95d2b9a",
+      "message_id": "<16677.54719.268290.408162@celebrian.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at tuwien.ac.at",
+      "from_email_hash": "30d001dc747c04b1219ea5f62f9a8f3508c5053baeb93f159bc28cd315fb6ad9",
+      "date": "2004-08-20T12:43:11+02:00",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "subject_clean": "[R--gR] Modelformulae: reference?",
+      "in_reply_to": "<001c01c48685$11431d80$155601a3@SHELDUCK>",
+      "references": [
+        "<001b01c48605$31d8b260$1b5601a3@SHELDUCK>",
+        "<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>",
+        "<001c01c48685$11431d80$155601a3@SHELDUCK>"
+      ],
+      "body_plain": ">>>>> On Fri, 20 Aug 2004 08:12:34 +0100,\n>>>>> Steffen Lauritzen (SL) wrote:\n\n  > Yes, I am sure this is right, thank you.\n\nYou're welcome.\n\n  > It has no doubt developed a bit\n  > since then, possibly in a partly anarchistic way.\n\nYes, certainly. For S, the white book is the key reference.\n\nBest,\nFritz",
+      "body_snippet": ">>>>> On Fri, 20 Aug 2004 08:12:34 +0100,\n>>>>> Steffen Lauritzen (SL) wrote:\n\n  > Yes, I am sure this is right, thank you.\n\nYou're welcome.\n\n  > It has no doubt developed a bit\n  > since then, possib",
+      "thread_id": "thread-02924cfd1d14",
+      "thread_depth": 3,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-8c9a76b8ec68",
+      "message_id": "<20040820132502.258c4bf1.Achim.Zeileis@wu-wien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2004-08-20T13:25:02+02:00",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "subject_clean": "[R--gR] Modelformulae: reference?",
+      "in_reply_to": "<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>",
+      "references": [
+        "<001b01c48605$31d8b260$1b5601a3@SHELDUCK>",
+        "<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>"
+      ],
+      "body_plain": "On Fri, 20 Aug 2004 08:45:58 +0200 Friedrich.Leisch at tuwien.ac.at wrote:\n\n> >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,\n> >>>>> Steffen Lauritzen (SL) wrote:\n> \n>   > By the way, does anyone know an authoritative reference for the\n>   > usual \"model algebra\", originating (I presume) with Nelder and\n>   > Wilkinson and forming the basis for GLIM model specification and\n>   > analysis?\n> \n> I think the original paper is\n> \n> @Article{flm:Wilkinson+Rogers:1973,\n>   author       = {G. N. Wilkinson and C. E Rogers},\n>   title\t       = {Symbolic Description of Factorial Models for\n>                   Analysis of Variance},\n>   journal      = {Applied Statistics},\n>   year\t       = 1973,\n>   volume       = 22,\n>   pages\t       = {392--399}\n> }\n> \n> but I don't have a copy of the paper, so I don't know what's in there.\n\nI put up a pdf copy from JSTOR at\n  http://www.R-project.org/gR/papers/\n\nBest,\nZ\n\n> best,\n> fritz\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>",
+      "body_snippet": "On Fri, 20 Aug 2004 08:45:58 +0200 Friedrich.Leisch at tuwien.ac.at wrote:\n\n> >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,\n> >>>>> Steffen Lauritzen (SL) wrote:\n> \n>   > By the way, does anyone know an a",
+      "thread_id": "thread-02924cfd1d14",
+      "thread_depth": 2,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-29d0ee2c41c5",
+      "message_id": "<36A25802686476479FBE08B99D1C111C026B0178@exdkba023.novo.dk>",
+      "from_name": "DED (David George Edwards)",
+      "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
+      "date": "2004-08-20T13:34:49+02:00",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "subject_clean": "[R--gR] Modelformulae: reference?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Peter McCullagh has done some work on 'model algebra' that's possibly\nrelevant?:\nhttp://galton.uchicago.edu/~pmcc/TR.html\nbr David\n\n-----Original Message-----\nFrom: r-sig-gr-bounces at stat.math.ethz.ch\n[mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of Achim Zeileis\nSent: 20. august 2004 13:25\nTo: Friedrich.Leisch at tuwien.ac.at\nCc: R-sig-gR at stat.math.ethz.ch\nSubject: Re: [R--gR] Modelformulae: reference?\n\n\nOn Fri, 20 Aug 2004 08:45:58 +0200 Friedrich.Leisch at tuwien.ac.at wrote:\n\n> >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,\n> >>>>> Steffen Lauritzen (SL) wrote:\n> \n>   > By the way, does anyone know an authoritative reference for the\n>   > usual \"model algebra\", originating (I presume) with Nelder and\n>   > Wilkinson and forming the basis for GLIM model specification and\n>   > analysis?\n> \n> I think the original paper is\n> \n> @Article{flm:Wilkinson+Rogers:1973,\n>   author       = {G. N. Wilkinson and C. E Rogers},\n>   title\t       = {Symbolic Description of Factorial Models for\n>                   Analysis of Variance},\n>   journal      = {Applied Statistics},\n>   year\t       = 1973,\n>   volume       = 22,\n>   pages\t       = {392--399}\n> }\n> \n> but I don't have a copy of the paper, so I don't know what's in there.\n\nI put up a pdf copy from JSTOR at\n  http://www.R-project.org/gR/papers/\n\nBest,\nZ\n\n> best,\n> fritz\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch \n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>\n\n_______________________________________________\nR-sig-gR mailing list\nR-sig-gR at stat.math.ethz.ch\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Peter McCullagh has done some work on 'model algebra' that's possibly\nrelevant?:\nhttp://galton.uchicago.edu/~pmcc/TR.html\nbr David\n\n-----Original Message-----\nFrom: r-sig-gr-bounces at stat.math.ethz.",
+      "thread_id": "thread-29d0ee2c41c5",
+      "thread_depth": 0,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-c8ddef7ed2ea",
+      "message_id": "<x2vffem3qx.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2004-08-20T13:46:14+02:00",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "subject_clean": "[R--gR] Modelformulae: reference?",
+      "in_reply_to": "<16677.54719.268290.408162@celebrian.ci.tuwien.ac.at>",
+      "references": [
+        "<001b01c48605$31d8b260$1b5601a3@SHELDUCK>",
+        "<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>",
+        "<001c01c48685$11431d80$155601a3@SHELDUCK>",
+        "<16677.54719.268290.408162@celebrian.ci.tuwien.ac.at>"
+      ],
+      "body_plain": "Friedrich.Leisch at tuwien.ac.at writes:\n\n> >>>>> On Fri, 20 Aug 2004 08:12:34 +0100,\n> >>>>> Steffen Lauritzen (SL) wrote:\n> \n>   > Yes, I am sure this is right, thank you.\n> \n> You're welcome.\n> \n>   > It has no doubt developed a bit\n>   > since then, possibly in a partly anarchistic way.\n> \n> Yes, certainly. For S, the white book is the key reference.\n\n...although much of the \"anarchy\" is probably of a later date. AFAIR,\nthe white book model formulas basically copies Genstat notation from\n1977 for the lm/glm models (introducing the ~ operator and changing\n\".\" to \":\" is about the extent of it, I think), which in turn more or\nless *is* Wilkinson/Rogers. Usage in other contexts and things like\nthe \"|\" for conditioning in coplot or strata() terms came in later. \n\nOf course the department copy of the white book is nowhere to be found\nso I can't verify.\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907",
+      "body_snippet": "Friedrich.Leisch at tuwien.ac.at writes:\n\n> >>>>> On Fri, 20 Aug 2004 08:12:34 +0100,\n> >>>>> Steffen Lauritzen (SL) wrote:\n> \n>   > Yes, I am sure this is right, thank you.\n> \n> You're welcome.\n> \n> ",
+      "thread_id": "thread-02924cfd1d14",
+      "thread_depth": 4,
+      "month": "2004-08"
+    },
+    {
+      "id": "msg-338f991129be",
+      "message_id": "<20040820135346.5516b0ae.Achim.Zeileis@wu-wien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2004-08-20T13:53:46+02:00",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "subject_clean": "[R--gR] Modelformulae: reference?",
+      "in_reply_to": "<36A25802686476479FBE08B99D1C111C026B0178@exdkba023.novo.dk>",
+      "references": [
+        "<36A25802686476479FBE08B99D1C111C026B0178@exdkba023.novo.dk>"
+      ],
+      "body_plain": "On Fri, 20 Aug 2004 13:34:49 +0200 DED (David George Edwards) wrote:\n\n> Peter McCullagh has done some work on 'model algebra' that's possibly\n> relevant?:\n> http://galton.uchicago.edu/~pmcc/TR.html\n\nI think someone pointed out last year (maybe even directly after gR\n2002) that the Annals of Statistics paper \"What is a statistical model?\"\ncould be a relevant paper to the gR project. My impression (and I guess\nalso the impression of the other guys from our group) was that it's\nrather theoretical and wouldn't help much in finding practical solutions\nfor gR.\nZ\n\n\n> br David\n> \n> -----Original Message-----\n> From: r-sig-gr-bounces at stat.math.ethz.ch\n> [mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of Achim Zeileis\n> Sent: 20. august 2004 13:25\n> To: Friedrich.Leisch at tuwien.ac.at\n> Cc: R-sig-gR at stat.math.ethz.ch\n> Subject: Re: [R--gR] Modelformulae: reference?\n> \n> \n> On Fri, 20 Aug 2004 08:45:58 +0200 Friedrich.Leisch at tuwien.ac.at\n> wrote:\n> \n> > >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,\n> > >>>>> Steffen Lauritzen (SL) wrote:\n> > \n> >   > By the way, does anyone know an authoritative reference for the\n> >   > usual \"model algebra\", originating (I presume) with Nelder and\n> >   > Wilkinson and forming the basis for GLIM model specification and\n> >   > analysis?\n> > \n> > I think the original paper is\n> > \n> > @Article{flm:Wilkinson+Rogers:1973,\n> >   author       = {G. N. Wilkinson and C. E Rogers},\n> >   title\t       = {Symbolic Description of Factorial Models for\n> >                   Analysis of Variance},\n> >   journal      = {Applied Statistics},\n> >   year\t       = 1973,\n> >   volume       = 22,\n> >   pages\t       = {392--399}\n> > }\n> > \n> > but I don't have a copy of the paper, so I don't know what's in\n> > there.\n> \n> I put up a pdf copy from JSTOR at\n>   http://www.R-project.org/gR/papers/\n> \n> Best,\n> Z\n> \n> > best,\n> > fritz\n> > \n> > _______________________________________________\n> > R-sig-gR mailing list\n> > R-sig-gR at stat.math.ethz.ch \n> > https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n> >\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>",
+      "body_snippet": "On Fri, 20 Aug 2004 13:34:49 +0200 DED (David George Edwards) wrote:\n\n> Peter McCullagh has done some work on 'model algebra' that's possibly\n> relevant?:\n> http://galton.uchicago.edu/~pmcc/TR.html\n\nI",
+      "thread_id": "thread-29d0ee2c41c5",
+      "thread_depth": 1,
+      "month": "2004-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d1bafa458076",
+      "subject": "[R--gR] gR is alive and kicking",
+      "message_count": 1,
+      "participants": [
+        "Steffen Lauritzen"
+      ],
+      "started": "2004-08-11T11:48:49+01:00",
+      "last_reply": "2004-08-11T11:48:49+01:00",
+      "root_message_id": "msg-d1bafa458076"
+    },
+    {
+      "id": "thread-fccff74f2384",
+      "subject": "[R--gR] Fw: AISTATS 2005 - Barbados - Call for Papers (due Sep 14)",
+      "message_count": 1,
+      "participants": [
+        "Steffen Lauritzen"
+      ],
+      "started": "2004-08-11T12:21:30+01:00",
+      "last_reply": "2004-08-11T12:21:30+01:00",
+      "root_message_id": "msg-fccff74f2384"
+    },
+    {
+      "id": "thread-7728aaecb312",
+      "subject": "[R--gR] MIM now open source",
+      "message_count": 1,
+      "participants": [
+        "DED (David George Edwards)"
+      ],
+      "started": "2004-08-11T14:49:03+02:00",
+      "last_reply": "2004-08-11T14:49:03+02:00",
+      "root_message_id": "msg-7728aaecb312"
+    },
+    {
+      "id": "thread-109f05f825a6",
+      "subject": "[R--gR] New version of mimR",
+      "message_count": 1,
+      "participants": [
+        "Søren Højsgaard"
+      ],
+      "started": "2004-08-12T02:07:02+02:00",
+      "last_reply": "2004-08-12T02:07:02+02:00",
+      "root_message_id": "msg-109f05f825a6"
+    },
+    {
+      "id": "thread-d1485c3e95bb",
+      "subject": "[R--gR] SIN model selection",
+      "message_count": 1,
+      "participants": [
+        "Mathias Drton"
+      ],
+      "started": "2004-08-17T15:46:40-07:00",
+      "last_reply": "2004-08-17T15:46:40-07:00",
+      "root_message_id": "msg-d1485c3e95bb"
+    },
+    {
+      "id": "thread-0a1fba60b1b3",
+      "subject": "[R--gR] gRbase released !",
+      "message_count": 1,
+      "participants": [
+        "Claus Dethlefsen"
+      ],
+      "started": "2004-08-19T08:18:49+02:00",
+      "last_reply": "2004-08-19T08:18:49+02:00",
+      "root_message_id": "msg-0a1fba60b1b3"
+    },
+    {
+      "id": "thread-ad9ac72c7d38",
+      "subject": "[R--gR] Modelformulae",
+      "message_count": 3,
+      "participants": [
+        "Poul Svante Eriksen",
+        "Steffen Lauritzen"
+      ],
+      "started": "2004-08-19T10:39:21+01:00",
+      "last_reply": "2004-08-20T10:14:47+01:00",
+      "root_message_id": "msg-ad9ac72c7d38"
+    },
+    {
+      "id": "thread-fc313dcb12f6",
+      "subject": "[R--gR] Modelformulae",
+      "message_count": 4,
+      "participants": [
+        "DED (David George Edwards)",
+        "David Meyer",
+        "Steffen Lauritzen"
+      ],
+      "started": "2004-08-19T14:44:19+02:00",
+      "last_reply": "2004-08-19T18:25:27+02:00",
+      "root_message_id": "msg-fc313dcb12f6"
+    },
+    {
+      "id": "thread-16630eb0eb3b",
+      "subject": "[R--gR] gR web page updated",
+      "message_count": 1,
+      "participants": [
+        "Achim Zeileis"
+      ],
+      "started": "2004-08-19T16:56:14+02:00",
+      "last_reply": "2004-08-19T16:56:14+02:00",
+      "root_message_id": "msg-16630eb0eb3b"
+    },
+    {
+      "id": "thread-02924cfd1d14",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "message_count": 6,
+      "participants": [
+        "Achim Zeileis",
+        "Friedrich.Leisch at tuwien.ac.at",
+        "Peter Dalgaard",
+        "Steffen Lauritzen"
+      ],
+      "started": "2004-08-19T16:56:59+01:00",
+      "last_reply": "2004-08-20T13:46:14+02:00",
+      "root_message_id": "msg-02924cfd1d14"
+    },
+    {
+      "id": "thread-29d0ee2c41c5",
+      "subject": "[R--gR] Modelformulae: reference?",
+      "message_count": 2,
+      "participants": [
+        "Achim Zeileis",
+        "DED (David George Edwards)"
+      ],
+      "started": "2004-08-20T13:34:49+02:00",
+      "last_reply": "2004-08-20T13:53:46+02:00",
+      "root_message_id": "msg-29d0ee2c41c5"
+    }
+  ]
+}

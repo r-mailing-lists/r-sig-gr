@@ -1,0 +1,90 @@
+From JensHenrik.Badsberg at agrsci.dk  Wed Jun  2 12:36:53 2004
+From: JensHenrik.Badsberg at agrsci.dk (Jens Henrik Badsberg)
+Date: Wed, 2 Jun 2004 12:36:53 +0200
+Subject: [R--gR] CoCo 1.6.1
+Message-ID: <C83C5E3DEEE97E498B74729A33F6EAECECD535@DJFPOST01.djf.agrsci.dk>
+
+
+ Dear gR,
+
+ A new version, 1.6.1, of the CoCo bundle with CoCoCg is now available from
+ www.jbs.agrsci.dk/Biometry/Software-Datasets/CoCo/CoCo.1.6 and from
+ http://www.math.auc.dk/gr/material/CoCo/ .
+
+ For windows users: Remember to have cygwin1.dll somewhere in your path,
+ (e.g. in .../rw1090/bin if you do not have it in a more permanent place).
+
+
+ The CoCoCg package is now "more useful":
+
+ - CoCoCg and MIM produces the exact (to four digits after the decimal point)
+   same deviance (and DF) of all the 760 MIM-models on the Rats-data
+   (see table 4.4 of Introduction to Graphical Modelling, David Edwards,
+    or data(Rats) after library(CoCoCg) ).
+
+ - All the 1101 hierarchical interaction models (as defined in section 6.4
+   of Graphical Models, Lauritzen 1996) on Rats can be fitted by CoCoCg,
+   and 2 times 1101 tests all gives positive difference between deviances.
+
+   [ The two above: An other convergence criterion (difference between observed
+     and expected sufficient statistics) and full line search is now implemented,
+     and fix of updating single quadratic generators in CoCoCg. ]
+
+ - The degrees of freedom is also computed correct when specifying the
+   quadratic generators independent of the quadratic pair generators by the
+   "^" as in e.g. enterModel("[[ab]] / [[aby][abx]] / [[y^][abxy][x^]];")
+
+   [ Fix of term for intersection of quadratic generators in computing DF. ]
+
+
+ A package called CoCoGraph is now made by taking a part out of CoCoObject -
+ 
+ a) to be able to load CoCo and CoCoCg without dynamicGraph (loading dynamic-
+    graph does take some time with the current versions of R and dynamicGraph),
+
+ b) to highlight the interface to dynmaicGraph.
+
+
+ The four functions propertySet, propertyModel, returnVertexOrder and
+ returnJunctionTree can now be used without "data" in a more flexible
+ form, as, e.g.
+
+   str(returnJunctionTree(model = "IJ,IZ,ZY", continuous = "YZ"))
+
+ for the junction tree of graph 6.1 (c), page 176 in Lauritzen 1996.
+
+
+ Regards,
+
+ Jens Henrik Badsberg
+
+
+
+From saurin_jani at yahoo.com  Mon Jun 21 01:26:32 2004
+From: saurin_jani at yahoo.com (SAURIN)
+Date: Sun, 20 Jun 2004 16:26:32 -0700 (PDT)
+Subject: [R--gR] BATCH: line 55:  5681 Broken pipe     cat ${in}
+Message-ID: <20040620232632.10395.qmail@web41103.mail.yahoo.com>
+
+Dear Bioconductor,
+
+I am running R non interactively from command line on my lunux AMD 64 remotely. My R scripts
+analyze data and generates lots of jpeg files and puts in to directory. so,I am running below
+command:
+
+R CMD BATCH Saurin_Script1.R
+
+/usr/local/lib/R/bin/BATCH: line 55:  5681 Broken pipe        cat ${in}
+
+I get above error??
+
+
+
+plz..let me know, if any one had encounterd this one or knows how to solve this..!!
+
+
+have a great day,
+Saurin Jani
+
+
+

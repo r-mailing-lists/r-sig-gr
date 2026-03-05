@@ -1,0 +1,129 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2005-09",
+  "messages": [
+    {
+      "id": "msg-516242b40f09",
+      "message_id": "<6BF101DD28112F49B2BA7D7D730C4A320DC96A@exchange-srv1.stats.ox.ac.uk>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2005-09-14T17:17:34+01:00",
+      "subject": "[R--gR] FW: mixed graphical models",
+      "subject_clean": "[R--gR] FW: mixed graphical models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Can anyone help with this?\nSteffen\n\n-----Original Message-----\nFrom: jw2256 at columbia.edu [mailto:jw2256 at columbia.edu] \nSent: 14 September 2005 10:48\nTo: Steffen Lauritzen\nSubject: mixed graphical models\n\nDear Prof. Steffen Lauritzen,\nRecently, I tested mixed graphical model in gR\nand find something unclear for me when\nusing the hierarichical interaction model and\nhope you may give me some advice.\n\nI try to fit a model ABCG/BCGV,ABCU,ACGZ,ABCGY,ABCGX, ABCGW/UWXYZ, VWXYZ\n\nby\nusing hierarchical interaction model but the\nalgorithm seems fitting below models\nVWXYZ,UWXYZ,CGVWXYZ,BCGVWXYZ,ACUWXYZ,ABCUWXY,ACGWXYZ,ABCGWXY\nduring the each cycle..\n\nDo you know why the models calculated by fitting algorithm\nare different from the fitting model ?\nHow to generate those models from the fitting model\nABCG/BCGV,ABCU,ACGZ,ABCGY,ABCGX, ABCGW/UWXYZ,VWXYZ\nbefore the calculation?\n\nI really appreciated for your kindly reply!\n\nyours sincerely\n\n\njunbai wang\n\nBiological Science Department\nColumbia university\nNew York\nUSa",
+      "body_snippet": "Can anyone help with this?\nSteffen\n\n-----Original Message-----\nFrom: jw2256 at columbia.edu [mailto:jw2256 at columbia.edu] \nSent: 14 September 2005 10:48\nTo: Steffen Lauritzen\nSubject: mixed graphica",
+      "thread_id": "thread-516242b40f09",
+      "thread_depth": 0,
+      "month": "2005-09"
+    },
+    {
+      "id": "msg-1e0341809807",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC808352B9407@EXDKBA021.corp.novocorp.net>",
+      "from_name": "DED (David George Edwards)",
+      "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
+      "date": "2005-09-15T11:21:25+02:00",
+      "subject": "[R--gR] FW: mixed graphical models",
+      "subject_clean": "[R--gR] FW: mixed graphical models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear Jubai Wang\n\nTo understand what is going on here you need to consult my book\n'Introduction to Graphical Modelling', 2nd edition, appendix D, that\ndescribes the MIPS algorithm in detail. Everything is as it should be.\n\nBest regards\nDavid Edwards\n\n-----Original Message-----\nFrom: r-sig-gr-bounces at stat.math.ethz.ch\n[mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of Steffen\nLauritzen\nSent: 14. september 2005 18:18\nTo: R-sig-gR at stat.math.ethz.ch\nSubject: [R--gR] FW: mixed graphical models\n\n\nCan anyone help with this?\nSteffen\n\n-----Original Message-----\nFrom: jw2256 at columbia.edu [mailto:jw2256 at columbia.edu] \nSent: 14 September 2005 10:48\nTo: Steffen Lauritzen\nSubject: mixed graphical models\n\nDear Prof. Steffen Lauritzen,\nRecently, I tested mixed graphical model in gR\nand find something unclear for me when\nusing the hierarichical interaction model and\nhope you may give me some advice.\n\nI try to fit a model ABCG/BCGV,ABCU,ACGZ,ABCGY,ABCGX, ABCGW/UWXYZ, VWXYZ\n\nby\nusing hierarchical interaction model but the\nalgorithm seems fitting below models\nVWXYZ,UWXYZ,CGVWXYZ,BCGVWXYZ,ACUWXYZ,ABCUWXY,ACGWXYZ,ABCGWXY\nduring the each cycle..\n\nDo you know why the models calculated by fitting algorithm\nare different from the fitting model ?\nHow to generate those models from the fitting model\nABCG/BCGV,ABCU,ACGZ,ABCGY,ABCGX, ABCGW/UWXYZ,VWXYZ before the\ncalculation?\n\nI really appreciated for your kindly reply!\n\nyours sincerely\n\n\njunbai wang\n\nBiological Science Department\nColumbia university\nNew York\nUSa\n\n_______________________________________________\nR-sig-gR mailing list\nR-sig-gR at stat.math.ethz.ch\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Dear Jubai Wang\n\nTo understand what is going on here you need to consult my book\n'Introduction to Graphical Modelling', 2nd edition, appendix D, that\ndescribes the MIPS algorithm in detail. Everything",
+      "thread_id": "thread-1e0341809807",
+      "thread_depth": 0,
+      "month": "2005-09"
+    },
+    {
+      "id": "msg-0d746a63ff00",
+      "message_id": "<000101c5bf5b$07ec1a10$e0fda8c0@ASUS>",
+      "from_name": "Alberto Goldoni",
+      "from_email_hash": "5d6048c1cd5403e0e3a8fd4e23e9e3d0e4880f2b408f1b219ab8b313dc8f7132",
+      "date": "2005-09-22T11:50:14+02:00",
+      "subject": "[R--gR] Bayesian network package",
+      "subject_clean": "[R--gR] Bayesian network package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi to everybody,\n\n\tI'm using bayesian approach in order to analyse microarray data\ntoo.\nBut I have seen only DBNs (dynamic Bayesian networks) on matlab\n(BNTstructure is the name of the package) and I suppose there are the\nsame package on R but I wanna apply BN (Bayesian network) too. My\nquestion is:\nThere are specific package for R in order to apply only BNs and not\nDBNs.\n\nDr Alberto Goldoni\n\nMedical Genetics Unit\n\nS. Orsola-Malpighi Hospital\n\nVia Massarenti n.9, Pad 11\n\n40100 Bologna, Italy\n\nMobile Phone: +39-338-4145970\n\nFax: +39-051-636-4004\n\nalberto.goldoni at eurogene.org\n\nwww.eurogene.org\n\nwww.lagem.it",
+      "body_snippet": "Hi to everybody,\n\n\tI'm using bayesian approach in order to analyse microarray data\ntoo.\nBut I have seen only DBNs (dynamic Bayesian networks) on matlab\n(BNTstructure is the name of the package) and I ",
+      "thread_id": "thread-0d746a63ff00",
+      "thread_depth": 0,
+      "month": "2005-09"
+    },
+    {
+      "id": "msg-b71d41f41af1",
+      "message_id": "<Pine.GSO.4.58.0509241727160.4320@gram.math.aau.dk>",
+      "from_name": "Claus Dethlefsen",
+      "from_email_hash": "48e6709cd362023eb65ed9bec9662a1f01e94978d5c5ac385fbb13896d4bdc25",
+      "date": "2005-09-24T17:34:04+02:00",
+      "subject": "[R--gR] Bayesian network package",
+      "subject_clean": "[R--gR] Bayesian network package",
+      "in_reply_to": "<000101c5bf5b$07ec1a10$e0fda8c0@ASUS>",
+      "references": [
+        "<000101c5bf5b$07ec1a10$e0fda8c0@ASUS>"
+      ],
+      "body_plain": "Dear Alberto\n\nYou can checkout the R-package 'deal'\nR> install.packages(\"deal\",depend=TRUE)\n\nand then check one of the demo's:\n\nR> library(deal)\nR> demo(ksl)\n\nIn addition, you might want to look at the Bioconductor-project:\nwww.bioconductor.org\n\nBest regards,\n\nClaus\n\n___________________________________\nClaus Dethlefsen, Msc, PhD Statistiker\nved Kardiovaskul?rt Forskningscenter\n\nForskningens Hus\nAalborg Sygehus\nSdr. Skovvej 15\n9000 Aalborg\nemail: aas.claus.dethlefsen at nja.dk\n\nOn Thu, 22 Sep 2005, Alberto Goldoni wrote:\n\n> Hi to everybody,\n>\n> \tI'm using bayesian approach in order to analyse microarray data\n> too.\n> But I have seen only DBNs (dynamic Bayesian networks) on matlab\n> (BNTstructure is the name of the package) and I suppose there are the\n> same package on R but I wanna apply BN (Bayesian network) too. My\n> question is:\n> There are specific package for R in order to apply only BNs and not\n> DBNs.\n>\n> Dr Alberto Goldoni\n>\n> Medical Genetics Unit\n>\n> S. Orsola-Malpighi Hospital\n>\n> Via Massarenti n.9, Pad 11\n>\n> 40100 Bologna, Italy\n>\n> Mobile Phone: +39-338-4145970\n>\n> Fax: +39-051-636-4004\n>\n> alberto.goldoni at eurogene.org\n>\n> www.eurogene.org\n>\n> www.lagem.it\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>\n>",
+      "body_snippet": "Dear Alberto\n\nYou can checkout the R-package 'deal'\nR> install.packages(\"deal\",depend=TRUE)\n\nand then check one of the demo's:\n\nR> library(deal)\nR> demo(ksl)\n\nIn addition, you might want to look at th",
+      "thread_id": "thread-0d746a63ff00",
+      "thread_depth": 1,
+      "month": "2005-09"
+    },
+    {
+      "id": "msg-cdff24059046",
+      "message_id": "<cdf8178305092516256fcd2b66@mail.gmail.com>",
+      "from_name": "Weiwei Shi",
+      "from_email_hash": "e71b4bfdcbaccdf2b4ce76c75550ea197804bdd777c37d227d93f8fb6c027d55",
+      "date": "2005-09-25T18:25:57-05:00",
+      "subject": "[R--gR] Bayesian network package",
+      "subject_clean": "[R--gR] Bayesian network package",
+      "in_reply_to": "<Pine.GSO.4.58.0509241727160.4320@gram.math.aau.dk>",
+      "references": [
+        "<000101c5bf5b$07ec1a10$e0fda8c0@ASUS>",
+        "<Pine.GSO.4.58.0509241727160.4320@gram.math.aau.dk>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050925/642b95a0/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050925/642b95a0/attachment.pl",
+      "thread_id": "thread-0d746a63ff00",
+      "thread_depth": 2,
+      "month": "2005-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-516242b40f09",
+      "subject": "[R--gR] FW: mixed graphical models",
+      "message_count": 1,
+      "participants": [
+        "Steffen Lauritzen"
+      ],
+      "started": "2005-09-14T17:17:34+01:00",
+      "last_reply": "2005-09-14T17:17:34+01:00",
+      "root_message_id": "msg-516242b40f09"
+    },
+    {
+      "id": "thread-1e0341809807",
+      "subject": "[R--gR] FW: mixed graphical models",
+      "message_count": 1,
+      "participants": [
+        "DED (David George Edwards)"
+      ],
+      "started": "2005-09-15T11:21:25+02:00",
+      "last_reply": "2005-09-15T11:21:25+02:00",
+      "root_message_id": "msg-1e0341809807"
+    },
+    {
+      "id": "thread-0d746a63ff00",
+      "subject": "[R--gR] Bayesian network package",
+      "message_count": 3,
+      "participants": [
+        "Alberto Goldoni",
+        "Claus Dethlefsen",
+        "Weiwei Shi"
+      ],
+      "started": "2005-09-22T11:50:14+02:00",
+      "last_reply": "2005-09-25T18:25:57-05:00",
+      "root_message_id": "msg-0d746a63ff00"
+    }
+  ]
+}

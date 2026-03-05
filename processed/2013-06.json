@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2013-06",
+  "messages": [
+    {
+      "id": "msg-fa076b2f937b",
+      "message_id": "<CAHfvLud4_CQwpWJSarDieCe9gTy_yJWevqNC0dJaZCf8qRQ8Dg@mail.gmail.com>",
+      "from_name": "Deb Midya",
+      "from_email_hash": "4df858663f260268ee63c15c479ddb99071ceb9741bfcf05634cf4278f62d04f",
+      "date": "2013-06-02T21:05:30+10:00",
+      "subject": "[R--gR] Hierarchical Multi-Label Classification",
+      "subject_clean": "[R--gR] Hierarchical Multi-Label Classification",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20130602/d88a640c/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20130602/d88a640c/attachment.pl>",
+      "thread_id": "thread-fa076b2f937b",
+      "thread_depth": 0,
+      "month": "2013-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-fa076b2f937b",
+      "subject": "[R--gR] Hierarchical Multi-Label Classification",
+      "message_count": 1,
+      "participants": [
+        "Deb Midya"
+      ],
+      "started": "2013-06-02T21:05:30+10:00",
+      "last_reply": "2013-06-02T21:05:30+10:00",
+      "root_message_id": "msg-fa076b2f937b"
+    }
+  ]
+}

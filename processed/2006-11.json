@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2006-11",
+  "messages": [
+    {
+      "id": "msg-f56d9dab0943",
+      "message_id": "<!&!AAAAAAAAAAAYAAAAAAAAAJf1NEZJVtRHvdgUBBxUpbbCgAAAEAAAAA60bnMk8ipMmPJaVQYOJ88BAAAAAA==@esa.ipvc.pt>",
+      "from_name": "Carlos GUERRA",
+      "from_email_hash": "3f72fe8c574b91bd0282507c6b588c144036bfda58a862f798c2c98b1b71a29d",
+      "date": "2006-11-10T12:14:46Z",
+      "subject": "[R--gR] how to do a principle component analysis with geo-referenced points",
+      "subject_clean": "[R--gR] how to do a principle component analysis with geo-referenced points",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20061110/3324b10c/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20061110/3324b10c/attachment.pl",
+      "thread_id": "thread-f56d9dab0943",
+      "thread_depth": 0,
+      "month": "2006-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f56d9dab0943",
+      "subject": "[R--gR] how to do a principle component analysis with geo-referenced points",
+      "message_count": 1,
+      "participants": [
+        "Carlos GUERRA"
+      ],
+      "started": "2006-11-10T12:14:46+00:00",
+      "last_reply": "2006-11-10T12:14:46+00:00",
+      "root_message_id": "msg-f56d9dab0943"
+    }
+  ]
+}

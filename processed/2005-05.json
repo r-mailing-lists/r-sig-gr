@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2005-05",
+  "messages": [
+    {
+      "id": "msg-f9df571d52e1",
+      "message_id": "<878184D41285C04B92FE9DBAD4E866710D1D5A@SFEXC00002.amtg.NJA.local>",
+      "from_name": "Claus Dethlefsen / Aalborg Sygehus",
+      "from_email_hash": "54f077df8e9cdd0063b4ced3fbb26bad9bf3e8407be35d90baeb0a77dff9c67d",
+      "date": "2005-05-12T15:33:39+02:00",
+      "subject": "[R--gR] gR task view",
+      "subject_clean": "[R--gR] gR task view",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050512/b25d6a50/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050512/b25d6a50/attachment.pl",
+      "thread_id": "thread-f9df571d52e1",
+      "thread_depth": 0,
+      "month": "2005-05"
+    },
+    {
+      "id": "msg-527603784096",
+      "message_id": "<17027.24079.246174.467473@mithrandir.hornik.net>",
+      "from_name": "Kurt Hornik",
+      "from_email_hash": "af316eba824f81591e5ba568c47fb6a236f37dc698deeb0a0c2e83a757893f95",
+      "date": "2005-05-12T15:45:51+02:00",
+      "subject": "[R--gR] gR task view",
+      "subject_clean": "[R--gR] gR task view",
+      "in_reply_to": "<878184D41285C04B92FE9DBAD4E866710D1D5A@SFEXC00002.amtg.NJA.local>",
+      "references": [
+        "<878184D41285C04B92FE9DBAD4E866710D1D5A@SFEXC00002.amtg.NJA.local>"
+      ],
+      "body_plain": ">>>>> Claus Dethlefsen / Aalborg Sygehus writes:\n\n> Dear all\n\n> I have tried to put together a \"task view\" (new invention on CRAN)\n> concerning gRaphical models. You can check out the view at\n> http://cran.r-project.org/src/contrib/Views/gR.html. If you have\n> comments, omissions etc. please contact me and I will adjust the task\n> view. Currently, the package 'mathgraph' is not available on CRAN, but\n> hopefully will reappear soon.\n\nWe need a new maintainer who makes the package pass R CMD check again (a\nminimal change, though).\n\n-k\n \n> For more on task views, see the new issue of Rnews available on the R\n> homepage www.r-project.org.\n \n> Best to all,\n> Claus\n\n> ________________________________\n\n> Claus Dethlefsen, Msc, PhD\n> Statistiker ved Kardiovaskul?rt Forskningscenter\n> Klinisk Epidemiologisk Afdeling\n\n> Aalborg Sygehus Nord\n> Stengade 10, 2. sal\n> 9000 Aalborg\n\n> Tlf:   9932 1086\n>        9932 1094 (direkte)\n> Fax:   9932 1088\n> email:  <mailto:aas.claus.dethlefsen at nja.dk> aas.claus.dethlefsen at nja.dk\n\n \n\n \n\n> \t[[alternative HTML version deleted]]\n\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": ">>>>> Claus Dethlefsen / Aalborg Sygehus writes:\n\n> Dear all\n\n> I have tried to put together a \"task view\" (new invention on CRAN)\n> concerning gRaphical models. You can check out the view at\n> http:/",
+      "thread_id": "thread-f9df571d52e1",
+      "thread_depth": 1,
+      "month": "2005-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f9df571d52e1",
+      "subject": "[R--gR] gR task view",
+      "message_count": 2,
+      "participants": [
+        "Claus Dethlefsen / Aalborg Sygehus",
+        "Kurt Hornik"
+      ],
+      "started": "2005-05-12T15:33:39+02:00",
+      "last_reply": "2005-05-12T15:45:51+02:00",
+      "root_message_id": "msg-f9df571d52e1"
+    }
+  ]
+}

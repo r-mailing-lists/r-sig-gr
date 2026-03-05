@@ -1,0 +1,53 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2008-02",
+  "messages": [
+    {
+      "id": "msg-1bbe79861443",
+      "message_id": "<DCC67BF0-F454-4BB5-9AD0-092C77735574@gmail.com>",
+      "from_name": "Miguel Leal",
+      "from_email_hash": "1e41f26f35fb0d36d242d6d920e83a3191c723194a313171360361d3c4ee3c4d",
+      "date": "2008-02-26T15:19:32Z",
+      "subject": "[R--gR] Help Filled contour graphics",
+      "subject_clean": "[R--gR] Help Filled contour graphics",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello\n\nI'm working with filled contour graphics trough the filled.contour  \nfunction.\n\nI'd like to know how do I change the position of the key legend (the  \ncolour label). I can't find the argument.\n\nThank you very much,\n\nMiguel Leal",
+      "body_snippet": "Hello\n\nI'm working with filled contour graphics trough the filled.contour  \nfunction.\n\nI'd like to know how do I change the position of the key legend (the  \ncolour label). I can't find the argument.\n",
+      "thread_id": "thread-1bbe79861443",
+      "thread_depth": 0,
+      "month": "2008-02"
+    },
+    {
+      "id": "msg-d0f3175912f2",
+      "message_id": "<Pine.LNX.4.44.0802261718040.10626-100000@disco.wu-wien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2008-02-26T17:19:42+01:00",
+      "subject": "[R--gR] Help Filled contour graphics",
+      "subject_clean": "[R--gR] Help Filled contour graphics",
+      "in_reply_to": "<DCC67BF0-F454-4BB5-9AD0-092C77735574@gmail.com>",
+      "references": [],
+      "body_plain": "On Tue, 26 Feb 2008, Miguel Leal wrote:\n\n> Hello\n>\n> I'm working with filled contour graphics trough the filled.contour\n> function.\n\nThis mailing list is about \"graphical models\", not about statistical\n\"graphics\". Please ask questions like this on R-help.\n\n> I'd like to know how do I change the position of the key legend (the\n> colour label). I can't find the argument.\n\nI don't think that there's an option for it. If you want the legend in a\ndifferent place, you probably have to set it up yourself.\nZ\n\n\n> Thank you very much,\n>\n> Miguel Leal\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>\n>",
+      "body_snippet": "On Tue, 26 Feb 2008, Miguel Leal wrote:\n\n> Hello\n>\n> I'm working with filled contour graphics trough the filled.contour\n> function.\n\nThis mailing list is about \"graphical models\", not about statistica",
+      "thread_id": "thread-1bbe79861443",
+      "thread_depth": 1,
+      "month": "2008-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1bbe79861443",
+      "subject": "[R--gR] Help Filled contour graphics",
+      "message_count": 2,
+      "participants": [
+        "Achim Zeileis",
+        "Miguel Leal"
+      ],
+      "started": "2008-02-26T15:19:32+00:00",
+      "last_reply": "2008-02-26T17:19:42+01:00",
+      "root_message_id": "msg-1bbe79861443"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2004-06",
+  "messages": [
+    {
+      "id": "msg-44b1d92b11c9",
+      "message_id": "<C83C5E3DEEE97E498B74729A33F6EAECECD535@DJFPOST01.djf.agrsci.dk>",
+      "from_name": "Jens Henrik Badsberg",
+      "from_email_hash": "b0a49183a9bd55be5c09f91b88b03177cdba7f0c8606990b1a2f135c0962274d",
+      "date": "2004-06-02T12:36:53+02:00",
+      "subject": "[R--gR] CoCo 1.6.1",
+      "subject_clean": "[R--gR] CoCo 1.6.1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear gR,\n\n A new version, 1.6.1, of the CoCo bundle with CoCoCg is now available from\n www.jbs.agrsci.dk/Biometry/Software-Datasets/CoCo/CoCo.1.6 and from\n http://www.math.auc.dk/gr/material/CoCo/ .\n\n For windows users: Remember to have cygwin1.dll somewhere in your path,\n (e.g. in .../rw1090/bin if you do not have it in a more permanent place).\n\n\n The CoCoCg package is now \"more useful\":\n\n - CoCoCg and MIM produces the exact (to four digits after the decimal point)\n   same deviance (and DF) of all the 760 MIM-models on the Rats-data\n   (see table 4.4 of Introduction to Graphical Modelling, David Edwards,\n    or data(Rats) after library(CoCoCg) ).\n\n - All the 1101 hierarchical interaction models (as defined in section 6.4\n   of Graphical Models, Lauritzen 1996) on Rats can be fitted by CoCoCg,\n   and 2 times 1101 tests all gives positive difference between deviances.\n\n   [ The two above: An other convergence criterion (difference between observed\n     and expected sufficient statistics) and full line search is now implemented,\n     and fix of updating single quadratic generators in CoCoCg. ]\n\n - The degrees of freedom is also computed correct when specifying the\n   quadratic generators independent of the quadratic pair generators by the\n   \"^\" as in e.g. enterModel(\"[[ab]] / [[aby][abx]] / [[y^][abxy][x^]];\")\n\n   [ Fix of term for intersection of quadratic generators in computing DF. ]\n\n\n A package called CoCoGraph is now made by taking a part out of CoCoObject -\n \n a) to be able to load CoCo and CoCoCg without dynamicGraph (loading dynamic-\n    graph does take some time with the current versions of R and dynamicGraph),\n\n b) to highlight the interface to dynmaicGraph.\n\n\n The four functions propertySet, propertyModel, returnVertexOrder and\n returnJunctionTree can now be used without \"data\" in a more flexible\n form, as, e.g.\n\n   str(returnJunctionTree(model = \"IJ,IZ,ZY\", continuous = \"YZ\"))\n\n for the junction tree of graph 6.1 (c), page 176 in Lauritzen 1996.\n\n\n Regards,\n\n Jens Henrik Badsberg",
+      "body_snippet": "Dear gR,\n\n A new version, 1.6.1, of the CoCo bundle with CoCoCg is now available from\n www.jbs.agrsci.dk/Biometry/Software-Datasets/CoCo/CoCo.1.6 and from\n http://www.math.auc.dk/gr/material/CoCo/ .\n\n",
+      "thread_id": "thread-44b1d92b11c9",
+      "thread_depth": 0,
+      "month": "2004-06"
+    },
+    {
+      "id": "msg-dda3c915ef06",
+      "message_id": "<20040620232632.10395.qmail@web41103.mail.yahoo.com>",
+      "from_name": "SAURIN",
+      "from_email_hash": "32d55d635320235f61d33416ae8e6465644a917b6af8267367ee39186601d54b",
+      "date": "2004-06-20T16:26:32-07:00",
+      "subject": "[R--gR] BATCH: line 55:  5681 Broken pipe     cat ${in}",
+      "subject_clean": "[R--gR] BATCH: line 55:  5681 Broken pipe     cat ${in}",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear Bioconductor,\n\nI am running R non interactively from command line on my lunux AMD 64 remotely. My R scripts\nanalyze data and generates lots of jpeg files and puts in to directory. so,I am running below\ncommand:\n\nR CMD BATCH Saurin_Script1.R\n\n/usr/local/lib/R/bin/BATCH: line 55:  5681 Broken pipe        cat ${in}\n\nI get above error??\n\n\n\nplz..let me know, if any one had encounterd this one or knows how to solve this..!!\n\n\nhave a great day,\nSaurin Jani",
+      "body_snippet": "Dear Bioconductor,\n\nI am running R non interactively from command line on my lunux AMD 64 remotely. My R scripts\nanalyze data and generates lots of jpeg files and puts in to directory. so,I am running",
+      "thread_id": "thread-dda3c915ef06",
+      "thread_depth": 0,
+      "month": "2004-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-44b1d92b11c9",
+      "subject": "[R--gR] CoCo 1.6.1",
+      "message_count": 1,
+      "participants": [
+        "Jens Henrik Badsberg"
+      ],
+      "started": "2004-06-02T12:36:53+02:00",
+      "last_reply": "2004-06-02T12:36:53+02:00",
+      "root_message_id": "msg-44b1d92b11c9"
+    },
+    {
+      "id": "thread-dda3c915ef06",
+      "subject": "[R--gR] BATCH: line 55:  5681 Broken pipe     cat ${in}",
+      "message_count": 1,
+      "participants": [
+        "SAURIN"
+      ],
+      "started": "2004-06-20T16:26:32-07:00",
+      "last_reply": "2004-06-20T16:26:32-07:00",
+      "root_message_id": "msg-dda3c915ef06"
+    }
+  ]
+}

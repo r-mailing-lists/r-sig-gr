@@ -1,0 +1,152 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2005-03",
+  "messages": [
+    {
+      "id": "msg-bf4a3a4c7022",
+      "message_id": "<C83C5E3DEEE97E498B74729A33F6EAEC02A6D36C@DJFPOST01.djf.agrsci.dk>",
+      "from_name": "Søren Højsgaard",
+      "from_email_hash": "e5cd905344767ecb559aed462a5df5b7b6c5918e1391a7e4f72a49ff79251ec2",
+      "date": "2005-03-21T15:27:55+01:00",
+      "subject": "[R--gR] Graph algorithms - SCILAB",
+      "subject_clean": "[R--gR] Graph algorithms - SCILAB",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nI came across the scilab software (not unlike matlab as I understand it), http://scilabsoft.inria.fr/\n\nScilab has an entire module for graph manipulations - it is called Metanet. Perhaps something could be of interest in our context. \nBest regards\nS?ren\n\n============================================================================================= \nS?ren H?jsgaard,  MSc, PhD (Statistics),                Phone: +45 8999 1703 \nHead of Statistics and Decision Theory Research Group,  Fax:   +45 8999 1300 \nDanish Institute of Agricultural Sciences               sorenh at agrsci.dk \nResearch Centre Foulum, DK-8830 Tjele, Denmark          http://genetics.agrsci.dk/~sorenh \n.... Time flies like an arrow, fruit flies like a banana ....",
+      "body_snippet": "Dear all,\nI came across the scilab software (not unlike matlab as I understand it), http://scilabsoft.inria.fr/\n\nScilab has an entire module for graph manipulations - it is called Metanet. Perhaps som",
+      "thread_id": "thread-bf4a3a4c7022",
+      "thread_depth": 0,
+      "month": "2005-03"
+    },
+    {
+      "id": "msg-82b451abf5fa",
+      "message_id": "<BAY12-F165FB85EC0476372F19C2FC7400@phx.gbl>",
+      "from_name": "zhihua li",
+      "from_email_hash": "ff11108de4446b31d30785ff5d0a725ff1744eb07a212656784374fc9a2682af",
+      "date": "2005-03-24T14:23:55Z",
+      "subject": "[R--gR] (no subject)",
+      "subject_clean": "[R--gR] (no subject)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "hi netters:\n\nI have a series of  discrete variables which form a network and  I want to \nlearn the network structure from some training data. I could have used \npackages like deal but there are two problems.\n\nFirst of all, I have 10000 variables. So the possible network structure is \nawfully huge, I don't know how long it will take my PC to find the \nhighest-scoring network..........maybe a month?\nSecondly, I have some prior knowledge that only 500 out of the 10000 \nvariales are possible parents. In another word, only those arrows startting \nfrom the 500 variables and pointing to the remaining 99500 variables are \nallowed in the network.  In deal an assignment to \"banlist\" should help me \nrule out the impossible arrows. But in my case the number of \"impossible \narrows\" is  500*499+99500*99549, and so the \"banlist\" would get \nunacceptable long. Are there any methods (in deal or other packages) to \nspecify the parents set in advance?\n\nThanks a lot!",
+      "body_snippet": "hi netters:\n\nI have a series of  discrete variables which form a network and  I want to \nlearn the network structure from some training data. I could have used \npackages like deal but there are two pr",
+      "thread_id": "thread-82b451abf5fa",
+      "thread_depth": 0,
+      "month": "2005-03"
+    },
+    {
+      "id": "msg-66d53a42c180",
+      "message_id": "<BAY12-F34713F9618A7E4D3FB72AEC7410@phx.gbl>",
+      "from_name": "zhihua li",
+      "from_email_hash": "ff11108de4446b31d30785ff5d0a725ff1744eb07a212656784374fc9a2682af",
+      "date": "2005-03-25T05:13:23Z",
+      "subject": "[R--gR] learning networks with a large number of variables and pre-set parents.",
+      "subject_clean": "[R--gR] learning networks with a large number of variables and pre-set parents.",
+      "in_reply_to": "<BAY12-F165FB85EC0476372F19C2FC7400@phx.gbl>",
+      "references": [],
+      "body_plain": "hi netters: \n\nI have a series of  discrete variables which form a network and  I want to \nlearn the network structure from some training data. I could have used \npackages like deal but there are two problems. \n\nFirst of all, I have 10000 variables. So the possible network structure is \nawfully huge, I don't know how long it will take my PC to find the \nhighest-scoring network..........maybe a month? \nSecondly, I have some prior knowledge that only 500 out of the 10000 \nvariales are possible parents. In another word, only those arrows startting \nfrom the 500 variables and pointing to the remaining 99500 variables are \nallowed in the network.  In deal an assignment to \"banlist\" should help me \nrule out the impossible arrows. But in my case the number of \"impossible \narrows\" is  500*499+99500*99549, and so the \"banlist\" would get \nunacceptable long. Are there any methods (in deal or other packages) to \nspecify the parents set in advance? \n\nThanks a lot!",
+      "body_snippet": "hi netters: \n\nI have a series of  discrete variables which form a network and  I want to \nlearn the network structure from some training data. I could have used \npackages like deal but there are two p",
+      "thread_id": "thread-82b451abf5fa",
+      "thread_depth": 1,
+      "month": "2005-03"
+    },
+    {
+      "id": "msg-a4c65d1497b6",
+      "message_id": "<36A25802686476479FBE08B99D1C111C026B0331@exdkba023.novo.dk>",
+      "from_name": "DED (David George Edwards)",
+      "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
+      "date": "2005-03-29T10:23:23+02:00",
+      "subject": "[R--gR] learning networks with a large number of variables and pre-set parents.",
+      "subject_clean": "[R--gR] learning networks with a large number of variables and pre-set parents.",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi zhilua li\n\nI dont know of any software that can handle 10000 (discrete) variables.\nCoCo can handle a couple of hundred I believe.\nI dont think that gR is looking at this type of problem as yet, this\nmust be phase 2.\n\nBest regards\nDavid \n\n\n-----Original Message-----\nFrom: r-sig-gr-bounces at stat.math.ethz.ch\n[mailto:r-sig-gr-bounces at stat.math.ethz.ch] On Behalf Of zhihua li\nSent: 25. marts 2005 06:13\nTo: r-sig-gr at stat.math.ethz.ch\nCc: r-help at stat.math.ethz.ch\nSubject: [R--gR] learning networks with a large number of variables\nandpre-set parents.\n\n\nhi netters: \n\nI have a series of  discrete variables which form a network and  I want\nto \nlearn the network structure from some training data. I could have used \npackages like deal but there are two problems. \n\nFirst of all, I have 10000 variables. So the possible network structure\nis \nawfully huge, I don't know how long it will take my PC to find the \nhighest-scoring network..........maybe a month? \nSecondly, I have some prior knowledge that only 500 out of the 10000 \nvariales are possible parents. In another word, only those arrows\nstartting \nfrom the 500 variables and pointing to the remaining 99500 variables are\n\nallowed in the network.  In deal an assignment to \"banlist\" should help\nme \nrule out the impossible arrows. But in my case the number of \"impossible\n\narrows\" is  500*499+99500*99549, and so the \"banlist\" would get \nunacceptable long. Are there any methods (in deal or other packages) to \nspecify the parents set in advance? \n\nThanks a lot!\n\n_______________________________________________\nR-sig-gR mailing list\nR-sig-gR at stat.math.ethz.ch\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Hi zhilua li\n\nI dont know of any software that can handle 10000 (discrete) variables.\nCoCo can handle a couple of hundred I believe.\nI dont think that gR is looking at this type of problem as yet, thi",
+      "thread_id": "thread-a4c65d1497b6",
+      "thread_depth": 0,
+      "month": "2005-03"
+    },
+    {
+      "id": "msg-23f6b6f4ad49",
+      "message_id": "<20050330124522.29380.qmail@web25805.mail.ukl.yahoo.com>",
+      "from_name": ". .",
+      "from_email_hash": "61044cfa4efaf750d4a07f86c9fb9cffbdab20d6f2db2ed62a60dc0b77785c53",
+      "date": "2005-03-30T14:45:22+02:00",
+      "subject": "[R--gR] locfit",
+      "subject_clean": "[R--gR] locfit",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050330/a61488c9/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050330/a61488c9/attachment.pl",
+      "thread_id": "thread-23f6b6f4ad49",
+      "thread_depth": 0,
+      "month": "2005-03"
+    },
+    {
+      "id": "msg-23cd2e120ab7",
+      "message_id": "<Pine.LNX.4.58.0503301537370.14726@thorin.ci.tuwien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2005-03-30T15:41:01+02:00",
+      "subject": "[R--gR] locfit",
+      "subject_clean": "[R--gR] locfit",
+      "in_reply_to": "<20050330124522.29380.qmail@web25805.mail.ukl.yahoo.com>",
+      "references": [
+        "<20050330124522.29380.qmail@web25805.mail.ukl.yahoo.com>"
+      ],
+      "body_plain": "On Wed, 30 Mar 2005, . . wrote:\n\n> Hallo all,\n> can somebody tell me if is possible use the locfit function to fit a\n> semiparametric model. I need to  use two explicative variables and one of\n> them is a dummy variable.\n\nThis is the second time within a couple of hours that you ask the same\nquestion to a different mailing list. Furthermore, this mailing list is\nabout graphical models...\nFinally, you will need a better question to get a useful answer. But\nbefore you ask that, look at\n  ?locfit\nto see whether you might be able to solve your problem alone.\n\nAlso do read the posting guide.\nZ\n\n> Thanks Michele\n>\n>\n>\n>\n>\n> ---------------------------------\n>\n>  Giochi, Rubrica\n Scaricalo ora!\n> \t[[alternative HTML version deleted]]\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>",
+      "body_snippet": "On Wed, 30 Mar 2005, . . wrote:\n\n> Hallo all,\n> can somebody tell me if is possible use the locfit function to fit a\n> semiparametric model. I need to  use two explicative variables and one of\n> them ",
+      "thread_id": "thread-23f6b6f4ad49",
+      "thread_depth": 1,
+      "month": "2005-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-bf4a3a4c7022",
+      "subject": "[R--gR] Graph algorithms - SCILAB",
+      "message_count": 1,
+      "participants": [
+        "Søren Højsgaard"
+      ],
+      "started": "2005-03-21T15:27:55+01:00",
+      "last_reply": "2005-03-21T15:27:55+01:00",
+      "root_message_id": "msg-bf4a3a4c7022"
+    },
+    {
+      "id": "thread-82b451abf5fa",
+      "subject": "[R--gR] (no subject)",
+      "message_count": 2,
+      "participants": [
+        "zhihua li"
+      ],
+      "started": "2005-03-24T14:23:55+00:00",
+      "last_reply": "2005-03-25T05:13:23+00:00",
+      "root_message_id": "msg-82b451abf5fa"
+    },
+    {
+      "id": "thread-a4c65d1497b6",
+      "subject": "[R--gR] learning networks with a large number of variables and pre-set parents.",
+      "message_count": 1,
+      "participants": [
+        "DED (David George Edwards)"
+      ],
+      "started": "2005-03-29T10:23:23+02:00",
+      "last_reply": "2005-03-29T10:23:23+02:00",
+      "root_message_id": "msg-a4c65d1497b6"
+    },
+    {
+      "id": "thread-23f6b6f4ad49",
+      "subject": "[R--gR] locfit",
+      "message_count": 2,
+      "participants": [
+        ". .",
+        "Achim Zeileis"
+      ],
+      "started": "2005-03-30T14:45:22+02:00",
+      "last_reply": "2005-03-30T15:41:01+02:00",
+      "root_message_id": "msg-23f6b6f4ad49"
+    }
+  ]
+}

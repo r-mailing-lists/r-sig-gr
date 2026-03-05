@@ -1,0 +1,127 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2010-02",
+  "messages": [
+    {
+      "id": "msg-c7231d1409b5",
+      "message_id": "<918799.45619.qm@web38308.mail.mud.yahoo.com>",
+      "from_name": "FMH",
+      "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
+      "date": "2010-02-08T09:06:19-08:00",
+      "subject": "[R--gR] Color intervals in image function (image.plot)",
+      "subject_clean": "[R--gR] Color intervals in image function (image.plot)",
+      "in_reply_to": "<bbdc7ed00909060720r4832e801v1903f268bd157140@mail.gmail.com>",
+      "references": [
+        "<mailman.15.1248602405.373.r-help@r-project.org>",
+        "<897987.81801.qm@web38304.mail.mud.yahoo.com>",
+        "<bbdc7ed00909060720r4832e801v1903f268bd157140@mail.gmail.com>"
+      ],
+      "body_plain": "Hi,\n\nThe script below is my current coding in order to produce a contour plot of temperature across altitude and time. In my case,?time,altitude and temperature?are represented by x, y and z variables.\n\n\n##############################################\nBrazilan.Pallete <- colorRampPalette(c(\"blue\",\"green\",\"yellow\",\"red\"))\nimage.plot(x, y, z, col = Brazilan.Pallete(50))\ncontour(x,y,z, levels = seq(1, 20, by = 1), add = TRUE, col = 'peru')\n##############################################\n\n\n\nThe plot worked fine but i?found difficult to fix the interval of the color corresponding?to z value. In my case, the range of z values is between 1 and 40 and ?i'd like to fix the color in the image correspoding to?four sub-intervals of z values. For instance:\n\n1.?1 < z < 10 : blue\n2. 11 < z < 20: green\n3. 21 < z < 30: yellow\n4. 31 < z < 40 : red.\n\nI did't find a suitable coding to do this. Could someone please give?an advice on this matter?\n\nThank you.\nFir",
+      "body_snippet": "Hi,\n\nThe script below is my current coding in order to produce a contour plot of temperature across altitude and time. In my case,?time,altitude and temperature?are represented by x, y and z variables",
+      "thread_id": "thread-c7231d1409b5",
+      "thread_depth": 0,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-ccd765ea612b",
+      "message_id": "<312327.72491.qm@web38303.mail.mud.yahoo.com>",
+      "from_name": "FMH",
+      "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
+      "date": "2010-02-08T09:45:06-08:00",
+      "subject": "[R--gR] Color intervals in image.plot function",
+      "subject_clean": "[R--gR] Color intervals in image.plot function",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\nThe script below is my current coding in order to produce a contour plot of temperature across altitude and time. In my case,?time,altitude and temperature?are represented by x, y and z variables.\n\n\n##############################################\nBrazilan.Pallete <- colorRampPalette(c(\"blue\",\"green\",\"yellow\",\"red\"))\nimage.plot(x, y, z, col = Brazilan.Pallete(50))\ncontour(x,y,z, levels = seq(1, 40, by = 1), add = TRUE, col = 'peru')\n##############################################\n\n\n\nThe plot worked fine but i?found difficult to fix the interval of the color corresponding?to z value. In my case, the range of z values is between 1 and 40 and ?i'd like to fix the color in the image correspoding to?four sub-intervals of z values. For instance:\n\n1.?1 < z < 10 : blue\n2. 11 < z < 20: green\n3. 21 < z < 30: yellow\n4. 31 < z < 40 : red.\n\nI did't find a suitable code to do this. Could someone please give?an advice on this matter?\n\nThank you.\nFir",
+      "body_snippet": "Hi,\n\nThe script below is my current coding in order to produce a contour plot of temperature across altitude and time. In my case,?time,altitude and temperature?are represented by x, y and z variables",
+      "thread_id": "thread-ccd765ea612b",
+      "thread_depth": 0,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-b4b19ecc2566",
+      "message_id": "<381460.89359.qm@web38301.mail.mud.yahoo.com>",
+      "from_name": "FMH",
+      "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
+      "date": "2010-02-25T07:50:24-08:00",
+      "subject": "[R--gR] How to extract one of four plots in a linear regression model",
+      "subject_clean": "[R--gR] How to extract one of four plots in a linear regression model",
+      "in_reply_to": "<49AE88C5-C26C-435F-94AF-562969CE406C@comcast.net>",
+      "references": [
+        "<mailman.15.1248602405.373.r-help@r-project.org>",
+        "<897987.81801.qm@web38304.mail.mud.yahoo.com>",
+        "<bbdc7ed00909060720r4832e801v1903f268bd157140@mail.gmail.com>",
+        "<918799.45619.qm@web38308.mail.mud.yahoo.com>",
+        "<49AE88C5-C26C-435F-94AF-562969CE406C@comcast.net>"
+      ],
+      "body_plain": "Dear All,\n\nA linear regression model could be fitted by using lm function and the plot function can be used to check the assumption of the model. \n\nThe help menu shows few instances on suitable coding for fitting?such a?linear model.?In addition, four different plots could be extracted simultaneously with only a single plot function?as followed:\n\n\n\nrequire(graphics)\n## Annette Dobson (1990) \"An Introduction to Generalized Linear Models\".\n## Page 9: Plant Weight Data.\nctl <- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)\ntrt <- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)\ngroup <- gl(2,10,20, labels=c(\"Ctl\",\"Trt\"))\nweight <- c(ctl, trt)\nanova(lm.D9 <- lm(weight ~ group))\nopar <- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))\nplot(lm.D9, las = 1)?????\n\n\n\n\nThe plot function gives four different plots simulaneously but i just need only part of them, for instance the normality plot. Could someone? give some ideas the way to extract this single plot as i need to copy only this plot and paste it into Word document.\n\nThanks\nFir",
+      "body_snippet": "Dear All,\n\nA linear regression model could be fitted by using lm function and the plot function can be used to check the assumption of the model. \n\nThe help menu shows few instances on suitable coding",
+      "thread_id": "thread-b4b19ecc2566",
+      "thread_depth": 0,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-63db6e6f2828",
+      "message_id": "<600833.36761.qm@web38307.mail.mud.yahoo.com>",
+      "from_name": "FMH",
+      "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
+      "date": "2010-02-25T08:01:23-08:00",
+      "subject": "[R--gR] How to add a title to represent four different plot in lm function",
+      "subject_clean": "[R--gR] How to add a title to represent four different plot in lm function",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nA linear regression model could be fitted by using lm function and the plot function can be used to check the assumptions of the model. The example is as followed.\n\nrequire(graphics)\n## Annette Dobson (1990) \"An Introduction to Generalized Linear Models\".\n## Page 9: Plant Weight Data.\nctl <- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)\ntrt <- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)\ngroup <- gl(2,10,20, labels=c(\"Ctl\",\"Trt\"))\nweight <- c(ctl, trt)\nanova(lm.D9 <- lm(weight ~ group))\nopar <- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))\nplot(lm.D9, las = 1)?????\n\nCould someone advice me the way to add a single title either at the above or bottom of these 4 plots, entitled \"The verification of model assumtion via four different plots\" ?\n\nThanks\nFir",
+      "body_snippet": "Dear All,\n\nA linear regression model could be fitted by using lm function and the plot function can be used to check the assumptions of the model. The example is as followed.\n\nrequire(graphics)\n## Ann",
+      "thread_id": "thread-63db6e6f2828",
+      "thread_depth": 0,
+      "month": "2010-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-c7231d1409b5",
+      "subject": "[R--gR] Color intervals in image function (image.plot)",
+      "message_count": 1,
+      "participants": [
+        "FMH"
+      ],
+      "started": "2010-02-08T09:06:19-08:00",
+      "last_reply": "2010-02-08T09:06:19-08:00",
+      "root_message_id": "msg-c7231d1409b5"
+    },
+    {
+      "id": "thread-ccd765ea612b",
+      "subject": "[R--gR] Color intervals in image.plot function",
+      "message_count": 1,
+      "participants": [
+        "FMH"
+      ],
+      "started": "2010-02-08T09:45:06-08:00",
+      "last_reply": "2010-02-08T09:45:06-08:00",
+      "root_message_id": "msg-ccd765ea612b"
+    },
+    {
+      "id": "thread-b4b19ecc2566",
+      "subject": "[R--gR] How to extract one of four plots in a linear regression model",
+      "message_count": 1,
+      "participants": [
+        "FMH"
+      ],
+      "started": "2010-02-25T07:50:24-08:00",
+      "last_reply": "2010-02-25T07:50:24-08:00",
+      "root_message_id": "msg-b4b19ecc2566"
+    },
+    {
+      "id": "thread-63db6e6f2828",
+      "subject": "[R--gR] How to add a title to represent four different plot in lm function",
+      "message_count": 1,
+      "participants": [
+        "FMH"
+      ],
+      "started": "2010-02-25T08:01:23-08:00",
+      "last_reply": "2010-02-25T08:01:23-08:00",
+      "root_message_id": "msg-63db6e6f2828"
+    }
+  ]
+}

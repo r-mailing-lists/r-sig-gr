@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2015-02",
+  "messages": [
+    {
+      "id": "msg-38d613f31b61",
+      "message_id": "<CAJx8RnGYkUmfPNzjA_ngTx7hDaR-9aAag+8DjMRweXraS5iUaQ@mail.gmail.com>",
+      "from_name": "David Romero",
+      "from_email_hash": "21e9c43939115d4af6a2d5472f37217ff95b3d3f13752577d61dffc980063e2d",
+      "date": "2015-02-09T11:50:55-06:00",
+      "subject": "[R--gR] Data extraction from lfstat recession function",
+      "subject_clean": "[R--gR] Data extraction from lfstat recession function",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R-sig-gR users,\n\nDoes someone know how to extract point values form the regression\nmodel of the recession function, package lfstat?\nI would like to have the coefficient that appears on the graph, n\nvalue, and be able to run anova.\n\nThanks in advance!\n\nDavid",
+      "body_snippet": "Dear R-sig-gR users,\n\nDoes someone know how to extract point values form the regression\nmodel of the recession function, package lfstat?\nI would like to have the coefficient that appears on the graph,",
+      "thread_id": "thread-38d613f31b61",
+      "thread_depth": 0,
+      "month": "2015-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-38d613f31b61",
+      "subject": "[R--gR] Data extraction from lfstat recession function",
+      "message_count": 1,
+      "participants": [
+        "David Romero"
+      ],
+      "started": "2015-02-09T11:50:55-06:00",
+      "last_reply": "2015-02-09T11:50:55-06:00",
+      "root_message_id": "msg-38d613f31b61"
+    }
+  ]
+}

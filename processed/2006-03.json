@@ -1,0 +1,431 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2006-03",
+  "messages": [
+    {
+      "id": "msg-fd73f6993a5f",
+      "message_id": "<alzmjogb5g.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-17T13:48:43-05:00",
+      "subject": "[R--gR] deal: network & <NA>",
+      "subject_clean": "[R--gR] deal: network & <NA>",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\nI have missing values in my training data, and I see\n> bo.net <- network(bo.df)\nError in var(data[, node$idx]) : missing observations in cov/cor\n>\n\nwhat do I do?\ncan deal handle missing values?\nThanks!\n\n-- \nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.memri.org http://www.jihadwatch.org http://www.iris.org.il\nhttp://www.honestreporting.com http://truepeace.org http://ffii.org\n186,000 Miles per Second.  It's not just a good idea.  IT'S THE LAW.",
+      "body_snippet": "Hi,\nI have missing values in my training data, and I see\n> bo.net <- network(bo.df)\nError in var(data[, node$idx]) : missing observations in cov/cor\n>\n\nwhat do I do?\ncan deal handle missing values?\nTh",
+      "thread_id": "thread-fd73f6993a5f",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-fd2c856817e2",
+      "message_id": "<almzfog665.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-17T15:36:18-05:00",
+      "subject": "[R--gR] banlist",
+      "subject_clean": "[R--gR] banlist",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "If I have several nodes (like \"sex\" and \"year\" in the \"ksl\" example)\nthat are known to be independent of the others and some other nodes that\nare known not to influence anything, is there a simple way to specify\nthose edges by name?\nE.g., something like\nbanlist(net) <-\n CONCATENATE(\n  matrix(c(rep(POSITION(sex,ksl),length(ksl)-1),\n           1:length(ksl)[1:length(ksl) <> POSITION(sex,ksl)]),\n         ncol=2),\n  matrix(c(rep(POSITION(year,ksl),length(ksl)-1),\n           1:length(ksl)[1:length(ksl) <> POSITION(year,ksl)]),\n         ncol=2)\n )\n\nexcept that I don't know how to implement POSITION and CONCATENATE.\n\nThanks!\n\n\nPS Thanks to Susanne for answering my previous question about <NA>.\n   Are there plans to support them in the future?\n\n-- \nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.jihadwatch.org http://pmw.org.il http://www.honestreporting.com\nhttp://www.dhimmi.com http://www.openvotingconsortium.org http://www.memri.org\nSoftware is like sex: it's better when it's free.",
+      "body_snippet": "If I have several nodes (like \"sex\" and \"year\" in the \"ksl\" example)\nthat are known to be independent of the others and some other nodes that\nare known not to influence anything, is there a simple way",
+      "thread_id": "thread-fd2c856817e2",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-593df4101421",
+      "message_id": "<alirqcg5xn.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-17T15:41:24-05:00",
+      "subject": "[R--gR] deal: applying the network",
+      "subject_clean": "[R--gR] deal: applying the network",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "suppose I manage to train a network from my data.\nhow do I apply it to new observations?\nE.g., if I observe V1=2.4 and V2=5.6,\nhow do I get the probability distribution for V3?\n\nAlso, is it possible to update the network based on a new observation\n(without re-learning the DAG structure)?\n\nThanks!\n\n-- \nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.memri.org http://ffii.org http://www.dhimmi.com\nhttp://truepeace.org http://www.palestinefacts.org http://www.camera.org\nTwo wrongs don't make a right, but three rights make a left.",
+      "body_snippet": "suppose I manage to train a network from my data.\nhow do I apply it to new observations?\nE.g., if I observe V1=2.4 and V2=5.6,\nhow do I get the probability distribution for V3?\n\nAlso, is it possible t",
+      "thread_id": "thread-593df4101421",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-4c25700faf7d",
+      "message_id": "<7.0.0.16.2.20060318070407.0265c850@centroin.com.br>",
+      "from_name": "Bernardo Rangel tura",
+      "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
+      "date": "2006-03-18T07:04:12-03:00",
+      "subject": "[R--gR] Hierarchical log-linear models",
+      "subject_clean": "[R--gR] Hierarchical log-linear models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi R-masters!\n\nI try using package gRbase for fit a Hierarchical log-linear models \nand show as graphical model.\n\nI using data about patients of my Hospital (file sm.csv) and my script  is :\n\n\nsetwd(\"F:/INCL/TURA\")\ndados<-read.csv(\"sm.csv\")\nattach(dados)\ntab1<-table(obesidade,HAS,TG,DM,HDL)\nrequire(gRbase)\ndados.g <- as.gmData(tab1)\nm2 <-hllm(~obesidade*HAS*TG*DM*HDL,dados.g)\nm2.f <- fit(m2,engine=\"loglm\")\n\nWell my doubt is why\n\ndynamic.Graph(m2) is the same model of dynamic.Graph(m2.f)\n\nWhere I wrong?\n\n\n\nThanks in advance\n\nBernardo Rangel Tura, MD, MSc\nNational Institute of Cardiology Laranjeiras\nRio de Janeiro Brazil  \n-------------- next part --------------\nPgt,fris_HF,fris_Tabagismo,Sexo,fris_DM,fris_HAS,fris_Dislipidemia,obeso,crit_HAS,crit_TG,crit_DM,crit_HDL,n_crit,SM\nB,N,S,M,N,N,S,N,N,N,N,N,0,N\nB,S,N,M,N,N,N,N,N,N,N,N,0,N\nB,N,S,M,N,N,N,N,N,N,N,N,0,N\nR,N,S,F,N,N,S,N,N,N,N,S,1,N\nR,N,N,M,N,N,S,N,N,N,N,S,1,N\nR,N,N,M,N,S,S,N,S,N,N,N,1,N\nB,N,N,M,N,N,S,N,N,N,N,S,1,N\nB,S,N,M,N,S,N,N,S,N,N,N,1,N\nB,N,S,M,N,N,N,N,N,N,N,S,1,N\nB,N,N,M,N,N,S,N,N,N,N,S,1,N\nB,S,N,M,N,N,N,N,N,N,N,S,1,N\nB,S,N,M,N,S,S,N,S,N,N,N,1,N\nB,N,S,M,N,S,S,N,S,N,N,N,1,N\nB,N,N,F,N,S,N,N,S,N,N,N,1,N\nB,N,N,F,N,N,S,S,N,S,N,N,1,N\nB,N,N,F,N,N,S,N,N,N,N,S,1,N\nB,S,N,F,N,N,N,N,N,N,N,S,1,N\nB,N,N,M,N,N,N,N,N,N,N,S,1,N\nB,S,N,M,N,N,S,N,N,N,N,S,1,N\nB,S,N,F,N,N,S,N,N,N,S,N,1,N\nB,S,N,F,N,S,S,N,S,N,N,N,1,N\nB,S,S,M,S,N,N,N,N,N,S,N,1,N\nB,N,N,M,N,N,S,N,N,N,N,S,1,N\nB,S,N,F,N,N,S,N,N,N,N,S,1,N\nB,N,N,F,N,S,N,N,S,N,N,N,1,N\nB,N,S,F,N,S,N,N,S,N,N,N,1,N\nB,S,N,M,N,N,S,S,N,N,N,S,1,N\nB,S,N,F,N,S,N,N,S,N,N,N,1,N\nB,S,N,M,N,S,S,N,S,N,N,N,1,N\nB,S,N,M,N,S,N,N,S,N,N,N,1,N\nR,N,N,M,N,S,S,N,S,N,S,N,2,N\nR,S,N,M,N,S,N,N,S,N,N,S,2,N\nR,S,N,M,N,S,N,N,S,N,N,S,2,N\nR,N,N,M,N,S,S,N,S,N,S,N,2,N\nR,N,N,F,N,S,S,N,S,N,N,S,2,N\nR,S,S,F,N,S,N,N,S,N,S,N,2,N\nR,N,N,F,N,S,N,N,S,N,N,S,2,N\nR,S,N,M,N,N,N,N,N,N,S,S,2,N\nR,N,N,M,N,N,S,N,S,N,N,S,2,N\nR,N,N,F,N,S,S,N,S,N,N,S,2,N\nR,N,N,M,N,S,S,N,S,N,N,S,2,N\nR,N,N,M,N,S,S,S,S,N,N,S,2,S\nR,N,N,M,N,N,N,N,N,N,S,S,2,N\nR,N,N,M,N,S,N,S,S,N,S,N,2,S\nR,N,N,M,N,S,S,N,S,N,N,S,2,N\nR,N,S,M,N,S,S,N,S,S,N,N,2,N\nR,N,N,M,N,S,S,N,S,N,N,S,2,N\nR,S,N,M,N,S,N,N,S,N,N,S,2,N\nR,N,N,M,N,S,N,N,S,S,N,N,2,N\nR,S,N,M,N,S,S,N,S,N,S,N,2,N\nR,N,N,M,N,S,N,N,S,N,N,S,2,N\nB,N,N,M,N,S,N,N,S,N,S,N,2,N\nB,N,S,F,N,N,N,N,N,N,S,S,2,N\nB,N,N,F,N,S,S,N,S,N,N,S,2,N\nB,N,N,F,N,S,S,S,S,N,S,N,2,S\nB,S,N,M,N,N,N,N,S,N,N,S,2,N\nB,N,N,M,N,N,N,N,S,N,S,N,2,N\nB,S,N,M,N,S,N,N,S,N,N,S,2,N\nB,S,N,M,N,S,S,S,S,N,S,N,2,S\nB,S,N,M,S,S,S,S,S,N,S,N,2,S\nB,N,N,M,N,N,S,N,N,S,S,N,2,N\nB,N,N,F,S,N,N,N,N,N,S,S,2,N\nB,N,N,M,N,S,S,N,S,N,S,N,2,N\nB,S,S,M,N,S,S,N,S,N,S,N,2,N\nB,N,N,M,N,N,N,N,S,N,S,N,2,N\nB,S,S,M,N,S,N,N,S,N,S,N,2,N\nB,S,N,M,N,S,N,S,S,N,S,N,2,S\nB,N,N,M,N,S,S,N,S,N,N,S,2,N\nB,N,N,F,N,N,N,N,N,S,S,N,2,N\nB,S,S,M,N,N,S,N,N,S,N,S,2,N\nB,S,N,F,N,S,N,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,S,S,N,N,S,2,S\nB,N,N,M,N,N,N,N,N,N,S,S,2,N\nB,S,N,F,N,S,N,N,S,N,N,S,2,N\nB,N,S,F,N,S,S,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,N,S,N,N,S,2,N\nB,N,N,M,N,S,N,N,S,N,S,N,2,N\nB,N,N,F,N,N,N,N,S,N,S,N,2,N\nB,S,S,M,N,S,N,N,S,N,S,N,2,N\nB,N,S,M,N,S,S,N,S,N,N,S,2,N\nB,S,S,M,S,S,S,N,S,N,S,N,2,N\nB,N,S,F,N,S,S,S,S,N,N,S,2,S\nB,N,N,M,N,S,N,N,S,N,N,S,2,N\nB,S,N,M,N,N,S,N,N,N,S,S,2,N\nB,N,N,M,N,S,N,N,S,N,S,N,2,N\nB,N,N,M,N,N,N,N,N,S,S,N,2,N\nB,N,N,M,N,S,N,N,S,N,N,S,2,N\nB,N,S,M,N,S,S,N,S,N,N,S,2,N\nB,S,N,M,N,S,N,N,S,N,N,S,2,N\nB,N,N,M,N,S,N,N,S,N,N,S,2,N\nB,S,N,M,N,S,N,N,S,N,S,N,2,N\nB,S,N,M,S,S,S,N,S,N,S,N,2,N\nB,N,S,M,N,N,N,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,S,S,N,N,S,2,S\nB,N,S,M,N,S,S,N,S,N,N,S,2,N\nB,S,N,M,N,S,N,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,N,S,N,S,N,2,N\nB,N,N,M,N,N,S,N,N,N,S,S,2,N\nB,S,N,F,N,S,N,N,S,N,N,S,2,N\nB,S,S,M,N,S,N,N,S,N,N,S,2,N\nB,S,N,M,S,N,S,N,N,N,S,S,2,N\nB,N,N,M,N,N,S,N,N,N,S,S,2,N\nB,N,N,M,N,S,N,N,S,N,S,N,2,N\nB,N,S,M,N,S,N,N,S,N,N,S,2,N\nB,N,N,F,N,N,S,S,N,N,S,S,2,S\nB,N,S,M,N,S,S,S,S,S,N,N,2,S\nB,N,S,F,N,S,S,N,S,N,N,S,2,N\nB,N,N,F,N,S,N,N,S,N,N,S,2,N\nB,S,S,M,N,S,S,N,S,N,S,N,2,N\nB,S,N,M,S,N,S,N,N,N,S,S,2,N\nB,N,S,M,N,S,S,N,S,N,N,S,2,N\nB,S,N,M,N,S,N,N,S,N,N,S,2,N\nB,N,S,F,N,N,S,N,N,N,S,S,2,N\nB,N,S,M,N,N,N,N,N,N,S,S,2,N\nB,S,N,F,S,S,S,N,S,N,S,N,2,N\nB,N,S,M,N,S,N,S,S,N,S,N,2,S\nB,N,S,F,S,N,N,N,N,N,S,S,2,N\nB,N,N,M,S,N,N,N,N,S,S,N,2,N\nB,N,S,M,S,N,S,N,N,N,S,S,2,N\nB,S,N,M,S,S,N,N,S,N,S,N,2,N\nB,N,N,M,S,N,S,N,N,N,S,S,2,N\nB,S,S,M,N,N,S,N,N,N,S,S,2,N\nB,N,S,M,N,S,N,N,S,N,S,N,2,N\nB,N,N,M,N,N,N,N,N,S,N,S,2,N\nB,S,N,F,N,S,N,S,S,N,S,N,2,S\nB,S,N,M,N,S,N,N,S,S,N,N,2,N\nB,N,S,M,N,N,N,N,S,N,N,S,2,N\nB,N,S,M,N,S,N,N,S,N,S,N,2,N\nB,N,N,F,N,S,N,N,S,N,N,S,2,N\nB,S,N,M,S,S,S,N,S,N,S,N,2,N\nB,S,N,M,N,S,N,S,S,N,N,S,2,S\nB,S,N,F,N,S,S,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,N,S,N,N,S,2,N\nB,N,N,F,S,S,S,N,S,N,S,N,2,N\nB,S,S,M,N,S,N,S,S,N,N,S,2,S\nB,N,N,M,N,N,S,N,N,N,S,S,2,N\nB,N,N,F,N,S,S,N,S,N,N,S,2,N\nB,N,S,M,N,S,N,N,S,N,S,N,2,N\nB,N,S,F,S,N,N,N,N,N,S,S,2,N\nB,S,N,F,N,S,S,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,N,S,N,N,S,2,N\nB,N,N,M,N,S,N,N,S,N,N,S,2,N\nB,N,N,F,N,S,S,N,S,S,N,N,2,N\nB,N,N,F,N,S,S,N,S,N,N,S,2,N\nB,S,N,F,N,S,N,N,S,N,N,S,2,N\nB,S,N,M,N,S,N,N,S,N,N,S,2,N\nB,N,N,F,N,S,S,N,S,N,N,S,2,N\nB,N,S,M,N,S,S,N,S,N,N,S,2,N\nB,S,S,M,N,N,S,N,N,S,S,N,2,N\nB,S,N,F,N,S,S,N,S,N,N,S,2,N\nB,N,S,F,N,S,N,N,S,N,N,S,2,N\nB,N,N,F,N,S,N,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,N,S,N,N,S,2,N\nB,S,N,M,N,S,N,N,S,N,S,N,2,N\nB,S,N,F,N,S,S,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,N,S,N,N,S,2,N\nB,N,S,M,N,S,S,N,S,N,N,S,2,N\nB,N,N,M,N,N,S,N,N,S,S,N,2,N\nB,S,N,M,N,S,S,N,S,N,N,S,2,N\nB,S,N,M,N,S,S,N,S,N,N,S,2,N\nB,N,N,M,N,S,N,N,S,N,N,S,2,N\nB,N,S,F,N,S,S,N,S,S,N,N,2,N\nB,S,S,M,N,N,N,N,S,N,S,N,2,N\nB,N,N,M,N,N,S,N,S,N,N,S,2,N\nB,N,S,M,N,S,S,N,S,N,N,S,2,N\nB,S,N,M,N,S,S,N,S,N,N,S,2,N\nB,S,N,F,N,S,N,N,S,N,N,S,2,N\nB,N,N,M,N,S,N,N,S,N,N,S,2,N\nB,N,N,M,N,S,S,N,S,N,N,S,2,N\nB,S,N,F,S,S,S,N,S,N,S,N,2,N\nB,N,S,F,N,S,S,N,S,N,N,S,2,N\nB,S,S,M,N,S,N,N,S,N,N,S,2,N\nB,N,N,F,N,S,S,N,S,N,N,S,2,N\nB,N,N,F,N,S,N,N,S,N,N,S,2,N\nB,S,N,M,N,N,S,N,N,S,N,S,2,N\nR,S,N,M,S,S,S,N,S,N,S,S,3,N\nR,S,N,F,N,S,S,N,S,N,S,S,3,N\nR,N,N,M,S,S,S,N,S,N,S,S,3,N\nR,N,N,M,S,S,S,N,S,N,S,S,3,N\nR,S,N,M,S,S,S,S,S,N,S,S,3,S\nR,N,N,F,N,S,S,N,S,N,S,S,3,N\nR,N,N,M,N,S,N,N,S,N,S,S,3,N\nR,N,N,M,S,S,S,N,S,N,S,S,3,N\nR,N,N,F,S,S,S,N,S,N,S,S,3,N\nR,S,N,F,S,S,N,N,S,N,S,S,3,N\nR,N,N,M,N,S,S,N,S,N,S,S,3,N\nR,S,N,F,N,N,N,N,S,N,S,S,3,N\nR,S,N,M,S,S,S,N,S,N,S,S,3,N\nR,N,N,F,S,S,S,S,S,N,S,S,3,S\nR,N,N,M,S,N,S,N,S,N,S,S,3,N\nR,N,N,M,S,S,S,N,S,N,S,S,3,N\nR,S,N,F,S,S,S,S,S,N,S,S,3,S\nR,N,N,M,N,N,S,N,S,N,S,S,3,N\nR,S,S,F,S,S,S,S,S,N,S,S,3,S\nR,N,S,M,N,N,N,N,S,N,S,S,3,N\nR,N,N,M,N,S,N,N,S,N,S,S,3,N\nR,N,N,M,N,S,S,N,S,N,S,S,3,N\nR,N,N,F,N,S,S,N,S,N,S,S,3,N\nR,N,S,F,N,S,N,N,S,N,S,S,3,N\nR,S,N,M,S,S,S,S,S,N,S,S,3,S\nR,N,N,M,S,S,S,N,S,N,S,S,3,N\nR,S,N,M,S,S,S,N,S,N,S,S,3,N\nR,N,N,M,S,S,S,N,S,S,S,N,3,N\nR,S,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,F,N,S,S,S,S,S,N,S,3,S\nB,N,N,M,N,S,N,N,S,N,S,S,3,N\nB,S,S,M,N,N,N,N,N,S,S,S,3,N\nB,N,N,M,S,S,N,N,S,N,S,S,3,N\nB,N,S,F,S,S,N,S,S,N,S,S,3,S\nB,S,N,M,N,S,N,N,S,N,S,S,3,N\nB,N,N,F,S,S,S,N,S,N,S,S,3,N\nB,S,N,M,S,N,N,N,S,N,S,S,3,N\nB,N,S,F,N,S,S,N,S,S,N,S,3,N\nB,S,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,S,M,S,S,S,S,S,N,S,S,3,S\nB,N,S,M,S,S,S,N,S,N,S,S,3,N\nB,N,S,M,N,S,S,S,S,S,S,N,3,S\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,S,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,N,F,S,S,S,S,S,S,S,N,3,S\nB,S,S,F,S,S,S,S,S,N,S,S,3,S\nB,N,N,F,N,N,S,N,S,S,S,N,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,S,F,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,S,F,N,S,N,N,S,S,N,S,3,N\nB,S,N,M,N,N,S,N,S,S,S,N,3,N\nB,N,S,M,N,N,N,N,S,S,N,S,3,N\nB,S,S,M,N,S,S,N,S,S,S,N,3,N\nB,S,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,F,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,N,S,S,N,S,S,3,S\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,S,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,S,S,N,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,S,M,N,S,N,S,S,N,S,S,3,S\nB,S,N,F,N,S,S,N,S,N,S,S,3,N\nB,S,S,M,N,S,N,N,S,S,S,N,3,N\nB,S,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,N,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,S,M,N,N,N,S,S,N,S,S,3,S\nB,N,N,F,N,N,S,N,N,S,S,S,3,N\nB,S,N,M,N,S,N,S,S,N,S,S,3,S\nB,S,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,F,N,S,N,N,S,N,S,S,3,N\nB,N,N,M,N,S,N,N,S,N,S,S,3,N\nB,N,N,F,N,S,S,N,S,N,S,S,3,N\nB,S,N,F,N,N,N,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,S,M,S,S,N,N,S,N,S,S,3,N\nB,N,S,M,S,S,S,S,S,N,S,S,3,S\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,S,M,N,S,N,N,S,N,S,S,3,N\nB,S,N,M,N,S,S,N,S,S,S,N,3,N\nB,S,N,M,N,N,S,N,S,S,N,S,3,N\nB,N,N,F,N,S,S,N,S,N,S,S,3,N\nB,N,N,F,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,S,S,N,S,S,3,S\nB,N,N,F,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,N,S,S,N,S,S,S,3,S\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,N,F,S,S,N,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,S,S,N,3,N\nB,S,S,M,N,S,S,N,S,N,S,S,3,N\nB,S,S,M,N,S,N,N,S,N,S,S,3,N\nB,S,N,M,S,S,S,S,S,N,S,S,3,S\nB,N,N,M,S,N,S,N,S,N,S,S,3,N\nB,N,S,M,S,S,S,N,S,N,S,S,3,N\nB,N,S,M,N,N,N,N,S,N,S,S,3,N\nB,N,S,M,N,N,N,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,F,S,S,S,N,S,N,S,S,3,N\nB,N,N,F,N,N,S,N,S,N,S,S,3,N\nB,N,S,M,S,N,N,N,N,S,S,S,3,N\nB,S,N,F,S,S,N,N,S,N,S,S,3,N\nB,S,N,M,N,S,S,N,S,S,S,N,3,N\nB,N,N,M,S,N,S,N,N,S,S,S,3,N\nB,S,S,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,F,N,S,S,S,S,N,S,S,3,S\nB,S,N,F,N,S,S,S,S,S,N,S,3,S\nB,N,S,M,N,N,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,S,N,M,S,S,N,N,S,N,S,S,3,N\nB,N,N,F,S,S,N,N,S,N,S,S,3,N\nB,S,S,F,N,S,N,N,S,S,N,S,3,N\nB,S,S,M,N,S,S,N,S,S,N,S,3,N\nB,S,S,M,N,N,S,N,N,S,S,S,3,N\nB,S,N,M,N,S,S,N,S,N,S,S,3,N\nB,S,N,F,S,N,N,N,N,S,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,N,F,S,S,N,S,S,N,S,S,3,S\nB,N,N,M,N,S,N,N,S,N,S,S,3,N\nB,N,N,F,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,N,N,S,N,S,S,3,N\nB,N,S,M,N,N,S,N,N,S,S,S,3,N\nB,N,N,F,S,S,N,N,S,S,S,N,3,N\nB,S,N,F,N,S,N,N,S,N,S,S,3,N\nB,N,N,F,N,S,N,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,S,N,S,3,N\nB,S,S,M,N,S,S,N,S,N,S,S,3,N\nB,S,N,F,N,S,N,N,S,N,S,S,3,N\nB,S,S,M,N,S,N,N,S,N,S,S,3,N\nB,N,N,M,N,N,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,N,N,S,S,N,S,3,N\nB,N,N,F,N,S,N,N,S,N,S,S,3,N\nB,S,N,F,S,S,N,N,S,N,S,S,3,N\nB,S,N,M,N,S,S,N,S,S,N,S,3,N\nB,S,N,F,N,S,N,N,S,S,S,N,3,N\nB,N,N,M,S,S,N,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,N,F,N,S,S,N,S,S,N,S,3,N\nB,N,N,M,N,S,S,N,S,S,N,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,S,F,N,S,S,N,S,N,S,S,3,N\nB,N,S,F,N,S,S,N,S,S,N,S,3,N\nB,N,S,M,S,N,N,N,S,N,S,S,3,N\nB,S,N,M,N,S,N,N,S,N,S,S,3,N\nB,S,N,M,N,S,S,N,S,N,S,S,3,N\nB,S,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,S,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,S,M,N,S,S,S,S,N,S,S,3,S\nB,S,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,N,M,N,S,S,N,S,N,S,S,3,N\nB,S,N,F,S,S,S,N,S,N,S,S,3,N\nB,N,N,F,N,S,S,S,S,S,N,S,3,S\nB,N,N,M,S,S,S,S,S,S,S,N,3,S\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,F,S,S,N,S,S,N,S,S,3,S\nB,S,N,M,S,S,N,N,S,N,S,S,3,N\nB,S,N,F,N,S,S,S,S,N,S,S,3,S\nB,N,N,F,N,S,S,S,S,N,S,S,3,S\nB,S,S,F,S,S,S,N,S,N,S,S,3,N\nB,S,N,M,S,S,N,N,S,N,S,S,3,N\nB,N,N,F,N,S,S,N,S,S,N,S,3,N\nB,N,N,M,S,S,N,N,S,N,S,S,3,N\nB,S,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,N,M,S,S,S,N,S,N,S,S,3,N\nB,S,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,N,S,S,N,S,S,3,S\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nB,N,S,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,N,N,S,S,S,N,3,N\nB,N,N,M,S,S,N,S,S,N,S,S,3,S\nB,N,S,M,N,S,N,N,S,N,S,S,3,N\nB,N,N,M,N,S,N,N,S,N,S,S,3,N\nB,N,N,F,N,S,S,N,S,S,N,S,3,N\nB,S,N,F,N,S,N,N,S,S,N,S,3,N\nB,N,N,F,N,S,S,N,S,N,S,S,3,N\nB,N,S,M,S,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,F,N,S,N,S,S,N,S,S,3,S\nB,N,N,M,S,S,S,S,S,N,S,S,3,S\nB,N,N,F,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,N,N,M,S,S,N,N,S,N,S,S,3,N\nB,N,N,M,N,S,S,S,S,N,S,S,3,S\nB,N,N,M,N,S,S,N,S,N,S,S,3,N\nB,S,S,F,N,S,S,N,S,N,S,S,3,N\nB,S,S,M,N,S,S,N,S,S,N,S,3,N\nB,S,N,M,S,N,S,N,N,S,S,S,3,N\nB,N,N,M,S,S,S,N,S,N,S,S,3,N\nR,S,N,F,S,S,S,S,S,S,S,S,4,S\nR,N,N,F,S,S,S,N,S,S,S,S,4,N\nR,S,N,M,N,S,N,S,S,S,S,S,4,S\nR,N,N,M,S,S,S,N,S,S,S,S,4,N\nR,N,S,F,N,N,N,N,S,S,S,S,4,N\nR,N,N,F,N,S,S,N,S,S,S,S,4,N\nR,S,N,M,N,S,S,N,S,S,S,S,4,N\nR,S,S,M,N,S,S,N,S,S,S,S,4,N\nB,S,S,M,N,S,N,N,S,S,S,S,4,N\nB,S,S,F,N,N,N,S,S,S,S,S,4,S\nB,S,N,M,S,S,S,N,S,S,S,S,4,N\nB,S,N,M,N,S,N,N,S,S,S,S,4,N\nB,S,N,F,N,S,S,N,S,S,S,S,4,N\nB,N,S,M,N,S,S,S,S,S,S,S,4,S\nB,S,N,F,S,S,S,N,S,S,S,S,4,N\nB,N,N,M,N,S,N,N,S,S,S,S,4,N\nB,S,N,F,N,S,S,S,S,S,S,S,4,S\nB,N,N,F,N,S,S,N,S,S,S,S,4,N\nB,S,S,M,S,S,S,N,S,S,S,S,4,N\nB,S,S,M,N,N,N,N,S,S,S,S,4,N\nB,S,N,M,N,S,S,N,S,S,S,S,4,N\nB,N,N,F,S,S,S,S,S,S,S,S,4,S\nB,N,N,F,S,S,S,N,S,S,S,S,4,N\nB,S,S,F,S,S,S,N,S,S,S,S,4,N\nB,N,S,F,N,S,N,S,S,S,S,S,4,S\nB,S,S,F,N,N,N,S,S,S,S,S,4,S\nB,N,S,F,S,S,S,S,S,S,S,S,4,S\nB,S,N,M,S,S,S,N,S,S,S,S,4,N\nB,N,N,F,N,S,S,N,S,S,S,S,4,N\nB,N,S,M,S,S,S,N,S,S,S,S,4,N\nB,S,N,M,S,S,S,N,S,S,S,S,4,N\nB,S,N,F,S,S,S,N,S,S,S,S,4,N\nB,N,N,F,S,S,S,S,S,S,S,S,4,S\nB,N,N,F,S,S,S,N,S,S,S,S,4,N\nB,N,N,M,N,S,S,N,S,S,S,S,4,N\nB,S,N,F,S,S,S,N,S,S,S,S,4,N\nB,N,S,M,N,S,S,N,S,S,S,S,4,N\nB,S,S,M,N,S,S,N,S,S,S,S,4,N\nB,N,S,M,N,S,N,N,S,S,S,S,4,N\nB,S,N,F,S,N,S,N,S,S,S,S,4,N\nB,S,S,M,N,S,S,N,S,S,S,S,4,N\nB,S,N,F,N,N,N,N,S,S,S,S,4,N\nB,S,N,F,N,S,S,S,S,S,S,S,4,S\nB,N,N,M,S,S,S,N,S,S,S,S,4,N\nB,N,N,M,S,S,S,N,S,S,S,S,4,N\nB,N,S,M,S,S,S,N,S,S,S,S,4,N\nB,S,N,F,N,S,S,S,S,S,S,S,4,S\nB,S,N,F,N,S,S,S,S,S,S,S,4,S\nB,N,N,F,N,S,S,S,S,S,S,S,4,S\nB,N,N,F,N,S,S,S,S,S,S,S,4,S\nB,S,S,F,N,S,N,N,S,S,S,S,4,N\nB,S,S,F,N,N,N,N,S,S,S,S,4,N\nB,N,N,M,N,S,S,N,S,S,S,S,4,N\nB,N,N,M,N,S,S,N,S,S,S,S,4,N\nB,N,S,M,S,S,S,N,S,S,S,S,4,N\nB,S,N,F,S,S,S,N,S,S,S,S,4,N\nB,S,N,M,N,N,S,N,S,S,S,S,4,N\nB,S,N,M,N,S,S,N,S,S,S,S,4,N\nB,N,N,F,S,S,S,N,S,S,S,S,4,N\nB,N,N,F,S,S,N,N,S,S,S,S,4,N\nB,S,S,M,S,S,S,S,S,S,S,S,4,S\nB,S,N,M,S,S,S,N,S,S,S,S,4,N\nB,N,N,M,S,S,S,N,S,S,S,S,4,N\nB,S,S,M,N,S,S,N,S,S,S,S,4,N\nB,S,N,F,N,S,S,N,S,S,S,S,4,N\nB,S,N,M,S,N,N,N,S,S,S,S,4,N\nB,S,N,M,N,S,S,N,S,S,S,S,4,N\nB,S,N,M,N,S,S,N,S,S,S,S,4,N\nB,N,N,M,S,S,S,N,S,S,S,S,4,N\nB,N,N,M,N,S,N,N,S,S,S,S,4,N\nB,S,N,M,N,S,N,S,S,S,S,S,4,S\nB,N,N,M,S,N,S,N,S,S,S,S,4,N\nB,N,N,F,N,S,N,N,S,S,S,S,4,N\nB,S,N,M,S,S,S,N,S,S,S,S,4,N\nB,N,N,F,N,S,N,N,S,S,S,S,4,N",
+      "body_snippet": "Hi R-masters!\n\nI try using package gRbase for fit a Hierarchical log-linear models \nand show as graphical model.\n\nI using data about patients of my Hospital (file sm.csv) and my script  is :\n\n\nsetwd(\"",
+      "thread_id": "thread-4c25700faf7d",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-8f9f9e1eeb02",
+      "message_id": "<aly7z3iyen.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-21T10:57:04-05:00",
+      "subject": "[R--gR] banlist",
+      "subject_clean": "[R--gR] banlist",
+      "in_reply_to": "<35F45D1048ED5D479EE2223581BDD89A18E1B4@SFEXC00002.amtg.NJA.local> (Claus Dethlefsen's message of \"Tue, 21 Mar 2006 09:12:27 +0100\")",
+      "references": [
+        "<35F45D1048ED5D479EE2223581BDD89A18E1B4@SFEXC00002.amtg.NJA.local>"
+      ],
+      "body_plain": "Dear Claus,\n\nthanks for your kind reply!\n\n> * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:12:27 +0100]:\n>\n> Thank you for your interest in 'deal'. Note, however, that there is a\n> 'deal' mailing-list which would be the right forum for your questions.\n\nis that list available on gmane.org?\nif not, please make it available there!\n\n> I guess your \"CONCATENATE\" is rbind?\nyes, thanks!\n\n> I guess your \"POSITION\" can be implemented using 'match'\n\nindeed!\nI implemented it as (1:len)[\"Sex\" == nm]\nbut match is more natural!\n\n> No, unfortunately, we have no plans implementing missing values. I am\n> in a new position, leaving little (none?) time for developing 'deal'.\n\nsorry to hear this...\n\n-- \nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://truepeace.org http://www.jihadwatch.org http://www.mideasttruth.com\nhttp://www.palestinefacts.org http://www.dhimmi.com http://www.camera.org\nThere are many reasons not to use Lisp - but no good ones.",
+      "body_snippet": "Dear Claus,\n\nthanks for your kind reply!\n\n> * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:12:27 +0100]:\n>\n> Thank you for your interest in 'deal'. Note, however,",
+      "thread_id": "thread-8f9f9e1eeb02",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-483c7f243912",
+      "message_id": "<alslpbiwo9.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-21T11:34:30-05:00",
+      "subject": "[R--gR] deal: applying the network",
+      "subject_clean": "[R--gR] deal: applying the network",
+      "in_reply_to": "<35F45D1048ED5D479EE2223581BDD89A18E1B5@SFEXC00002.amtg.NJA.local> (Claus Dethlefsen's message of \"Tue, 21 Mar 2006 09:24:28 +0100\")",
+      "references": [
+        "<35F45D1048ED5D479EE2223581BDD89A18E1B5@SFEXC00002.amtg.NJA.local>"
+      ],
+      "body_plain": "Dear Claus\n\n> * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:24:28 +0100]:\n>\n> To use the trained network together with evidence, you need to\n> transfer the network to Hugin.\n\nbut hugin is a commercial product.\nare you saying that I cannot use the network built by deal without buying\nHugin?!\n\nhow do I evaluate a network built by deal?\ne.g., the residuals? error rate (for discrete nodes)?\n\n> There is no way to incremently update the network, so you would need\n> to relearn the whole thing unfortunately.\nok.\n\nthanks!\n\n--\nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.honestreporting.com http://www.mideasttruth.com http://ffii.org\nhttp://www.dhimmi.com http://www.savegushkatif.org http://www.memri.org\nIt's not just a language, it's an adventure.  Common Lisp.",
+      "body_snippet": "Dear Claus\n\n> * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:24:28 +0100]:\n>\n> To use the trained network together with evidence, you need to\n> transfer the netwo",
+      "thread_id": "thread-483c7f243912",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-26305ebc81f3",
+      "message_id": "<1abe3fa90603210840m665b0bd4s15e104ffcc782fda@mail.gmail.com>",
+      "from_name": "A.J. Rossini",
+      "from_email_hash": "035aa365217fa4ca7185e15d86df9cfadfe895a8833f74f31844a380f3e3aaa4",
+      "date": "2006-03-21T17:40:51+01:00",
+      "subject": "[R--gR] banlist",
+      "subject_clean": "[R--gR] banlist",
+      "in_reply_to": "<aly7z3iyen.fsf@quant8.janestcapital.quant>",
+      "references": [
+        "<35F45D1048ED5D479EE2223581BDD89A18E1B4@SFEXC00002.amtg.NJA.local>",
+        "<aly7z3iyen.fsf@quant8.janestcapital.quant>"
+      ],
+      "body_plain": "Sam -\n\nOne approximate approach for handling missing values would be multiple\nimputation, where you could explicitly decide what a range of\nappropriate approaches could be.\n\nHowever, it isn't clear to me what the right way to\naggregate/summarize the resulting networks would be (this isn't a\nsimple averaging, unfortunately).\n\nbest,\n-tony\n\nOn 3/21/06, Sam Steingold <sds at podval.org> wrote:\n> Dear Claus,\n>\n> thanks for your kind reply!\n>\n> > * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:12:27 +0100]:\n> >\n> > Thank you for your interest in 'deal'. Note, however, that there is a\n> > 'deal' mailing-list which would be the right forum for your questions.\n>\n> is that list available on gmane.org?\n> if not, please make it available there!\n>\n> > I guess your \"CONCATENATE\" is rbind?\n> yes, thanks!\n>\n> > I guess your \"POSITION\" can be implemented using 'match'\n>\n> indeed!\n> I implemented it as (1:len)[\"Sex\" == nm]\n> but match is more natural!\n>\n> > No, unfortunately, we have no plans implementing missing values. I am\n> > in a new position, leaving little (none?) time for developing 'deal'.\n>\n> sorry to hear this...\n>\n> --\n> Sam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\n> http://truepeace.org http://www.jihadwatch.org http://www.mideasttruth.com\n> http://www.palestinefacts.org http://www.dhimmi.com http://www.camera.org\n> There are many reasons not to use Lisp - but no good ones.\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>\n\n\n--\nbest,\n-tony\n\nblindglobe at gmail.com\nMuttenz, Switzerland.\n\"Commit early,commit often, and commit in a repository from which we can easily\nroll-back your mistakes\" (AJR, 4Jan05).",
+      "body_snippet": "Sam -\n\nOne approximate approach for handling missing values would be multiple\nimputation, where you could explicitly decide what a range of\nappropriate approaches could be.\n\nHowever, it isn't clear to",
+      "thread_id": "thread-8f9f9e1eeb02",
+      "thread_depth": 1,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-ef4bd5f4107e",
+      "message_id": "<alveu7haqm.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-21T14:13:37-05:00",
+      "subject": "[R--gR] deal: genlatex fails",
+      "subject_clean": "[R--gR] deal: genlatex fails",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I get this:\n\n> genlatex(search)\nError in if (x == 1) return(\"\\\\footnotesize{$1$}\") : \n\targument is of length zero\n\n\nsearch is returned by autosearch.\nthe same error with the return value of heuristic.\n\npic/scoretable.tex:\n----------------------------------------------------------------\n%% generated automatically Tue Mar 21 14:05:50 2006 - Don't edit by hand\n%% A master file:\n%% documentclass{article}\n%% usepackage{array,pictex}\n%% \begin{document}\n%% input{scoretable}\n%% end{document}\n\\begin{tabular}{|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|}\\hline\n\\vspace{-0.9cm}\\begin{minipage}[t]{2.4cm}\n\\input{pic1.tex}\n\\vspace{-1.8cm}\\footnotesize{$ 380.0  $}\\\\\n\\footnotesize{$1$}\n\\end{minipage}\n&\n----------------------------------------------------------------\n\nnote \"^H\" instead of \"b\" above.\n\nother questions:\n\n--- is there a way to _prescribe_ arrows (the inverse of banlist)?\n    I do not want to use the gui (drawnetwork), I want something more\n    command-line oriented.\n\n--- how do I print a network to the printer?\n    all I can see now is plot() + print screen.\n\nThanks!\n\n-- \nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.honestreporting.com http://www.openvotingconsortium.org\nhttp://truepeace.org http://www.camera.org http://www.jihadwatch.org\nDaddy, what does \"format disk c: complete\" mean?",
+      "body_snippet": "I get this:\n\n> genlatex(search)\nError in if (x == 1) return(\"\\\\footnotesize{$1$}\") : \n\targument is of length zero\n\n\nsearch is returned by autosearch.\nthe same error with the return value of heuristic.",
+      "thread_id": "thread-ef4bd5f4107e",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-c6a12542d046",
+      "message_id": "<alr74vhaoi.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-21T14:14:53-05:00",
+      "subject": "[R--gR] deal: genlatex fails",
+      "subject_clean": "[R--gR] deal: genlatex fails",
+      "in_reply_to": "<alveu7haqm.fsf@quant8.janestcapital.quant> (Sam Steingold's message of \"Tue, 21 Mar 2006 14:13:37 -0500\")",
+      "references": [
+        "<alveu7haqm.fsf@quant8.janestcapital.quant>"
+      ],
+      "body_plain": "> * Sam Steingold <fqf at cbqiny.bet> [2006-03-21 14:13:37 -0500]:\n>\n> I get this:\n>\n>> genlatex(search)\n> Error in if (x == 1) return(\"\\\\footnotesize{$1$}\") : \n> \targument is of length zero\n\nalso,\n\n> genpicfile(search)\n\nGenerating pic-files...Error in plot.window(xlim, ylim, log, asp, ...) : \n\tneed finite 'xlim' values\nIn addition: Warning messages:\n1: 'pic' already exists \n2: NAs introduced by coercion \n3: no finite arguments to min; returning Inf \n4: no finite arguments to max; returning -Inf \n5: parameter \"cexscale\" could not be set in high-level plot() function \n6: parameter \"arrowlength\" could not be set in high-level plot() function \n7: parameter \"notext\" could not be set in high-level plot() function \n> \n\n-- \nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://ffii.org http://www.openvotingconsortium.org http://www.jihadwatch.org\nhttp://pmw.org.il http://www.camera.org http://www.savegushkatif.org\nWhen you talk to God, it's prayer; when He talks to you, it's schizophrenia.",
+      "body_snippet": "> * Sam Steingold <fqf at cbqiny.bet> [2006-03-21 14:13:37 -0500]:\n>\n> I get this:\n>\n>> genlatex(search)\n> Error in if (x == 1) return(\"\\\\footnotesize{$1$}\") : \n> \targument is of length zero\n\nalso,\n\n>",
+      "thread_id": "thread-ef4bd5f4107e",
+      "thread_depth": 1,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-24372cd38c14",
+      "message_id": "<allkv2fgav.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-22T14:08:40-05:00",
+      "subject": "[R--gR] deal: heuristic search lowers the score?",
+      "subject_clean": "[R--gR] deal: heuristic search lowers the score?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\nI noticed that the network created by heuristic() has lower score than\nthe one created by autosearch():\n\nprior <- jointprior(net,nrow(df)*10)\nsearch <- autosearch(net,df,prior,timetrace=TRUE,removecycles=TRUE)\nheuristic <- heuristic(getnetwork(search),df,trylist=gettrylist(search))\nscore(getnetwork(search))\n[1] 378.5992\nscore(getnetwork(heuristic))\n[1] 357.014\nwhy?  does this mean that the score is actually the _negative_ of log\nlikelihood?\n\nalso, it is not clear what the relscore is.\n\n\nPS. I read the paper and the manual...\n\n-- \nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.honestreporting.com http://www.savegushkatif.org\nhttp://ffii.org http://www.dhimmi.com http://www.camera.org\nDemocrats, get out of my wallet! Republicans, get out of my bedroom!",
+      "body_snippet": "Hi,\nI noticed that the network created by heuristic() has lower score than\nthe one created by autosearch():\n\nprior <- jointprior(net,nrow(df)*10)\nsearch <- autosearch(net,df,prior,timetrace=TRUE,remov",
+      "thread_id": "thread-24372cd38c14",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-80f5fdd1cd1d",
+      "message_id": "<35F45D1048ED5D479EE2223581BDD89A188092@SFEXC00002.amtg.NJA.local>",
+      "from_name": "Claus Dethlefsen / Aalborg Sygehus",
+      "from_email_hash": "54f077df8e9cdd0063b4ced3fbb26bad9bf3e8407be35d90baeb0a77dff9c67d",
+      "date": "2006-03-25T14:13:05+01:00",
+      "subject": "[R--gR] deal: applying the network",
+      "subject_clean": "[R--gR] deal: applying the network",
+      "in_reply_to": null,
+      "references": [
+        "<35F45D1048ED5D479EE2223581BDD89A18E1B5@SFEXC00002.amtg.NJA.local>",
+        "<alslpbiwo9.fsf@quant8.janestcapital.quant>"
+      ],
+      "body_plain": "Dear Sam\n \nDeal supports the .net format for Bayesian networks, which can be read by Hugin. There is a (free) light version of Hugin which can be used for 'toy examples'. However, there are many other software packages, some of which also support the .net format, see\n \nhttp://www.cs.ubc.ca/~murphyk/Bayes/bnsoft.html\n \nDeal has only the 'learning' capability and inference must be done using methods outside of 'deal'.\n \nBest,\nClaus\n \n________________________________\nClaus Dethlefsen, Msc, PhD\nStatistiker ved Kardiovaskul?rt Forskningscenter\n\n \nForskningens Hus\nAalborg Sygehus \nSdr. Skovvej 15\n9000 Aalborg\n\nTlf:   9932 6863\nemail: aas.claus.dethlefsen at nja.dk <mailto:aas.claus.dethlefsen at nja.dk> \n\n________________________________\n\nFra: r-sig-gr-bounces at stat.math.ethz.ch p? vegne af Sam Steingold\nSendt: ti 21-03-2006 17:34\nTil: Claus Dethlefsen / Aalborg Sygehus\nCc: r-sig-gr at stat.math.ethz.ch\nEmne: Re: [R--gR] deal: applying the network\n\n\n\nDear Claus\n\n> * Claus Dethlefsen / Aalborg Sygehus <nnf.pynhf.qrguyrsfra at awn.qx> [2006-03-21 09:24:28 +0100]:\n>\n> To use the trained network together with evidence, you need to\n> transfer the network to Hugin.\n\nbut hugin is a commercial product.\nare you saying that I cannot use the network built by deal without buying\nHugin?!\n\nhow do I evaluate a network built by deal?\ne.g., the residuals? error rate (for discrete nodes)?\n\n> There is no way to incremently update the network, so you would need\n> to relearn the whole thing unfortunately.\nok.\n\nthanks!\n\n--\nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.honestreporting.com http://www.mideasttruth.com http://ffii.org\nhttp://www.dhimmi.com http://www.savegushkatif.org http://www.memri.org\nIt's not just a language, it's an adventure.  Common Lisp.\n\n_______________________________________________\nR-sig-gR mailing list\nR-sig-gR at stat.math.ethz.ch\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Dear Sam\n \nDeal supports the .net format for Bayesian networks, which can be read by Hugin. There is a (free) light version of Hugin which can be used for 'toy examples'. However, there are many other",
+      "thread_id": "thread-483c7f243912",
+      "thread_depth": 1,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-b58e5b6a9c8a",
+      "message_id": "<35F45D1048ED5D479EE2223581BDD89A188093@SFEXC00002.amtg.NJA.local>",
+      "from_name": "Claus Dethlefsen / Aalborg Sygehus",
+      "from_email_hash": "54f077df8e9cdd0063b4ced3fbb26bad9bf3e8407be35d90baeb0a77dff9c67d",
+      "date": "2006-03-25T14:23:42+01:00",
+      "subject": "[R--gR] deal: genlatex fails",
+      "subject_clean": "[R--gR] deal: genlatex fails",
+      "in_reply_to": null,
+      "references": [
+        "<alveu7haqm.fsf@quant8.janestcapital.quant>"
+      ],
+      "body_plain": "Dear Sam\n \ngenlatex needs an object of class \"networklist\" as input, which will then be arranged nicely in a table in latex code, where the networks are stored in pictex format. You are inputting a single network, which is not handled by genlatex.\n \nThe search (heuristic/auto) also returns a table of strings representing all the networks that have been \"visited\" in the search. The function 'makenw' can take this table and re-create the networks as a networklist, which can then be sorted (according to score) and used as input to genlatex/genpicfile.\n \nYou probably want to do something along the lines:\n \nlibrary(deal)\ndata(ksl)\nksl.nw  <- network(ksl)\nksl.prior <- jointprior(ksl.nw,64)\nmybanlist <- matrix(c(5,5,6,6,7,7,9,\n                    8,9,8,9,8,9,8),ncol=2)\nbanlist(ksl.nw) <- mybanlist                  \nksl.nw <- getnetwork(learn(ksl.nw,ksl,ksl.prior))\nksl.search <- autosearch(ksl.nw,ksl,ksl.prior,\n                      trace=TRUE)\nksl.searchlist <- makenw(ksl.search$table,ksl.search$nw)\nksl.searchlist <- nwfsort(ksl.searchlist)\ngenpicfile(ksl.searchlist)\ngenlatex(ksl.searchlist)\n\n \n- There is no way to 'glue' arrows into the network (opposite of 'ban').\n \n- To print networks, consider using the R devices pdf() or postscript() which will created files with the networks displayed in the graphics window. The files can then be printed.\n \nBest,\nClaus\n \n________________________________\nClaus Dethlefsen, Msc, PhD\nStatistiker ved Kardiovaskul?rt Forskningscenter\n\n \nForskningens Hus\nAalborg Sygehus \nSdr. Skovvej 15\n9000 Aalborg\n\nTlf:   9932 6863\nemail: aas.claus.dethlefsen at nja.dk <mailto:aas.claus.dethlefsen at nja.dk> \n\n________________________________\n\nFra: r-sig-gr-bounces at stat.math.ethz.ch p? vegne af Sam Steingold\nSendt: ti 21-03-2006 20:13\nTil: r-sig-gr at stat.math.ethz.ch\nEmne: [R--gR] deal: genlatex fails\n\n\n\nI get this:\n\n> genlatex(search)\nError in if (x == 1) return(\"\\\\footnotesize{$1$}\") :\n        argument is of length zero\n\n\nsearch is returned by autosearch.\nthe same error with the return value of heuristic.\n\npic/scoretable.tex:\n----------------------------------------------------------------\n%% generated automatically Tue Mar 21 14:05:50 2006 - Don't edit by hand\n%% A master file:\n%% documentclass{article}\n%% usepackage{array,pictex}\n%% \begin{document}\n%% input{scoretable}\n%% end{document}\n\\begin{tabular}{|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|}\\hline\n\\vspace{-0.9cm}\\begin{minipage}[t]{2.4cm}\n\\input{pic1.tex}\n\\vspace{-1.8cm}\\footnotesize{$ 380.0  $}\\\\\n\\footnotesize{$1$}\n\\end{minipage}\n&\n----------------------------------------------------------------\n\nnote \"^H\" instead of \"b\" above.\n\nother questions:\n\n--- is there a way to _prescribe_ arrows (the inverse of banlist)?\n    I do not want to use the gui (drawnetwork), I want something more\n    command-line oriented.\n\n--- how do I print a network to the printer?\n    all I can see now is plot() + print screen.\n\nThanks!\n\n--\nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.honestreporting.com http://www.openvotingconsortium.org\nhttp://truepeace.org http://www.camera.org http://www.jihadwatch.org\nDaddy, what does \"format disk c: complete\" mean?\n\n_______________________________________________\nR-sig-gR mailing list\nR-sig-gR at stat.math.ethz.ch\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Dear Sam\n \ngenlatex needs an object of class \"networklist\" as input, which will then be arranged nicely in a table in latex code, where the networks are stored in pictex format. You are inputting a si",
+      "thread_id": "thread-ef4bd5f4107e",
+      "thread_depth": 1,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-35a36828489e",
+      "message_id": "<35F45D1048ED5D479EE2223581BDD89A188094@SFEXC00002.amtg.NJA.local>",
+      "from_name": "Claus Dethlefsen / Aalborg Sygehus",
+      "from_email_hash": "54f077df8e9cdd0063b4ced3fbb26bad9bf3e8407be35d90baeb0a77dff9c67d",
+      "date": "2006-03-25T14:34:30+01:00",
+      "subject": "[R--gR] deal: heuristic search lowers the score?",
+      "subject_clean": "[R--gR] deal: heuristic search lowers the score?",
+      "in_reply_to": null,
+      "references": [
+        "<allkv2fgav.fsf@quant8.janestcapital.quant>"
+      ],
+      "body_plain": "Dear Sam\n \nThe score should not be positive, so something is not right here. This is possibly caused by numerical instabilities, either because the jointprior has a too low size of the imaginary database, or because the continuous variables need to be rescaled. If, for example, you have a continuous variable taking values around 0.001, try multiplying the variable by 1000.\n \nI have not explored this further, so I have not got a really good explanation for what is going on.\n \nThe relscore in a networklist (e.g. after you have sorted the networks according to their score using 'nwfsort') is the relative score of the networks using the network with the highest score as reference. (see help(nwfsort)).\n \nBest,\nClaus\n \n________________________________\nClaus Dethlefsen, Msc, PhD\nStatistiker ved Kardiovaskul?rt Forskningscenter\n\n \nForskningens Hus\nAalborg Sygehus \nSdr. Skovvej 15\n9000 Aalborg\n\nTlf:   9932 6863\nemail: aas.claus.dethlefsen at nja.dk <mailto:aas.claus.dethlefsen at nja.dk> \n\n________________________________\n\nFra: r-sig-gr-bounces at stat.math.ethz.ch p? vegne af Sam Steingold\nSendt: on 22-03-2006 20:08\nTil: dealsoftware at yahoogroups.com\nCc: r-sig-gr at stat.math.ethz.ch\nEmne: [R--gR] deal: heuristic search lowers the score?\n\n\n\nHi,\nI noticed that the network created by heuristic() has lower score than\nthe one created by autosearch():\n\nprior <- jointprior(net,nrow(df)*10)\nsearch <- autosearch(net,df,prior,timetrace=TRUE,removecycles=TRUE)\nheuristic <- heuristic(getnetwork(search),df,trylist=gettrylist(search))\nscore(getnetwork(search))\n[1] 378.5992\nscore(getnetwork(heuristic))\n[1] 357.014\nwhy?  does this mean that the score is actually the _negative_ of log\nlikelihood?\n\nalso, it is not clear what the relscore is.\n\n\nPS. I read the paper and the manual...\n\n--\nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.honestreporting.com http://www.savegushkatif.org\nhttp://ffii.org http://www.dhimmi.com http://www.camera.org\nDemocrats, get out of my wallet! Republicans, get out of my bedroom!\n\n_______________________________________________\nR-sig-gR mailing list\nR-sig-gR at stat.math.ethz.ch\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Dear Sam\n \nThe score should not be positive, so something is not right here. This is possibly caused by numerical instabilities, either because the jointprior has a too low size of the imaginary datab",
+      "thread_id": "thread-24372cd38c14",
+      "thread_depth": 1,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-3de573cbf279",
+      "message_id": "<alodzrrgxc.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-27T11:27:59-05:00",
+      "subject": "[R--gR] deal: genlatex fails",
+      "subject_clean": "[R--gR] deal: genlatex fails",
+      "in_reply_to": null,
+      "references": [
+        "<alveu7haqm.fsf@quant8.janestcapital.quant>",
+        "<35F45D1048ED5D479EE2223581BDD89A188093@SFEXC00002.amtg.NJA.local>"
+      ],
+      "body_plain": "Dear Claus,\n\n> genlatex needs an object of class \"networklist\" as input, which will\n> then be arranged nicely in a table in latex code, where the networks\n> are stored in pictex format. You are inputting a single network, which\n> is not handled by genlatex.\n\nI see, thanks for your help!\n\n> ksl.searchlist <- makenw(ksl.search$table,ksl.search$nw)\n> ksl.searchlist <- nwfsort(ksl.searchlist)\n> genpicfile(ksl.searchlist)\n> genlatex(ksl.searchlist)\n\nyes, it works, thanks!\n\nit would be nice if a master.tex file were also generated that included\nthe table, nice and all the other networks too - for easy viewing.\n\n> - There is no way to 'glue' arrows into the network (opposite of 'ban').\n\nplease consider this feature to have been requested.\n\n> pic/scoretable.tex:\n> ----------------------------------------------------------------\n> %% generated automatically Tue Mar 21 14:05:50 2006 - Don't edit by hand\n> %% A master file:\n> %% documentclass{article}\n> %% usepackage{array,pictex}\n> %% \begin{document}\n> %% input{scoretable}\n> %% end{document}\n> \\begin{tabular}{|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|}\\hline\n> \\vspace{-0.9cm}\\begin{minipage}[t]{2.4cm}\n> \\input{pic1.tex}\n> \\vspace{-1.8cm}\\footnotesize{$ 380.0  $}\\\\\n> \\footnotesize{$1$}\n> \\end{minipage}\n> &\n> ----------------------------------------------------------------\n\n\nthis is probably due to a spurious backslash in a literal string:\n\"\\begin\" == \"^Hegin\".\n\n\n-- \nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.openvotingconsortium.org http://www.camera.org\nhttp://www.memri.org http://www.palestinefacts.org http://www.savegushkatif.org\nLisp: it's here to save your butt.",
+      "body_snippet": "Dear Claus,\n\n> genlatex needs an object of class \"networklist\" as input, which will\n> then be arranged nicely in a table in latex code, where the networks\n> are stored in pictex format. You are inputt",
+      "thread_id": "thread-ef4bd5f4107e",
+      "thread_depth": 2,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-56ea744718be",
+      "message_id": "<alzmjbq0jx.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-27T12:06:58-05:00",
+      "subject": "[R--gR] deal: genlatex fails",
+      "subject_clean": "[R--gR] deal: genlatex fails",
+      "in_reply_to": null,
+      "references": [
+        "<alveu7haqm.fsf@quant8.janestcapital.quant>",
+        "<35F45D1048ED5D479EE2223581BDD89A188093@SFEXC00002.amtg.NJA.local>",
+        "<alodzrrgxc.fsf@quant8.janestcapital.quant>"
+      ],
+      "body_plain": "> * Sam Steingold <fqf at cbqiny.bet> [2006-03-27 11:27:59 -0500]:\n>\n> it would be nice if a master.tex file were also generated that included\n> the table, nice and all the other networks too - for easy viewing.\n\noops - I did not notice that scoretable.tex actually does contain the list.\nunfortunately, I get the dreaded \"TeX capacity exceeded\" error:\n\n(./pic28.tex)\nOverfull \\hbox (47.34357pt too wide) in paragraph at lines 171--176\n[]|[]| \n(./pic29.tex)\nOverfull \\hbox (47.34357pt too wide) in paragraph at lines 177--182\n[]|[]| \n(./pic30.tex)\nOverfull \\hbox (47.34357pt too wide) in paragraph at lines 183--188\n[]|[]| \n(./pic31.tex)\nOverfull \\hbox (47.34357pt too wide) in paragraph at lines 189--194\n[]|[]| \n(./pic32.tex)\nOverfull \\hbox (47.34357pt too wide) in paragraph at lines 195--200\n[]|[]| \n(./pic33.tex\n! TeX capacity exceeded, sorry [main memory size=1000000].\n\\!plot ...menA \\raise \\!dimenB \\copy \\!plotsymbol \n                                                  \\kern -\\!dimenA \\ignorespa...\nl.35 \\plot 67.79 84.12 43.31 76.41 \n                                   /\nNo pages of output.\nTranscript written on master.log.\n\n\n--\nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.memri.org http://www.savegushkatif.org http://ffii.org\nhttp://pmw.org.il http://truepeace.org http://www.mideasttruth.com\nThere are 3 kinds of people: those who can count and those who cannot.",
+      "body_snippet": "> * Sam Steingold <fqf at cbqiny.bet> [2006-03-27 11:27:59 -0500]:\n>\n> it would be nice if a master.tex file were also generated that included\n> the table, nice and all the other networks too - for ea",
+      "thread_id": "thread-ef4bd5f4107e",
+      "thread_depth": 3,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-1092f81806a1",
+      "message_id": "<alhd5jpyeb.fsf@quant8.janestcapital.quant>",
+      "from_name": "Sam Steingold",
+      "from_email_hash": "2665b5e40ddea021c97171126c3d4f67bce338cc4e3e42f320d78309168dc993",
+      "date": "2006-03-27T12:53:32-05:00",
+      "subject": "[R--gR] deal: genlatex fails",
+      "subject_clean": "[R--gR] deal: genlatex fails",
+      "in_reply_to": null,
+      "references": [
+        "<alveu7haqm.fsf@quant8.janestcapital.quant>",
+        "<35F45D1048ED5D479EE2223581BDD89A188093@SFEXC00002.amtg.NJA.local>",
+        "<alodzrrgxc.fsf@quant8.janestcapital.quant>",
+        "<alzmjbq0jx.fsf@quant8.janestcapital.quant>"
+      ],
+      "body_plain": "> * Sam Steingold <fqf at cbqiny.bet> [2006-03-27 12:06:58 -0500]:\n>> * Sam Steingold <fqf at cbqiny.bet> [2006-03-27 11:27:59 -0500]:\n>>\n>> it would be nice if a master.tex file were also generated that included\n>> the table, nice and all the other networks too - for easy viewing.\n>\n> oops - I did not notice that scoretable.tex actually does contain the list.\n> unfortunately, I get the dreaded \"TeX capacity exceeded\" error:\n>\n> (./pic28.tex)\n> Overfull \\hbox (47.34357pt too wide) in paragraph at lines 171--176\n> []|[]| \n> (./pic29.tex)\n> Overfull \\hbox (47.34357pt too wide) in paragraph at lines 177--182\n> []|[]| \n> (./pic30.tex)\n> Overfull \\hbox (47.34357pt too wide) in paragraph at lines 183--188\n> []|[]| \n> (./pic31.tex)\n> Overfull \\hbox (47.34357pt too wide) in paragraph at lines 189--194\n> []|[]| \n> (./pic32.tex)\n> Overfull \\hbox (47.34357pt too wide) in paragraph at lines 195--200\n> []|[]| \n> (./pic33.tex\n> ! TeX capacity exceeded, sorry [main memory size=1000000].\n> \\!plot ...menA \\raise \\!dimenB \\copy \\!plotsymbol \n>                                                   \\kern -\\!dimenA \\ignorespa...\n> l.35 \\plot 67.79 84.12 43.31 76.41 \n>                                    /\n> No pages of output.\n> Transcript written on master.log.\n\nand when I trim the list of \"pic\" files, I get this further error:\n\n(./pic30.tex)\nOverfull \\hbox (47.34357pt too wide) in paragraph at lines 183--188\n[]|[]| \n\nOverfull \\hbox (45.83215pt too wide) in paragraph at lines 8--189\n[][] \n[1]) (./picnice.tex\n! Missing $ inserted.\n<inserted text> \n                $\nl.15 ...ate}  [lB] <0.00pt,0.00pt> at 174.63 83.31\n                                                  \n! Extra }, or forgotten $.\n\\!setputobject ...>\\setbox \\!putobject =\\hbox {#1}\n                                                  \\!ht =\\ht \\!putobject \\!dp...\nl.15 ...ate}  [lB] <0.00pt,0.00pt> at 174.63 83.31\n                                                  \n! Missing $ inserted.\n<inserted text> \n                $\nl.17 ...te}  [lB] <0.00pt,0.00pt> at 242.09 158.45\n                                                  \n! Extra }, or forgotten $.\n\\!setputobject ...>\\setbox \\!putobject =\\hbox {#1}\n                                                  \\!ht =\\ht \\!putobject \\!dp...\nl.17 ...te}  [lB] <0.00pt,0.00pt> at 242.09 158.45\n                                                  \n! Extra }, or forgotten $.\n\\endpicture ...bot \\global \\!Ytop =\\!ytop \\egroup \n                                                  \\ht \\!picbox =\\!Ytop \\dp \\...\nl.157 \\endpicture\n                 \n! Extra }, or forgotten $.\nl.158 }\n       \n)\n! Missing $ inserted.\n<inserted text> \n                $\nl.7 \\end{document}\n                  \n! Missing } inserted.\n<inserted text> \n                }\nl.7 \\end{document}\n                  \n! Missing $ inserted.\n<inserted text> \n                $\nl.7 \\end{document}\n                  \n! Missing } inserted.\n<inserted text> \n                }\nl.7 \\end{document}\n                  \n! Missing } inserted.\n<inserted text> \n                }\nl.7 \\end{document}\n                  \n! Missing } inserted.\n<inserted text> \n                }\nl.7 \\end{document}\n                  \n! Missing $ inserted.\n<inserted text> \n                $\nl.7 \\end{document}\n                  \n! Display math should end with $$.\n<to be read again> \n                   \\vfil \nl.7 \\end{document}\n                  \n[2] (./master.aux) )\n(see the transcript file for additional information)\nOutput written on master.dvi (2 pages, 710520 bytes).\nTranscript written on master.log.\n\n-- \nSam Steingold (http://www.podval.org/~sds) on Fedora Core release 4 (Stentz)\nhttp://www.palestinefacts.org http://ffii.org http://truepeace.org\nhttp://pmw.org.il http://www.memri.org http://www.camera.org\nExperience comes with debts.",
+      "body_snippet": "> * Sam Steingold <fqf at cbqiny.bet> [2006-03-27 12:06:58 -0500]:\n>> * Sam Steingold <fqf at cbqiny.bet> [2006-03-27 11:27:59 -0500]:\n>>\n>> it would be nice if a master.tex file were also generated t",
+      "thread_id": "thread-ef4bd5f4107e",
+      "thread_depth": 4,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-7a241a4dc6e7",
+      "message_id": "<442911AC.27304.6B5E5B@bips.uni-bremen.de>",
+      "from_name": "Ronja Foraita",
+      "from_email_hash": "cad26aff65d2f1461ea7e1bf38b0a8cbc86fc1835e2da5229ab13eb9850b1e43",
+      "date": "2006-03-28T10:36:28+02:00",
+      "subject": "[R--gR] Belief Propagation",
+      "subject_clean": "[R--gR] Belief Propagation",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nhas any R-package the \"belief propagation algorithm\" implemented?\n\nMany thanks,\nRonja Foraita\n\n---\nRonja Foraita, Dipl.-Stat.\nBremen Institute for Prevention Research and Social Medicine (BIPS)\nLinzer Stra?e 10\nD-28359 Bremen\nTel  +49 421 59 59 6-85\nFax +49 421 59 59 6-68\nhttp://www.bips.uni-bremen.de",
+      "body_snippet": "Dear all,\n\nhas any R-package the \"belief propagation algorithm\" implemented?\n\nMany thanks,\nRonja Foraita\n\n---\nRonja Foraita, Dipl.-Stat.\nBremen Institute for Prevention Research and Social Medicine (B",
+      "thread_id": "thread-7a241a4dc6e7",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-61dd8781056d",
+      "message_id": "<4428FA79.8030306@bristol.ac.uk>",
+      "from_name": "Peter Green",
+      "from_email_hash": "161e6e2da80568630b6f54d308ff917e167cb70d191454907c4d3ae24539a666",
+      "date": "2006-03-28T09:57:29+01:00",
+      "subject": "[R--gR] Belief Propagation",
+      "subject_clean": "[R--gR] Belief Propagation",
+      "in_reply_to": "<442911AC.27304.6B5E5B@bips.uni-bremen.de>",
+      "references": [
+        "<442911AC.27304.6B5E5B@bips.uni-bremen.de>"
+      ],
+      "body_plain": "You could take a look at Grappa: http://www.stats.bris.ac.uk/~peter/Grappa/\n\n- available as a package for Windows and Linux, but with a few health \nwarnings - it doesn't protect you from misspecifying a model, it only \ndeals with the discrete case, and it does not fully comply with CRAN \nstandards (of documentation, etc.)\n\nPeter Green\n\nRonja Foraita wrote:\n> Dear all,\n>\n> has any R-package the \"belief propagation algorithm\" implemented?\n>\n> Many thanks,\n> Ronja Foraita\n>\n> ---\n> Ronja Foraita, Dipl.-Stat.\n> Bremen Institute for Prevention Research and Social Medicine (BIPS)\n> Linzer Stra?e 10\n> D-28359 Bremen\n> Tel  +49 421 59 59 6-85\n> Fax +49 421 59 59 6-68\n> http://www.bips.uni-bremen.de\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>",
+      "body_snippet": "You could take a look at Grappa: http://www.stats.bris.ac.uk/~peter/Grappa/\n\n- available as a package for Windows and Linux, but with a few health \nwarnings - it doesn't protect you from misspecifying",
+      "thread_id": "thread-7a241a4dc6e7",
+      "thread_depth": 1,
+      "month": "2006-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-fd73f6993a5f",
+      "subject": "[R--gR] deal: network & <NA>",
+      "message_count": 1,
+      "participants": [
+        "Sam Steingold"
+      ],
+      "started": "2006-03-17T13:48:43-05:00",
+      "last_reply": "2006-03-17T13:48:43-05:00",
+      "root_message_id": "msg-fd73f6993a5f"
+    },
+    {
+      "id": "thread-fd2c856817e2",
+      "subject": "[R--gR] banlist",
+      "message_count": 1,
+      "participants": [
+        "Sam Steingold"
+      ],
+      "started": "2006-03-17T15:36:18-05:00",
+      "last_reply": "2006-03-17T15:36:18-05:00",
+      "root_message_id": "msg-fd2c856817e2"
+    },
+    {
+      "id": "thread-593df4101421",
+      "subject": "[R--gR] deal: applying the network",
+      "message_count": 1,
+      "participants": [
+        "Sam Steingold"
+      ],
+      "started": "2006-03-17T15:41:24-05:00",
+      "last_reply": "2006-03-17T15:41:24-05:00",
+      "root_message_id": "msg-593df4101421"
+    },
+    {
+      "id": "thread-4c25700faf7d",
+      "subject": "[R--gR] Hierarchical log-linear models",
+      "message_count": 1,
+      "participants": [
+        "Bernardo Rangel tura"
+      ],
+      "started": "2006-03-18T07:04:12-03:00",
+      "last_reply": "2006-03-18T07:04:12-03:00",
+      "root_message_id": "msg-4c25700faf7d"
+    },
+    {
+      "id": "thread-8f9f9e1eeb02",
+      "subject": "[R--gR] banlist",
+      "message_count": 2,
+      "participants": [
+        "A.J. Rossini",
+        "Sam Steingold"
+      ],
+      "started": "2006-03-21T10:57:04-05:00",
+      "last_reply": "2006-03-21T17:40:51+01:00",
+      "root_message_id": "msg-8f9f9e1eeb02"
+    },
+    {
+      "id": "thread-483c7f243912",
+      "subject": "[R--gR] deal: applying the network",
+      "message_count": 2,
+      "participants": [
+        "Claus Dethlefsen / Aalborg Sygehus",
+        "Sam Steingold"
+      ],
+      "started": "2006-03-21T11:34:30-05:00",
+      "last_reply": "2006-03-25T14:13:05+01:00",
+      "root_message_id": "msg-483c7f243912"
+    },
+    {
+      "id": "thread-ef4bd5f4107e",
+      "subject": "[R--gR] deal: genlatex fails",
+      "message_count": 6,
+      "participants": [
+        "Claus Dethlefsen / Aalborg Sygehus",
+        "Sam Steingold"
+      ],
+      "started": "2006-03-21T14:13:37-05:00",
+      "last_reply": "2006-03-27T12:53:32-05:00",
+      "root_message_id": "msg-ef4bd5f4107e"
+    },
+    {
+      "id": "thread-24372cd38c14",
+      "subject": "[R--gR] deal: heuristic search lowers the score?",
+      "message_count": 2,
+      "participants": [
+        "Claus Dethlefsen / Aalborg Sygehus",
+        "Sam Steingold"
+      ],
+      "started": "2006-03-22T14:08:40-05:00",
+      "last_reply": "2006-03-25T14:34:30+01:00",
+      "root_message_id": "msg-24372cd38c14"
+    },
+    {
+      "id": "thread-7a241a4dc6e7",
+      "subject": "[R--gR] Belief Propagation",
+      "message_count": 2,
+      "participants": [
+        "Peter Green",
+        "Ronja Foraita"
+      ],
+      "started": "2006-03-28T10:36:28+02:00",
+      "last_reply": "2006-03-28T09:57:29+01:00",
+      "root_message_id": "msg-7a241a4dc6e7"
+    }
+  ]
+}

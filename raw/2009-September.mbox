@@ -1,0 +1,39 @@
+From kagba2006 at yahoo.com  Thu Sep  3 19:28:26 2009
+From: kagba2006 at yahoo.com (FMH)
+Date: Thu, 3 Sep 2009 10:28:26 -0700 (PDT)
+Subject: [R--gR] color index in image function
+Message-ID: <757992.88367.qm@web38306.mail.mud.yahoo.com>
+
+Dear All,
+
+I was looking for the color index in?image function,?such as from topo.colors and etc. but still never found it. For instance, from the help menu.
+
+
+###########################################
+# Volcano data visualized as matrix. Need to transpose and flip
+# matrix horizontally.
+image(t(volcano)[ncol(volcano):1,])
+
+# A prettier display of the volcano
+x <- 10*(1:nrow(volcano))
+y <- 10*(1:ncol(volcano))
+image(x, y, volcano, col = terrain.colors(100), axes = FALSE)
+contour(x, y, volcano, levels = seq(90, 200, by = 5),
+??????? add = TRUE, col = "peru")
+axis(1, at = seq(100, 800, by = 100))
+axis(2, at = seq(100, 600, by = 100))
+box()
+title(main = "Maunga Whau Volcano", font.main = 4)
+#########################################
+
+From the script above, it yields a beautiful ?image of volcano with variety of colors but i have to list down the color index that could show the meaning of each color in my thesis. 
+
+Could someone please help me to extract this color index?
+
+Thank you
+Fir
+
+
+
+
+

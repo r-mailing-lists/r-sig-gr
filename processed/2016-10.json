@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2016-10",
+  "messages": [
+    {
+      "id": "msg-18d819dbec99",
+      "message_id": "<CANDMaYxQ71=HBz9JNZwEUNvVW7+7Dt40nodxhrManab2Th2t7Q@mail.gmail.com>",
+      "from_name": "Pablo G Goikoetxea",
+      "from_email_hash": "dfc193e0389582eeabd7bfe4b26e699e3d120ee1b1a9e1252dcad4dcaf4f2eb9",
+      "date": "2016-10-24T13:11:53+02:00",
+      "subject": "[R--gR] automating xlim, ylim",
+      "subject_clean": "[R--gR] automating xlim, ylim",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear members\nI am new to the list and hope this has not been discussed before. I have\nrepeatedly Google for a solution (using different searches), but have been\nunable to find an answer.\n\nJust in case of being of interest, I am working with ABCtoolbox 2.0\nI want to plot 29 density plots to compare Parameter Estimation by two\nmethods (GLM and rejection). Here is my working script:\n\n\nABC_GLM <- read.delim(\"?myfile1.txt\") # data from the ABC-GLM estimates. It\ncontains  parameters + parameter densities variables\nABC_re j<- read.delim(\"myfile2.txt\")    # data from the ABC-rejection\nestimate. It only contains the parameters.\n\nparams <- names(ABC_rej)\n\npdf(\"paramEstimates.pdf\", height=20, width=15)\npar(mfrow=c(6.5)\n\nfor (i in 3:31) {\n     j= 2 *(i-2)\n     k=(j+1)\n     dens <- density(ABC_rej[,i])\n     plot(dens,type=\"l\", col=\"blue)\n     lines(ABC_GLM[,j], ABC_GLM[,k],type=\"l\", col=\"red\")\n    }\n\ndev.off()\n\n---------------------------------------\n\nHowever, many red plots do not fit neither in the xlim nor ylim from the\nblue plots. I do not understand well how the lines command works in this\ncase, so I can not use xlim=range... or ylim=range...\nTherefore, I have defined which I believe to be appropriate xlim and ylim\nlimits to everlay both plots in each of the 29 sub-plots, such as xlims\nvar        Ne0    Ne1.............Tsplit\nfrom       20     20               1000\nto         1000  1000             10000   # indeed, without the firs colum\n\nand ylims\n\nvar        Ne0     Ne1            Tsplit\nfrom       0         0                 0\nto          12       12                0.5\n\nAfter feeding it to R (xlims <- read.table(\"xlims.txt\");and ylims <-\nread.table(\"ylims.txt\")\nI would like to use something of the kind\n\nfor (i in 3:31) {\n     j= 2 *(i-2)\n     k=(j+1)\n     dens <- density(ABC_rej[,i])\n     plot(dens,xlim=c(xlims[2,i],xlims[3,i]), ylim=c(ylims[2.i],\nylimx[3,i]),type=\"l\", col=\"blue)\n     lines(ABC_GLM[,j], ABC_GLM[,k],type=\"l\", col=\"red\")\n    }\n\n\nbut it fails.\nAny possibility this kind of approach could work?\n\nThanks in advance.\nI am using R.3.2.2 on an Ubuntu machine (64-bits) with RStudio.\n\n\nPablo\n-- \n-------\nPablo G Goikoetxea\nDon Vela 54, 2? izda\n01009 Vitoria-Gasteiz (SPAIN)\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear members\nI am new to the list and hope this has not been discussed before. I have\nrepeatedly Google for a solution (using different searches), but have been\nunable to find an answer.\n\nJust in case",
+      "thread_id": "thread-18d819dbec99",
+      "thread_depth": 0,
+      "month": "2016-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-18d819dbec99",
+      "subject": "[R--gR] automating xlim, ylim",
+      "message_count": 1,
+      "participants": [
+        "Pablo G Goikoetxea"
+      ],
+      "started": "2016-10-24T13:11:53+02:00",
+      "last_reply": "2016-10-24T13:11:53+02:00",
+      "root_message_id": "msg-18d819dbec99"
+    }
+  ]
+}

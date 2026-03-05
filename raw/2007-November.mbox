@@ -1,0 +1,281 @@
+From Joe.Whittaker at lancaster.ac.uk  Wed Nov  7 11:46:03 2007
+From: Joe.Whittaker at lancaster.ac.uk (Joe Whittaker)
+Date: Wed, 07 Nov 2007 10:46:03 +0000
+Subject: [R--gR] gRlist: Compstat08 Computation for Graphical Models and
+	Bayes Nets
+Message-ID: <4731976B.8020504@lancaster.ac.uk>
+
+Hi Graphical Modellers,
+We are organising a session at the Compstat08 meeting in Porto
+entitled Computation for Graphical Models and Bayes Nets. The invited
+session will consist of talks from Giovanni Marchetti, Soren
+Hoesgaard, and Mathias Drton.  Steffen Lauritzen will be among the
+participants.  
+
+We hope to organise a second session from contributed papers on the
+same theme, concentrating on developments in R.  The deadline for
+submission of full papers (invited and contributed papers) is January
+20th, 2008.
+
+Compstat08: International Conference on Computational Statistics
+Porto - Portugal, August 24-29, 2008
+http://www.fep.up.pt/compstat08/
+
+Please contact joe.whittaker at lancaster.ac.uk for any more information,
+especially if you wish to contribute a talk.  Best wishes, Joe
+
+
+
+From estevam_br at yahoo.com.br  Wed Nov  7 17:43:39 2007
+From: estevam_br at yahoo.com.br (Camila Estevam)
+Date: Wed, 7 Nov 2007 13:43:39 -0300 (ART)
+Subject: [R--gR] Save as postScrips latest R version
+Message-ID: <758619.36603.qm@web30508.mail.mud.yahoo.com>
+
+Hi,
+
+I was using the 2.4.1 R version and I had no problem
+saving my plots as postScript. Now that I have
+installed the latest version 2.6.0 I can not save any
+plot as postScript. When I try the following message
+appears:
+
+Erro: Invalid font type
+Al?m disso: Warning messages:
+1: font family not found in PostScript font database 
+2: font family not found in PostScript font database 
+
+What should I do?
+
+Thank you in advance,
+
+Camila
+
+Camila Pedroso Estevam de Souza
+  Mestrado em Estat?stica - UNICAMP
+  Master's Degree Student in Statistics - State University of Campinas
+
+
+
+From murdoch at stats.uwo.ca  Wed Nov  7 18:46:08 2007
+From: murdoch at stats.uwo.ca (Duncan Murdoch)
+Date: Wed, 07 Nov 2007 12:46:08 -0500
+Subject: [R--gR] Daily announcements of changes (was: Save as postScrips
+ latest R version)
+In-Reply-To: <758619.36603.qm@web30508.mail.mud.yahoo.com>
+References: <758619.36603.qm@web30508.mail.mud.yahoo.com>
+Message-ID: <4731F9E0.7090500@stats.uwo.ca>
+
+It seems people are unaware of the daily announcements of R changes.  If 
+a change is significant enough to warrant mention in the NEWS file, it 
+will be announced on one of the lists described here:
+
+http://developer.r-project.org/RSSfeeds.html
+
+These are available as RSS feeds, as the URL suggests.
+
+For changes to R that would show up in R-patched, you would look at one 
+of the R-2-6-branch listings.
+
+For example, the bug report below is about a bug that was fixed around 
+October 5, as could be seen here:
+
+http://developer.r-project.org/blosxom.cgi/R-2-6-branch/2007/10/05
+
+Once a fix is announced on that page, it should be available in 
+R-patched, which can be downloaded from CRAN.  In this case it's a 
+Windows bug, so you would get R-patched from
+
+cran.r-project.org/bin/windows/base/rpatched.html
+
+(There may be occasional delays in availability, but usually if the 
+announcements are working, the nightly builds are working.)
+
+Duncan Murdoch
+
+On 11/7/2007 11:43 AM, Camila Estevam wrote:
+> Hi,
+> 
+> I was using the 2.4.1 R version and I had no problem
+> saving my plots as postScript. Now that I have
+> installed the latest version 2.6.0 I can not save any
+> plot as postScript. When I try the following message
+> appears:
+> 
+> Erro: Invalid font type
+> Al?m disso: Warning messages:
+> 1: font family not found in PostScript font database 
+> 2: font family not found in PostScript font database 
+> 
+> What should I do?
+> 
+> Thank you in advance,
+> 
+> Camila
+> 
+> Camila Pedroso Estevam de Souza
+>   Mestrado em Estat?stica - UNICAMP
+>   Master's Degree Student in Statistics - State University of Campinas
+> 
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+
+From estevam_br at yahoo.com.br  Wed Nov  7 19:58:08 2007
+From: estevam_br at yahoo.com.br (Camila Estevam)
+Date: Wed, 7 Nov 2007 15:58:08 -0300 (ART)
+Subject: [R--gR] Daily announcements of changes (was: Save as postScrips
+	latest R version)
+In-Reply-To: <4731F9E0.7090500@stats.uwo.ca>
+Message-ID: <652829.88577.qm@web30502.mail.mud.yahoo.com>
+
+Hi Professor Murdoch
+
+Thank you very much for your reply,
+
+I really did not know about the daily announcements.
+Next time I will check them. I will install the
+R-patched and let you know if it works.
+
+Thanks again,
+
+Camila
+
+
+--- Duncan Murdoch <murdoch at stats.uwo.ca> escreveu:
+
+> It seems people are unaware of the daily
+> announcements of R changes.  If 
+> a change is significant enough to warrant mention in
+> the NEWS file, it 
+> will be announced on one of the lists described
+> here:
+> 
+> http://developer.r-project.org/RSSfeeds.html
+> 
+> These are available as RSS feeds, as the URL
+> suggests.
+> 
+> For changes to R that would show up in R-patched,
+> you would look at one 
+> of the R-2-6-branch listings.
+> 
+> For example, the bug report below is about a bug
+> that was fixed around 
+> October 5, as could be seen here:
+> 
+>
+http://developer.r-project.org/blosxom.cgi/R-2-6-branch/2007/10/05
+> 
+> Once a fix is announced on that page, it should be
+> available in 
+> R-patched, which can be downloaded from CRAN.  In
+> this case it's a 
+> Windows bug, so you would get R-patched from
+> 
+> cran.r-project.org/bin/windows/base/rpatched.html
+> 
+> (There may be occasional delays in availability, but
+> usually if the 
+> announcements are working, the nightly builds are
+> working.)
+> 
+> Duncan Murdoch
+> 
+> On 11/7/2007 11:43 AM, Camila Estevam wrote:
+> > Hi,
+> > 
+> > I was using the 2.4.1 R version and I had no
+> problem
+> > saving my plots as postScript. Now that I have
+> > installed the latest version 2.6.0 I can not save
+> any
+> > plot as postScript. When I try the following
+> message
+> > appears:
+> > 
+> > Erro: Invalid font type
+> > Al?m disso: Warning messages:
+> > 1: font family not found in PostScript font
+> database 
+> > 2: font family not found in PostScript font
+> database 
+> > 
+> > What should I do?
+> > 
+> > Thank you in advance,
+> > 
+> > Camila
+> > 
+> > Camila Pedroso Estevam de Souza
+> >   Mestrado em Estat?stica - UNICAMP
+> >   Master's Degree Student in Statistics - State
+> University of Campinas
+> > 
+> > _______________________________________________
+> > R-sig-gR mailing list
+> > R-sig-gR at stat.math.ethz.ch
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+> 
+> 
+
+
+Camila Pedroso Estevam de Souza
+  Mestrado em Estat?stica - UNICAMP
+  Master's Degree Student in Statistics - State University of Campinas
+
+
+
+From ligges at statistik.uni-dortmund.de  Thu Nov  8 11:19:46 2007
+From: ligges at statistik.uni-dortmund.de (Uwe Ligges)
+Date: Thu, 08 Nov 2007 11:19:46 +0100
+Subject: [R--gR] [R] Save as postScrips latest R version
+In-Reply-To: <758619.36603.qm@web30508.mail.mud.yahoo.com>
+References: <758619.36603.qm@web30508.mail.mud.yahoo.com>
+Message-ID: <4732E2C2.9000104@statistik.uni-dortmund.de>
+
+
+Read the posting guide and follow it, i.e.
+
+a) do not cross-post.
+b) read the mailing list archives and find that this has been resolved 
+in R-patched
+
+Uwe Ligges
+
+
+
+Camila Estevam wrote:
+> Hi,
+> 
+> I was using the 2.4.1 R version and I had no problem
+> saving my plots as postScript. Now that I have
+> installed the latest version 2.6.0 I can not save any
+> plot as postScript. When I try the following message
+> appears:
+> 
+> Erro: Invalid font type
+> Al?m disso: Warning messages:
+> 1: font family not found in PostScript font database 
+> 2: font family not found in PostScript font database 
+> 
+> What should I do?
+> 
+> Thank you in advance,
+> 
+> Camila
+> 
+> Camila Pedroso Estevam de Souza
+>   Mestrado em Estat?stica - UNICAMP
+>   Master's Degree Student in Statistics - State University of Campinas
+> 
+> ______________________________________________
+> R-help at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-help
+> PLEASE do read the posting guide http://www.R-project.org/posting-guide.html
+> and provide commented, minimal, self-contained, reproducible code.
+
+

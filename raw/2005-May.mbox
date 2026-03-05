@@ -1,0 +1,68 @@
+From aas.claus.dethlefsen at nja.dk  Thu May 12 15:33:39 2005
+From: aas.claus.dethlefsen at nja.dk (Claus Dethlefsen / Aalborg Sygehus)
+Date: Thu, 12 May 2005 15:33:39 +0200
+Subject: [R--gR] gR task view
+Message-ID: <878184D41285C04B92FE9DBAD4E866710D1D5A@SFEXC00002.amtg.NJA.local>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050512/b25d6a50/attachment.pl 
+
+From Kurt.Hornik at wu-wien.ac.at  Thu May 12 15:45:51 2005
+From: Kurt.Hornik at wu-wien.ac.at (Kurt Hornik)
+Date: Thu, 12 May 2005 15:45:51 +0200
+Subject: [R--gR] gR task view
+In-Reply-To: <878184D41285C04B92FE9DBAD4E866710D1D5A@SFEXC00002.amtg.NJA.local>
+References: <878184D41285C04B92FE9DBAD4E866710D1D5A@SFEXC00002.amtg.NJA.local>
+Message-ID: <17027.24079.246174.467473@mithrandir.hornik.net>
+
+>>>>> Claus Dethlefsen / Aalborg Sygehus writes:
+
+> Dear all
+
+> I have tried to put together a "task view" (new invention on CRAN)
+> concerning gRaphical models. You can check out the view at
+> http://cran.r-project.org/src/contrib/Views/gR.html. If you have
+> comments, omissions etc. please contact me and I will adjust the task
+> view. Currently, the package 'mathgraph' is not available on CRAN, but
+> hopefully will reappear soon.
+
+We need a new maintainer who makes the package pass R CMD check again (a
+minimal change, though).
+
+-k
+ 
+> For more on task views, see the new issue of Rnews available on the R
+> homepage www.r-project.org.
+ 
+> Best to all,
+> Claus
+
+> ________________________________
+
+> Claus Dethlefsen, Msc, PhD
+> Statistiker ved Kardiovaskul?rt Forskningscenter
+> Klinisk Epidemiologisk Afdeling
+
+> Aalborg Sygehus Nord
+> Stengade 10, 2. sal
+> 9000 Aalborg
+
+> Tlf:   9932 1086
+>        9932 1094 (direkte)
+> Fax:   9932 1088
+> email:  <mailto:aas.claus.dethlefsen at nja.dk> aas.claus.dethlefsen at nja.dk
+
+ 
+
+ 
+
+> 	[[alternative HTML version deleted]]
+
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+

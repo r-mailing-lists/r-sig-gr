@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2012-01",
+  "messages": [
+    {
+      "id": "msg-aaee5e6f785f",
+      "message_id": "<928C4F7877280844B906D12D63A3F15BAE86B6EA1C@HERMES8.ds.leeds.ac.uk>",
+      "from_name": "Stephen Clark",
+      "from_email_hash": "4c421effed84aa6de8673c311a7c734bfc5685b93623b9e52c2010cb4890267c",
+      "date": "2012-01-18T09:12:31Z",
+      "subject": "[R--gR] Modelling data at two separate locations",
+      "subject_clean": "[R--gR] Modelling data at two separate locations",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20120118/843f1fab/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20120118/843f1fab/attachment.pl>",
+      "thread_id": "thread-aaee5e6f785f",
+      "thread_depth": 0,
+      "month": "2012-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-aaee5e6f785f",
+      "subject": "[R--gR] Modelling data at two separate locations",
+      "message_count": 1,
+      "participants": [
+        "Stephen Clark"
+      ],
+      "started": "2012-01-18T09:12:31+00:00",
+      "last_reply": "2012-01-18T09:12:31+00:00",
+      "root_message_id": "msg-aaee5e6f785f"
+    }
+  ]
+}

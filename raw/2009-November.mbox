@@ -1,0 +1,29 @@
+From kagba2006 at yahoo.com  Thu Nov 12 15:13:25 2009
+From: kagba2006 at yahoo.com (FMH)
+Date: Thu, 12 Nov 2009 06:13:25 -0800 (PST)
+Subject: [R--gR] A comparison between span in lowess method and h in
+	sm.regression
+Message-ID: <63457.3630.qm@web38302.mail.mud.yahoo.com>
+
+Dear All,
+
+I have fitted a bivariate and an additive model on a monthly temperature from 1987-2007 via nonparametric regression and would like to compare?between these models via F-test, but having difficulty in determining the possible values of span?with lowess method.
+
+For instance, these two models are defined in R as: 
+
+######################################################
+bivariate.model <- sm.regression(c(month,year), Temperature, h = c(0.2,0.8))?
+additive.model <- gam(Temperature~lo(month, span=A) + lo(year,span=B)) 
+######################################################
+
+However, i notice the sm.regression function uses h as a?smoothing parameter ?whilst the gam function uses span as a smoothing parameter, and these models can't just simply be compared?straight? forward,?but?few?adjustments should be made on the values of span in gam function,?corresponding to the values of h in sm.regression function. 
+
+Could anyone please advice me ?the possible values of A and B in the gam function above? I'd would be very grateful for any idea and suggestion towards this issue.
+
+Thank you
+Fir
+
+
+
+
+

@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2005-07",
+  "messages": [
+    {
+      "id": "msg-f57ea63c7e02",
+      "message_id": "<20050702124631.5dbc8c61@elhalyn>",
+      "from_name": "Marco Scutari",
+      "from_email_hash": "bf9f53eedf3e08d2174cd9697a0930332f849a8aa3110d884f3c8122af261b6c",
+      "date": "2005-07-02T12:46:31+02:00",
+      "subject": "[R--gR] Fw: gRbase bug in R 2.1.1",
+      "subject_clean": "[R--gR] Fw: gRbase bug in R 2.1.1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I forgot to send that bug report here, sorry.\n\nBegin forwarded message:\n\nDate: Wed, 29 Jun 2005 11:42:24 +0200\nFrom: Marco Scutari <marco.scutari at tiscali.it>\nTo: S?ren H?jsgaard <sorenh at agrsci.dk>\nSubject: gRbase bug in R 2.1.1\n\n\n\nThe latest (0.1.13) gRbase R package fails to create a new hllm\nobject. The problem is in the gsub call in formulae.R:\n\n--- formulae.R.old\t2005-06-29 11:21:25.317574920 +0200\n+++ formulae.R\t2005-06-29 11:21:43.934744680 +0200\n@@ -75,8 +75,8 @@ process.formula <- function(formula, dat\n   }\n   formula <- formula(paste(\"~\",mimf,sep=\"\"))\n   interactions <- strsplit(mimf,paste(\"\\\\\",g.sep,sep=\"\"))[[1]]\n-  interactions <- gsub(\" \",\"\",interactions)\n-  interactions <- gsub(g.sep,\"\",interactions)\n+  interactions <- gsub(\" \",\"\",interactions, fixed=TRUE)\n+  interactions <- gsub(g.sep,\"\",interactions, fixed=TRUE)\n   if (v.sep == \"*\") v.sep <- \"[*]\"\n   int.list <- strsplit(interactions, v.sep)\n   gc1   <- lapply(int.list, function(l){ match(l,used.var) })\n\nwhich fails because gsub parses \"+\" as a regular expression.\n\nThe attached patch solves the problem for me, even if it might\nbe more of a dirty hack than a real solution.\n\nRegards,\n    Marco Scutari\n    a student of Statistics and Computer Science\n    University of Padova\n\n----\nMarco Scutari                              marco.scutari at tiscali.it\nLinux Registered User #341807                 http://counter.li.org\npowered by : \nDebian Sid GNU/Linux (SGI-XFS)                      Kernel 2.6.11.7\n\n\n\n----\nMarco Scutari                              marco.scutari at tiscali.it\nLinux Registered User #341807                 http://counter.li.org\npowered by : \nDebian Sid GNU/Linux (SGI-XFS)                      Kernel 2.6.11.7\n-------------- next part --------------\nAn embedded and charset-unspecified text was scrubbed...\nName: formulae_correct_gsub.diff\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050702/53b671a5/attachment.pl",
+      "body_snippet": "I forgot to send that bug report here, sorry.\n\nBegin forwarded message:\n\nDate: Wed, 29 Jun 2005 11:42:24 +0200\nFrom: Marco Scutari <marco.scutari at tiscali.it>\nTo: S?ren H?jsgaard <sorenh at agrsci.d",
+      "thread_id": "thread-f57ea63c7e02",
+      "thread_depth": 0,
+      "month": "2005-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f57ea63c7e02",
+      "subject": "[R--gR] Fw: gRbase bug in R 2.1.1",
+      "message_count": 1,
+      "participants": [
+        "Marco Scutari"
+      ],
+      "started": "2005-07-02T12:46:31+02:00",
+      "last_reply": "2005-07-02T12:46:31+02:00",
+      "root_message_id": "msg-f57ea63c7e02"
+    }
+  ]
+}

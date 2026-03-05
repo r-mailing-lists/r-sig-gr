@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2007-01",
+  "messages": [
+    {
+      "id": "msg-8e2427065f6e",
+      "message_id": "<45A78C34.7020205@unibo.it>",
+      "from_name": "Alberto Roverato",
+      "from_email_hash": "365fdf40556c99cdac2abbed47ce746da35e756d65c2d69d71008c9c117f36ba",
+      "date": "2007-01-12T14:25:08+01:00",
+      "subject": "[R--gR] qp package",
+      "subject_clean": "[R--gR] qp package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\na new R package is now available on CRAN. It is named \"qp\" and \nimplements the procedure described in\n\nCastelo, R. and Roverato, A. (2006). A robust procedure for Gaussian \ngraphical model search from microarray data with p larger than n. \nJournal of Machine Learning Research, 7, 2621-2650.\n\nhttp://jmlr.csail.mit.edu/papers/volume7/castelo06a/castelo06a.pdf\n\nBest regards\n\nalberto\n\n\n-- \n____________________________________________\n\n    Alberto Roverato\n    Dipartimento di Scienze Statistiche\n    Universita' di Bologna\n    Via Belle Arti, 41 - 40126 Bologna - Italy\n    Tel       +39 051 2098235\n    Fax       +39 051 232153\n    e-mail    alberto.roverato at unibo.it\n    homepage  http://www2.stat.unibo.it/roverato/homepage.html\n  _____________________________________________",
+      "body_snippet": "Dear All,\na new R package is now available on CRAN. It is named \"qp\" and \nimplements the procedure described in\n\nCastelo, R. and Roverato, A. (2006). A robust procedure for Gaussian \ngraphical model s",
+      "thread_id": "thread-8e2427065f6e",
+      "thread_depth": 0,
+      "month": "2007-01"
+    },
+    {
+      "id": "msg-1204a41fa3c6",
+      "message_id": "<45B77F3E.13337.191EDDC@Gabrielle.Kelly.ucd.ie>",
+      "from_name": "Gabrielle Kelly",
+      "from_email_hash": "5f321a96c035cc3a8bf088b771a122423a49b4cc85b5ad9a1b725ef1d786c07e",
+      "date": "2007-01-24T15:46:06Z",
+      "subject": "[R--gR] geoR/glsm.mcmc",
+      "subject_clean": "[R--gR] geoR/glsm.mcmc",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear group members,\nI have tried using the function likfit in geoRglm and got some output. Howvever my data is \nBernoulli so it is more appropriate to use glsm.mcmc. I used the following code: \n----------------------------------------------------------------------------------------------------------------- \ntestc<-glsm.mcmc(coords=data3geo$coords,data=data3geo$data, \nunits.m=data3geo$realisations, model=list(family=\"binomial\", \nlink=\"logit\", trend=~x1+x2+x3+x4, \nbeta=c(-.05,0.3,0.3,0.3,0.2), \ncov.pars=c(0.5,0.5),cov.model=\"spherical\",nugget=0.3), \nmcmc.input=mcmc.control(S.scale=0.2, thin=1)) \n------------------------------------------------------------------- \nHowever I got the following error message: \n-------------------------------------------------------------------- \nError in if (all(round(fisher.l) == 0)) fisher.l <- data * 0.025 : \n missing value where TRUE/FALSE needed \n\nPerhaps this is elementary - I would be grateful if someone could point me in the right \ndirection.\nThanks in advance.\nGabrielle Kelly, Ph.D.\nUCD School of Mathematical Sciences\nUniversity College Dublin, Ireland",
+      "body_snippet": "Dear group members,\nI have tried using the function likfit in geoRglm and got some output. Howvever my data is \nBernoulli so it is more appropriate to use glsm.mcmc. I used the following code: \n------",
+      "thread_id": "thread-1204a41fa3c6",
+      "thread_depth": 0,
+      "month": "2007-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8e2427065f6e",
+      "subject": "[R--gR] qp package",
+      "message_count": 1,
+      "participants": [
+        "Alberto Roverato"
+      ],
+      "started": "2007-01-12T14:25:08+01:00",
+      "last_reply": "2007-01-12T14:25:08+01:00",
+      "root_message_id": "msg-8e2427065f6e"
+    },
+    {
+      "id": "thread-1204a41fa3c6",
+      "subject": "[R--gR] geoR/glsm.mcmc",
+      "message_count": 1,
+      "participants": [
+        "Gabrielle Kelly"
+      ],
+      "started": "2007-01-24T15:46:06+00:00",
+      "last_reply": "2007-01-24T15:46:06+00:00",
+      "root_message_id": "msg-1204a41fa3c6"
+    }
+  ]
+}

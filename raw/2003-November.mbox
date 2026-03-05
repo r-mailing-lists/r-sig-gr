@@ -1,0 +1,70 @@
+From gmm at ds.unifi.it  Sat Nov 15 21:50:19 2003
+From: gmm at ds.unifi.it (Giovanni Marchetti)
+Date: Sat, 15 Nov 2003 22:50:19 +0200
+Subject: [R--gR] ggm package: update 
+Message-ID: <200311152250.19531.gmm@ds.unifi.it>
+
+I have updated package ggm working together with 
+Mathias Drton. The new version 0.8 is available at CRAN.  
+
+This version contains:
+- new functions for defining ancestral graphs (makeAG, unmakeAG)
+- new functions for fitting ancestral graphs and covariance graphs by ML
+provided by Mathias Drton (fitAncestralGraph, fitCovGraph)
+- a (simple) function for drawing graphs (drawGraph).
+
+Moreover some bugs were fixed and some fuctions
+are now more efficient. 
+
+The standard adjacency matrix representation for graphs 
+has been adopted everywhere. 
+
+Giovanni 
+ 
+-- 
+Giovanni M. Marchetti
+Dipartimento di Statistica, Univ. di Firenze     Phone:  +39 055 4237 204
+viale Morgagni, 59                               Fax:    +39 055 4223 560
+I 50134 Firenze, Italy                           email:   gmm at ds.unifi.it
+
+
+
+From steffen at math.auc.dk  Thu Nov 20 14:09:44 2003
+From: steffen at math.auc.dk (Steffen Lilholt Lauritzen)
+Date: Thu, 20 Nov 2003 14:09:44 +0100
+Subject: [R--gR] ggm package: update
+References: <200311152250.19531.gmm@ds.unifi.it>
+Message-ID: <3FBCBD18.4030000@math.auc.dk>
+
+excellent!
+Steffen
+
+Giovanni Marchetti wrote:
+> I have updated package ggm working together with 
+> Mathias Drton. The new version 0.8 is available at CRAN.  
+> 
+> This version contains:
+> - new functions for defining ancestral graphs (makeAG, unmakeAG)
+> - new functions for fitting ancestral graphs and covariance graphs by ML
+> provided by Mathias Drton (fitAncestralGraph, fitCovGraph)
+> - a (simple) function for drawing graphs (drawGraph).
+> 
+> Moreover some bugs were fixed and some fuctions
+> are now more efficient. 
+> 
+> The standard adjacency matrix representation for graphs 
+> has been adopted everywhere. 
+> 
+> Giovanni 
+>  
+
+
+-- 
+Steffen L. Lauritzen
+Department of Mathematical Sciences, Aalborg University
+Fredrik Bajers Vej 7G, DK-9220 Aalborg, Denmark
+phone: +45 9635 8858; fax: +45 9815 8129
+email: steffen at math.auc.dk; URL: http://www.math.auc.dk/~steffen
+
+
+

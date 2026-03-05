@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2003-06",
+  "messages": [
+    {
+      "id": "msg-1afe1ce3a7fb",
+      "message_id": "<C83C5E3DEEE97E498B74729A33F6EAEC6BF987@DJFPOST01.djf.agrsci.dk>",
+      "from_name": "Søren Højsgaard",
+      "from_email_hash": "e5cd905344767ecb559aed462a5df5b7b6c5918e1391a7e4f72a49ff79251ec2",
+      "date": "2003-06-19T11:42:52+02:00",
+      "subject": "[R--gR] MaPhySto workshop on Computational Aspects of Graphical Models",
+      "subject_clean": "[R--gR] MaPhySto workshop on Computational Aspects of Graphical Models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "CALL FOR PARTICIPATION\n\n                         gR2003\n\nMaPhySto workshop on Computational Aspects of Graphical Models\n\nAalborg University, Denmark, 17-20 September 2003.\n\nThe workshop forms a part of an initiative to make software for the \nstatistical analysis of graphical models available within R, but the \nworkshop is intended to have a wider scope and address computational \naspects of graphical models in general.\n\nMore information about the gR initiative can be found on the webpage:\n\nhttp://www.r-project.org/gR/\n\nand further details about the conference will appear, as things gets on \nthe way on the page:\n\nhttp://www.math.auc.dk/gr/gr2003/\n\nParticipation will be limited due to space restrictions.\n\nTo apply for participation please send an email to gr2003 at math.auc.dk \nincluding your full name, address and affiliation, a brief description \nof your interest in the subject, and suggestions for potential \ncontributions. The deadline for application is 15 July 2003. \nNotification of acceptance is mailed 1 August 2003.\n\nThe registration fee is DKK 1200. The fee includes reception, lunches, \ncoffee breaks and workshop dinner.\n\nWe hope to see you soon in Aalborg!\n\n\nPeter Green     Kurt Hornik      Steffen Lauritzen",
+      "body_snippet": "CALL FOR PARTICIPATION\n\n                         gR2003\n\nMaPhySto workshop on Computational Aspects of Graphical Models\n\nAalborg University, Denmark, 17-20 September 2003.\n\nThe workshop forms a part o",
+      "thread_id": "thread-1afe1ce3a7fb",
+      "thread_depth": 0,
+      "month": "2003-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1afe1ce3a7fb",
+      "subject": "[R--gR] MaPhySto workshop on Computational Aspects of Graphical Models",
+      "message_count": 1,
+      "participants": [
+        "Søren Højsgaard"
+      ],
+      "started": "2003-06-19T11:42:52+02:00",
+      "last_reply": "2003-06-19T11:42:52+02:00",
+      "root_message_id": "msg-1afe1ce3a7fb"
+    }
+  ]
+}

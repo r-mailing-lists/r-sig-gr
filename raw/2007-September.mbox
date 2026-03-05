@@ -1,0 +1,60 @@
+From vomlel at utia.cas.cz  Wed Sep  5 14:05:24 2007
+From: vomlel at utia.cas.cz (Jirka Vomlel)
+Date: Wed, 05 Sep 2007 14:05:24 +0200
+Subject: [R--gR] imset.R - a suite of functions for R (incl. learning BNs
+ using imsets)
+Message-ID: <46DE9B84.70902@utia.cas.cz>
+
+Dear gR subscribers,
+
+I have written a suite of functions for R that implements
+some functions for imsets. Imsets are algebraic
+representatives of conditional independence models
+(similarly as, e.g., DAGs) and have several nice properties.
+See, Milan Studeny's book on this topic, if you interested in
+more details about imsets:
+M. Studeny: Probabilistic Conditional Independence Structures,
+Springer-Verlag 2005.
+
+One part of the imset.R suite is learning structural imsets from data.
+Structural imsets are unique representatives of equivalence classes of DAGs
+and can be transformed into the essential graph (and to a DAG). Therefore,
+we actually provide a method for learning DAGs (i.e., the structure of 
+Bayesian networks)
+from data.
+
+The imset.R file, a short manual, and links to relevant articles are 
+available from:
+http://www.utia.cas.cz/vomlel/imset/
+The imset.R suite is under development therefore any comments are highly 
+welcome.
+Our final goal is to make an R package from it.
+
+Jirka Vomlel
+
+
+
+From n.mitsakakis at utoronto.ca  Thu Sep 13 17:59:09 2007
+From: n.mitsakakis at utoronto.ca (Nicholas Mitsakakis)
+Date: Thu, 13 Sep 2007 11:59:09 -0400
+Subject: [R--gR] code for separators of (i,j)
+Message-ID: <46E95E4D.9070502@utoronto.ca>
+
+Hello,
+
+I would like to know if there is any publicly available code (preferably 
+in R or Matlab) for the computation of the separator sets of two nodes 
+in a graph. Any help would be appreciated.
+
+Thanks,
+
+Nicholas
+
+-- 
+Nicholas Mitsakakis
+PhD Candidate - Biostatistics
+Department of Public Health Sciences
+University of Toronto
+
+
+

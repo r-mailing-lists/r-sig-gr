@@ -1,0 +1,88 @@
+From barreiro at pasteur.fr  Wed Sep  6 17:34:33 2006
+From: barreiro at pasteur.fr (Luis Barreiro)
+Date: Wed, 06 Sep 2006 17:34:33 +0200
+Subject: [R--gR] R Question???
+Message-ID: <5.0.2.1.2.20060906173254.0246bc50@mail.pasteur.fr>
+
+Dear all,
+
+I arrive to do density plots using the function "kde2d" , and from this do 
+a countour plot. My problem is that I do not really understand what the 
+labels for the different levels mean??? What I would like to obtain is a 
+surface encompassing the 95 percentile of my values. In other words I would 
+like the levels to represent, for example, the 90th, 95th and 99th 
+percentiles of my values. I hope I have been clear.
+Do you think you can help me??? I would be VERY grateful.
+
+
+Thanks in advance
+
+Luis Barreiro
+
+
+
+From maechler at stat.math.ethz.ch  Wed Sep  6 17:33:29 2006
+From: maechler at stat.math.ethz.ch (Martin Maechler)
+Date: Wed, 6 Sep 2006 17:33:29 +0200
+Subject: [R--gR] R Question???
+In-Reply-To: <5.0.2.1.2.20060906173254.0246bc50@mail.pasteur.fr>
+References: <5.0.2.1.2.20060906173254.0246bc50@mail.pasteur.fr>
+Message-ID: <17662.59977.209341.494105@stat.math.ethz.ch>
+
+PLEASE do use the R-help mailing list for questions about R.
+
+R-sig-gR has a very specialized focus (graphical models) about
+which you are not at all talking.
+
+>>>>> "Luis" == Luis Barreiro <barreiro at pasteur.fr>
+>>>>>     on Wed, 06 Sep 2006 17:34:33 +0200 writes:
+
+    Luis> Dear all,
+    Luis> I arrive to do density plots using the function "kde2d" , and from this do 
+    Luis> a countour plot. My problem is that I do not really understand what the 
+    Luis> labels for the different levels mean??? What I would like to obtain is a 
+    Luis> surface encompassing the 95 percentile of my values. In other words I would 
+    Luis> like the levels to represent, for example, the 90th, 95th and 99th 
+    Luis> percentiles of my values. I hope I have been clear.
+    Luis> Do you think you can help me??? I would be VERY grateful.
+
+
+    Luis> Thanks in advance
+
+    Luis> Luis Barreiro
+
+
+
+From steffen at stats.ox.ac.uk  Sun Sep 24 14:12:50 2006
+From: steffen at stats.ox.ac.uk (Steffen Lauritzen)
+Date: Sun, 24 Sep 2006 13:12:50 +0100
+Subject: [R--gR] New gR package
+Message-ID: <6BF101DD28112F49B2BA7D7D730C4A32385985@exchange-srv1.stats.ox.ac.uk>
+
+The gRcox package is now available on CRAN. The package can be used for inference in graphical Gaussian models with symmetry restrictions. The use of the package is described in: 
+
+H?jsgaard, S. and Lauritzen, S. L. (2006). Inference in graphical Gaussian models with edge and vertex symmetries with the gRcox package for R,
+
+available at:
+
+http://www.stats.ox.ac.uk/~steffen/papers/gRcox-JSS.pdf
+
+The theoretical underpinning of the models and methods is described in:
+
+H?jsgaard, S. and Lauritzen, S. L. (2006). Graphical Gaussian models with edge and vertex symmetries,
+
+available at:
+
+http://www.stats.ox.ac.uk/~steffen/papers/rcoxrss.pdf
+
+Regards
+Steffen
+--
+Professor Steffen L. Lauritzen
+Department of Statistics, University of Oxford
+1 South Parks Road, Oxford OX1 3TG, United Kingdom
+Tel: +44 (0)1865 272877; Fax: +44 (0)1865 272595 
+email: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/
+
+
+

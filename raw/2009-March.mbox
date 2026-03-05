@@ -1,0 +1,289 @@
+From Mat_1 at gmx.net  Tue Mar 24 15:58:50 2009
+From: Mat_1 at gmx.net (Mat_1 at gmx.net)
+Date: Tue, 24 Mar 2009 15:58:50 +0100
+Subject: [R--gR] Package for Discrete Bayesian Networks
+Message-ID: <20090324145850.103920@gmx.net>
+
+All, 
+
+I would like to apply Bayesian networks to text-based information. That is, I would like to use Bayesian networks to extract 'sentiment' (say, 'good' vs. 'bad') form unstructured text. 
+
+>From the CRAN Task View on gRaphical Models in R it seems that I should use the combination of the two packages deal and gRain (please correct me if I overlooked something). The package deal can work both with discrete and continuous variables. For my project I only need to work with discrete variables. Due to the large amount of data that I potentially have to handle, I am concerned that maybe deal will not run fast enough because it is 'too general' for my purpose. 
+
+In this sense, I would like to ask the following: is there an R package that I overlooked and that is tailored towards Bayesian networks with discrete variables? 
+
+Many thanks, 
+
+Matthias 
+
+-- 
+Matthias Buehlmaier 
+Vienna Graduate School of Finance 
+www.buehlmaier.net
+
+
+--
+
+
+From thomas.liebig at iais.fraunhofer.de  Fri Mar 27 15:45:18 2009
+From: thomas.liebig at iais.fraunhofer.de (Thomas Liebig)
+Date: Fri, 27 Mar 2009 15:45:18 +0100
+Subject: [R--gR] Package for Discrete Bayesian Networks
+In-Reply-To: <20090324145850.103920@gmx.net>
+References: <20090324145850.103920@gmx.net>
+Message-ID: <gqioum$23d$1@ger.gmane.org>
+
+Hi Matthias,
+
+I also want to utilise large discrete Bayesian Networks with R (for 
+spatial applications). Actually I learn the networks outside R with some 
+selfmade tools and am looking for a package that offers me basic 
+inference and sampling functions afterwards.
+Deal doesnt provide them. Claus Dethlefsen suggested to use Rhugs 
+instead that provides an interface to hugin.
+
+Therefore, i'm currently implementing these two R functions (inference, 
+sampling) plus an additional import function. For your application you 
+would also need a fast Network Search algorithm for large networks. 
+Perhaps the 'Sparse Candidate Algorithm', 'Scalable Sparse Bayesian 
+Network Search' or the 'Screen Based Network Search' as deal only 
+provides the poor Greedy Search for Bayesian Networks.
+
+Feel free to contact me in case, you are interested in exchanging 
+functions or experience. Your application sounds also very interesting 
+to me, and i would be happy to learn more about your textmining domain.
+
+regards,
+Thomas
+
+Mat_1 at gmx.net schrieb:
+> All, 
+> 
+> I would like to apply Bayesian networks to text-based information. That is, I would like to use Bayesian networks to extract 'sentiment' (say, 'good' vs. 'bad') form unstructured text. 
+> 
+>>From the CRAN Task View on gRaphical Models in R it seems that I should use the combination of the two packages deal and gRain (please correct me if I overlooked something). The package deal can work both with discrete and continuous variables. For my project I only need to work with discrete variables. Due to the large amount of data that I potentially have to handle, I am concerned that maybe deal will not run fast enough because it is 'too general' for my purpose. 
+> 
+> In this sense, I would like to ask the following: is there an R package that I overlooked and that is tailored towards Bayesian networks with discrete variables? 
+> 
+> Many thanks, 
+> 
+> Matthias 
+> 
+
+-- 
+Thomas Liebig
+Fraunhofer-Institut f?r Intelligente Analyse- und
+Informationssysteme (IAIS)
+
+Schloss Birlinghoven, D-53754 Sankt Augustin, Germany
+Email:  thomas.liebig at iais.fraunhofer.de
+Phone:  +49 2241 142050
+Fax:    +49 2241 142072
+
+
+From thomas.liebig at iais.fraunhofer.de  Fri Mar 27 16:19:54 2009
+From: thomas.liebig at iais.fraunhofer.de (Thomas Liebig)
+Date: Fri, 27 Mar 2009 16:19:54 +0100
+Subject: [R--gR] Package for Discrete Bayesian Networks
+In-Reply-To: <gqioum$23d$1@ger.gmane.org>
+References: <20090324145850.103920@gmx.net> <gqioum$23d$1@ger.gmane.org>
+Message-ID: <gqiqvi$9ql$1@ger.gmane.org>
+
+
+> Deal doesnt provide them. Claus Dethlefsen suggested to use Rhugs 
+> instead that provides an interface to hugin.
+
+ah sorry, i mixed something. Claus told about the hugin conform 
+import/export functions. And the package i mentioned is called Rbugs, 
+used to communicate with openbugs..
+
+-- 
+Thomas Liebig
+Fraunhofer-Institut f?r Intelligente Analyse- und
+Informationssysteme (IAIS)
+
+Schloss Birlinghoven, D-53754 Sankt Augustin, Germany
+Email:  thomas.liebig at iais.fraunhofer.de
+Phone:  +49 2241 142050
+Fax:    +49 2241 142072
+
+
+From kjell.konis at epfl.ch  Sat Mar 28 14:41:53 2009
+From: kjell.konis at epfl.ch (Kjell Konis)
+Date: Sat, 28 Mar 2009 14:41:53 +0100
+Subject: [R--gR] Package for Discrete Bayesian Networks
+In-Reply-To: <gqioum$23d$1@ger.gmane.org>
+References: <20090324145850.103920@gmx.net> <gqioum$23d$1@ger.gmane.org>
+Message-ID: <7812960C-5F4A-4EAE-AE2A-6C9B5604B38C@epfl.ch>
+
+If you have access to Hugin then you may find the RHugin package useful.
+
+   http://rhugin.r-forge.r-project.org/
+
+It provides an R API for the Hugin Decision Engine.
+
+Cheers,
+Kjell
+
+On Mar 27, 2009, at 3:45 PM, Thomas Liebig wrote:
+
+> Hi Matthias,
+>
+> I also want to utilise large discrete Bayesian Networks with R (for
+> spatial applications). Actually I learn the networks outside R with  
+> some
+> selfmade tools and am looking for a package that offers me basic
+> inference and sampling functions afterwards.
+> Deal doesnt provide them. Claus Dethlefsen suggested to use Rhugs
+> instead that provides an interface to hugin.
+>
+> Therefore, i'm currently implementing these two R functions  
+> (inference,
+> sampling) plus an additional import function. For your application you
+> would also need a fast Network Search algorithm for large networks.
+> Perhaps the 'Sparse Candidate Algorithm', 'Scalable Sparse Bayesian
+> Network Search' or the 'Screen Based Network Search' as deal only
+> provides the poor Greedy Search for Bayesian Networks.
+>
+> Feel free to contact me in case, you are interested in exchanging
+> functions or experience. Your application sounds also very interesting
+> to me, and i would be happy to learn more about your textmining  
+> domain.
+>
+> regards,
+> Thomas
+>
+> Mat_1 at gmx.net schrieb:
+>> All,
+>>
+>> I would like to apply Bayesian networks to text-based information.  
+>> That is, I would like to use Bayesian networks to extract  
+>> 'sentiment' (say, 'good' vs. 'bad') form unstructured text.
+>>
+>>> From the CRAN Task View on gRaphical Models in R it seems that I  
+>>> should use the combination of the two packages deal and gRain  
+>>> (please correct me if I overlooked something). The package deal  
+>>> can work both with discrete and continuous variables. For my  
+>>> project I only need to work with discrete variables. Due to the  
+>>> large amount of data that I potentially have to handle, I am  
+>>> concerned that maybe deal will not run fast enough because it is  
+>>> 'too general' for my purpose.
+>>
+>> In this sense, I would like to ask the following: is there an R  
+>> package that I overlooked and that is tailored towards Bayesian  
+>> networks with discrete variables?
+>>
+>> Many thanks,
+>>
+>> Matthias
+>>
+>
+> -- 
+> Thomas Liebig
+> Fraunhofer-Institut f?r Intelligente Analyse- und
+> Informationssysteme (IAIS)
+>
+> Schloss Birlinghoven, D-53754 Sankt Augustin, Germany
+> Email:  thomas.liebig at iais.fraunhofer.de
+> Phone:  +49 2241 142050
+> Fax:    +49 2241 142072
+>
+> _______________________________________________
+> R-sig-gR mailing list
+> R-sig-gR at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-gr
+
+
+From Mat_1 at gmx.net  Tue Mar 31 16:40:10 2009
+From: Mat_1 at gmx.net (Matthias Buehlmaier)
+Date: Tue, 31 Mar 2009 16:40:10 +0200
+Subject: [R--gR] Package for Discrete Bayesian Networks
+Message-ID: <20090331144010.135160@gmx.net>
+
+All, 
+
+Many thanks for your replies. I'm always very interested in exchanging ideas and experience. 
+
+If I'm not mistaken you can do inference and simulation with gRain. Maybe that solves Thomas' problem. 
+
+My problem pertains more to structural learning and learning about probabilities. If possible, I would like to use free/open source software. In this sense, I would prefer to avoid software like Hugin. 
+
+Kevin Murpy has a large collection of Matlab code on his page, see 
+
+http://www.cs.ubc.ca/~murphyk/Software/index.html
+
+He seems to offer it under the Lesser GNU Public License according to 
+
+http://www.cs.ubc.ca/~murphyk/Software/BDAGL/index.html
+
+Has anybody done any work on porting his software somehow to R? 
+
+Thanks, 
+
+Matthias 
+
+
+Thomas Liebig wrote:
+> Hi Matthias,
+> 
+> I also want to utilise large discrete Bayesian Networks with R (for
+> spatial applications). Actually I learn the networks outside R with some
+> selfmade tools and am looking for a package that offers me basic
+> inference and sampling functions afterwards.
+> Deal doesnt provide them. Claus Dethlefsen suggested to use Rhugs
+> instead that provides an interface to hugin.
+> 
+> Therefore, i'm currently implementing these two R functions (inference,
+> sampling) plus an additional import function. For your application you
+> would also need a fast Network Search algorithm for large networks.
+> Perhaps the 'Sparse Candidate Algorithm', 'Scalable Sparse Bayesian
+> Network Search' or the 'Screen Based Network Search' as deal only
+> provides the poor Greedy Search for Bayesian Networks.
+> 
+> Feel free to contact me in case, you are interested in exchanging
+> functions or experience. Your application sounds also very interesting
+> to me, and i would be happy to learn more about your textmining domain.
+> 
+> regards,
+> Thomas
+
+--
+
+
+From jc at cs.york.ac.uk  Tue Mar 31 16:56:12 2009
+From: jc at cs.york.ac.uk (James Cussens)
+Date: Tue, 31 Mar 2009 15:56:12 +0100
+Subject: [R--gR] Package for Discrete Bayesian Networks
+In-Reply-To: <20090331144010.135160@gmx.net>
+References: <20090331144010.135160@gmx.net>
+Message-ID: <49D22F0C.1090607@cs.york.ac.uk>
+
+Kevin Murphy is now developing something new in MATLAB:
+
+http://www.cs.ubc.ca/~murphyk/pmtk/index.html
+
+I don't know if anyone is thinking of porting this (or his earlier 
+stuff) to R, but I know Kevin won't be!
+
+James
+
+Matthias Buehlmaier wrote:
+> Kevin Murpy has a large collection of Matlab code on his page, see 
+> 
+> http://www.cs.ubc.ca/~murphyk/Software/index.html
+> 
+> He seems to offer it under the Lesser GNU Public License according to 
+> 
+> http://www.cs.ubc.ca/~murphyk/Software/BDAGL/index.html
+> 
+> Has anybody done any work on porting his software somehow to R? 
+> 
+
+-- 
+James Cussens                                 NB: NEW CONTACT DETAILS
+York Centre for Complex Systems Analysis             jc at cs.york.ac.uk
+Department of Biology (Area 17)               Tel  +44 (0)1904 328396
+University of York                            Fax  +44 (0)1904 432767
+PO Box 373, York YO10 5YW, UK            http://www.cs.york.ac.uk/~jc
+
+

@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2007-09",
+  "messages": [
+    {
+      "id": "msg-6ad4f171fdfa",
+      "message_id": "<46DE9B84.70902@utia.cas.cz>",
+      "from_name": "Jirka Vomlel",
+      "from_email_hash": "bc14558219795df4378c28e03f07226c54189ff8cd27cfa4e84028f351e8b90f",
+      "date": "2007-09-05T14:05:24+02:00",
+      "subject": "[R--gR] imset.R - a suite of functions for R (incl. learning BNs using imsets)",
+      "subject_clean": "[R--gR] imset.R - a suite of functions for R (incl. learning BNs using imsets)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear gR subscribers,\n\nI have written a suite of functions for R that implements\nsome functions for imsets. Imsets are algebraic\nrepresentatives of conditional independence models\n(similarly as, e.g., DAGs) and have several nice properties.\nSee, Milan Studeny's book on this topic, if you interested in\nmore details about imsets:\nM. Studeny: Probabilistic Conditional Independence Structures,\nSpringer-Verlag 2005.\n\nOne part of the imset.R suite is learning structural imsets from data.\nStructural imsets are unique representatives of equivalence classes of DAGs\nand can be transformed into the essential graph (and to a DAG). Therefore,\nwe actually provide a method for learning DAGs (i.e., the structure of \nBayesian networks)\nfrom data.\n\nThe imset.R file, a short manual, and links to relevant articles are \navailable from:\nhttp://www.utia.cas.cz/vomlel/imset/\nThe imset.R suite is under development therefore any comments are highly \nwelcome.\nOur final goal is to make an R package from it.\n\nJirka Vomlel",
+      "body_snippet": "Dear gR subscribers,\n\nI have written a suite of functions for R that implements\nsome functions for imsets. Imsets are algebraic\nrepresentatives of conditional independence models\n(similarly as, e.g., ",
+      "thread_id": "thread-6ad4f171fdfa",
+      "thread_depth": 0,
+      "month": "2007-09"
+    },
+    {
+      "id": "msg-9044a3068b1b",
+      "message_id": "<46E95E4D.9070502@utoronto.ca>",
+      "from_name": "Nicholas Mitsakakis",
+      "from_email_hash": "bd84d4fbc9addbd18a7cd8a845539ef326805c275dfdc38e79f0f9f4578901ff",
+      "date": "2007-09-13T11:59:09-04:00",
+      "subject": "[R--gR] code for separators of (i,j)",
+      "subject_clean": "[R--gR] code for separators of (i,j)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello,\n\nI would like to know if there is any publicly available code (preferably \nin R or Matlab) for the computation of the separator sets of two nodes \nin a graph. Any help would be appreciated.\n\nThanks,\n\nNicholas\n\n-- \nNicholas Mitsakakis\nPhD Candidate - Biostatistics\nDepartment of Public Health Sciences\nUniversity of Toronto",
+      "body_snippet": "Hello,\n\nI would like to know if there is any publicly available code (preferably \nin R or Matlab) for the computation of the separator sets of two nodes \nin a graph. Any help would be appreciated.\n\nTh",
+      "thread_id": "thread-9044a3068b1b",
+      "thread_depth": 0,
+      "month": "2007-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-6ad4f171fdfa",
+      "subject": "[R--gR] imset.R - a suite of functions for R (incl. learning BNs using imsets)",
+      "message_count": 1,
+      "participants": [
+        "Jirka Vomlel"
+      ],
+      "started": "2007-09-05T14:05:24+02:00",
+      "last_reply": "2007-09-05T14:05:24+02:00",
+      "root_message_id": "msg-6ad4f171fdfa"
+    },
+    {
+      "id": "thread-9044a3068b1b",
+      "subject": "[R--gR] code for separators of (i,j)",
+      "message_count": 1,
+      "participants": [
+        "Nicholas Mitsakakis"
+      ],
+      "started": "2007-09-13T11:59:09-04:00",
+      "last_reply": "2007-09-13T11:59:09-04:00",
+      "root_message_id": "msg-9044a3068b1b"
+    }
+  ]
+}

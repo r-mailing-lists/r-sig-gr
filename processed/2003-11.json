@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2003-11",
+  "messages": [
+    {
+      "id": "msg-d87eaffc448a",
+      "message_id": "<200311152250.19531.gmm@ds.unifi.it>",
+      "from_name": "Giovanni Marchetti",
+      "from_email_hash": "87f0b91aa1cee73368614637b5397f20c621e8f9cfd63e0047b8404867a97672",
+      "date": "2003-11-15T22:50:19+02:00",
+      "subject": "[R--gR] ggm package: update ",
+      "subject_clean": "[R--gR] ggm package: update",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have updated package ggm working together with \nMathias Drton. The new version 0.8 is available at CRAN.  \n\nThis version contains:\n- new functions for defining ancestral graphs (makeAG, unmakeAG)\n- new functions for fitting ancestral graphs and covariance graphs by ML\nprovided by Mathias Drton (fitAncestralGraph, fitCovGraph)\n- a (simple) function for drawing graphs (drawGraph).\n\nMoreover some bugs were fixed and some fuctions\nare now more efficient. \n\nThe standard adjacency matrix representation for graphs \nhas been adopted everywhere. \n\nGiovanni \n \n-- \nGiovanni M. Marchetti\nDipartimento di Statistica, Univ. di Firenze     Phone:  +39 055 4237 204\nviale Morgagni, 59                               Fax:    +39 055 4223 560\nI 50134 Firenze, Italy                           email:   gmm at ds.unifi.it",
+      "body_snippet": "I have updated package ggm working together with \nMathias Drton. The new version 0.8 is available at CRAN.  \n\nThis version contains:\n- new functions for defining ancestral graphs (makeAG, unmakeAG)\n- ",
+      "thread_id": "thread-d87eaffc448a",
+      "thread_depth": 0,
+      "month": "2003-11"
+    },
+    {
+      "id": "msg-aec6502301e4",
+      "message_id": "<3FBCBD18.4030000@math.auc.dk>",
+      "from_name": "Steffen Lilholt Lauritzen",
+      "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
+      "date": "2003-11-20T14:09:44+01:00",
+      "subject": "[R--gR] ggm package: update",
+      "subject_clean": "[R--gR] ggm package: update",
+      "in_reply_to": null,
+      "references": [
+        "<200311152250.19531.gmm@ds.unifi.it>"
+      ],
+      "body_plain": "excellent!\nSteffen\n\nGiovanni Marchetti wrote:\n> I have updated package ggm working together with \n> Mathias Drton. The new version 0.8 is available at CRAN.  \n> \n> This version contains:\n> - new functions for defining ancestral graphs (makeAG, unmakeAG)\n> - new functions for fitting ancestral graphs and covariance graphs by ML\n> provided by Mathias Drton (fitAncestralGraph, fitCovGraph)\n> - a (simple) function for drawing graphs (drawGraph).\n> \n> Moreover some bugs were fixed and some fuctions\n> are now more efficient. \n> \n> The standard adjacency matrix representation for graphs \n> has been adopted everywhere. \n> \n> Giovanni \n>  \n\n\n-- \nSteffen L. Lauritzen\nDepartment of Mathematical Sciences, Aalborg University\nFredrik Bajers Vej 7G, DK-9220 Aalborg, Denmark\nphone: +45 9635 8858; fax: +45 9815 8129\nemail: steffen at math.auc.dk; URL: http://www.math.auc.dk/~steffen",
+      "body_snippet": "excellent!\nSteffen\n\nGiovanni Marchetti wrote:\n> I have updated package ggm working together with \n> Mathias Drton. The new version 0.8 is available at CRAN.  \n> \n> This version contains:\n> - new funct",
+      "thread_id": "thread-d87eaffc448a",
+      "thread_depth": 1,
+      "month": "2003-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d87eaffc448a",
+      "subject": "[R--gR] ggm package: update",
+      "message_count": 2,
+      "participants": [
+        "Giovanni Marchetti",
+        "Steffen Lilholt Lauritzen"
+      ],
+      "started": "2003-11-15T22:50:19+02:00",
+      "last_reply": "2003-11-20T14:09:44+01:00",
+      "root_message_id": "msg-d87eaffc448a"
+    }
+  ]
+}

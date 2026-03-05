@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2004-11",
+  "messages": [
+    {
+      "id": "msg-d239661b7409",
+      "message_id": "<007b01c4c681$c8709a00$d8d301a3@SHELDUCK>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2004-11-09T17:30:13Z",
+      "subject": "[R--gR] Fw: [BUGS] OpenBUGS",
+      "subject_clean": "[R--gR] Fw: [BUGS] OpenBUGS",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041109/37ed4c68/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041109/37ed4c68/attachment.pl",
+      "thread_id": "thread-d239661b7409",
+      "thread_depth": 0,
+      "month": "2004-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d239661b7409",
+      "subject": "[R--gR] Fw: [BUGS] OpenBUGS",
+      "message_count": 1,
+      "participants": [
+        "Steffen Lauritzen"
+      ],
+      "started": "2004-11-09T17:30:13+00:00",
+      "last_reply": "2004-11-09T17:30:13+00:00",
+      "root_message_id": "msg-d239661b7409"
+    }
+  ]
+}

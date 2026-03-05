@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2002-11",
+  "messages": [
+    {
+      "id": "msg-9b6f87284c55",
+      "message_id": "<FF503547C1F8D211BD2C0008C7C56401088FA8D8@exdkba06.novo.dk>",
+      "from_name": "DED (David George Edwards)",
+      "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
+      "date": "2002-11-06T14:54:25+01:00",
+      "subject": "[R--gR] R--gR: Model specification in gR",
+      "subject_clean": "[R--gR] R--gR: Model specification in gR",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Some ideas about specifying models in gR.\n\nQuick Win\n----------\n1. For graphical models (ie where the graph is sufficient to define the\nmodel, the distributional part being implicit), just use the graph as it is\n(will be) defined in R (a clique list, for example). For high dimensional\nmodels, model formulae get so long as to be completely unmanageable. \n2. For DAGs and other types of model constructed from univariate response\nmodels, use  Wilkinson and Roger's notation for each vertex, as Giovanni\nsuggests. \n\nSlow Haul\n---------\n3. For the other (non-graphical, non-univariate response) models we need to\nbe careful. It would be helpful if model formula handling in R could be\n'objectified' and so made accessible to the programmer.   \n\nRegards\nDavid",
+      "body_snippet": "Some ideas about specifying models in gR.\n\nQuick Win\n----------\n1. For graphical models (ie where the graph is sufficient to define the\nmodel, the distributional part being implicit), just use the gra",
+      "thread_id": "thread-9b6f87284c55",
+      "thread_depth": 0,
+      "month": "2002-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-9b6f87284c55",
+      "subject": "[R--gR] R--gR: Model specification in gR",
+      "message_count": 1,
+      "participants": [
+        "DED (David George Edwards)"
+      ],
+      "started": "2002-11-06T14:54:25+01:00",
+      "last_reply": "2002-11-06T14:54:25+01:00",
+      "root_message_id": "msg-9b6f87284c55"
+    }
+  ]
+}

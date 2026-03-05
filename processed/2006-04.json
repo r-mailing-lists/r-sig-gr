@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2006-04",
+  "messages": [
+    {
+      "id": "msg-c66ae7e099a7",
+      "message_id": "<Pine.LNX.4.63.0604011030540.24725@tang.uchicago.edu>",
+      "from_name": "Mathias Drton",
+      "from_email_hash": "068b82c6cd416c3ef34579b6343f3705cd58f51fd542ff516973b12955a395c0",
+      "date": "2006-04-01T10:38:27-06:00",
+      "subject": "[R--gR] drawing phylogenies in R",
+      "subject_clean": "[R--gR] drawing phylogenies in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear gR-list:\n\nThe paper below might be interesting for people working on displaying \ngraphs in R.  (I have not tried anything out.)\n\n  Pedigree-drawing with R and graphviz\n \tJing Hua Zhao\n \tBioinformatics 2006 22: 1013-1014.\nhttp://bioinformatics.oxfordjournals.org/cgi/content/abstract/22/8/1013?etoc\n\n--Mathias",
+      "body_snippet": "Dear gR-list:\n\nThe paper below might be interesting for people working on displaying \ngraphs in R.  (I have not tried anything out.)\n\n  Pedigree-drawing with R and graphviz\n \tJing Hua Zhao\n \tBioinform",
+      "thread_id": "thread-c66ae7e099a7",
+      "thread_depth": 0,
+      "month": "2006-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-c66ae7e099a7",
+      "subject": "[R--gR] drawing phylogenies in R",
+      "message_count": 1,
+      "participants": [
+        "Mathias Drton"
+      ],
+      "started": "2006-04-01T10:38:27-06:00",
+      "last_reply": "2006-04-01T10:38:27-06:00",
+      "root_message_id": "msg-c66ae7e099a7"
+    }
+  ]
+}

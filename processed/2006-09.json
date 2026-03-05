@@ -1,0 +1,82 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2006-09",
+  "messages": [
+    {
+      "id": "msg-8ffa0874587f",
+      "message_id": "<17662.59977.209341.494105@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2006-09-06T17:33:29+02:00",
+      "subject": "[R--gR] R Question???",
+      "subject_clean": "[R--gR] R Question???",
+      "in_reply_to": "<5.0.2.1.2.20060906173254.0246bc50@mail.pasteur.fr>",
+      "references": [
+        "<5.0.2.1.2.20060906173254.0246bc50@mail.pasteur.fr>"
+      ],
+      "body_plain": "PLEASE do use the R-help mailing list for questions about R.\n\nR-sig-gR has a very specialized focus (graphical models) about\nwhich you are not at all talking.\n\n>>>>> \"Luis\" == Luis Barreiro <barreiro at pasteur.fr>\n>>>>>     on Wed, 06 Sep 2006 17:34:33 +0200 writes:\n\n    Luis> Dear all,\n    Luis> I arrive to do density plots using the function \"kde2d\" , and from this do \n    Luis> a countour plot. My problem is that I do not really understand what the \n    Luis> labels for the different levels mean??? What I would like to obtain is a \n    Luis> surface encompassing the 95 percentile of my values. In other words I would \n    Luis> like the levels to represent, for example, the 90th, 95th and 99th \n    Luis> percentiles of my values. I hope I have been clear.\n    Luis> Do you think you can help me??? I would be VERY grateful.\n\n\n    Luis> Thanks in advance\n\n    Luis> Luis Barreiro",
+      "body_snippet": "PLEASE do use the R-help mailing list for questions about R.\n\nR-sig-gR has a very specialized focus (graphical models) about\nwhich you are not at all talking.\n\n>>>>> \"Luis\" == Luis Barreiro <barreiro ",
+      "thread_id": "thread-72feb11ae4d6",
+      "thread_depth": 1,
+      "month": "2006-09"
+    },
+    {
+      "id": "msg-72feb11ae4d6",
+      "message_id": "<5.0.2.1.2.20060906173254.0246bc50@mail.pasteur.fr>",
+      "from_name": "Luis Barreiro",
+      "from_email_hash": "ba96e9824950ce834e4172934d908e78a9e3dbff1ed3d0289bb442b6d0d2682f",
+      "date": "2006-09-06T17:34:33+02:00",
+      "subject": "[R--gR] R Question???",
+      "subject_clean": "[R--gR] R Question???",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nI arrive to do density plots using the function \"kde2d\" , and from this do \na countour plot. My problem is that I do not really understand what the \nlabels for the different levels mean??? What I would like to obtain is a \nsurface encompassing the 95 percentile of my values. In other words I would \nlike the levels to represent, for example, the 90th, 95th and 99th \npercentiles of my values. I hope I have been clear.\nDo you think you can help me??? I would be VERY grateful.\n\n\nThanks in advance\n\nLuis Barreiro",
+      "body_snippet": "Dear all,\n\nI arrive to do density plots using the function \"kde2d\" , and from this do \na countour plot. My problem is that I do not really understand what the \nlabels for the different levels mean??? ",
+      "thread_id": "thread-72feb11ae4d6",
+      "thread_depth": 0,
+      "month": "2006-09"
+    },
+    {
+      "id": "msg-69fe4907e591",
+      "message_id": "<6BF101DD28112F49B2BA7D7D730C4A32385985@exchange-srv1.stats.ox.ac.uk>",
+      "from_name": "Steffen Lauritzen",
+      "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
+      "date": "2006-09-24T13:12:50+01:00",
+      "subject": "[R--gR] New gR package",
+      "subject_clean": "[R--gR] New gR package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The gRcox package is now available on CRAN. The package can be used for inference in graphical Gaussian models with symmetry restrictions. The use of the package is described in: \n\nH?jsgaard, S. and Lauritzen, S. L. (2006). Inference in graphical Gaussian models with edge and vertex symmetries with the gRcox package for R,\n\navailable at:\n\nhttp://www.stats.ox.ac.uk/~steffen/papers/gRcox-JSS.pdf\n\nThe theoretical underpinning of the models and methods is described in:\n\nH?jsgaard, S. and Lauritzen, S. L. (2006). Graphical Gaussian models with edge and vertex symmetries,\n\navailable at:\n\nhttp://www.stats.ox.ac.uk/~steffen/papers/rcoxrss.pdf\n\nRegards\nSteffen\n--\nProfessor Steffen L. Lauritzen\nDepartment of Statistics, University of Oxford\n1 South Parks Road, Oxford OX1 3TG, United Kingdom\nTel: +44 (0)1865 272877; Fax: +44 (0)1865 272595 \nemail: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/",
+      "body_snippet": "The gRcox package is now available on CRAN. The package can be used for inference in graphical Gaussian models with symmetry restrictions. The use of the package is described in: \n\nH?jsgaard, S. and L",
+      "thread_id": "thread-69fe4907e591",
+      "thread_depth": 0,
+      "month": "2006-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-72feb11ae4d6",
+      "subject": "[R--gR] R Question???",
+      "message_count": 2,
+      "participants": [
+        "Luis Barreiro",
+        "Martin Maechler"
+      ],
+      "started": "2006-09-06T17:34:33+02:00",
+      "last_reply": "2006-09-06T17:34:33+02:00",
+      "root_message_id": "msg-72feb11ae4d6"
+    },
+    {
+      "id": "thread-69fe4907e591",
+      "subject": "[R--gR] New gR package",
+      "message_count": 1,
+      "participants": [
+        "Steffen Lauritzen"
+      ],
+      "started": "2006-09-24T13:12:50+01:00",
+      "last_reply": "2006-09-24T13:12:50+01:00",
+      "root_message_id": "msg-69fe4907e591"
+    }
+  ]
+}

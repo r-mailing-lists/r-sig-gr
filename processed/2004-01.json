@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2004-01",
+  "messages": [
+    {
+      "id": "msg-0ed398e6ec6d",
+      "message_id": "<200401161706.47875.giovanni.marchetti@unifi.it>",
+      "from_name": "Giovanni Marchetti",
+      "from_email_hash": "c19ab86ef4bb7449b84b5533e887212cf8098e3d709a3fc17964f4205cd35fd3",
+      "date": "2004-01-16T17:06:47+01:00",
+      "subject": "[R--gR] Dynamic Graph",
+      "subject_clean": "[R--gR] Dynamic Graph",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear Jens Henrik\n\nthank you very much! It seems very interesting.\nI will try to install it at once.\n\nGiovanni\n-- \nGiovanni M. Marchetti              <giovanni.marchetti at unifi.it>\nDipartimento di Statistica, \"G. Parenti\", Universita' di Firenze   \nviale Morgagni, 59                      Phone:  +39 055 4237 204\nI 50134 Firenze, Italy                  Fax:    +39 055 4223 560",
+      "body_snippet": "Dear Jens Henrik\n\nthank you very much! It seems very interesting.\nI will try to install it at once.\n\nGiovanni\n-- \nGiovanni M. Marchetti              <giovanni.marchetti at unifi.it>\nDipartimento di St",
+      "thread_id": "thread-0ed398e6ec6d",
+      "thread_depth": 0,
+      "month": "2004-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0ed398e6ec6d",
+      "subject": "[R--gR] Dynamic Graph",
+      "message_count": 1,
+      "participants": [
+        "Giovanni Marchetti"
+      ],
+      "started": "2004-01-16T17:06:47+01:00",
+      "last_reply": "2004-01-16T17:06:47+01:00",
+      "root_message_id": "msg-0ed398e6ec6d"
+    }
+  ]
+}

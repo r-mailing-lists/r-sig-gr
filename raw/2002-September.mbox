@@ -1,0 +1,57 @@
+From zeileis at ci.tuwien.ac.at  Wed Sep 18 18:28:49 2002
+From: zeileis at ci.tuwien.ac.at (Achim Zeileis)
+Date: Wed, 18 Sep 2002 18:28:49 +0200
+Subject: [R--gR] gR ToDo list
+Message-ID: <3D88A9C1.CE82933D@ci.tuwien.ac.at>
+
+Dear gR 2002 participants and new R-sig-gR subscribers,
+
+at the end of the gR 2002 workshop we created a ToDo list with a couple
+of points to really get the gR project started, which I would like to
+send out as a summary reminder.
+Best wishes from Vienna,
+Z
+
+
+*******
+gR ToDo
+*******
+
+* 3 packages => CRAN:
+  deal [Claus Dethlefsen]
+  "CoCoR" [CoCo port to R by Jens Henrik Badsberg]
+  "MIMIR" [MIM Interface for R by Soren Hojsgaard]
+
+* article for R-News [Steffen Lauritzen, deadline: Oct 15]
+
+* DSC 2003 plenary / afternoon [Mar 20-22, 2003 @ Vienna]
+
+* fill gR 2002 web page [everyone, mails to Z]
+  started web site
+    http://www.ci.tuwien.ac.at/Conferences/gR-2002/Presentations/
+
+* gR mailing list [done, Z is maintainer]
+
+* "Book Project" [to be reassessed at DSC 2003]
+
+* (book or not book:) discussion paper [Steffen Lauritzen together with
+  Peter Dalgaard and Peter Green, until Nov 15]
+
+* gR web page [Z, first version done]
+    http://www.R-project.org/gR/
+  This is just the first version, (constructive) suggestions for
+  improvement are very welcome.
+
+* gR CRAN view/manifest maintainer: Claus Dethlefsen [action required
+once
+  the new repository management tools are up and running]
+
+* link to gR web page from R homepage [FL, done]
+
+* graph wish list to Fritz Leisch ASAP [everyone]
+
+* gR workshop @ DK [Sep 2003, Steffen will organize?]
+
+* collect key algorithms?
+
+

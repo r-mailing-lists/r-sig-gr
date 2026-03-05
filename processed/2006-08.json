@@ -1,0 +1,139 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2006-08",
+  "messages": [
+    {
+      "id": "msg-e24ebccd3004",
+      "message_id": "<s4ec5188.090@ohsu.edu>",
+      "from_name": "Dan McElligott",
+      "from_email_hash": "9c704a3970857f34c6374916d878c8e460292f4ac297101a3ce515a622e100b3",
+      "date": "2006-08-23T13:00:49-07:00",
+      "subject": "[R--gR] scatterplot.matrix",
+      "subject_clean": "[R--gR] scatterplot.matrix",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi there,\n\nI wonder does anybody know if it's possible to just print only one scatterplot per comparison (A is a function of B, but B is not a function of A) using the scatterplot.matrix module. I know this is possible in Statistica but can't seem to find out if its possible in R. The main reason I want to print only half the plots is the hope that is will significantly speed up generating the matrix plot. If anyone has any ideas to how this could be achieved, I very much appreciate a response.\n\nThanks in advance\n\nDan \n\nDan McElligott, M.Res., M.Sc.\nBioinformaticist \nOHSU Affymetrix Microarray Core\nmailcode VGTI\nOregon Health and Science University\n505 NW 185th Ave\nBeaverton, OR 97006\n\n503 418 2738\nmcelligo at ohsu.edu",
+      "body_snippet": "Hi there,\n\nI wonder does anybody know if it's possible to just print only one scatterplot per comparison (A is a function of B, but B is not a function of A) using the scatterplot.matrix module. I kno",
+      "thread_id": "thread-e24ebccd3004",
+      "thread_depth": 0,
+      "month": "2006-08"
+    },
+    {
+      "id": "msg-0c407a85c986",
+      "message_id": "<44ECC28B.8050804@statistik.uni-dortmund.de>",
+      "from_name": "Uwe Ligges",
+      "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
+      "date": "2006-08-23T23:03:07+02:00",
+      "subject": "[R--gR] scatterplot.matrix",
+      "subject_clean": "[R--gR] scatterplot.matrix",
+      "in_reply_to": "<s4ec5188.090@ohsu.edu>",
+      "references": [
+        "<s4ec5188.090@ohsu.edu>"
+      ],
+      "body_plain": "Dan McElligott wrote:\n> Hi there,\n> \n> I wonder does anybody know if it's possible to just print only one scatterplot per comparison (A is a function of B, but B is not a function of A) using the scatterplot.matrix module. I know this is possible in Statistica but can't seem to find out if its possible in R. The main reason I want to print only half the plots is the hope that is will significantly speed up generating the matrix plot. If anyone has any ideas to how this could be achieved, I very much appreciate a response.\n>\n\nSo you are talking about package car?\nWhy is this related to mailing list gr? I think this would have been a \nbetter question for R-help, or whatever ....\n\nUse argument \"upper.panel\", which is passed down to pairs(), as follows:\n\nscatterplot.matrix(~income + education + prestige | type, data=Duncan,\n     upper.panel=NULL)\n\n\nUwe Ligges\n\n\n> Thanks in advance\n> \n> Dan \n> \n> Dan McElligott, M.Res., M.Sc.\n> Bioinformaticist \n> OHSU Affymetrix Microarray Core\n> mailcode VGTI\n> Oregon Health and Science University\n> 505 NW 185th Ave\n> Beaverton, OR 97006\n> \n> 503 418 2738\n> mcelligo at ohsu.edu\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Dan McElligott wrote:\n> Hi there,\n> \n> I wonder does anybody know if it's possible to just print only one scatterplot per comparison (A is a function of B, but B is not a function of A) using the scat",
+      "thread_id": "thread-e24ebccd3004",
+      "thread_depth": 1,
+      "month": "2006-08"
+    },
+    {
+      "id": "msg-57b5d6b8b626",
+      "message_id": "<9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>",
+      "from_name": "Michael Grant",
+      "from_email_hash": "05f15135613a53db882df10c9214c471a06834c7995b70883b1ce93e7b5a6bba",
+      "date": "2006-08-28T14:03:23-06:00",
+      "subject": "[R--gR] unordered, 3 variable scatter plotting",
+      "subject_clean": "[R--gR] unordered, 3 variable scatter plotting",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I am unable to persuade any high level routine in R to provide image,\ncontour or perspective plots of unordered 3 dimensional triples\n(y1,y2,y3) in the same way that plot (y1,y2) will do.  Pairwise\ncombinations I can do but would like to have a cohesive pseudo-three\ndimensional graphical display the data points which do not form\nascending values.\n\nCan anyone remove my ignorance?\n\nThank you in advance.\n\nMichael Grant",
+      "body_snippet": "I am unable to persuade any high level routine in R to provide image,\ncontour or perspective plots of unordered 3 dimensional triples\n(y1,y2,y3) in the same way that plot (y1,y2) will do.  Pairwise\nco",
+      "thread_id": "thread-57b5d6b8b626",
+      "thread_depth": 0,
+      "month": "2006-08"
+    },
+    {
+      "id": "msg-59e27dd57046",
+      "message_id": "<44F3E512.5010900@statistik.uni-dortmund.de>",
+      "from_name": "Uwe Ligges",
+      "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
+      "date": "2006-08-29T08:56:18+02:00",
+      "subject": "[R--gR] unordered, 3 variable scatter plotting",
+      "subject_clean": "[R--gR] unordered, 3 variable scatter plotting",
+      "in_reply_to": "<9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>",
+      "references": [
+        "<9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>"
+      ],
+      "body_plain": "Michael Grant wrote:\n> I am unable to persuade any high level routine in R to provide image,\n> contour or perspective plots of unordered 3 dimensional triples\n> (y1,y2,y3) in the same way that plot (y1,y2) will do.  Pairwise\n> combinations I can do but would like to have a cohesive pseudo-three\n> dimensional graphical display the data points which do not form\n> ascending values.\n\n\nSee cloud() in package \"lattice\", scatterplot3d() in \"scatterplot3d\", or \nplot3d() in \"rgl\".\n\nUwe Ligges\n\n\n> Can anyone remove my ignorance?\n> \n> Thank you in advance.\n> \n> Michael Grant\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_snippet": "Michael Grant wrote:\n> I am unable to persuade any high level routine in R to provide image,\n> contour or perspective plots of unordered 3 dimensional triples\n> (y1,y2,y3) in the same way that plot (y",
+      "thread_id": "thread-57b5d6b8b626",
+      "thread_depth": 1,
+      "month": "2006-08"
+    },
+    {
+      "id": "msg-6a040413c12e",
+      "message_id": "<44F3E581.9040708@statistik.uni-dortmund.de>",
+      "from_name": "Uwe Ligges",
+      "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
+      "date": "2006-08-29T08:58:09+02:00",
+      "subject": "[R--gR] unordered, 3 variable scatter plotting",
+      "subject_clean": "[R--gR] unordered, 3 variable scatter plotting",
+      "in_reply_to": "<44F3E512.5010900@statistik.uni-dortmund.de>",
+      "references": [
+        "<9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>",
+        "<44F3E512.5010900@statistik.uni-dortmund.de>"
+      ],
+      "body_plain": "BTW: This is more an R-help question but has not much to do with the \ntopic of this list, AFAICS.\n\nUwe Ligges wrote:\n> \n> \n> Michael Grant wrote:\n>> I am unable to persuade any high level routine in R to provide image,\n>> contour or perspective plots of unordered 3 dimensional triples\n>> (y1,y2,y3) in the same way that plot (y1,y2) will do.  Pairwise\n>> combinations I can do but would like to have a cohesive pseudo-three\n>> dimensional graphical display the data points which do not form\n>> ascending values.\n> \n> \n> See cloud() in package \"lattice\", scatterplot3d() in \"scatterplot3d\", or \n> plot3d() in \"rgl\".\n> \n> Uwe Ligges\n> \n> \n>> Can anyone remove my ignorance?\n>>\n>> Thank you in advance.\n>>\n>> Michael Grant\n>>\n>> _______________________________________________\n>> R-sig-gR mailing list\n>> R-sig-gR at stat.math.ethz.ch\n>> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>",
+      "body_snippet": "BTW: This is more an R-help question but has not much to do with the \ntopic of this list, AFAICS.\n\nUwe Ligges wrote:\n> \n> \n> Michael Grant wrote:\n>> I am unable to persuade any high level routine in R",
+      "thread_id": "thread-57b5d6b8b626",
+      "thread_depth": 2,
+      "month": "2006-08"
+    },
+    {
+      "id": "msg-a75b576e2c88",
+      "message_id": "<17651.59018.889843.269681@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2006-08-29T09:02:34+02:00",
+      "subject": "[R--gR] unordered, 3 variable scatter plotting",
+      "subject_clean": "[R--gR] unordered, 3 variable scatter plotting",
+      "in_reply_to": "<9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>",
+      "references": [
+        "<9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>"
+      ],
+      "body_plain": "PLEASE, Michael,\n\ndo not (again !?) misuse the R-sig-gR  mailing list for simple\nquestion about R -- which clearly belong to nowhere else but R-help !\n\n> I am unable to persuade any high level routine in R\n> to provide image, contour or perspective plots of\n> unordered 3 dimensional triples (y1,y2,y3) in the\n> same way that plot (y1,y2) will do.  Pairwise\n> combinations I can do but would like to have a\n> cohesive pseudo-three dimensional graphical display\n> the data points which do not form ascending values.\n\n> Can anyone remove my ignorance?\n\n> Thank you in advance.\n\n> Michael Grant",
+      "body_snippet": "PLEASE, Michael,\n\ndo not (again !?) misuse the R-sig-gR  mailing list for simple\nquestion about R -- which clearly belong to nowhere else but R-help !\n\n> I am unable to persuade any high level routine",
+      "thread_id": "thread-57b5d6b8b626",
+      "thread_depth": 1,
+      "month": "2006-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e24ebccd3004",
+      "subject": "[R--gR] scatterplot.matrix",
+      "message_count": 2,
+      "participants": [
+        "Dan McElligott",
+        "Uwe Ligges"
+      ],
+      "started": "2006-08-23T13:00:49-07:00",
+      "last_reply": "2006-08-23T23:03:07+02:00",
+      "root_message_id": "msg-e24ebccd3004"
+    },
+    {
+      "id": "thread-57b5d6b8b626",
+      "subject": "[R--gR] unordered, 3 variable scatter plotting",
+      "message_count": 4,
+      "participants": [
+        "Martin Maechler",
+        "Michael Grant",
+        "Uwe Ligges"
+      ],
+      "started": "2006-08-28T14:03:23-06:00",
+      "last_reply": "2006-08-29T09:02:34+02:00",
+      "root_message_id": "msg-57b5d6b8b626"
+    }
+  ]
+}

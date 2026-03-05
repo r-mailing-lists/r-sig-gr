@@ -1,0 +1,18 @@
+From rodaromero at gmail.com  Mon Feb  9 18:50:55 2015
+From: rodaromero at gmail.com (David Romero)
+Date: Mon, 9 Feb 2015 11:50:55 -0600
+Subject: [R--gR] Data extraction from lfstat recession function
+Message-ID: <CAJx8RnGYkUmfPNzjA_ngTx7hDaR-9aAag+8DjMRweXraS5iUaQ@mail.gmail.com>
+
+Dear R-sig-gR users,
+
+Does someone know how to extract point values form the regression
+model of the recession function, package lfstat?
+I would like to have the coefficient that appears on the graph, n
+value, and be able to run anova.
+
+Thanks in advance!
+
+David
+
+

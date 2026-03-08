@@ -1,0 +1,857 @@
+[
+  {
+    "name": "Achim Zeileis",
+    "slug": "achim-zeileis",
+    "messageCount": 13,
+    "firstDate": "2002-09-18T18:28:49+02:00",
+    "lastDate": "2009-06-05T09:02:13+02:00",
+    "yearlyActivity": {
+      "2002": 2,
+      "2003": 1,
+      "2004": 4,
+      "2005": 2,
+      "2006": 1,
+      "2007": 1,
+      "2008": 1,
+      "2009": 1
+    }
+  },
+  {
+    "name": "Sam Steingold",
+    "slug": "sam-steingold",
+    "messageCount": 11,
+    "firstDate": "2006-03-17T13:48:43-05:00",
+    "lastDate": "2006-03-27T12:53:32-05:00",
+    "yearlyActivity": {
+      "2006": 11
+    }
+  },
+  {
+    "name": "FMH",
+    "slug": "fmh",
+    "messageCount": 10,
+    "firstDate": "2009-06-18T02:20:24-07:00",
+    "lastDate": "2010-02-25T08:01:23-08:00",
+    "yearlyActivity": {
+      "2009": 6,
+      "2010": 4
+    }
+  },
+  {
+    "name": "Steffen Lauritzen",
+    "slug": "steffen-lauritzen",
+    "messageCount": 10,
+    "firstDate": "2004-08-11T11:48:49+01:00",
+    "lastDate": "2006-09-24T13:12:50+01:00",
+    "yearlyActivity": {
+      "2004": 8,
+      "2005": 1,
+      "2006": 1
+    }
+  },
+  {
+    "name": "Steffen Lilholt Lauritzen",
+    "slug": "steffen-lilholt-lauritzen",
+    "messageCount": 9,
+    "firstDate": "2002-10-01T18:28:31+02:00",
+    "lastDate": "2003-11-20T14:09:44+01:00",
+    "yearlyActivity": {
+      "2002": 5,
+      "2003": 4
+    }
+  },
+  {
+    "name": "DED (David George Edwards)",
+    "slug": "ded-david-george-edwards",
+    "messageCount": 9,
+    "firstDate": "2002-10-02T13:09:52+02:00",
+    "lastDate": "2005-10-07T13:54:55+02:00",
+    "yearlyActivity": {
+      "2002": 2,
+      "2004": 4,
+      "2005": 3
+    }
+  },
+  {
+    "name": "Uwe Ligges",
+    "slug": "uwe-ligges",
+    "messageCount": 5,
+    "firstDate": "2005-04-08T20:04:31+02:00",
+    "lastDate": "2007-11-08T11:19:46+01:00",
+    "yearlyActivity": {
+      "2005": 1,
+      "2006": 3,
+      "2007": 1
+    }
+  },
+  {
+    "name": "Claus Dethlefsen / Aalborg Sygehus",
+    "slug": "claus-dethlefsen-aalborg-sygehus",
+    "messageCount": 5,
+    "firstDate": "2005-05-12T15:33:39+02:00",
+    "lastDate": "2006-03-25T14:34:30+01:00",
+    "yearlyActivity": {
+      "2005": 2,
+      "2006": 3
+    }
+  },
+  {
+    "name": "Søren Højsgaard",
+    "slug": "s-ren-h-jsgaard",
+    "messageCount": 5,
+    "firstDate": "2003-06-19T11:42:52+02:00",
+    "lastDate": "2005-03-21T15:27:55+01:00",
+    "yearlyActivity": {
+      "2003": 1,
+      "2004": 3,
+      "2005": 1
+    }
+  },
+  {
+    "name": "Virgil Stokes",
+    "slug": "virgil-stokes",
+    "messageCount": 4,
+    "firstDate": "2009-06-05T10:13:55+02:00",
+    "lastDate": "2009-06-05T15:53:22+02:00",
+    "yearlyActivity": {
+      "2009": 4
+    }
+  },
+  {
+    "name": "Giovanni Marchetti",
+    "slug": "giovanni-marchetti",
+    "messageCount": 4,
+    "firstDate": "2002-10-24T19:09:14+02:00",
+    "lastDate": "2004-01-16T17:06:47+01:00",
+    "yearlyActivity": {
+      "2002": 1,
+      "2003": 2,
+      "2004": 1
+    }
+  },
+  {
+    "name": "zhihua li",
+    "slug": "zhihua-li",
+    "messageCount": 3,
+    "firstDate": "2005-03-24T14:23:55+00:00",
+    "lastDate": "2005-11-07T02:07:17+00:00",
+    "yearlyActivity": {
+      "2005": 3
+    }
+  },
+  {
+    "name": "Martin Maechler",
+    "slug": "martin-maechler",
+    "messageCount": 3,
+    "firstDate": "2003-10-01T12:05:32+02:00",
+    "lastDate": "2006-09-06T17:33:29+02:00",
+    "yearlyActivity": {
+      "2003": 1,
+      "2006": 2
+    }
+  },
+  {
+    "name": "Claus Dethlefsen",
+    "slug": "claus-dethlefsen",
+    "messageCount": 3,
+    "firstDate": "2004-08-19T08:18:49+02:00",
+    "lastDate": "2005-09-24T17:34:04+02:00",
+    "yearlyActivity": {
+      "2004": 2,
+      "2005": 1
+    }
+  },
+  {
+    "name": "mzyphur m@iii@g oii i@st@ts@org",
+    "slug": "mzyphur-m-iii-g-oii-i-st-ts-org",
+    "messageCount": 2,
+    "firstDate": "2024-08-27T03:42:22+00:00",
+    "lastDate": "2024-09-17T21:25:00+00:00",
+    "yearlyActivity": {
+      "2024": 2
+    }
+  },
+  {
+    "name": "Thomas Liebig",
+    "slug": "thomas-liebig",
+    "messageCount": 2,
+    "firstDate": "2009-03-27T15:45:18+01:00",
+    "lastDate": "2009-03-27T16:19:54+01:00",
+    "yearlyActivity": {
+      "2009": 2
+    }
+  },
+  {
+    "name": "David Meyer",
+    "slug": "david-meyer",
+    "messageCount": 2,
+    "firstDate": "2004-08-19T15:22:04+02:00",
+    "lastDate": "2004-08-19T18:25:27+02:00",
+    "yearlyActivity": {
+      "2004": 2
+    }
+  },
+  {
+    "name": "Jens Henrik Badsberg",
+    "slug": "jens-henrik-badsberg",
+    "messageCount": 2,
+    "firstDate": "2004-06-02T12:36:53+02:00",
+    "lastDate": "2004-07-16T16:32:27+02:00",
+    "yearlyActivity": {
+      "2004": 2
+    }
+  },
+  {
+    "name": "Kjell Konis",
+    "slug": "kjell-konis",
+    "messageCount": 2,
+    "firstDate": "2009-03-28T14:41:53+01:00",
+    "lastDate": "2009-06-22T19:20:24+02:00",
+    "yearlyActivity": {
+      "2009": 2
+    }
+  },
+  {
+    "name": "Matthias Buehlmaier",
+    "slug": "matthias-buehlmaier",
+    "messageCount": 2,
+    "firstDate": "2009-03-31T16:40:10+02:00",
+    "lastDate": "2009-07-01T09:22:51+02:00",
+    "yearlyActivity": {
+      "2009": 2
+    }
+  },
+  {
+    "name": "Mathias Drton",
+    "slug": "mathias-drton",
+    "messageCount": 2,
+    "firstDate": "2004-08-17T15:46:40-07:00",
+    "lastDate": "2006-04-01T10:38:27-06:00",
+    "yearlyActivity": {
+      "2004": 1,
+      "2006": 1
+    }
+  },
+  {
+    "name": "Lu, Kevin",
+    "slug": "lu-kevin",
+    "messageCount": 2,
+    "firstDate": "2009-06-19T12:31:07+02:00",
+    "lastDate": "2010-01-27T08:12:16+01:00",
+    "yearlyActivity": {
+      "2009": 1,
+      "2010": 1
+    }
+  },
+  {
+    "name": "Friedrich.Leisch at tuwien.ac.at",
+    "slug": "friedrich-leisch-at-tuwien-ac-at",
+    "messageCount": 2,
+    "firstDate": "2004-08-20T08:45:58+02:00",
+    "lastDate": "2004-08-20T12:43:11+02:00",
+    "yearlyActivity": {
+      "2004": 2
+    }
+  },
+  {
+    "name": "Camila Estevam",
+    "slug": "camila-estevam",
+    "messageCount": 2,
+    "firstDate": "2007-11-07T13:43:39-03:00",
+    "lastDate": "2007-11-07T15:58:08-03:00",
+    "yearlyActivity": {
+      "2007": 2
+    }
+  },
+  {
+    "name": "Nicholas Mitsakakis",
+    "slug": "nicholas-mitsakakis",
+    "messageCount": 2,
+    "firstDate": "2007-09-13T11:59:09-04:00",
+    "lastDate": "2008-04-18T11:50:29-04:00",
+    "yearlyActivity": {
+      "2007": 1,
+      "2008": 1
+    }
+  },
+  {
+    "name": "Soledad De Esteban-Trivigno",
+    "slug": "soledad-de-esteban-trivigno",
+    "messageCount": 2,
+    "firstDate": "2025-09-29T08:34:12+00:00",
+    "lastDate": "2025-11-23T17:57:41+00:00",
+    "yearlyActivity": {
+      "2025": 2
+    }
+  },
+  {
+    "name": "Konis Kjell",
+    "slug": "konis-kjell",
+    "messageCount": 2,
+    "firstDate": "2011-02-24T20:53:09+00:00",
+    "lastDate": "2011-04-21T07:47:52+00:00",
+    "yearlyActivity": {
+      "2011": 2
+    }
+  },
+  {
+    "name": "Friedrich.Leisch at ci.tuwien.ac.at",
+    "slug": "friedrich-leisch-at-ci-tuwien-ac-at",
+    "messageCount": 1,
+    "firstDate": "2002-10-02T16:50:27+02:00",
+    "lastDate": "2002-10-02T16:50:27+02:00",
+    "yearlyActivity": {
+      "2002": 1
+    }
+  },
+  {
+    "name": "Marco Scutari",
+    "slug": "marco-scutari",
+    "messageCount": 1,
+    "firstDate": "2005-07-02T12:46:31+02:00",
+    "lastDate": "2005-07-02T12:46:31+02:00",
+    "yearlyActivity": {
+      "2005": 1
+    }
+  },
+  {
+    "name": "SAURIN",
+    "slug": "saurin",
+    "messageCount": 1,
+    "firstDate": "2004-06-20T16:26:32-07:00",
+    "lastDate": "2004-06-20T16:26:32-07:00",
+    "yearlyActivity": {
+      "2004": 1
+    }
+  },
+  {
+    "name": "Weiwei Shi",
+    "slug": "weiwei-shi",
+    "messageCount": 1,
+    "firstDate": "2005-09-25T18:25:57-05:00",
+    "lastDate": "2005-09-25T18:25:57-05:00",
+    "yearlyActivity": {
+      "2005": 1
+    }
+  },
+  {
+    "name": "A.J. Rossini",
+    "slug": "a-j-rossini",
+    "messageCount": 1,
+    "firstDate": "2006-03-21T17:40:51+01:00",
+    "lastDate": "2006-03-21T17:40:51+01:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "Gerhard Wührer",
+    "slug": "gerhard-w-hrer",
+    "messageCount": 1,
+    "firstDate": "2024-08-27T12:06:14+02:00",
+    "lastDate": "2024-08-27T12:06:14+02:00",
+    "yearlyActivity": {
+      "2024": 1
+    }
+  },
+  {
+    "name": "Alberto Roverato",
+    "slug": "alberto-roverato",
+    "messageCount": 1,
+    "firstDate": "2007-01-12T14:25:08+01:00",
+    "lastDate": "2007-01-12T14:25:08+01:00",
+    "yearlyActivity": {
+      "2007": 1
+    }
+  },
+  {
+    "name": "jaime chumacero",
+    "slug": "jaime-chumacero",
+    "messageCount": 1,
+    "firstDate": "2009-06-24T14:25:00-07:00",
+    "lastDate": "2009-06-24T14:25:00-07:00",
+    "yearlyActivity": {
+      "2009": 1
+    }
+  },
+  {
+    "name": "Ronja Foraita",
+    "slug": "ronja-foraita",
+    "messageCount": 1,
+    "firstDate": "2006-03-28T10:36:28+02:00",
+    "lastDate": "2006-03-28T10:36:28+02:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "Neha Sinha",
+    "slug": "neha-sinha",
+    "messageCount": 1,
+    "firstDate": "2005-06-09T11:59:20-04:00",
+    "lastDate": "2005-06-09T11:59:20-04:00",
+    "yearlyActivity": {
+      "2005": 1
+    }
+  },
+  {
+    "name": "manish gupta",
+    "slug": "manish-gupta",
+    "messageCount": 1,
+    "firstDate": "2007-08-31T18:28:21+05:30",
+    "lastDate": "2007-08-31T18:28:21+05:30",
+    "yearlyActivity": {
+      "2007": 1
+    }
+  },
+  {
+    "name": "Sina Bradley",
+    "slug": "sina-bradley",
+    "messageCount": 1,
+    "firstDate": "2008-01-18T23:36:42-03:00",
+    "lastDate": "2008-01-18T23:36:42-03:00",
+    "yearlyActivity": {
+      "2008": 1
+    }
+  },
+  {
+    "name": "Mark Goldberg",
+    "slug": "mark-goldberg",
+    "messageCount": 1,
+    "firstDate": "2006-05-03T16:24:03-04:00",
+    "lastDate": "2006-05-03T16:24:03-04:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "Gabrielle Kelly",
+    "slug": "gabrielle-kelly",
+    "messageCount": 1,
+    "firstDate": "2007-01-24T15:46:06+00:00",
+    "lastDate": "2007-01-24T15:46:06+00:00",
+    "yearlyActivity": {
+      "2007": 1
+    }
+  },
+  {
+    "name": "James Cussens",
+    "slug": "james-cussens",
+    "messageCount": 1,
+    "firstDate": "2009-03-31T15:56:12+01:00",
+    "lastDate": "2009-03-31T15:56:12+01:00",
+    "yearlyActivity": {
+      "2009": 1
+    }
+  },
+  {
+    "name": "Stephen Clark",
+    "slug": "stephen-clark",
+    "messageCount": 1,
+    "firstDate": "2012-01-18T09:12:31+00:00",
+    "lastDate": "2012-01-18T09:12:31+00:00",
+    "yearlyActivity": {
+      "2012": 1
+    }
+  },
+  {
+    "name": "Alberto Goldoni",
+    "slug": "alberto-goldoni",
+    "messageCount": 1,
+    "firstDate": "2005-09-22T11:50:14+02:00",
+    "lastDate": "2005-09-22T11:50:14+02:00",
+    "yearlyActivity": {
+      "2005": 1
+    }
+  },
+  {
+    "name": "Michael Grant",
+    "slug": "michael-grant",
+    "messageCount": 1,
+    "firstDate": "2006-08-28T14:03:23-06:00",
+    "lastDate": "2006-08-28T14:03:23-06:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "Bernardo Rangel tura",
+    "slug": "bernardo-rangel-tura",
+    "messageCount": 1,
+    "firstDate": "2006-03-18T07:04:12-03:00",
+    "lastDate": "2006-03-18T07:04:12-03:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "Miguel Leal",
+    "slug": "miguel-leal",
+    "messageCount": 1,
+    "firstDate": "2008-02-26T15:19:32+00:00",
+    "lastDate": "2008-02-26T15:19:32+00:00",
+    "yearlyActivity": {
+      "2008": 1
+    }
+  },
+  {
+    "name": "Kurt Hornik",
+    "slug": "kurt-hornik",
+    "messageCount": 1,
+    "firstDate": "2005-05-12T15:45:51+02:00",
+    "lastDate": "2005-05-12T15:45:51+02:00",
+    "yearlyActivity": {
+      "2005": 1
+    }
+  },
+  {
+    "name": "Luis Barreiro",
+    "slug": "luis-barreiro",
+    "messageCount": 1,
+    "firstDate": "2006-09-06T17:34:33+02:00",
+    "lastDate": "2006-09-06T17:34:33+02:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "gpomonis",
+    "slug": "gpomonis",
+    "messageCount": 1,
+    "firstDate": "2007-03-20T22:50:23+02:00",
+    "lastDate": "2007-03-20T22:50:23+02:00",
+    "yearlyActivity": {
+      "2007": 1
+    }
+  },
+  {
+    "name": "Poul Svante Eriksen",
+    "slug": "poul-svante-eriksen",
+    "messageCount": 1,
+    "firstDate": "2004-08-20T09:33:27+02:00",
+    "lastDate": "2004-08-20T09:33:27+02:00",
+    "yearlyActivity": {
+      "2004": 1
+    }
+  },
+  {
+    "name": "Carlos GUERRA",
+    "slug": "carlos-guerra",
+    "messageCount": 1,
+    "firstDate": "2006-11-10T12:14:46+00:00",
+    "lastDate": "2006-11-10T12:14:46+00:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "Dan McElligott",
+    "slug": "dan-mcelligott",
+    "messageCount": 1,
+    "firstDate": "2006-08-23T13:00:49-07:00",
+    "lastDate": "2006-08-23T13:00:49-07:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "Duncan Murdoch",
+    "slug": "duncan-murdoch",
+    "messageCount": 1,
+    "firstDate": "2007-11-07T12:46:08-05:00",
+    "lastDate": "2007-11-07T12:46:08-05:00",
+    "yearlyActivity": {
+      "2007": 1
+    }
+  },
+  {
+    "name": "stef salvez",
+    "slug": "stef-salvez",
+    "messageCount": 1,
+    "firstDate": "2012-06-02T16:36:27+01:00",
+    "lastDate": "2012-06-02T16:36:27+01:00",
+    "yearlyActivity": {
+      "2012": 1
+    }
+  },
+  {
+    "name": "Bob OHara",
+    "slug": "bob-ohara",
+    "messageCount": 1,
+    "firstDate": "2005-10-12T15:48:12+03:00",
+    "lastDate": "2005-10-12T15:48:12+03:00",
+    "yearlyActivity": {
+      "2005": 1
+    }
+  },
+  {
+    "name": "Zé Vinícius",
+    "slug": "z-vin-cius",
+    "messageCount": 1,
+    "firstDate": "2019-05-08T22:22:28-03:00",
+    "lastDate": "2019-05-08T22:22:28-03:00",
+    "yearlyActivity": {
+      "2019": 1
+    }
+  },
+  {
+    "name": "Spencer, Neil",
+    "slug": "spencer-neil",
+    "messageCount": 1,
+    "firstDate": "2011-11-11T17:00:08+00:00",
+    "lastDate": "2011-11-11T17:00:08+00:00",
+    "yearlyActivity": {
+      "2011": 1
+    }
+  },
+  {
+    "name": "Thomas Richardson",
+    "slug": "thomas-richardson",
+    "messageCount": 1,
+    "firstDate": "2004-10-19T13:19:18-07:00",
+    "lastDate": "2004-10-19T13:19:18-07:00",
+    "yearlyActivity": {
+      "2004": 1
+    }
+  },
+  {
+    "name": "Robin J",
+    "slug": "robin-j",
+    "messageCount": 1,
+    "firstDate": "2007-03-06T18:26:07-08:00",
+    "lastDate": "2007-03-06T18:26:07-08:00",
+    "yearlyActivity": {
+      "2007": 1
+    }
+  },
+  {
+    "name": "info at monoiso.gr",
+    "slug": "info-at-monoiso-gr",
+    "messageCount": 1,
+    "firstDate": "2008-01-16T15:23:52+02:00",
+    "lastDate": "2008-01-16T15:23:52+02:00",
+    "yearlyActivity": {
+      "2008": 1
+    }
+  },
+  {
+    "name": ". .",
+    "slug": "",
+    "messageCount": 1,
+    "firstDate": "2005-03-30T14:45:22+02:00",
+    "lastDate": "2005-03-30T14:45:22+02:00",
+    "yearlyActivity": {
+      "2005": 1
+    }
+  },
+  {
+    "name": "Jeremy Semeiks",
+    "slug": "jeremy-semeiks",
+    "messageCount": 1,
+    "firstDate": "2003-12-19T12:04:26-08:00",
+    "lastDate": "2003-12-19T12:04:26-08:00",
+    "yearlyActivity": {
+      "2003": 1
+    }
+  },
+  {
+    "name": "Chun Wang",
+    "slug": "chun-wang",
+    "messageCount": 1,
+    "firstDate": "2011-02-23T20:10:47+01:00",
+    "lastDate": "2011-02-23T20:10:47+01:00",
+    "yearlyActivity": {
+      "2011": 1
+    }
+  },
+  {
+    "name": "Bojan Mihaljevic",
+    "slug": "bojan-mihaljevic",
+    "messageCount": 1,
+    "firstDate": "2012-03-08T12:25:18+01:00",
+    "lastDate": "2012-03-08T12:25:18+01:00",
+    "yearlyActivity": {
+      "2012": 1
+    }
+  },
+  {
+    "name": "Paul Shannon",
+    "slug": "paul-shannon",
+    "messageCount": 1,
+    "firstDate": "2003-12-18T06:24:19-08:00",
+    "lastDate": "2003-12-18T06:24:19-08:00",
+    "yearlyActivity": {
+      "2003": 1
+    }
+  },
+  {
+    "name": "XP Sun",
+    "slug": "xp-sun",
+    "messageCount": 1,
+    "firstDate": "2004-10-21T17:44:27+08:00",
+    "lastDate": "2004-10-21T17:44:27+08:00",
+    "yearlyActivity": {
+      "2004": 1
+    }
+  },
+  {
+    "name": "David Romero",
+    "slug": "david-romero",
+    "messageCount": 1,
+    "firstDate": "2015-02-09T11:50:55-06:00",
+    "lastDate": "2015-02-09T11:50:55-06:00",
+    "yearlyActivity": {
+      "2015": 1
+    }
+  },
+  {
+    "name": "Dennis Wittenberg",
+    "slug": "dennis-wittenberg",
+    "messageCount": 1,
+    "firstDate": "2005-11-28T18:10:43+01:00",
+    "lastDate": "2005-11-28T18:10:43+01:00",
+    "yearlyActivity": {
+      "2005": 1
+    }
+  },
+  {
+    "name": "Deb Midya",
+    "slug": "deb-midya",
+    "messageCount": 1,
+    "firstDate": "2013-06-02T21:05:30+10:00",
+    "lastDate": "2013-06-02T21:05:30+10:00",
+    "yearlyActivity": {
+      "2013": 1
+    }
+  },
+  {
+    "name": "Pablo G Goikoetxea",
+    "slug": "pablo-g-goikoetxea",
+    "messageCount": 1,
+    "firstDate": "2016-10-24T13:11:53+02:00",
+    "lastDate": "2016-10-24T13:11:53+02:00",
+    "yearlyActivity": {
+      "2016": 1
+    }
+  },
+  {
+    "name": "toby_marks at americancentury.com",
+    "slug": "toby-marks-at-americancentury-com",
+    "messageCount": 1,
+    "firstDate": "2006-06-07T09:05:42-05:00",
+    "lastDate": "2006-06-07T09:05:42-05:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "Mat_1 at gmx.net",
+    "slug": "mat-1-at-gmx-net",
+    "messageCount": 1,
+    "firstDate": "2009-03-24T15:58:50+01:00",
+    "lastDate": "2009-03-24T15:58:50+01:00",
+    "yearlyActivity": {
+      "2009": 1
+    }
+  },
+  {
+    "name": "Alex Biedermann",
+    "slug": "alex-biedermann",
+    "messageCount": 1,
+    "firstDate": "2009-06-05T07:38:12+02:00",
+    "lastDate": "2009-06-05T07:38:12+02:00",
+    "yearlyActivity": {
+      "2009": 1
+    }
+  },
+  {
+    "name": "Castelo, Robert",
+    "slug": "castelo-robert",
+    "messageCount": 1,
+    "firstDate": "2004-10-20T14:22:18+02:00",
+    "lastDate": "2004-10-20T14:22:18+02:00",
+    "yearlyActivity": {
+      "2004": 1
+    }
+  },
+  {
+    "name": "Peter Green",
+    "slug": "peter-green",
+    "messageCount": 1,
+    "firstDate": "2006-03-28T09:57:29+01:00",
+    "lastDate": "2006-03-28T09:57:29+01:00",
+    "yearlyActivity": {
+      "2006": 1
+    }
+  },
+  {
+    "name": "Kevin Patrick Murphy",
+    "slug": "kevin-patrick-murphy",
+    "messageCount": 1,
+    "firstDate": "2003-09-30T13:33:38-04:00",
+    "lastDate": "2003-09-30T13:33:38-04:00",
+    "yearlyActivity": {
+      "2003": 1
+    }
+  },
+  {
+    "name": "Svend Kreiner",
+    "slug": "svend-kreiner",
+    "messageCount": 1,
+    "firstDate": "2002-10-02T12:32:49+02:00",
+    "lastDate": "2002-10-02T12:32:49+02:00",
+    "yearlyActivity": {
+      "2002": 1
+    }
+  },
+  {
+    "name": "Joe Whittaker",
+    "slug": "joe-whittaker",
+    "messageCount": 1,
+    "firstDate": "2007-11-07T10:46:03+00:00",
+    "lastDate": "2007-11-07T10:46:03+00:00",
+    "yearlyActivity": {
+      "2007": 1
+    }
+  },
+  {
+    "name": "Thomas, Andrew",
+    "slug": "thomas-andrew",
+    "messageCount": 1,
+    "firstDate": "2003-10-13T14:32:42+01:00",
+    "lastDate": "2003-10-13T14:32:42+01:00",
+    "yearlyActivity": {
+      "2003": 1
+    }
+  },
+  {
+    "name": "David Bird",
+    "slug": "david-bird",
+    "messageCount": 1,
+    "firstDate": "2011-04-20T16:20:57-04:00",
+    "lastDate": "2011-04-20T16:20:57-04:00",
+    "yearlyActivity": {
+      "2011": 1
+    }
+  },
+  {
+    "name": "Peter Dalgaard",
+    "slug": "peter-dalgaard",
+    "messageCount": 1,
+    "firstDate": "2004-08-20T13:46:14+02:00",
+    "lastDate": "2004-08-20T13:46:14+02:00",
+    "yearlyActivity": {
+      "2004": 1
+    }
+  },
+  {
+    "name": "Jirka Vomlel",
+    "slug": "jirka-vomlel",
+    "messageCount": 1,
+    "firstDate": "2007-09-05T14:05:24+02:00",
+    "lastDate": "2007-09-05T14:05:24+02:00",
+    "yearlyActivity": {
+      "2007": 1
+    }
+  }
+]

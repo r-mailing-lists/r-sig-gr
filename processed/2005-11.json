@@ -24,7 +24,7 @@
       "message_id": "<000301c5f43e$ae52aa50$0301a8c0@skaos>",
       "from_name": "Dennis Wittenberg",
       "from_email_hash": "7e243576f4eeb0ca28d1fba4dadb2d81d6dc3c938a0d2b7fa59b7eef2bf911eb",
-      "date": "2005-11-28T18:10:43+01:00",
+      "date": "2005-11-28T17:10:43Z",
       "subject": "[R--gR] Problems with autosearch() in deal-package",
       "subject_clean": "[R--gR] Problems with autosearch() in deal-package",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<878184D41285C04B92FE9DBAD4E86671583C2F@SFEXC00002.amtg.NJA.local>",
       "from_name": "Claus Dethlefsen / Aalborg Sygehus",
       "from_email_hash": "54f077df8e9cdd0063b4ced3fbb26bad9bf3e8407be35d90baeb0a77dff9c67d",
-      "date": "2005-11-28T20:39:37+01:00",
+      "date": "2005-11-28T19:39:37Z",
       "subject": "[R--gR] Problems with autosearch() in deal-package",
       "subject_clean": "[R--gR] Problems with autosearch() in deal-package",
       "in_reply_to": null,
@@ -62,8 +62,8 @@
       "participants": [
         "zhihua li"
       ],
-      "started": "2005-11-07T02:07:17+00:00",
-      "last_reply": "2005-11-07T02:07:17+00:00",
+      "started": "2005-11-07T02:07:17Z",
+      "last_reply": "2005-11-07T02:07:17Z",
       "root_message_id": "msg-4aee100be7ef"
     },
     {
@@ -74,8 +74,8 @@
         "Claus Dethlefsen / Aalborg Sygehus",
         "Dennis Wittenberg"
       ],
-      "started": "2005-11-28T18:10:43+01:00",
-      "last_reply": "2005-11-28T20:39:37+01:00",
+      "started": "2005-11-28T17:10:43Z",
+      "last_reply": "2005-11-28T19:39:37Z",
       "root_message_id": "msg-9afbf22af4d2"
     }
   ]

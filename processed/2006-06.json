@@ -8,7 +8,7 @@
       "message_id": "<OF1AAA235C.2E6EA9C8-ON86257185.0079E2C6-86257186.004D6D6B@americancentury.com>",
       "from_name": "toby_marks at americancentury.com",
       "from_email_hash": "972bc072617851982c308a9c45de90e4e5c554994f311077681f55566434e6de",
-      "date": "2006-06-07T09:05:42-05:00",
+      "date": "2006-06-07T14:05:42Z",
       "subject": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
       "subject_clean": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<20060607173027.2a8b75c9.Achim.Zeileis@wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2006-06-07T17:30:27+02:00",
+      "date": "2006-06-07T15:30:27Z",
       "subject": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
       "subject_clean": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
       "in_reply_to": "<OF1AAA235C.2E6EA9C8-ON86257185.0079E2C6-86257186.004D6D6B@americancentury.com>",
@@ -47,8 +47,8 @@
         "Achim Zeileis",
         "toby_marks at americancentury.com"
       ],
-      "started": "2006-06-07T09:05:42-05:00",
-      "last_reply": "2006-06-07T17:30:27+02:00",
+      "started": "2006-06-07T14:05:42Z",
+      "last_reply": "2006-06-07T15:30:27Z",
       "root_message_id": "msg-e8dcd3de712b"
     }
   ]

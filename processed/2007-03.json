@@ -8,7 +8,7 @@
       "message_id": "<d005fbb50703061826s27a499d6r91630dce2a82e519@mail.gmail.com>",
       "from_name": "Robin J",
       "from_email_hash": "8ebbe022a14a0fe97ec2564ceda41a466c63e7a2f6c00fb987ae398f5369ba2f",
-      "date": "2007-03-06T18:26:07-08:00",
+      "date": "2007-03-07T02:26:07Z",
       "subject": "[R--gR] BRugs speed issue",
       "subject_clean": "[R--gR] BRugs speed issue",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<001001c76b31$61878770$0b828c96@pc>",
       "from_name": "gpomonis",
       "from_email_hash": "da93b1e04866c0403d52b44cfbaf5cbe143b5e8ae4298b8e61f85938253e1767",
-      "date": "2007-03-20T22:50:23+02:00",
+      "date": "2007-03-20T20:50:23Z",
       "subject": "[R--gR] Quant Reg Plotting Routines",
       "subject_clean": "[R--gR] Quant Reg Plotting Routines",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<Pine.LNX.4.44.0703202159510.11242-100000@disco.wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2007-03-20T22:01:49+01:00",
+      "date": "2007-03-20T21:01:49Z",
       "subject": "[R--gR] Quant Reg Plotting Routines",
       "subject_clean": "[R--gR] Quant Reg Plotting Routines",
       "in_reply_to": "<001001c76b31$61878770$0b828c96@pc>",
@@ -60,8 +60,8 @@
       "participants": [
         "Robin J"
       ],
-      "started": "2007-03-06T18:26:07-08:00",
-      "last_reply": "2007-03-06T18:26:07-08:00",
+      "started": "2007-03-07T02:26:07Z",
+      "last_reply": "2007-03-07T02:26:07Z",
       "root_message_id": "msg-626d247eb858"
     },
     {
@@ -72,8 +72,8 @@
         "Achim Zeileis",
         "gpomonis"
       ],
-      "started": "2007-03-20T22:50:23+02:00",
-      "last_reply": "2007-03-20T22:01:49+01:00",
+      "started": "2007-03-20T20:50:23Z",
+      "last_reply": "2007-03-20T21:01:49Z",
       "root_message_id": "msg-1f05bf4c7c97"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<s4ec5188.090@ohsu.edu>",
       "from_name": "Dan McElligott",
       "from_email_hash": "9c704a3970857f34c6374916d878c8e460292f4ac297101a3ce515a622e100b3",
-      "date": "2006-08-23T13:00:49-07:00",
+      "date": "2006-08-23T20:00:49Z",
       "subject": "[R--gR] scatterplot.matrix",
       "subject_clean": "[R--gR] scatterplot.matrix",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<44ECC28B.8050804@statistik.uni-dortmund.de>",
       "from_name": "Uwe Ligges",
       "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
-      "date": "2006-08-23T23:03:07+02:00",
+      "date": "2006-08-23T21:03:07Z",
       "subject": "[R--gR] scatterplot.matrix",
       "subject_clean": "[R--gR] scatterplot.matrix",
       "in_reply_to": "<s4ec5188.090@ohsu.edu>",
@@ -42,7 +42,7 @@
       "message_id": "<9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>",
       "from_name": "Michael Grant",
       "from_email_hash": "05f15135613a53db882df10c9214c471a06834c7995b70883b1ce93e7b5a6bba",
-      "date": "2006-08-28T14:03:23-06:00",
+      "date": "2006-08-28T20:03:23Z",
       "subject": "[R--gR] unordered, 3 variable scatter plotting",
       "subject_clean": "[R--gR] unordered, 3 variable scatter plotting",
       "in_reply_to": null,
@@ -58,7 +58,7 @@
       "message_id": "<44F3E512.5010900@statistik.uni-dortmund.de>",
       "from_name": "Uwe Ligges",
       "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
-      "date": "2006-08-29T08:56:18+02:00",
+      "date": "2006-08-29T06:56:18Z",
       "subject": "[R--gR] unordered, 3 variable scatter plotting",
       "subject_clean": "[R--gR] unordered, 3 variable scatter plotting",
       "in_reply_to": "<9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>",
@@ -76,7 +76,7 @@
       "message_id": "<44F3E581.9040708@statistik.uni-dortmund.de>",
       "from_name": "Uwe Ligges",
       "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
-      "date": "2006-08-29T08:58:09+02:00",
+      "date": "2006-08-29T06:58:09Z",
       "subject": "[R--gR] unordered, 3 variable scatter plotting",
       "subject_clean": "[R--gR] unordered, 3 variable scatter plotting",
       "in_reply_to": "<44F3E512.5010900@statistik.uni-dortmund.de>",
@@ -95,7 +95,7 @@
       "message_id": "<17651.59018.889843.269681@stat.math.ethz.ch>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "2006-08-29T09:02:34+02:00",
+      "date": "2006-08-29T07:02:34Z",
       "subject": "[R--gR] unordered, 3 variable scatter plotting",
       "subject_clean": "[R--gR] unordered, 3 variable scatter plotting",
       "in_reply_to": "<9CB6A8D76C40094F80C18E94F25708390C89E471@EX2.ad.colorado.edu>",
@@ -118,8 +118,8 @@
         "Dan McElligott",
         "Uwe Ligges"
       ],
-      "started": "2006-08-23T13:00:49-07:00",
-      "last_reply": "2006-08-23T23:03:07+02:00",
+      "started": "2006-08-23T20:00:49Z",
+      "last_reply": "2006-08-23T21:03:07Z",
       "root_message_id": "msg-e24ebccd3004"
     },
     {
@@ -131,8 +131,8 @@
         "Michael Grant",
         "Uwe Ligges"
       ],
-      "started": "2006-08-28T14:03:23-06:00",
-      "last_reply": "2006-08-29T09:02:34+02:00",
+      "started": "2006-08-28T20:03:23Z",
+      "last_reply": "2006-08-29T07:02:34Z",
       "root_message_id": "msg-57b5d6b8b626"
     }
   ]

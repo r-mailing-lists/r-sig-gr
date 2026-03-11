@@ -24,7 +24,7 @@
       "message_id": "<Pine.LNX.4.44.0802261718040.10626-100000@disco.wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2008-02-26T17:19:42+01:00",
+      "date": "2008-02-26T16:19:42Z",
       "subject": "[R--gR] Help Filled contour graphics",
       "subject_clean": "[R--gR] Help Filled contour graphics",
       "in_reply_to": "<DCC67BF0-F454-4BB5-9AD0-092C77735574@gmail.com>",
@@ -45,8 +45,8 @@
         "Achim Zeileis",
         "Miguel Leal"
       ],
-      "started": "2008-02-26T15:19:32+00:00",
-      "last_reply": "2008-02-26T17:19:42+01:00",
+      "started": "2008-02-26T15:19:32Z",
+      "last_reply": "2008-02-26T16:19:42Z",
       "root_message_id": "msg-1bbe79861443"
     }
   ]

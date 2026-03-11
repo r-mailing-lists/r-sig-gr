@@ -8,7 +8,7 @@
       "message_id": "<Pine.LNX.4.63.0604011030540.24725@tang.uchicago.edu>",
       "from_name": "Mathias Drton",
       "from_email_hash": "068b82c6cd416c3ef34579b6343f3705cd58f51fd542ff516973b12955a395c0",
-      "date": "2006-04-01T10:38:27-06:00",
+      "date": "2006-04-01T16:38:27Z",
       "subject": "[R--gR] drawing phylogenies in R",
       "subject_clean": "[R--gR] drawing phylogenies in R",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Mathias Drton"
       ],
-      "started": "2006-04-01T10:38:27-06:00",
-      "last_reply": "2006-04-01T10:38:27-06:00",
+      "started": "2006-04-01T16:38:27Z",
+      "last_reply": "2006-04-01T16:38:27Z",
       "root_message_id": "msg-c66ae7e099a7"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<C83C5E3DEEE97E498B74729A33F6EAEC02A6D36C@DJFPOST01.djf.agrsci.dk>",
       "from_name": "Søren Højsgaard",
       "from_email_hash": "e5cd905344767ecb559aed462a5df5b7b6c5918e1391a7e4f72a49ff79251ec2",
-      "date": "2005-03-21T15:27:55+01:00",
+      "date": "2005-03-21T14:27:55Z",
       "subject": "[R--gR] Graph algorithms - SCILAB",
       "subject_clean": "[R--gR] Graph algorithms - SCILAB",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<36A25802686476479FBE08B99D1C111C026B0331@exdkba023.novo.dk>",
       "from_name": "DED (David George Edwards)",
       "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
-      "date": "2005-03-29T10:23:23+02:00",
+      "date": "2005-03-29T08:23:23Z",
       "subject": "[R--gR] learning networks with a large number of variables and pre-set parents.",
       "subject_clean": "[R--gR] learning networks with a large number of variables and pre-set parents.",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<20050330124522.29380.qmail@web25805.mail.ukl.yahoo.com>",
       "from_name": ". .",
       "from_email_hash": "61044cfa4efaf750d4a07f86c9fb9cffbdab20d6f2db2ed62a60dc0b77785c53",
-      "date": "2005-03-30T14:45:22+02:00",
+      "date": "2005-03-30T12:45:22Z",
       "subject": "[R--gR] locfit",
       "subject_clean": "[R--gR] locfit",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<Pine.LNX.4.58.0503301537370.14726@thorin.ci.tuwien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2005-03-30T15:41:01+02:00",
+      "date": "2005-03-30T13:41:01Z",
       "subject": "[R--gR] locfit",
       "subject_clean": "[R--gR] locfit",
       "in_reply_to": "<20050330124522.29380.qmail@web25805.mail.ukl.yahoo.com>",
@@ -110,8 +110,8 @@
       "participants": [
         "Søren Højsgaard"
       ],
-      "started": "2005-03-21T15:27:55+01:00",
-      "last_reply": "2005-03-21T15:27:55+01:00",
+      "started": "2005-03-21T14:27:55Z",
+      "last_reply": "2005-03-21T14:27:55Z",
       "root_message_id": "msg-bf4a3a4c7022"
     },
     {
@@ -121,8 +121,8 @@
       "participants": [
         "zhihua li"
       ],
-      "started": "2005-03-24T14:23:55+00:00",
-      "last_reply": "2005-03-25T05:13:23+00:00",
+      "started": "2005-03-24T14:23:55Z",
+      "last_reply": "2005-03-25T05:13:23Z",
       "root_message_id": "msg-82b451abf5fa"
     },
     {
@@ -132,8 +132,8 @@
       "participants": [
         "DED (David George Edwards)"
       ],
-      "started": "2005-03-29T10:23:23+02:00",
-      "last_reply": "2005-03-29T10:23:23+02:00",
+      "started": "2005-03-29T08:23:23Z",
+      "last_reply": "2005-03-29T08:23:23Z",
       "root_message_id": "msg-a4c65d1497b6"
     },
     {
@@ -144,8 +144,8 @@
         ". .",
         "Achim Zeileis"
       ],
-      "started": "2005-03-30T14:45:22+02:00",
-      "last_reply": "2005-03-30T15:41:01+02:00",
+      "started": "2005-03-30T12:45:22Z",
+      "last_reply": "2005-03-30T13:41:01Z",
       "root_message_id": "msg-23f6b6f4ad49"
     }
   ]

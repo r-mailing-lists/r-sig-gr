@@ -8,7 +8,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC808352B942D@EXDKBA021.corp.novocorp.net>",
       "from_name": "DED (David George Edwards)",
       "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
-      "date": "2005-10-07T13:54:55+02:00",
+      "date": "2005-10-07T11:54:55Z",
       "subject": "[R--gR] Use R!",
       "subject_clean": "[R--gR] Use R!",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<434D060C.2030508@rni.helsinki.fi>",
       "from_name": "Bob OHara",
       "from_email_hash": "38f2121c91d3a20ed571975666fe0f53682bd3ba5e42c060592c267357127d82",
-      "date": "2005-10-12T15:48:12+03:00",
+      "date": "2005-10-12T12:48:12Z",
       "subject": "[R--gR] IceBUGS: BUGS users meeting",
       "subject_clean": "[R--gR] IceBUGS: BUGS users meeting",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "DED (David George Edwards)"
       ],
-      "started": "2005-10-07T13:54:55+02:00",
-      "last_reply": "2005-10-07T13:54:55+02:00",
+      "started": "2005-10-07T11:54:55Z",
+      "last_reply": "2005-10-07T11:54:55Z",
       "root_message_id": "msg-c2399a0fc941"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Bob OHara"
       ],
-      "started": "2005-10-12T15:48:12+03:00",
-      "last_reply": "2005-10-12T15:48:12+03:00",
+      "started": "2005-10-12T12:48:12Z",
+      "last_reply": "2005-10-12T12:48:12Z",
       "root_message_id": "msg-0d04c671abcd"
     }
   ]

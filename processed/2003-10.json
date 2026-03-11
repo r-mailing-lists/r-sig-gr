@@ -8,7 +8,7 @@
       "message_id": "<16250.42732.675468.886906@gargle.gargle.HOWL>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "2003-10-01T12:05:32+02:00",
+      "date": "2003-10-01T10:05:32Z",
       "subject": "[R--gR] Proposed design for gR from a machine learning perspective",
       "subject_clean": "[R--gR] Proposed design for gR from a machine learning perspective",
       "in_reply_to": "<1064943218.3f79be72c7f70@alpha-bits>",
@@ -26,7 +26,7 @@
       "message_id": "<9A760AEE164ED71190D00002A542BB63A3206B@icex2.cc.ic.ac.uk>",
       "from_name": "Thomas, Andrew",
       "from_email_hash": "4ef287a561b4f4d72377abf3ad33bf2afb61cd454fca5ff007bff71201154caf",
-      "date": "2003-10-13T14:32:42+01:00",
+      "date": "2003-10-13T13:32:42Z",
       "subject": "[R--gR] R function to create a list",
       "subject_clean": "[R--gR] R function to create a list",
       "in_reply_to": null,
@@ -42,7 +42,7 @@
       "message_id": "<200310131342.h9DDgkqq008257@thorin.ci.tuwien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
-      "date": "2003-10-13T15:42:46+02:00",
+      "date": "2003-10-13T13:42:46Z",
       "subject": "[R--gR] R function to create a list",
       "subject_clean": "[R--gR] R function to create a list",
       "in_reply_to": "<9A760AEE164ED71190D00002A542BB63A3206B@icex2.cc.ic.ac.uk>",
@@ -64,8 +64,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "2003-10-01T12:05:32+02:00",
-      "last_reply": "2003-10-01T12:05:32+02:00",
+      "started": "2003-10-01T10:05:32Z",
+      "last_reply": "2003-10-01T10:05:32Z",
       "root_message_id": "msg-d6409e668304"
     },
     {
@@ -76,8 +76,8 @@
         "Achim Zeileis",
         "Thomas, Andrew"
       ],
-      "started": "2003-10-13T14:32:42+01:00",
-      "last_reply": "2003-10-13T15:42:46+02:00",
+      "started": "2003-10-13T13:32:42Z",
+      "last_reply": "2003-10-13T13:42:46Z",
       "root_message_id": "msg-55799ce2fa81"
     }
   ]

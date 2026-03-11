@@ -8,7 +8,7 @@
       "message_id": "<878184D41285C04B92FE9DBAD4E866710D1D5A@SFEXC00002.amtg.NJA.local>",
       "from_name": "Claus Dethlefsen / Aalborg Sygehus",
       "from_email_hash": "54f077df8e9cdd0063b4ced3fbb26bad9bf3e8407be35d90baeb0a77dff9c67d",
-      "date": "2005-05-12T15:33:39+02:00",
+      "date": "2005-05-12T13:33:39Z",
       "subject": "[R--gR] gR task view",
       "subject_clean": "[R--gR] gR task view",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<17027.24079.246174.467473@mithrandir.hornik.net>",
       "from_name": "Kurt Hornik",
       "from_email_hash": "af316eba824f81591e5ba568c47fb6a236f37dc698deeb0a0c2e83a757893f95",
-      "date": "2005-05-12T15:45:51+02:00",
+      "date": "2005-05-12T13:45:51Z",
       "subject": "[R--gR] gR task view",
       "subject_clean": "[R--gR] gR task view",
       "in_reply_to": "<878184D41285C04B92FE9DBAD4E866710D1D5A@SFEXC00002.amtg.NJA.local>",
@@ -47,8 +47,8 @@
         "Claus Dethlefsen / Aalborg Sygehus",
         "Kurt Hornik"
       ],
-      "started": "2005-05-12T15:33:39+02:00",
-      "last_reply": "2005-05-12T15:45:51+02:00",
+      "started": "2005-05-12T13:33:39Z",
+      "last_reply": "2005-05-12T13:45:51Z",
       "root_message_id": "msg-f9df571d52e1"
     }
   ]

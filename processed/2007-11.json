@@ -24,7 +24,7 @@
       "message_id": "<758619.36603.qm@web30508.mail.mud.yahoo.com>",
       "from_name": "Camila Estevam",
       "from_email_hash": "b5c9220da6194cba7b3ee1d2579c801553fce7e563a43469d64de43e1bf43043",
-      "date": "2007-11-07T13:43:39-03:00",
+      "date": "2007-11-07T16:43:39Z",
       "subject": "[R--gR] Save as postScrips latest R version",
       "subject_clean": "[R--gR] Save as postScrips latest R version",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<4731F9E0.7090500@stats.uwo.ca>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "f10e1920504dfef879061667fbcfa0823bbc832410cad04707fb294db3bd8d83",
-      "date": "2007-11-07T12:46:08-05:00",
+      "date": "2007-11-07T17:46:08Z",
       "subject": "[R--gR] Daily announcements of changes (was: Save as postScrips latest R version)",
       "subject_clean": "[R--gR] Daily announcements of changes (was: Save as postScrips latest R version)",
       "in_reply_to": "<758619.36603.qm@web30508.mail.mud.yahoo.com>",
@@ -58,7 +58,7 @@
       "message_id": "<652829.88577.qm@web30502.mail.mud.yahoo.com>",
       "from_name": "Camila Estevam",
       "from_email_hash": "b5c9220da6194cba7b3ee1d2579c801553fce7e563a43469d64de43e1bf43043",
-      "date": "2007-11-07T15:58:08-03:00",
+      "date": "2007-11-07T18:58:08Z",
       "subject": "[R--gR] Daily announcements of changes (was: Save as postScrips latest R version)",
       "subject_clean": "[R--gR] Daily announcements of changes (was: Save as postScrips latest R version)",
       "in_reply_to": "<4731F9E0.7090500@stats.uwo.ca>",
@@ -74,7 +74,7 @@
       "message_id": "<4732E2C2.9000104@statistik.uni-dortmund.de>",
       "from_name": "Uwe Ligges",
       "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
-      "date": "2007-11-08T11:19:46+01:00",
+      "date": "2007-11-08T10:19:46Z",
       "subject": "[R--gR] [R] Save as postScrips latest R version",
       "subject_clean": "[R--gR] [R] Save as postScrips latest R version",
       "in_reply_to": "<758619.36603.qm@web30508.mail.mud.yahoo.com>",
@@ -96,8 +96,8 @@
       "participants": [
         "Joe Whittaker"
       ],
-      "started": "2007-11-07T10:46:03+00:00",
-      "last_reply": "2007-11-07T10:46:03+00:00",
+      "started": "2007-11-07T10:46:03Z",
+      "last_reply": "2007-11-07T10:46:03Z",
       "root_message_id": "msg-ed00eabd56fa"
     },
     {
@@ -109,8 +109,8 @@
         "Duncan Murdoch",
         "Uwe Ligges"
       ],
-      "started": "2007-11-07T13:43:39-03:00",
-      "last_reply": "2007-11-08T11:19:46+01:00",
+      "started": "2007-11-07T16:43:39Z",
+      "last_reply": "2007-11-08T10:19:46Z",
       "root_message_id": "msg-0177d47fc8e2"
     }
   ]

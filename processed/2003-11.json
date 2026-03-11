@@ -8,7 +8,7 @@
       "message_id": "<200311152250.19531.gmm@ds.unifi.it>",
       "from_name": "Giovanni Marchetti",
       "from_email_hash": "87f0b91aa1cee73368614637b5397f20c621e8f9cfd63e0047b8404867a97672",
-      "date": "2003-11-15T22:50:19+02:00",
+      "date": "2003-11-15T20:50:19Z",
       "subject": "[R--gR] ggm package: update ",
       "subject_clean": "[R--gR] ggm package: update",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<3FBCBD18.4030000@math.auc.dk>",
       "from_name": "Steffen Lilholt Lauritzen",
       "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
-      "date": "2003-11-20T14:09:44+01:00",
+      "date": "2003-11-20T13:09:44Z",
       "subject": "[R--gR] ggm package: update",
       "subject_clean": "[R--gR] ggm package: update",
       "in_reply_to": null,
@@ -47,8 +47,8 @@
         "Giovanni Marchetti",
         "Steffen Lilholt Lauritzen"
       ],
-      "started": "2003-11-15T22:50:19+02:00",
-      "last_reply": "2003-11-20T14:09:44+01:00",
+      "started": "2003-11-15T20:50:19Z",
+      "last_reply": "2003-11-20T13:09:44Z",
       "root_message_id": "msg-d87eaffc448a"
     }
   ]

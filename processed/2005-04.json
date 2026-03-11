@@ -8,7 +8,7 @@
       "message_id": "<4256C7AF.5030700@statistik.uni-dortmund.de>",
       "from_name": "Uwe Ligges",
       "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
-      "date": "2005-04-08T20:04:31+02:00",
+      "date": "2005-04-08T18:04:31Z",
       "subject": "[R--gR] new R package BRugs",
       "subject_clean": "[R--gR] new R package BRugs",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Uwe Ligges"
       ],
-      "started": "2005-04-08T20:04:31+02:00",
-      "last_reply": "2005-04-08T20:04:31+02:00",
+      "started": "2005-04-08T18:04:31Z",
+      "last_reply": "2005-04-08T18:04:31Z",
       "root_message_id": "msg-44e188593bd6"
     }
   ]

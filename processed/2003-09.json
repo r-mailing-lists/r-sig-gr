@@ -8,7 +8,7 @@
       "message_id": "<3F706C95.6080204@math.auc.dk>",
       "from_name": "Steffen Lilholt Lauritzen",
       "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
-      "date": "2003-09-23T17:53:57+02:00",
+      "date": "2003-09-23T15:53:57Z",
       "subject": "[R--gR] gR2003",
       "subject_clean": "[R--gR] gR2003",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<3F706CBC.1020706@math.auc.dk>",
       "from_name": "Steffen Lilholt Lauritzen",
       "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
-      "date": "2003-09-23T17:54:36+02:00",
+      "date": "2003-09-23T15:54:36Z",
       "subject": "[R--gR] JSM Toronto 2004",
       "subject_clean": "[R--gR] JSM Toronto 2004",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<3F707049.6000106@math.auc.dk>",
       "from_name": "Steffen Lilholt Lauritzen",
       "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
-      "date": "2003-09-23T18:09:45+02:00",
+      "date": "2003-09-23T16:09:45Z",
       "subject": "[R--gR] gr2003",
       "subject_clean": "[R--gR] gr2003",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<1064943218.3f79be72c7f70@alpha-bits>",
       "from_name": "Kevin Patrick Murphy",
       "from_email_hash": "2b68675f852af9f350fc2182c20d01497af689efd59aa688571879dceed7c286",
-      "date": "2003-09-30T13:33:38-04:00",
+      "date": "2003-09-30T17:33:38Z",
       "subject": "[R--gR] \"Proposed design for gR from a machine learning perspective\"",
       "subject_clean": "[R--gR] \"Proposed design for gR from a machine learning perspective\"",
       "in_reply_to": null,
@@ -76,8 +76,8 @@
       "participants": [
         "Steffen Lilholt Lauritzen"
       ],
-      "started": "2003-09-23T17:53:57+02:00",
-      "last_reply": "2003-09-23T17:53:57+02:00",
+      "started": "2003-09-23T15:53:57Z",
+      "last_reply": "2003-09-23T15:53:57Z",
       "root_message_id": "msg-572350290d5b"
     },
     {
@@ -87,8 +87,8 @@
       "participants": [
         "Steffen Lilholt Lauritzen"
       ],
-      "started": "2003-09-23T17:54:36+02:00",
-      "last_reply": "2003-09-23T17:54:36+02:00",
+      "started": "2003-09-23T15:54:36Z",
+      "last_reply": "2003-09-23T15:54:36Z",
       "root_message_id": "msg-e252fa086987"
     },
     {
@@ -98,8 +98,8 @@
       "participants": [
         "Steffen Lilholt Lauritzen"
       ],
-      "started": "2003-09-23T18:09:45+02:00",
-      "last_reply": "2003-09-23T18:09:45+02:00",
+      "started": "2003-09-23T16:09:45Z",
+      "last_reply": "2003-09-23T16:09:45Z",
       "root_message_id": "msg-cd2e9326442a"
     },
     {
@@ -109,8 +109,8 @@
       "participants": [
         "Kevin Patrick Murphy"
       ],
-      "started": "2003-09-30T13:33:38-04:00",
-      "last_reply": "2003-09-30T13:33:38-04:00",
+      "started": "2003-09-30T17:33:38Z",
+      "last_reply": "2003-09-30T17:33:38Z",
       "root_message_id": "msg-6db09009955e"
     }
   ]

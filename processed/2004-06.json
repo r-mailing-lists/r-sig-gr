@@ -8,7 +8,7 @@
       "message_id": "<C83C5E3DEEE97E498B74729A33F6EAECECD535@DJFPOST01.djf.agrsci.dk>",
       "from_name": "Jens Henrik Badsberg",
       "from_email_hash": "b0a49183a9bd55be5c09f91b88b03177cdba7f0c8606990b1a2f135c0962274d",
-      "date": "2004-06-02T12:36:53+02:00",
+      "date": "2004-06-02T10:36:53Z",
       "subject": "[R--gR] CoCo 1.6.1",
       "subject_clean": "[R--gR] CoCo 1.6.1",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<20040620232632.10395.qmail@web41103.mail.yahoo.com>",
       "from_name": "SAURIN",
       "from_email_hash": "32d55d635320235f61d33416ae8e6465644a917b6af8267367ee39186601d54b",
-      "date": "2004-06-20T16:26:32-07:00",
+      "date": "2004-06-20T23:26:32Z",
       "subject": "[R--gR] BATCH: line 55:  5681 Broken pipe     cat ${in}",
       "subject_clean": "[R--gR] BATCH: line 55:  5681 Broken pipe     cat ${in}",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Jens Henrik Badsberg"
       ],
-      "started": "2004-06-02T12:36:53+02:00",
-      "last_reply": "2004-06-02T12:36:53+02:00",
+      "started": "2004-06-02T10:36:53Z",
+      "last_reply": "2004-06-02T10:36:53Z",
       "root_message_id": "msg-44b1d92b11c9"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "SAURIN"
       ],
-      "started": "2004-06-20T16:26:32-07:00",
-      "last_reply": "2004-06-20T16:26:32-07:00",
+      "started": "2004-06-20T23:26:32Z",
+      "last_reply": "2004-06-20T23:26:32Z",
       "root_message_id": "msg-dda3c915ef06"
     }
   ]

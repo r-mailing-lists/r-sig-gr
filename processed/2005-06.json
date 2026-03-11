@@ -8,7 +8,7 @@
       "message_id": "<80b75b6f0506090859776bec9e@mail.gmail.com>",
       "from_name": "Neha Sinha",
       "from_email_hash": "c79e027e281efa57c95b75139b2b5049fae0b6a1ed8dbea6caea0c5c3d4438a9",
-      "date": "2005-06-09T11:59:20-04:00",
+      "date": "2005-06-09T15:59:20Z",
       "subject": "[R--gR] Plots in R",
       "subject_clean": "[R--gR] Plots in R",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<20050609184400.18e8dd33.Achim.Zeileis@wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2005-06-09T18:44:00+02:00",
+      "date": "2005-06-09T16:44:00Z",
       "subject": "[R--gR] Plots in R",
       "subject_clean": "[R--gR] Plots in R",
       "in_reply_to": "<80b75b6f0506090859776bec9e@mail.gmail.com>",
@@ -47,8 +47,8 @@
         "Achim Zeileis",
         "Neha Sinha"
       ],
-      "started": "2005-06-09T11:59:20-04:00",
-      "last_reply": "2005-06-09T18:44:00+02:00",
+      "started": "2005-06-09T15:59:20Z",
+      "last_reply": "2005-06-09T16:44:00Z",
       "root_message_id": "msg-dc36e2cdd9d6"
     }
   ]

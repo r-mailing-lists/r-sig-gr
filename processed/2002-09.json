@@ -8,7 +8,7 @@
       "message_id": "<3D88A9C1.CE82933D@ci.tuwien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
-      "date": "2002-09-18T18:28:49+02:00",
+      "date": "2002-09-18T16:28:49Z",
       "subject": "[R--gR] gR ToDo list",
       "subject_clean": "[R--gR] gR ToDo list",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2002-09-18T18:28:49+02:00",
-      "last_reply": "2002-09-18T18:28:49+02:00",
+      "started": "2002-09-18T16:28:49Z",
+      "last_reply": "2002-09-18T16:28:49Z",
       "root_message_id": "msg-0b0e024ed9f4"
     }
   ]

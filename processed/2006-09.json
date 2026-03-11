@@ -8,7 +8,7 @@
       "message_id": "<17662.59977.209341.494105@stat.math.ethz.ch>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "2006-09-06T17:33:29+02:00",
+      "date": "2006-09-06T15:33:29Z",
       "subject": "[R--gR] R Question???",
       "subject_clean": "[R--gR] R Question???",
       "in_reply_to": "<5.0.2.1.2.20060906173254.0246bc50@mail.pasteur.fr>",
@@ -26,7 +26,7 @@
       "message_id": "<5.0.2.1.2.20060906173254.0246bc50@mail.pasteur.fr>",
       "from_name": "Luis Barreiro",
       "from_email_hash": "ba96e9824950ce834e4172934d908e78a9e3dbff1ed3d0289bb442b6d0d2682f",
-      "date": "2006-09-06T17:34:33+02:00",
+      "date": "2006-09-06T15:34:33Z",
       "subject": "[R--gR] R Question???",
       "subject_clean": "[R--gR] R Question???",
       "in_reply_to": null,
@@ -42,7 +42,7 @@
       "message_id": "<6BF101DD28112F49B2BA7D7D730C4A32385985@exchange-srv1.stats.ox.ac.uk>",
       "from_name": "Steffen Lauritzen",
       "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
-      "date": "2006-09-24T13:12:50+01:00",
+      "date": "2006-09-24T12:12:50Z",
       "subject": "[R--gR] New gR package",
       "subject_clean": "[R--gR] New gR package",
       "in_reply_to": null,
@@ -63,8 +63,8 @@
         "Luis Barreiro",
         "Martin Maechler"
       ],
-      "started": "2006-09-06T17:34:33+02:00",
-      "last_reply": "2006-09-06T17:34:33+02:00",
+      "started": "2006-09-06T15:34:33Z",
+      "last_reply": "2006-09-06T15:34:33Z",
       "root_message_id": "msg-72feb11ae4d6"
     },
     {
@@ -74,8 +74,8 @@
       "participants": [
         "Steffen Lauritzen"
       ],
-      "started": "2006-09-24T13:12:50+01:00",
-      "last_reply": "2006-09-24T13:12:50+01:00",
+      "started": "2006-09-24T12:12:50Z",
+      "last_reply": "2006-09-24T12:12:50Z",
       "root_message_id": "msg-69fe4907e591"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<72463827.20080116152352@monoiso.gr>",
       "from_name": "info at monoiso.gr",
       "from_email_hash": "90c696f9b0d57440fff89128dd62ba4ba5b223393e69cb3110e36bf195037477",
-      "date": "2008-01-16T15:23:52+02:00",
+      "date": "2008-01-16T13:23:52Z",
       "subject": "[R--gR] καθαρισμοι-καυσοξυλα",
       "subject_clean": "[R--gR] καθαρισμοι-καυσοξυλα",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<CB566A17.37D53F20@cebugems.zzn.com>",
       "from_name": "Sina Bradley",
       "from_email_hash": "490dbc9c55d909bea89896038ddb2abafc87d0c82c45b0e61eb938e97bf99c10",
-      "date": "2008-01-18T23:36:42-03:00",
+      "date": "2008-01-19T02:36:42Z",
       "subject": "[R--gR] Abichayil willig..!",
       "subject_clean": "[R--gR] Abichayil willig..!",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "info at monoiso.gr"
       ],
-      "started": "2008-01-16T15:23:52+02:00",
-      "last_reply": "2008-01-16T15:23:52+02:00",
+      "started": "2008-01-16T13:23:52Z",
+      "last_reply": "2008-01-16T13:23:52Z",
       "root_message_id": "msg-66528cdd6812"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Sina Bradley"
       ],
-      "started": "2008-01-18T23:36:42-03:00",
-      "last_reply": "2008-01-18T23:36:42-03:00",
+      "started": "2008-01-19T02:36:42Z",
+      "last_reply": "2008-01-19T02:36:42Z",
       "root_message_id": "msg-c1a389bbe995"
     }
   ]

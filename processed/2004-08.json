@@ -8,7 +8,7 @@
       "message_id": "<002001c47f90$c999e220$135601a3@SHELDUCK>",
       "from_name": "Steffen Lauritzen",
       "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
-      "date": "2004-08-11T11:48:49+01:00",
+      "date": "2004-08-11T10:48:49Z",
       "subject": "[R--gR] gR is alive and kicking",
       "subject_clean": "[R--gR] gR is alive and kicking",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<004f01c47f95$5a202fd0$135601a3@SHELDUCK>",
       "from_name": "Steffen Lauritzen",
       "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
-      "date": "2004-08-11T12:21:30+01:00",
+      "date": "2004-08-11T11:21:30Z",
       "subject": "[R--gR] Fw: AISTATS 2005 - Barbados - Call for Papers (due Sep 14)",
       "subject_clean": "[R--gR] Fw: AISTATS 2005 - Barbados - Call for Papers (due Sep 14)",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<36A25802686476479FBE08B99D1C111C026B0161@exdkba023.novo.dk>",
       "from_name": "DED (David George Edwards)",
       "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
-      "date": "2004-08-11T14:49:03+02:00",
+      "date": "2004-08-11T12:49:03Z",
       "subject": "[R--gR] MIM now open source",
       "subject_clean": "[R--gR] MIM now open source",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<004601c48000$4edb0b70$b0feff0a@djf.agrsci.dk>",
       "from_name": "Søren Højsgaard",
       "from_email_hash": "b94b20299bb437c3325d339c2f11f7a19abe1a48326165952574fbdd92e73e60",
-      "date": "2004-08-12T02:07:02+02:00",
+      "date": "2004-08-12T00:07:02Z",
       "subject": "[R--gR] New version of mimR",
       "subject_clean": "[R--gR] New version of mimR",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<Pine.SOL.4.44.0408171509500.7071-100000@blue1>",
       "from_name": "Mathias Drton",
       "from_email_hash": "da9e2eed5434da008488397da25ee0e67a98f7e31c1f07b647705a3464baad13",
-      "date": "2004-08-17T15:46:40-07:00",
+      "date": "2004-08-17T22:46:40Z",
       "subject": "[R--gR] SIN model selection",
       "subject_clean": "[R--gR] SIN model selection",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<001901c485b4$640d57a0$9230e182@math.auc.dk>",
       "from_name": "Claus Dethlefsen",
       "from_email_hash": "48e6709cd362023eb65ed9bec9662a1f01e94978d5c5ac385fbb13896d4bdc25",
-      "date": "2004-08-19T08:18:49+02:00",
+      "date": "2004-08-19T06:18:49Z",
       "subject": "[R--gR] gRbase released !",
       "subject_clean": "[R--gR] gRbase released !",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<003c01c485d0$68795390$145601a3@SHELDUCK>",
       "from_name": "Steffen Lauritzen",
       "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
-      "date": "2004-08-19T10:39:21+01:00",
+      "date": "2004-08-19T09:39:21Z",
       "subject": "[R--gR] Modelformulae",
       "subject_clean": "[R--gR] Modelformulae",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>",
       "from_name": "DED (David George Edwards)",
       "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
-      "date": "2004-08-19T14:44:19+02:00",
+      "date": "2004-08-19T12:44:19Z",
       "subject": "[R--gR] Modelformulae",
       "subject_clean": "[R--gR] Modelformulae",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<20040819152204.58f7b86c.david.meyer@wu-wien.ac.at>",
       "from_name": "David Meyer",
       "from_email_hash": "654c29c8b08ea0942273319b5f403abebb4f0324f6059c016cd0832242a33418",
-      "date": "2004-08-19T15:22:04+02:00",
+      "date": "2004-08-19T13:22:04Z",
       "subject": "[R--gR] Modelformulae",
       "subject_clean": "[R--gR] Modelformulae",
       "in_reply_to": "<36A25802686476479FBE08B99D1C111C026B0175@exdkba023.novo.dk>",
@@ -154,7 +154,7 @@
       "message_id": "<20040819165614.5be7f938.Achim.Zeileis@wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2004-08-19T16:56:14+02:00",
+      "date": "2004-08-19T14:56:14Z",
       "subject": "[R--gR] gR web page updated",
       "subject_clean": "[R--gR] gR web page updated",
       "in_reply_to": null,
@@ -170,7 +170,7 @@
       "message_id": "<000f01c48604$b3e336a0$1b5601a3@SHELDUCK>",
       "from_name": "Steffen Lauritzen",
       "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
-      "date": "2004-08-19T16:53:38+01:00",
+      "date": "2004-08-19T15:53:38Z",
       "subject": "[R--gR] Modelformulae",
       "subject_clean": "[R--gR] Modelformulae",
       "in_reply_to": null,
@@ -188,7 +188,7 @@
       "message_id": "<001b01c48605$31d8b260$1b5601a3@SHELDUCK>",
       "from_name": "Steffen Lauritzen",
       "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
-      "date": "2004-08-19T16:56:59+01:00",
+      "date": "2004-08-19T15:56:59Z",
       "subject": "[R--gR] Modelformulae: reference?",
       "subject_clean": "[R--gR] Modelformulae: reference?",
       "in_reply_to": null,
@@ -204,7 +204,7 @@
       "message_id": "<20040819182527.55cf1fa1.david.meyer@wu-wien.ac.at>",
       "from_name": "David Meyer",
       "from_email_hash": "654c29c8b08ea0942273319b5f403abebb4f0324f6059c016cd0832242a33418",
-      "date": "2004-08-19T18:25:27+02:00",
+      "date": "2004-08-19T16:25:27Z",
       "subject": "[R--gR] Modelformulae",
       "subject_clean": "[R--gR] Modelformulae",
       "in_reply_to": "<000f01c48604$b3e336a0$1b5601a3@SHELDUCK>",
@@ -223,7 +223,7 @@
       "message_id": "<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at tuwien.ac.at",
       "from_email_hash": "30d001dc747c04b1219ea5f62f9a8f3508c5053baeb93f159bc28cd315fb6ad9",
-      "date": "2004-08-20T08:45:58+02:00",
+      "date": "2004-08-20T06:45:58Z",
       "subject": "[R--gR] Modelformulae: reference?",
       "subject_clean": "[R--gR] Modelformulae: reference?",
       "in_reply_to": "<001b01c48605$31d8b260$1b5601a3@SHELDUCK>",
@@ -241,7 +241,7 @@
       "message_id": "<001c01c48685$11431d80$155601a3@SHELDUCK>",
       "from_name": "Steffen Lauritzen",
       "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
-      "date": "2004-08-20T08:12:34+01:00",
+      "date": "2004-08-20T07:12:34Z",
       "subject": "[R--gR] Modelformulae: reference?",
       "subject_clean": "[R--gR] Modelformulae: reference?",
       "in_reply_to": null,
@@ -260,7 +260,7 @@
       "message_id": "<4125A947.2080102@math.auc.dk>",
       "from_name": "Poul Svante Eriksen",
       "from_email_hash": "9cc5f58f1579730be0e0050605771898d3bf82232910961125237f6adf5d1c8e",
-      "date": "2004-08-20T09:33:27+02:00",
+      "date": "2004-08-20T07:33:27Z",
       "subject": "[R--gR] Modelformulae",
       "subject_clean": "[R--gR] Modelformulae",
       "in_reply_to": "<003c01c485d0$68795390$145601a3@SHELDUCK>",
@@ -278,7 +278,7 @@
       "message_id": "<006701c48696$23fbd6e0$155601a3@SHELDUCK>",
       "from_name": "Steffen Lauritzen",
       "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
-      "date": "2004-08-20T10:14:47+01:00",
+      "date": "2004-08-20T09:14:47Z",
       "subject": "[R--gR] Modelformulae",
       "subject_clean": "[R--gR] Modelformulae",
       "in_reply_to": null,
@@ -297,7 +297,7 @@
       "message_id": "<16677.54719.268290.408162@celebrian.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at tuwien.ac.at",
       "from_email_hash": "30d001dc747c04b1219ea5f62f9a8f3508c5053baeb93f159bc28cd315fb6ad9",
-      "date": "2004-08-20T12:43:11+02:00",
+      "date": "2004-08-20T10:43:11Z",
       "subject": "[R--gR] Modelformulae: reference?",
       "subject_clean": "[R--gR] Modelformulae: reference?",
       "in_reply_to": "<001c01c48685$11431d80$155601a3@SHELDUCK>",
@@ -317,7 +317,7 @@
       "message_id": "<20040820132502.258c4bf1.Achim.Zeileis@wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2004-08-20T13:25:02+02:00",
+      "date": "2004-08-20T11:25:02Z",
       "subject": "[R--gR] Modelformulae: reference?",
       "subject_clean": "[R--gR] Modelformulae: reference?",
       "in_reply_to": "<16677.40486.822232.432216@celebrian.ci.tuwien.ac.at>",
@@ -336,7 +336,7 @@
       "message_id": "<36A25802686476479FBE08B99D1C111C026B0178@exdkba023.novo.dk>",
       "from_name": "DED (David George Edwards)",
       "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
-      "date": "2004-08-20T13:34:49+02:00",
+      "date": "2004-08-20T11:34:49Z",
       "subject": "[R--gR] Modelformulae: reference?",
       "subject_clean": "[R--gR] Modelformulae: reference?",
       "in_reply_to": null,
@@ -352,7 +352,7 @@
       "message_id": "<x2vffem3qx.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2004-08-20T13:46:14+02:00",
+      "date": "2004-08-20T11:46:14Z",
       "subject": "[R--gR] Modelformulae: reference?",
       "subject_clean": "[R--gR] Modelformulae: reference?",
       "in_reply_to": "<16677.54719.268290.408162@celebrian.ci.tuwien.ac.at>",
@@ -373,7 +373,7 @@
       "message_id": "<20040820135346.5516b0ae.Achim.Zeileis@wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2004-08-20T13:53:46+02:00",
+      "date": "2004-08-20T11:53:46Z",
       "subject": "[R--gR] Modelformulae: reference?",
       "subject_clean": "[R--gR] Modelformulae: reference?",
       "in_reply_to": "<36A25802686476479FBE08B99D1C111C026B0178@exdkba023.novo.dk>",
@@ -395,8 +395,8 @@
       "participants": [
         "Steffen Lauritzen"
       ],
-      "started": "2004-08-11T11:48:49+01:00",
-      "last_reply": "2004-08-11T11:48:49+01:00",
+      "started": "2004-08-11T10:48:49Z",
+      "last_reply": "2004-08-11T10:48:49Z",
       "root_message_id": "msg-d1bafa458076"
     },
     {
@@ -406,8 +406,8 @@
       "participants": [
         "Steffen Lauritzen"
       ],
-      "started": "2004-08-11T12:21:30+01:00",
-      "last_reply": "2004-08-11T12:21:30+01:00",
+      "started": "2004-08-11T11:21:30Z",
+      "last_reply": "2004-08-11T11:21:30Z",
       "root_message_id": "msg-fccff74f2384"
     },
     {
@@ -417,8 +417,8 @@
       "participants": [
         "DED (David George Edwards)"
       ],
-      "started": "2004-08-11T14:49:03+02:00",
-      "last_reply": "2004-08-11T14:49:03+02:00",
+      "started": "2004-08-11T12:49:03Z",
+      "last_reply": "2004-08-11T12:49:03Z",
       "root_message_id": "msg-7728aaecb312"
     },
     {
@@ -428,8 +428,8 @@
       "participants": [
         "Søren Højsgaard"
       ],
-      "started": "2004-08-12T02:07:02+02:00",
-      "last_reply": "2004-08-12T02:07:02+02:00",
+      "started": "2004-08-12T00:07:02Z",
+      "last_reply": "2004-08-12T00:07:02Z",
       "root_message_id": "msg-109f05f825a6"
     },
     {
@@ -439,8 +439,8 @@
       "participants": [
         "Mathias Drton"
       ],
-      "started": "2004-08-17T15:46:40-07:00",
-      "last_reply": "2004-08-17T15:46:40-07:00",
+      "started": "2004-08-17T22:46:40Z",
+      "last_reply": "2004-08-17T22:46:40Z",
       "root_message_id": "msg-d1485c3e95bb"
     },
     {
@@ -450,8 +450,8 @@
       "participants": [
         "Claus Dethlefsen"
       ],
-      "started": "2004-08-19T08:18:49+02:00",
-      "last_reply": "2004-08-19T08:18:49+02:00",
+      "started": "2004-08-19T06:18:49Z",
+      "last_reply": "2004-08-19T06:18:49Z",
       "root_message_id": "msg-0a1fba60b1b3"
     },
     {
@@ -462,8 +462,8 @@
         "Poul Svante Eriksen",
         "Steffen Lauritzen"
       ],
-      "started": "2004-08-19T10:39:21+01:00",
-      "last_reply": "2004-08-20T10:14:47+01:00",
+      "started": "2004-08-19T09:39:21Z",
+      "last_reply": "2004-08-20T09:14:47Z",
       "root_message_id": "msg-ad9ac72c7d38"
     },
     {
@@ -475,8 +475,8 @@
         "David Meyer",
         "Steffen Lauritzen"
       ],
-      "started": "2004-08-19T14:44:19+02:00",
-      "last_reply": "2004-08-19T18:25:27+02:00",
+      "started": "2004-08-19T12:44:19Z",
+      "last_reply": "2004-08-19T16:25:27Z",
       "root_message_id": "msg-fc313dcb12f6"
     },
     {
@@ -486,8 +486,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2004-08-19T16:56:14+02:00",
-      "last_reply": "2004-08-19T16:56:14+02:00",
+      "started": "2004-08-19T14:56:14Z",
+      "last_reply": "2004-08-19T14:56:14Z",
       "root_message_id": "msg-16630eb0eb3b"
     },
     {
@@ -500,8 +500,8 @@
         "Peter Dalgaard",
         "Steffen Lauritzen"
       ],
-      "started": "2004-08-19T16:56:59+01:00",
-      "last_reply": "2004-08-20T13:46:14+02:00",
+      "started": "2004-08-19T15:56:59Z",
+      "last_reply": "2004-08-20T11:46:14Z",
       "root_message_id": "msg-02924cfd1d14"
     },
     {
@@ -512,8 +512,8 @@
         "Achim Zeileis",
         "DED (David George Edwards)"
       ],
-      "started": "2004-08-20T13:34:49+02:00",
-      "last_reply": "2004-08-20T13:53:46+02:00",
+      "started": "2004-08-20T11:34:49Z",
+      "last_reply": "2004-08-20T11:53:46Z",
       "root_message_id": "msg-29d0ee2c41c5"
     }
   ]

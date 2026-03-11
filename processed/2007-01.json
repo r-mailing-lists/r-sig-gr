@@ -8,7 +8,7 @@
       "message_id": "<45A78C34.7020205@unibo.it>",
       "from_name": "Alberto Roverato",
       "from_email_hash": "365fdf40556c99cdac2abbed47ce746da35e756d65c2d69d71008c9c117f36ba",
-      "date": "2007-01-12T14:25:08+01:00",
+      "date": "2007-01-12T13:25:08Z",
       "subject": "[R--gR] qp package",
       "subject_clean": "[R--gR] qp package",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Alberto Roverato"
       ],
-      "started": "2007-01-12T14:25:08+01:00",
-      "last_reply": "2007-01-12T14:25:08+01:00",
+      "started": "2007-01-12T13:25:08Z",
+      "last_reply": "2007-01-12T13:25:08Z",
       "root_message_id": "msg-8e2427065f6e"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Gabrielle Kelly"
       ],
-      "started": "2007-01-24T15:46:06+00:00",
-      "last_reply": "2007-01-24T15:46:06+00:00",
+      "started": "2007-01-24T15:46:06Z",
+      "last_reply": "2007-01-24T15:46:06Z",
       "root_message_id": "msg-1204a41fa3c6"
     }
   ]

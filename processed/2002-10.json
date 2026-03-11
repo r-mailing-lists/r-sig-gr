@@ -8,7 +8,7 @@
       "message_id": "<3D99CD2F.6D848FF7@math.auc.dk>",
       "from_name": "Steffen Lilholt Lauritzen",
       "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
-      "date": "2002-10-01T18:28:31+02:00",
+      "date": "2002-10-01T16:28:31Z",
       "subject": "[R--gR] Graph computations",
       "subject_clean": "[R--gR] Graph computations",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<3.0.6.32.20021002123249.00841ad0@mail.kubism.ku.dk>",
       "from_name": "Svend Kreiner",
       "from_email_hash": "5f4cbb34e189d0a61b38cdb84fbf7e11980f5b894069306d61a0e77f38056d15",
-      "date": "2002-10-02T12:32:49+02:00",
+      "date": "2002-10-02T10:32:49Z",
       "subject": "[R--gR] Graph computations",
       "subject_clean": "[R--gR] Graph computations",
       "in_reply_to": "<3D99CD2F.6D848FF7@math.auc.dk>",
@@ -40,7 +40,7 @@
       "message_id": "<FF503547C1F8D211BD2C0008C7C56401088FA82B@exdkba06.novo.dk>",
       "from_name": "DED (David George Edwards)",
       "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
-      "date": "2002-10-02T13:09:52+02:00",
+      "date": "2002-10-02T11:09:52Z",
       "subject": "[R--gR] Graph computations",
       "subject_clean": "[R--gR] Graph computations",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<15771.1971.98695.731447@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2002-10-02T16:50:27+02:00",
+      "date": "2002-10-02T14:50:27Z",
       "subject": "[R--gR] CFP: DSC 2003",
       "subject_clean": "[R--gR] CFP: DSC 2003",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<3DADCD6F.1C207CCD@ci.tuwien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
-      "date": "2002-10-16T22:34:55+02:00",
+      "date": "2002-10-16T20:34:55Z",
       "subject": "[R--gR] forthcoming R News article",
       "subject_clean": "[R--gR] forthcoming R News article",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<3DAE6B99.34A26563@math.auc.dk>",
       "from_name": "Steffen Lilholt Lauritzen",
       "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
-      "date": "2002-10-17T09:49:45+02:00",
+      "date": "2002-10-17T07:49:45Z",
       "subject": "[R--gR] gR 2003",
       "subject_clean": "[R--gR] gR 2003",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<3DB3BCDE.DD841DF2@math.auc.dk>",
       "from_name": "Steffen Lilholt Lauritzen",
       "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
-      "date": "2002-10-21T10:37:50+02:00",
+      "date": "2002-10-21T08:37:50Z",
       "subject": "[R--gR] gR2003",
       "subject_clean": "[R--gR] gR2003",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<3DB51C44.4500D4C3@math.auc.dk>",
       "from_name": "Steffen Lilholt Lauritzen",
       "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
-      "date": "2002-10-22T11:37:09+02:00",
+      "date": "2002-10-22T09:37:09Z",
       "subject": "[R--gR] Basic algorithms into R",
       "subject_clean": "[R--gR] Basic algorithms into R",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<200210241909.14755.gmm@ds.unifi.it>",
       "from_name": "Giovanni Marchetti",
       "from_email_hash": "87f0b91aa1cee73368614637b5397f20c621e8f9cfd63e0047b8404867a97672",
-      "date": "2002-10-24T19:09:14+02:00",
+      "date": "2002-10-24T17:09:14Z",
       "subject": "[R--gR] Model formulae for graphical models in R",
       "subject_clean": "[R--gR] Model formulae for graphical models in R",
       "in_reply_to": null,
@@ -152,7 +152,7 @@
       "message_id": "<3DBE4D03.F03F130A@math.auc.dk>",
       "from_name": "Steffen Lilholt Lauritzen",
       "from_email_hash": "2777db00253fe721b2aa6693aae70ab34fd3b6e4e80ee2a6e96132aa95f32999",
-      "date": "2002-10-29T09:55:31+01:00",
+      "date": "2002-10-29T08:55:31Z",
       "subject": "[R--gR] Lectures on Contingency Tables",
       "subject_clean": "[R--gR] Lectures on Contingency Tables",
       "in_reply_to": null,
@@ -173,8 +173,8 @@
         "Steffen Lilholt Lauritzen",
         "Svend Kreiner"
       ],
-      "started": "2002-10-01T18:28:31+02:00",
-      "last_reply": "2002-10-02T12:32:49+02:00",
+      "started": "2002-10-01T16:28:31Z",
+      "last_reply": "2002-10-02T10:32:49Z",
       "root_message_id": "msg-ca0e726a41ef"
     },
     {
@@ -184,8 +184,8 @@
       "participants": [
         "DED (David George Edwards)"
       ],
-      "started": "2002-10-02T13:09:52+02:00",
-      "last_reply": "2002-10-02T13:09:52+02:00",
+      "started": "2002-10-02T11:09:52Z",
+      "last_reply": "2002-10-02T11:09:52Z",
       "root_message_id": "msg-af1c67317771"
     },
     {
@@ -195,8 +195,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2002-10-02T16:50:27+02:00",
-      "last_reply": "2002-10-02T16:50:27+02:00",
+      "started": "2002-10-02T14:50:27Z",
+      "last_reply": "2002-10-02T14:50:27Z",
       "root_message_id": "msg-ab9feb8675ce"
     },
     {
@@ -206,8 +206,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2002-10-16T22:34:55+02:00",
-      "last_reply": "2002-10-16T22:34:55+02:00",
+      "started": "2002-10-16T20:34:55Z",
+      "last_reply": "2002-10-16T20:34:55Z",
       "root_message_id": "msg-cb7255d27789"
     },
     {
@@ -217,8 +217,8 @@
       "participants": [
         "Steffen Lilholt Lauritzen"
       ],
-      "started": "2002-10-17T09:49:45+02:00",
-      "last_reply": "2002-10-17T09:49:45+02:00",
+      "started": "2002-10-17T07:49:45Z",
+      "last_reply": "2002-10-17T07:49:45Z",
       "root_message_id": "msg-b7398d49144a"
     },
     {
@@ -228,8 +228,8 @@
       "participants": [
         "Steffen Lilholt Lauritzen"
       ],
-      "started": "2002-10-21T10:37:50+02:00",
-      "last_reply": "2002-10-21T10:37:50+02:00",
+      "started": "2002-10-21T08:37:50Z",
+      "last_reply": "2002-10-21T08:37:50Z",
       "root_message_id": "msg-d74627cc8c9f"
     },
     {
@@ -239,8 +239,8 @@
       "participants": [
         "Steffen Lilholt Lauritzen"
       ],
-      "started": "2002-10-22T11:37:09+02:00",
-      "last_reply": "2002-10-22T11:37:09+02:00",
+      "started": "2002-10-22T09:37:09Z",
+      "last_reply": "2002-10-22T09:37:09Z",
       "root_message_id": "msg-52881099f6c1"
     },
     {
@@ -250,8 +250,8 @@
       "participants": [
         "Giovanni Marchetti"
       ],
-      "started": "2002-10-24T19:09:14+02:00",
-      "last_reply": "2002-10-24T19:09:14+02:00",
+      "started": "2002-10-24T17:09:14Z",
+      "last_reply": "2002-10-24T17:09:14Z",
       "root_message_id": "msg-b8819321d207"
     },
     {
@@ -261,8 +261,8 @@
       "participants": [
         "Steffen Lilholt Lauritzen"
       ],
-      "started": "2002-10-29T09:55:31+01:00",
-      "last_reply": "2002-10-29T09:55:31+01:00",
+      "started": "2002-10-29T08:55:31Z",
+      "last_reply": "2002-10-29T08:55:31Z",
       "root_message_id": "msg-cb710f71840a"
     }
   ]

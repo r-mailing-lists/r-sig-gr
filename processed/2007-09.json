@@ -8,7 +8,7 @@
       "message_id": "<46DE9B84.70902@utia.cas.cz>",
       "from_name": "Jirka Vomlel",
       "from_email_hash": "bc14558219795df4378c28e03f07226c54189ff8cd27cfa4e84028f351e8b90f",
-      "date": "2007-09-05T14:05:24+02:00",
+      "date": "2007-09-05T12:05:24Z",
       "subject": "[R--gR] imset.R - a suite of functions for R (incl. learning BNs using imsets)",
       "subject_clean": "[R--gR] imset.R - a suite of functions for R (incl. learning BNs using imsets)",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<46E95E4D.9070502@utoronto.ca>",
       "from_name": "Nicholas Mitsakakis",
       "from_email_hash": "bd84d4fbc9addbd18a7cd8a845539ef326805c275dfdc38e79f0f9f4578901ff",
-      "date": "2007-09-13T11:59:09-04:00",
+      "date": "2007-09-13T15:59:09Z",
       "subject": "[R--gR] code for separators of (i,j)",
       "subject_clean": "[R--gR] code for separators of (i,j)",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Jirka Vomlel"
       ],
-      "started": "2007-09-05T14:05:24+02:00",
-      "last_reply": "2007-09-05T14:05:24+02:00",
+      "started": "2007-09-05T12:05:24Z",
+      "last_reply": "2007-09-05T12:05:24Z",
       "root_message_id": "msg-6ad4f171fdfa"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Nicholas Mitsakakis"
       ],
-      "started": "2007-09-13T11:59:09-04:00",
-      "last_reply": "2007-09-13T11:59:09-04:00",
+      "started": "2007-09-13T15:59:09Z",
+      "last_reply": "2007-09-13T15:59:09Z",
       "root_message_id": "msg-9044a3068b1b"
     }
   ]

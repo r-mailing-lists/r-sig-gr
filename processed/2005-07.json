@@ -8,7 +8,7 @@
       "message_id": "<20050702124631.5dbc8c61@elhalyn>",
       "from_name": "Marco Scutari",
       "from_email_hash": "bf9f53eedf3e08d2174cd9697a0930332f849a8aa3110d884f3c8122af261b6c",
-      "date": "2005-07-02T12:46:31+02:00",
+      "date": "2005-07-02T10:46:31Z",
       "subject": "[R--gR] Fw: gRbase bug in R 2.1.1",
       "subject_clean": "[R--gR] Fw: gRbase bug in R 2.1.1",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Marco Scutari"
       ],
-      "started": "2005-07-02T12:46:31+02:00",
-      "last_reply": "2005-07-02T12:46:31+02:00",
+      "started": "2005-07-02T10:46:31Z",
+      "last_reply": "2005-07-02T10:46:31Z",
       "root_message_id": "msg-f57ea63c7e02"
     }
   ]

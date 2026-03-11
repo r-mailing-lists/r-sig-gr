@@ -8,7 +8,7 @@
       "message_id": "<001901c4ab0d$19fdbb40$fe325c53@djf.agrsci.dk>",
       "from_name": "Søren Højsgaard",
       "from_email_hash": "aee38975fe40e4305ef1e575e6adb42932012ab4ac0540074ba35869cbf693e5",
-      "date": "2004-10-05T20:57:02+02:00",
+      "date": "2004-10-05T18:57:02Z",
       "subject": "[R--gR] Paper about mimR available in Journal of Statistical Software, http://www.jstatsoft.org/",
       "subject_clean": "[R--gR] Paper about mimR available in Journal of Statistical Software, http://www.jstatsoft.org/",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<002401c4ac37$7241f340$9230e182@math.auc.dk>",
       "from_name": "Claus Dethlefsen",
       "from_email_hash": "48e6709cd362023eb65ed9bec9662a1f01e94978d5c5ac385fbb13896d4bdc25",
-      "date": "2004-10-07T08:32:41+02:00",
+      "date": "2004-10-07T06:32:41Z",
       "subject": "[R--gR] FW: [BUGS] bugs.R for the new OpenBUGS",
       "subject_clean": "[R--gR] FW: [BUGS] bugs.R for the new OpenBUGS",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<Pine.LNX.4.58.0410191301350.21906@madrid1.stat.washington.edu>",
       "from_name": "Thomas Richardson",
       "from_email_hash": "3a89baea8ec50b4719ba5c5ea10e553e8795ca490dc96be194b6682829a4e4d5",
-      "date": "2004-10-19T13:19:18-07:00",
+      "date": "2004-10-19T20:19:18Z",
       "subject": "[R--gR] Open source packages for viewing and manipulating graphs",
       "subject_clean": "[R--gR] Open source packages for viewing and manipulating graphs",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<011101c4b633$21833210$a258a450@djf.agrsci.dk>",
       "from_name": "Søren Højsgaard",
       "from_email_hash": "aee38975fe40e4305ef1e575e6adb42932012ab4ac0540074ba35869cbf693e5",
-      "date": "2004-10-20T01:26:59+02:00",
+      "date": "2004-10-19T23:26:59Z",
       "subject": "[R--gR] Graphs and Metro's",
       "subject_clean": "[R--gR] Graphs and Metro's",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<1098274938.23026.10.camel@zapiron>",
       "from_name": "Castelo, Robert",
       "from_email_hash": "77ce66821939c8253ae8ffb04d8915f0c8af65eb5b6d4b996919be7b5afb946a",
-      "date": "2004-10-20T14:22:18+02:00",
+      "date": "2004-10-20T12:22:18Z",
       "subject": "[R--gR] Graphs and Metro's",
       "subject_clean": "[R--gR] Graphs and Metro's",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<200410210944.i9L9iVER007900@hypatia.math.ethz.ch>",
       "from_name": "XP Sun",
       "from_email_hash": "418ef7a1c865bbf87539f885da47b5ff7ab58f72c24a028ab15e12ead2755b16",
-      "date": "2004-10-21T17:44:27+08:00",
+      "date": "2004-10-21T09:44:27Z",
       "subject": "[R--gR] smooth=\"periodic.lowess\"???",
       "subject_clean": "[R--gR] smooth=\"periodic.lowess\"???",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<20041021121125.458f0b47.Achim.Zeileis@wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2004-10-21T12:11:25+02:00",
+      "date": "2004-10-21T10:11:25Z",
       "subject": "[R--gR] smooth=\"periodic.lowess\"???",
       "subject_clean": "[R--gR] smooth=\"periodic.lowess\"???",
       "in_reply_to": "<200410210944.i9L9iVER007900@hypatia.math.ethz.ch>",
@@ -122,7 +122,7 @@
       "message_id": "<36A25802686476479FBE08B99D1C111C026B01E5@exdkba023.novo.dk>",
       "from_name": "DED (David George Edwards)",
       "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
-      "date": "2004-10-26T09:43:40+02:00",
+      "date": "2004-10-26T07:43:40Z",
       "subject": "[R--gR] Model selection for high-dimensional graphical models",
       "subject_clean": "[R--gR] Model selection for high-dimensional graphical models",
       "in_reply_to": null,
@@ -142,8 +142,8 @@
       "participants": [
         "Søren Højsgaard"
       ],
-      "started": "2004-10-05T20:57:02+02:00",
-      "last_reply": "2004-10-05T20:57:02+02:00",
+      "started": "2004-10-05T18:57:02Z",
+      "last_reply": "2004-10-05T18:57:02Z",
       "root_message_id": "msg-bb1ac24943a9"
     },
     {
@@ -153,8 +153,8 @@
       "participants": [
         "Claus Dethlefsen"
       ],
-      "started": "2004-10-07T08:32:41+02:00",
-      "last_reply": "2004-10-07T08:32:41+02:00",
+      "started": "2004-10-07T06:32:41Z",
+      "last_reply": "2004-10-07T06:32:41Z",
       "root_message_id": "msg-65fe5584625c"
     },
     {
@@ -164,8 +164,8 @@
       "participants": [
         "Thomas Richardson"
       ],
-      "started": "2004-10-19T13:19:18-07:00",
-      "last_reply": "2004-10-19T13:19:18-07:00",
+      "started": "2004-10-19T20:19:18Z",
+      "last_reply": "2004-10-19T20:19:18Z",
       "root_message_id": "msg-57df0f8e3fe7"
     },
     {
@@ -175,8 +175,8 @@
       "participants": [
         "Søren Højsgaard"
       ],
-      "started": "2004-10-20T01:26:59+02:00",
-      "last_reply": "2004-10-20T01:26:59+02:00",
+      "started": "2004-10-19T23:26:59Z",
+      "last_reply": "2004-10-19T23:26:59Z",
       "root_message_id": "msg-d67e94d7bf0d"
     },
     {
@@ -186,8 +186,8 @@
       "participants": [
         "Castelo, Robert"
       ],
-      "started": "2004-10-20T14:22:18+02:00",
-      "last_reply": "2004-10-20T14:22:18+02:00",
+      "started": "2004-10-20T12:22:18Z",
+      "last_reply": "2004-10-20T12:22:18Z",
       "root_message_id": "msg-e60254a6dd0e"
     },
     {
@@ -198,8 +198,8 @@
         "Achim Zeileis",
         "XP Sun"
       ],
-      "started": "2004-10-21T17:44:27+08:00",
-      "last_reply": "2004-10-21T12:11:25+02:00",
+      "started": "2004-10-21T09:44:27Z",
+      "last_reply": "2004-10-21T10:11:25Z",
       "root_message_id": "msg-ecb7d1f32214"
     },
     {
@@ -209,8 +209,8 @@
       "participants": [
         "DED (David George Edwards)"
       ],
-      "started": "2004-10-26T09:43:40+02:00",
-      "last_reply": "2004-10-26T09:43:40+02:00",
+      "started": "2004-10-26T07:43:40Z",
+      "last_reply": "2004-10-26T07:43:40Z",
       "root_message_id": "msg-8dc3f3d805c3"
     }
   ]

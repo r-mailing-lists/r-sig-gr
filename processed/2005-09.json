@@ -8,7 +8,7 @@
       "message_id": "<6BF101DD28112F49B2BA7D7D730C4A320DC96A@exchange-srv1.stats.ox.ac.uk>",
       "from_name": "Steffen Lauritzen",
       "from_email_hash": "d49b3beb9eac86bfc0b6a9fd2781c42052cff9ece944db0ef8ee4cac80a30ebe",
-      "date": "2005-09-14T17:17:34+01:00",
+      "date": "2005-09-14T16:17:34Z",
       "subject": "[R--gR] FW: mixed graphical models",
       "subject_clean": "[R--gR] FW: mixed graphical models",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC808352B9407@EXDKBA021.corp.novocorp.net>",
       "from_name": "DED (David George Edwards)",
       "from_email_hash": "a3e0a44eaa1ece275bbd42f54c88163f5ddbb3d8d2ffce7bb36a7c267db9bb27",
-      "date": "2005-09-15T11:21:25+02:00",
+      "date": "2005-09-15T09:21:25Z",
       "subject": "[R--gR] FW: mixed graphical models",
       "subject_clean": "[R--gR] FW: mixed graphical models",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<000101c5bf5b$07ec1a10$e0fda8c0@ASUS>",
       "from_name": "Alberto Goldoni",
       "from_email_hash": "5d6048c1cd5403e0e3a8fd4e23e9e3d0e4880f2b408f1b219ab8b313dc8f7132",
-      "date": "2005-09-22T11:50:14+02:00",
+      "date": "2005-09-22T09:50:14Z",
       "subject": "[R--gR] Bayesian network package",
       "subject_clean": "[R--gR] Bayesian network package",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<Pine.GSO.4.58.0509241727160.4320@gram.math.aau.dk>",
       "from_name": "Claus Dethlefsen",
       "from_email_hash": "48e6709cd362023eb65ed9bec9662a1f01e94978d5c5ac385fbb13896d4bdc25",
-      "date": "2005-09-24T17:34:04+02:00",
+      "date": "2005-09-24T15:34:04Z",
       "subject": "[R--gR] Bayesian network package",
       "subject_clean": "[R--gR] Bayesian network package",
       "in_reply_to": "<000101c5bf5b$07ec1a10$e0fda8c0@ASUS>",
@@ -74,7 +74,7 @@
       "message_id": "<cdf8178305092516256fcd2b66@mail.gmail.com>",
       "from_name": "Weiwei Shi",
       "from_email_hash": "e71b4bfdcbaccdf2b4ce76c75550ea197804bdd777c37d227d93f8fb6c027d55",
-      "date": "2005-09-25T18:25:57-05:00",
+      "date": "2005-09-25T23:25:57Z",
       "subject": "[R--gR] Bayesian network package",
       "subject_clean": "[R--gR] Bayesian network package",
       "in_reply_to": "<Pine.GSO.4.58.0509241727160.4320@gram.math.aau.dk>",
@@ -97,8 +97,8 @@
       "participants": [
         "Steffen Lauritzen"
       ],
-      "started": "2005-09-14T17:17:34+01:00",
-      "last_reply": "2005-09-14T17:17:34+01:00",
+      "started": "2005-09-14T16:17:34Z",
+      "last_reply": "2005-09-14T16:17:34Z",
       "root_message_id": "msg-516242b40f09"
     },
     {
@@ -108,8 +108,8 @@
       "participants": [
         "DED (David George Edwards)"
       ],
-      "started": "2005-09-15T11:21:25+02:00",
-      "last_reply": "2005-09-15T11:21:25+02:00",
+      "started": "2005-09-15T09:21:25Z",
+      "last_reply": "2005-09-15T09:21:25Z",
       "root_message_id": "msg-1e0341809807"
     },
     {
@@ -121,8 +121,8 @@
         "Claus Dethlefsen",
         "Weiwei Shi"
       ],
-      "started": "2005-09-22T11:50:14+02:00",
-      "last_reply": "2005-09-25T18:25:57-05:00",
+      "started": "2005-09-22T09:50:14Z",
+      "last_reply": "2005-09-25T23:25:57Z",
       "root_message_id": "msg-0d746a63ff00"
     }
   ]

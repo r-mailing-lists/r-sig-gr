@@ -8,7 +8,7 @@
       "message_id": "<20090324145850.103920@gmx.net>",
       "from_name": "Mat_1 at gmx.net",
       "from_email_hash": "92f5f028ec672f3812f0e87cea70f0f515b00a5b89c9046ffe2dfd6fecb94a42",
-      "date": "2009-03-24T15:58:50+01:00",
+      "date": "2009-03-24T14:58:50Z",
       "subject": "[R--gR] Package for Discrete Bayesian Networks",
       "subject_clean": "[R--gR] Package for Discrete Bayesian Networks",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<gqioum$23d$1@ger.gmane.org>",
       "from_name": "Thomas Liebig",
       "from_email_hash": "755ef3d19e76535b013a69a662faa4006e23e3d9c785a593fe70b7f71f1d8e3b",
-      "date": "2009-03-27T15:45:18+01:00",
+      "date": "2009-03-27T14:45:18Z",
       "subject": "[R--gR] Package for Discrete Bayesian Networks",
       "subject_clean": "[R--gR] Package for Discrete Bayesian Networks",
       "in_reply_to": "<20090324145850.103920@gmx.net>",
@@ -42,7 +42,7 @@
       "message_id": "<gqiqvi$9ql$1@ger.gmane.org>",
       "from_name": "Thomas Liebig",
       "from_email_hash": "755ef3d19e76535b013a69a662faa4006e23e3d9c785a593fe70b7f71f1d8e3b",
-      "date": "2009-03-27T16:19:54+01:00",
+      "date": "2009-03-27T15:19:54Z",
       "subject": "[R--gR] Package for Discrete Bayesian Networks",
       "subject_clean": "[R--gR] Package for Discrete Bayesian Networks",
       "in_reply_to": "<gqioum$23d$1@ger.gmane.org>",
@@ -61,7 +61,7 @@
       "message_id": "<7812960C-5F4A-4EAE-AE2A-6C9B5604B38C@epfl.ch>",
       "from_name": "Kjell Konis",
       "from_email_hash": "66720a9d209599d24e647d92630253e95abfbd6e977b9bc29fa4cf3220fb11e3",
-      "date": "2009-03-28T14:41:53+01:00",
+      "date": "2009-03-28T13:41:53Z",
       "subject": "[R--gR] Package for Discrete Bayesian Networks",
       "subject_clean": "[R--gR] Package for Discrete Bayesian Networks",
       "in_reply_to": "<gqioum$23d$1@ger.gmane.org>",
@@ -80,7 +80,7 @@
       "message_id": "<20090331144010.135160@gmx.net>",
       "from_name": "Matthias Buehlmaier",
       "from_email_hash": "92f5f028ec672f3812f0e87cea70f0f515b00a5b89c9046ffe2dfd6fecb94a42",
-      "date": "2009-03-31T16:40:10+02:00",
+      "date": "2009-03-31T14:40:10Z",
       "subject": "[R--gR] Package for Discrete Bayesian Networks",
       "subject_clean": "[R--gR] Package for Discrete Bayesian Networks",
       "in_reply_to": null,
@@ -96,7 +96,7 @@
       "message_id": "<49D22F0C.1090607@cs.york.ac.uk>",
       "from_name": "James Cussens",
       "from_email_hash": "b056bdd396a36b1ff06582381cfbfa9d0e2e89a2b12db29ba140418783b81c86",
-      "date": "2009-03-31T15:56:12+01:00",
+      "date": "2009-03-31T14:56:12Z",
       "subject": "[R--gR] Package for Discrete Bayesian Networks",
       "subject_clean": "[R--gR] Package for Discrete Bayesian Networks",
       "in_reply_to": "<20090331144010.135160@gmx.net>",
@@ -120,8 +120,8 @@
         "Mat_1 at gmx.net",
         "Thomas Liebig"
       ],
-      "started": "2009-03-24T15:58:50+01:00",
-      "last_reply": "2009-03-28T14:41:53+01:00",
+      "started": "2009-03-24T14:58:50Z",
+      "last_reply": "2009-03-28T13:41:53Z",
       "root_message_id": "msg-9b86b5038586"
     },
     {
@@ -132,8 +132,8 @@
         "James Cussens",
         "Matthias Buehlmaier"
       ],
-      "started": "2009-03-31T16:40:10+02:00",
-      "last_reply": "2009-03-31T15:56:12+01:00",
+      "started": "2009-03-31T14:40:10Z",
+      "last_reply": "2009-03-31T14:56:12Z",
       "root_message_id": "msg-59993db699d1"
     }
   ]

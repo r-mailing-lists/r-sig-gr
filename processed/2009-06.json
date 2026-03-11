@@ -8,7 +8,7 @@
       "message_id": "<FECA6BD0-1EBF-4D02-A585-D2D52E21690F@unil.ch>",
       "from_name": "Alex Biedermann",
       "from_email_hash": "0b195b4223f5fbd8482413ac3a5a8ac926ce2c38ac490dc28609c616e8087d08",
-      "date": "2009-06-05T07:38:12+02:00",
+      "date": "2009-06-05T05:38:12Z",
       "subject": "[R--gR] installing Rgraphviz on mac",
       "subject_clean": "[R--gR] installing Rgraphviz on mac",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.LNX.4.64.0906050859230.24778@paninaro.stat-math.wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2009-06-05T09:02:13+02:00",
+      "date": "2009-06-05T07:02:13Z",
       "subject": "[R--gR] installing Rgraphviz on mac",
       "subject_clean": "[R--gR] installing Rgraphviz on mac",
       "in_reply_to": "<FECA6BD0-1EBF-4D02-A585-D2D52E21690F@unil.ch>",
@@ -42,7 +42,7 @@
       "message_id": "<4A28D3C3.30300@it.uu.se>",
       "from_name": "Virgil Stokes",
       "from_email_hash": "b6befdd31db58d8ca98bc491c3d0a7c4348d2320d7fa1da14df4802620c8f9f4",
-      "date": "2009-06-05T10:13:55+02:00",
+      "date": "2009-06-05T08:13:55Z",
       "subject": "[R--gR] General question.",
       "subject_clean": "[R--gR] General question.",
       "in_reply_to": null,
@@ -58,7 +58,7 @@
       "message_id": "<4A28D4E4.205@it.uu.se>",
       "from_name": "Virgil Stokes",
       "from_email_hash": "b6befdd31db58d8ca98bc491c3d0a7c4348d2320d7fa1da14df4802620c8f9f4",
-      "date": "2009-06-05T10:18:44+02:00",
+      "date": "2009-06-05T08:18:44Z",
       "subject": "[R--gR] General question.",
       "subject_clean": "[R--gR] General question.",
       "in_reply_to": "<4A28D3C3.30300@it.uu.se>",
@@ -76,7 +76,7 @@
       "message_id": "<4A28D76F.3080709@it.uu.se>",
       "from_name": "Virgil Stokes",
       "from_email_hash": "b6befdd31db58d8ca98bc491c3d0a7c4348d2320d7fa1da14df4802620c8f9f4",
-      "date": "2009-06-05T10:29:35+02:00",
+      "date": "2009-06-05T08:29:35Z",
       "subject": "[R--gR] Dynamic statistics graphics",
       "subject_clean": "[R--gR] Dynamic statistics graphics",
       "in_reply_to": null,
@@ -92,7 +92,7 @@
       "message_id": "<4A292352.4030205@it.uu.se>",
       "from_name": "Virgil Stokes",
       "from_email_hash": "b6befdd31db58d8ca98bc491c3d0a7c4348d2320d7fa1da14df4802620c8f9f4",
-      "date": "2009-06-05T15:53:22+02:00",
+      "date": "2009-06-05T13:53:22Z",
       "subject": "[R--gR] Dynamic statistics graphics",
       "subject_clean": "[R--gR] Dynamic statistics graphics",
       "in_reply_to": "<4A28E7EF.3070303@statistik.tu-dortmund.de>",
@@ -111,7 +111,7 @@
       "message_id": "<513861.59998.qm@web38307.mail.mud.yahoo.com>",
       "from_name": "FMH",
       "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
-      "date": "2009-06-18T02:20:24-07:00",
+      "date": "2009-06-18T09:20:24Z",
       "subject": "[R--gR] p-value for the parameter in ARIMA model with R",
       "subject_clean": "[R--gR] p-value for the parameter in ARIMA model with R",
       "in_reply_to": null,
@@ -127,7 +127,7 @@
       "message_id": "<124584AFB3A4D449834B67071ACCD55501A7D83D@scomp0040.wurnet.nl>",
       "from_name": "Lu, Kevin",
       "from_email_hash": "0a79678e7249a2c09899085032fab95965e0ee55ebc92d8ad4c58ad867e51e24",
-      "date": "2009-06-19T12:31:07+02:00",
+      "date": "2009-06-19T10:31:07Z",
       "subject": "[R--gR] deal package",
       "subject_clean": "[R--gR] deal package",
       "in_reply_to": null,
@@ -143,7 +143,7 @@
       "message_id": "<570893.37367.qm@web38302.mail.mud.yahoo.com>",
       "from_name": "FMH",
       "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
-      "date": "2009-06-22T08:56:55-07:00",
+      "date": "2009-06-22T15:56:55Z",
       "subject": "[R--gR] (no subject)",
       "subject_clean": "[R--gR] (no subject)",
       "in_reply_to": null,
@@ -159,7 +159,7 @@
       "message_id": "<17595.45665.qm@web38305.mail.mud.yahoo.com>",
       "from_name": "FMH",
       "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
-      "date": "2009-06-22T08:58:42-07:00",
+      "date": "2009-06-22T15:58:42Z",
       "subject": "[R--gR] standard error and p-value for the estimated parameter in AR model",
       "subject_clean": "[R--gR] standard error and p-value for the estimated parameter in AR model",
       "in_reply_to": null,
@@ -175,7 +175,7 @@
       "message_id": "<3495E138-B54E-489A-A299-2CA70C3BC536@epfl.ch>",
       "from_name": "Kjell Konis",
       "from_email_hash": "66720a9d209599d24e647d92630253e95abfbd6e977b9bc29fa4cf3220fb11e3",
-      "date": "2009-06-22T19:20:24+02:00",
+      "date": "2009-06-22T17:20:24Z",
       "subject": "[R--gR] standard error and p-value for the estimated parameter in AR model",
       "subject_clean": "[R--gR] standard error and p-value for the estimated parameter in AR model",
       "in_reply_to": "<17595.45665.qm@web38305.mail.mud.yahoo.com>",
@@ -193,7 +193,7 @@
       "message_id": "<195583.40081.qm@web53908.mail.re2.yahoo.com>",
       "from_name": "jaime chumacero",
       "from_email_hash": "600170cae5595e90bc7939f2fba010950ff45702e47202521252b8861f90706c",
-      "date": "2009-06-24T14:25:00-07:00",
+      "date": "2009-06-24T21:25:00Z",
       "subject": "[R--gR] how have software R?",
       "subject_clean": "[R--gR] how have software R?",
       "in_reply_to": null,
@@ -214,8 +214,8 @@
         "Achim Zeileis",
         "Alex Biedermann"
       ],
-      "started": "2009-06-05T07:38:12+02:00",
-      "last_reply": "2009-06-05T09:02:13+02:00",
+      "started": "2009-06-05T05:38:12Z",
+      "last_reply": "2009-06-05T07:02:13Z",
       "root_message_id": "msg-11c5ae49dcad"
     },
     {
@@ -225,8 +225,8 @@
       "participants": [
         "Virgil Stokes"
       ],
-      "started": "2009-06-05T10:13:55+02:00",
-      "last_reply": "2009-06-05T10:18:44+02:00",
+      "started": "2009-06-05T08:13:55Z",
+      "last_reply": "2009-06-05T08:18:44Z",
       "root_message_id": "msg-9cd6b6dffb90"
     },
     {
@@ -236,8 +236,8 @@
       "participants": [
         "Virgil Stokes"
       ],
-      "started": "2009-06-05T10:29:35+02:00",
-      "last_reply": "2009-06-05T10:29:35+02:00",
+      "started": "2009-06-05T08:29:35Z",
+      "last_reply": "2009-06-05T08:29:35Z",
       "root_message_id": "msg-5509898cbc7a"
     },
     {
@@ -247,8 +247,8 @@
       "participants": [
         "Virgil Stokes"
       ],
-      "started": "2009-06-05T15:53:22+02:00",
-      "last_reply": "2009-06-05T15:53:22+02:00",
+      "started": "2009-06-05T13:53:22Z",
+      "last_reply": "2009-06-05T13:53:22Z",
       "root_message_id": "msg-f0869285a256"
     },
     {
@@ -258,8 +258,8 @@
       "participants": [
         "FMH"
       ],
-      "started": "2009-06-18T02:20:24-07:00",
-      "last_reply": "2009-06-18T02:20:24-07:00",
+      "started": "2009-06-18T09:20:24Z",
+      "last_reply": "2009-06-18T09:20:24Z",
       "root_message_id": "msg-ef7fd8e666fe"
     },
     {
@@ -269,8 +269,8 @@
       "participants": [
         "Lu, Kevin"
       ],
-      "started": "2009-06-19T12:31:07+02:00",
-      "last_reply": "2009-06-19T12:31:07+02:00",
+      "started": "2009-06-19T10:31:07Z",
+      "last_reply": "2009-06-19T10:31:07Z",
       "root_message_id": "msg-190ffa213e98"
     },
     {
@@ -280,8 +280,8 @@
       "participants": [
         "FMH"
       ],
-      "started": "2009-06-22T08:56:55-07:00",
-      "last_reply": "2009-06-22T08:56:55-07:00",
+      "started": "2009-06-22T15:56:55Z",
+      "last_reply": "2009-06-22T15:56:55Z",
       "root_message_id": "msg-68c7063d9cdb"
     },
     {
@@ -292,8 +292,8 @@
         "FMH",
         "Kjell Konis"
       ],
-      "started": "2009-06-22T08:58:42-07:00",
-      "last_reply": "2009-06-22T19:20:24+02:00",
+      "started": "2009-06-22T15:58:42Z",
+      "last_reply": "2009-06-22T17:20:24Z",
       "root_message_id": "msg-567987669a66"
     },
     {
@@ -303,8 +303,8 @@
       "participants": [
         "jaime chumacero"
       ],
-      "started": "2009-06-24T14:25:00-07:00",
-      "last_reply": "2009-06-24T14:25:00-07:00",
+      "started": "2009-06-24T21:25:00Z",
+      "last_reply": "2009-06-24T21:25:00Z",
       "root_message_id": "msg-994c966f3632"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<EXCHANGEbYTHrdusluC00000ec0@exchange.systemsbiology.net>",
       "from_name": "Paul Shannon",
       "from_email_hash": "78971c7f2703c106b234dddfcc5a1bd4f1b7c391132fd4ebe777b72e3a47354e",
-      "date": "2003-12-18T06:24:19-08:00",
+      "date": "2003-12-18T14:24:19Z",
       "subject": "[R--gR] R data structure for network graphs?",
       "subject_clean": "[R--gR] R data structure for network graphs?",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<200312191200.26730.gmm@ds.unifi.it>",
       "from_name": "Giovanni Marchetti",
       "from_email_hash": "87f0b91aa1cee73368614637b5397f20c621e8f9cfd63e0047b8404867a97672",
-      "date": "2003-12-19T12:00:26+01:00",
+      "date": "2003-12-19T11:00:26Z",
       "subject": "[R--gR] R data structure for network graphs?",
       "subject_clean": "[R--gR] R data structure for network graphs?",
       "in_reply_to": "<EXCHANGEbYTHrdusluC00000ec0@exchange.systemsbiology.net>",
@@ -42,7 +42,7 @@
       "message_id": "<20031219200425.GA1149@64.81.242.180>",
       "from_name": "Jeremy Semeiks",
       "from_email_hash": "e02193491cf8072920e0ebaf0b46b3cce075524a9d7a4857ea1370f6e1c5ace9",
-      "date": "2003-12-19T12:04:26-08:00",
+      "date": "2003-12-19T20:04:26Z",
       "subject": "[R--gR] R data structure for network graphs?",
       "subject_clean": "[R--gR] R data structure for network graphs?",
       "in_reply_to": "<200312191200.26730.gmm@ds.unifi.it>",
@@ -67,8 +67,8 @@
         "Jeremy Semeiks",
         "Paul Shannon"
       ],
-      "started": "2003-12-18T06:24:19-08:00",
-      "last_reply": "2003-12-19T12:04:26-08:00",
+      "started": "2003-12-18T14:24:19Z",
+      "last_reply": "2003-12-19T20:04:26Z",
       "root_message_id": "msg-6161ce831357"
     }
   ]

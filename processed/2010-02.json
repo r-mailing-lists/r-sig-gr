@@ -8,7 +8,7 @@
       "message_id": "<918799.45619.qm@web38308.mail.mud.yahoo.com>",
       "from_name": "FMH",
       "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
-      "date": "2010-02-08T09:06:19-08:00",
+      "date": "2010-02-08T17:06:19Z",
       "subject": "[R--gR] Color intervals in image function (image.plot)",
       "subject_clean": "[R--gR] Color intervals in image function (image.plot)",
       "in_reply_to": "<bbdc7ed00909060720r4832e801v1903f268bd157140@mail.gmail.com>",
@@ -28,7 +28,7 @@
       "message_id": "<312327.72491.qm@web38303.mail.mud.yahoo.com>",
       "from_name": "FMH",
       "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
-      "date": "2010-02-08T09:45:06-08:00",
+      "date": "2010-02-08T17:45:06Z",
       "subject": "[R--gR] Color intervals in image.plot function",
       "subject_clean": "[R--gR] Color intervals in image.plot function",
       "in_reply_to": null,
@@ -44,7 +44,7 @@
       "message_id": "<381460.89359.qm@web38301.mail.mud.yahoo.com>",
       "from_name": "FMH",
       "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
-      "date": "2010-02-25T07:50:24-08:00",
+      "date": "2010-02-25T15:50:24Z",
       "subject": "[R--gR] How to extract one of four plots in a linear regression model",
       "subject_clean": "[R--gR] How to extract one of four plots in a linear regression model",
       "in_reply_to": "<49AE88C5-C26C-435F-94AF-562969CE406C@comcast.net>",
@@ -66,7 +66,7 @@
       "message_id": "<600833.36761.qm@web38307.mail.mud.yahoo.com>",
       "from_name": "FMH",
       "from_email_hash": "7dc73dc9655c3495c5c2085b66f550420f85772ba952c493f013b4a311119b8c",
-      "date": "2010-02-25T08:01:23-08:00",
+      "date": "2010-02-25T16:01:23Z",
       "subject": "[R--gR] How to add a title to represent four different plot in lm function",
       "subject_clean": "[R--gR] How to add a title to represent four different plot in lm function",
       "in_reply_to": null,
@@ -86,8 +86,8 @@
       "participants": [
         "FMH"
       ],
-      "started": "2010-02-08T09:06:19-08:00",
-      "last_reply": "2010-02-08T09:06:19-08:00",
+      "started": "2010-02-08T17:06:19Z",
+      "last_reply": "2010-02-08T17:06:19Z",
       "root_message_id": "msg-c7231d1409b5"
     },
     {
@@ -97,8 +97,8 @@
       "participants": [
         "FMH"
       ],
-      "started": "2010-02-08T09:45:06-08:00",
-      "last_reply": "2010-02-08T09:45:06-08:00",
+      "started": "2010-02-08T17:45:06Z",
+      "last_reply": "2010-02-08T17:45:06Z",
       "root_message_id": "msg-ccd765ea612b"
     },
     {
@@ -108,8 +108,8 @@
       "participants": [
         "FMH"
       ],
-      "started": "2010-02-25T07:50:24-08:00",
-      "last_reply": "2010-02-25T07:50:24-08:00",
+      "started": "2010-02-25T15:50:24Z",
+      "last_reply": "2010-02-25T15:50:24Z",
       "root_message_id": "msg-b4b19ecc2566"
     },
     {
@@ -119,8 +119,8 @@
       "participants": [
         "FMH"
       ],
-      "started": "2010-02-25T08:01:23-08:00",
-      "last_reply": "2010-02-25T08:01:23-08:00",
+      "started": "2010-02-25T16:01:23Z",
+      "last_reply": "2010-02-25T16:01:23Z",
       "root_message_id": "msg-63db6e6f2828"
     }
   ]

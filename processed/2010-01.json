@@ -8,7 +8,7 @@
       "message_id": "<124584AFB3A4D449834B67071ACCD55501A7D9C4@scomp0040.wurnet.nl>",
       "from_name": "Lu, Kevin",
       "from_email_hash": "0a79678e7249a2c09899085032fab95965e0ee55ebc92d8ad4c58ad867e51e24",
-      "date": "2010-01-27T08:12:16+01:00",
+      "date": "2010-01-27T07:12:16Z",
       "subject": "[R--gR] meta-analysis",
       "subject_clean": "[R--gR] meta-analysis",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Lu, Kevin"
       ],
-      "started": "2010-01-27T08:12:16+01:00",
-      "last_reply": "2010-01-27T08:12:16+01:00",
+      "started": "2010-01-27T07:12:16Z",
+      "last_reply": "2010-01-27T07:12:16Z",
       "root_message_id": "msg-d29f180b71c5"
     }
   ]

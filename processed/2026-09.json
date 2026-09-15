@@ -1,0 +1,46 @@
+{
+  "list": "r-sig-gr",
+  "description": "",
+  "month": "2026-09",
+  "messages": [
+    {
+      "id": "msg-7c34af49afc3",
+      "message_id": "<fe72800b6f78a3dd731a337907e23dd0@transmittingscience.com>",
+      "from_name": "Soledad De Esteban-Trivigno",
+      "from_email_hash": "8f86d344535c2d752798833f8aa7b9b289c3f06b2847533734edeade3b9f0d42",
+      "date": "2026-09-14T18:07:59Z",
+      "subject": "[R--gR] Live Online Course: Introduction to R",
+      "subject_clean": "[R--gR] Live Online Course: Introduction to R",
+      "in_reply_to": "<b13fa8e394c52e8ae872dc14ec51bbbf@transmittingscience.com>",
+      "references": [
+        "<a9d01108704f290a8ccef327e03f6622@transmittingscience.com>",
+        "<94b15d0114808b797550656ab165c2e8@transmittingscience.com>",
+        "<5f9f68696e000ed3ea78c1c6ec980972@transmittingscience.com>",
+        "<104c1d2ab5fc0d202f3e6089f916cf5f@transmittingscience.com>",
+        "<153f2913eb1756295f4b924b815055bf@transmittingscience.com>",
+        "<92caafd8df9cb30e250e8937bec1a4ac@transmittingscience.com>",
+        "<e6004d2e0333a70d067abc97fd96c5ce@transmittingscience.com>",
+        "<c32dae92e944c97658f4f79e8aa30d25@transmittingscience.com>",
+        "<b13fa8e394c52e8ae872dc14ec51bbbf@transmittingscience.com>"
+      ],
+      "body_plain": "Dear colleagues,\n\nRegistration is open for the Transmitting Science live online course \n\"Introduction to R: starting from scratch\".\n\nCourse webpage:\nhttps://www.transmittingscience.com/courses/statistics-and-bioinformatics/introduction-r/ \n[1]\n\nCourse overview:\nThis course offers a hands-on introduction to R for people who have \nnever used it before. Through live-coding demonstrations, guided \nexercises, and practical examples, participants will get comfortable \nnavigating R, working with real data, and writing their own code -- \nbuilding a foundation that carries directly into their own research.\nBeyond the basics of R syntax and data structures, the course also \nintroduces good coding practices for reproducible and efficient \nworkflows, and equips participants to troubleshoot problems and make the \nmost of the wider R community.\n\nHighlights:\n\n  \t* R and RStudio orientation (data structures, packages, functions)\n  \t* Reading and inspecting data\n  \t* Data management (cleaning, subsetting, summarising, joining)\n  \t* Data visualisation with ggplot2\n  \t* Writing custom functions\n\nFor queries, please write to courses at transmittingscience.com.\n\nBest regards,\n\nSole\n\n-- \nSoledad De Esteban-Trivigno, PhD\nDirector\nTransmitting Science\nwww.transmittingscience.com/courses\n\nBluesky @soledeesteban.bsky.social\nX @SoleDeEsteban\nOrcid: https://orcid.org/0000-0002-2049-0890\n\n\n\nLinks:\n------\n[1] \nhttps://www.transmittingscience.com/courses/statistics-and-bioinformatics/introduction-r/\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear colleagues,\n\nRegistration is open for the Transmitting Science live online course \n\"Introduction to R: starting from scratch\".\n\nCourse webpage:\nhttps://www.transmittingscience.com/courses/statist",
+      "thread_id": "thread-7c34af49afc3",
+      "thread_depth": 0,
+      "month": "2026-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7c34af49afc3",
+      "subject": "[R--gR] Live Online Course: Introduction to R",
+      "message_count": 1,
+      "participants": [
+        "Soledad De Esteban-Trivigno"
+      ],
+      "started": "2026-09-14T18:07:59Z",
+      "last_reply": "2026-09-14T18:07:59Z",
+      "root_message_id": "msg-7c34af49afc3"
+    }
+  ]
+}

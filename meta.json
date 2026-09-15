@@ -2,10 +2,10 @@
   "list": "r-sig-gr",
   "description": "",
   "source_url": "",
-  "total_messages": 176,
+  "total_messages": 177,
   "first_message": "2002-09-18T16:28:49Z",
-  "last_message": "2025-11-23T17:57:41Z",
-  "total_threads": 123,
+  "last_message": "2026-09-14T18:07:59Z",
+  "total_threads": 124,
   "months_available": [
     "2002-09",
     "2002-10",
@@ -65,6 +65,7 @@
     "2024-08",
     "2024-09",
     "2025-09",
-    "2025-11"
+    "2025-11",
+    "2026-09"
   ]
 }

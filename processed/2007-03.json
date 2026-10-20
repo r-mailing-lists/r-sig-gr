@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] BRugs speed issue",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070306/fee7b1fa/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070306/fee7b1fa/attachment.pl",
+      "body_plain": "Hi,\n\n    I emailed Bob O'Hara from the OpenBugs site to originally ask this\nquestion and he referred me to you. I'm currently using WinBugs for an\nintroduction to Bayesian statistics course, and was suggested to try using\nthe BRugs package to write sensitivity analysis scripts. However, the model\nis running around 4 times slower using the BRugs interface compared to\nWinBugs. Is this typically the case? In general are there types of models\nthat are either better off running in WinBugs, or if I'm determined to do it\nin R I should be prepared to let it run overnight? I made sure I was running\nthe most current versions of R and BRugs.\n\nThank you for your time,\n\n-Robin Jeffries\nM.S. Candidate\nDepartment of Biostatistics\nUniversity of California, Los Angeles\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\n\n    I emailed Bob O'Hara from the OpenBugs site to originally ask this\nquestion and he referred me to you. I'm currently using WinBugs for an\nintroduction to Bayesian statistics course, and was s",
       "thread_id": "thread-626d247eb858",
       "thread_depth": 0,
-      "month": "2007-03"
+      "month": "2007-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070306/fee7b1fa/attachment.pl"
+      ]
     },
     {
       "id": "msg-1f05bf4c7c97",
@@ -29,11 +32,14 @@
       "subject_clean": "[R--gR] Quant Reg Plotting Routines",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070320/59012cd1/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070320/59012cd1/attachment.pl",
+      "body_plain": "Hi there,\nI want to plot two quant reg objects in one figure. For example:\nplot(summary(rq(......))), plots an object to one figure,\nplot(....                       ))), plots a second object to a second figure.\nWhat I want to do is to have these two objects in one figure.\nAny help???? \ngp\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi there,\nI want to plot two quant reg objects in one figure. For example:\nplot(summary(rq(......))), plots an object to one figure,\nplot(....                       ))), plots a second object to a sec",
       "thread_id": "thread-1f05bf4c7c97",
       "thread_depth": 0,
-      "month": "2007-03"
+      "month": "2007-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070320/59012cd1/attachment.pl"
+      ]
     },
     {
       "id": "msg-562b3eb80f6f",

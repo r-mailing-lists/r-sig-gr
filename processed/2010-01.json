@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] meta-analysis",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20100127/fd04b43a/attachment.ksh>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20100127/fd04b43a/attachment.ksh>",
+      "body_plain": "To someone who could help me:\n \nI am a PhD student, working in the Wageningen University, the\nNetherlands.  I am now using metafor package to do meta-analysis. \n \nSince there are few studies conducted on my topic, I have to combine the\nresults from 5 case-control studies and 1 cohort study. But I do not\nknow how to do it.\n \nI tried this way, first, use the escalc (measure=\"OR\", ai, bi, ci, gi)\nto calculate the effect estimate of yi and variance of vi.\n \nI could extract the RR and 95% confidence interval from the cohort study\nto get the point estimate of LnRR and SE.\n \nbut I can not combine the results from case-control study and the\nresults from cohort study due to the difference of vi and SE.\n \nFor example, if I use rma(yi, vi, data,), I can not get vi (variance)\nfor the cohort study. I can only get SE for cohort study. How could\nsolve it?\n \nThanks for your time.\n \nBest wishes,\n \nYingchang (Kevin) Lu\n\nPhD student,\n\nDivision of Human Nutrition\n\nWageningen University\n\nTel: 0031-317-485300\n\nFax:0031-317-482782\n\nhttp://www.hne.wur.nl/UK/Organisation/nutrition-metabolism-genomics\n<http://www.hne.wur.nl/UK/Organisation/nutrition-metabolism-genomics/> \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "To someone who could help me:\n \nI am a PhD student, working in the Wageningen University, the\nNetherlands.  I am now using metafor package to do meta-analysis. \n \nSince there are few studies conducted",
       "thread_id": "thread-d29f180b71c5",
       "thread_depth": 0,
-      "month": "2010-01"
+      "month": "2010-01",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20100127/fd04b43a/attachment.ksh"
+      ]
     }
   ],
   "threads": [

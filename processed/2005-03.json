@@ -77,11 +77,14 @@
       "subject_clean": "[R--gR] locfit",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050330/a61488c9/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050330/a61488c9/attachment.pl",
+      "body_plain": "Hallo all,\ncan somebody tell me if is possible use the locfit function to fit a \nsemiparametric model. I need to  use two explicative variables and one of \nthem is a dummy variable.\nThanks Michele\n\n\n\n\n\t\t\t\t\n---------------------------------\n\n Giochi, Rubrica… Scaricalo ora! \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hallo all,\ncan somebody tell me if is possible use the locfit function to fit a \nsemiparametric model. I need to  use two explicative variables and one of \nthem is a dummy variable.\nThanks Michele\n\n\n\n",
       "thread_id": "thread-23f6b6f4ad49",
       "thread_depth": 0,
-      "month": "2005-03"
+      "month": "2005-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050330/a61488c9/attachment.pl"
+      ]
     },
     {
       "id": "msg-23cd2e120ab7",

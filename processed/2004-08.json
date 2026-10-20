@@ -45,11 +45,14 @@
       "subject_clean": "[R--gR] MIM now open source",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040811/a08ebe2c/attachment.ksh",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040811/a08ebe2c/attachment.ksh",
+      "body_plain": "Dear gRs\n\n> Just a note to say that a new release of MIM, version 3.2, has been released (see www.hypergraph.dk). The most important change is that it is now non-commercial and open source (GNU public license) so the code can be examined and modified as required (under certain conditions). It is written in Borland Delphi (an object-oriented extension to pascal not unlike C++).\n> \n> Best regards\n> David Edwards\n> \n> \n> Novo Nordisk A/S\n> Novo Allé\n> 2880 Bagsvaerd\n> Denmark\n> +45 4444 8888 (phone)\n> \n> This e-mail (including any attachments) is intended for the addressee(s) stated above only and may contain confidential information protected by law. You are hereby notified that any unauthorised reading, disclosure, copying or distribution of this e-mail or use of information contained herein is strictly prohibited and may violate rights to proprietary information. If you are not an intended recipient, please return this e-mail to the sender and delete it immediately hereafter. Thank you.\n> \n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear gRs\n\n> Just a note to say that a new release of MIM, version 3.2, has been released (see www.hypergraph.dk). The most important change is that it is now non-commercial and open source (GNU public",
       "thread_id": "thread-7728aaecb312",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040811/a08ebe2c/attachment.ksh"
+      ]
     },
     {
       "id": "msg-109f05f825a6",
@@ -61,11 +64,14 @@
       "subject_clean": "[R--gR] New version of mimR",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040812/cdd21964/attachment.asc",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040812/cdd21964/attachment.asc",
+      "body_plain": "Dear all,\n\nVersion 1.2 of mimR is now on CRAN. This version, unfortunately, does not work (!) with the newest version of MIM (MIM version 3.2) - due to changes in the way the MIM program communciates with other programs. A new version of mimR (version 1.2.1) should be available on CRAN within the next day or so, and this version works with with the newest version of MIM. Moreover, the communication with MIM is considerably faster, so there are good reasons to update both mimR and MIM.\n\nAnother thing: I get some feedback from mimR users, but I really have no idea how many people use mimR - not to mention what their experiences are. So please feel free to send me comments...\n\nBest regards\nSøren\n\n============================================================================================= \nSøren Højsgaard,  MSc, PhD (Statistics),        Phone: +45 8999 1703 \nHead of Biometry Research Unit,                 Fax:     +45 8999 1300 \nDanish Institute of Agricultural Sciences       E-mail: sorenh at agrsci.dk \nResearch Centre Foulum, DK-8830 Tjele, Denmark  Homepage : http://www.jbs.agrsci.dk/~sorenh/ \n\n.... Time flies like an arrow, fruit flies like a banana ....\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n\nVersion 1.2 of mimR is now on CRAN. This version, unfortunately, does not work (!) with the newest version of MIM (MIM version 3.2) - due to changes in the way the MIM program communciates ",
       "thread_id": "thread-109f05f825a6",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040812/cdd21964/attachment.asc"
+      ]
     },
     {
       "id": "msg-d1485c3e95bb",

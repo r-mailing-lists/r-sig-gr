@@ -116,11 +116,14 @@
       "subject_clean": "[R--gR] p-value for the parameter in ARIMA model with R",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090618/af1ed6f8/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090618/af1ed6f8/attachment.pl>",
+      "body_plain": "Dear All,\n\nI decided to use an AR(1) model for the residual series and trying to find the p-value for each parameter by using arima command in R, but i never find it from the output. The output gives me the parameter and mean's value, its standard error, estaimated variance, AIC and loglikehood, but no p-value is given.\n\nWhat i did was, i assign the residuals into the 'residual' variable in R, i then use' arima(residual, order = c(1,0,0))' to compute the parameter and mean values.\n\nCould someone help me?\n\nThank you\nFir\n\n\n\n      \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All,\n\nI decided to use an AR(1) model for the residual series and trying to find the p-value for each parameter by using arima command in R, but i never find it from the output. The output gives ",
       "thread_id": "thread-ef7fd8e666fe",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090618/af1ed6f8/attachment.pl"
+      ]
     },
     {
       "id": "msg-190ffa213e98",
@@ -132,11 +135,14 @@
       "subject_clean": "[R--gR] deal package",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090619/cb345b51/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090619/cb345b51/attachment.pl>",
+      "body_plain": "Dear all,\n\nI learn something from my colleagues about the beauty of Bayesian\nnetwork. I want to use the deal package to analyze my genetic data. I\nhave 3575 subjects. For each subject, I have 20 genetic marker\ninformation (discrete, three levels) and his or her plasma cholesterol\nlevels (continuous). I want to construct the markov blanket of plasma\ncholesterol levels. I tried the deal in my computer and computer\ncluster. Due to so many genetic markers, I can not successfully pass the\ncalculation of the prior probability of my network. The maximum\nvariables I could put into the network is about 12. I can not add more.\n\nThe algorithms (gs, iamb, hc) in bnlearn package can not deal the\ndiscete and continuous variables at the same time. Could someone give me\nsome suggestions how I should do it? \n\nThanks in advanve,\n\nKevin\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n\nI learn something from my colleagues about the beauty of Bayesian\nnetwork. I want to use the deal package to analyze my genetic data. I\nhave 3575 subjects. For each subject, I have 20 genet",
       "thread_id": "thread-190ffa213e98",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090619/cb345b51/attachment.pl"
+      ]
     },
     {
       "id": "msg-68c7063d9cdb",
@@ -148,11 +154,14 @@
       "subject_clean": "[R--gR] (no subject)",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/2ec335e9/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/2ec335e9/attachment.pl>",
+      "body_plain": "Dear All,\n\nI used an  AR(1) model to explain the process of the stationary residual and have used an 'ar' command in R. From the results, i tried to extract the standard error and p-value for the estimated parameter, but unfortunately, i never find any way to extract  it from the output. \n\nWhat i did was, i assigned the residuals into the 'residual' object in R and used an 'ar' function as below. \n\n> residual <- residuals\n> ar(residual, aic = TRUE,  method = \"mle\", order.max = 1) \n\nCould someone help me to extract the stadard error and the p-value for the estimated parameter, please?\n\nThank you\n\nFir\n\n\n      \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All,\n\nI used an  AR(1) model to explain the process of the stationary residual and have used an 'ar' command in R. From the results, i tried to extract the standard error and p-value for the esti",
       "thread_id": "thread-68c7063d9cdb",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/2ec335e9/attachment.pl"
+      ]
     },
     {
       "id": "msg-567987669a66",
@@ -164,11 +173,14 @@
       "subject_clean": "[R--gR] standard error and p-value for the estimated parameter in AR model",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/026f7bb4/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/026f7bb4/attachment.pl>",
+      "body_plain": "Dear All,\n\nI used an  AR(1) model to explain the process of the stationary residuals and have used an 'ar' command in R. From the results, i tried to extract the standard error and p-value for the estimated parameter, but unfortunately, i never find any way to extract  it from the output. \n\nWhat i did was, i assigned the residuals into the 'residual' object in R and used an 'ar' function as below. \n\n> residual <- residuals\n> ar(residual, aic = TRUE,  method = \"mle\", order.max = 1) \n\nCould someone help me to extract the stadard error and the p-value for the estimated parameter, please?\n\nThank you\n\nFir\n\n\n\n      \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All,\n\nI used an  AR(1) model to explain the process of the stationary residuals and have used an 'ar' command in R. From the results, i tried to extract the standard error and p-value for the est",
       "thread_id": "thread-567987669a66",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/026f7bb4/attachment.pl"
+      ]
     },
     {
       "id": "msg-aea06f2aa1e2",
@@ -198,11 +210,14 @@
       "subject_clean": "[R--gR] how have software R?",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090624/e2a0f348/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090624/e2a0f348/attachment.pl>",
+      "body_plain": "I'll like have this software, but also this manuals y other\n\nJaime Chumacero \n\n\n\n\n      ____________________________________________________________________________________\n[[elided Yahoo spam]]\nDescarga gratis el nuevo Internet Explorer 8. \n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I'll like have this software, but also this manuals y other\n\nJaime Chumacero \n\n\n\n\n      ____________________________________________________________________________________\n[[elided Yahoo spam]]\nDesca",
       "thread_id": "thread-994c966f3632",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090624/e2a0f348/attachment.pl"
+      ]
     }
   ],
   "threads": [

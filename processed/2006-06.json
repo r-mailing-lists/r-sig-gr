@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] Help needed using lattice for area plots lpolygon, xyplot.",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060607/af7f4113/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060607/af7f4113/attachment.pl",
+      "body_plain": "I am trying to learn how to use the graphics from the lattice package ( \nand am very new to R). \n\nI am trying to replicate the example plot referenced below, by using the \nlattice xyplot & lpolygon to create panels.  I get what appears to be the \ncorrect shape of the filled region, but cannot get the position to overlay \nproperly.  I have attempted with various settings of position.  ( i.e. \nposition = c(0,0,1,1)  etc settings as well.   I am not understanding \nsomething about the positioning panels.  I am missing some subtle \ndifference between polygon & lpolygon, or am missing something about panel \noverlays &/or panel postions.\n\n#http://addictedtor.free.fr/graphiques/graphcode.php?graph=7. \npar(bg=\"white\") \nn <- 100\nset.seed(43214) #just so we have the same exact graph\nx <- c(0,cumsum(rnorm(n))) \ny <- c(0,cumsum(rnorm(n))) \nxx <- c(0:n, n:0)\nyy <- c(x, rev(y)) \nplot(xx, yy, type=\"n\", xlab=\"Time\", ylab=\"Distance\") \npolygon(xx, yy, col=\"gray\") \ntitle(\"Distance Between Brownian Motions\") \n\n\n\n# using lattice.\np1 <- xyplot( yy~xx,type='l');\np2 <- lpolygon(xx,yy,col='blue');\nprint(p1,position=c(0,0,1,1), more=TRUE);\nprint(p2,position=c(0,0,1,1));\n\n\n\n\n\n------------------------------------------------------------\nCONFIDENTIALITY NOTICE: This electronic mail transmission (i...{{dropped}}",
+      "body_snippet": "I am trying to learn how to use the graphics from the lattice package ( \nand am very new to R). \n\nI am trying to replicate the example plot referenced below, by using the \nlattice xyplot & lpolygon to",
       "thread_id": "thread-e8dcd3de712b",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060607/af7f4113/attachment.pl"
+      ]
     },
     {
       "id": "msg-e8d31a7eda22",

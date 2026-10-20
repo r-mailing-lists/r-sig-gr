@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] COMPUTING FOR GRAPHICAL MODELS, 16 December 2011, RSS, London",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20111111/22702b38/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20111111/22702b38/attachment.pl>",
+      "body_plain": "Computing for Graphical Models\n\n16 December 2011\n\nRoyal Statistical Society,  London\n\nOne day meeting of the Statistical Computing Section\n\n\n\nDetails and registration at\n\nhttp://tinyurl.com/RSS16December\n\n\n\nGraphical models has expanded substantially over the past decade with the analysis of large data sets, in particular from bioinformatics and retail, with developments of inference in relation to causality, and with applications involving complex data structures. The ubiquitous nature of conditional independence has meant these models are applied in many different subjects. Computing for graphical models has always been difficult but recently user friendly open source software has become available.\n\n\n\nThis meeting provides a platform to review the current provision and to elucidate remaining challenges in making graphical modelling more accessible to the wider scientific community.\n\n\n\nContact: joe.whittaker at lancaster.ac.uk<mailto:joe.whittaker at lancaster.ac.uk>\n\n==============================================================\nDr Neil H. Spencer\nPrincipal Lecturer in Statistics\nDirector of Statistical Services and Consultancy Unit\n\nBusiness School, University of Hertfordshire,\nde Havilland campus, Hatfield,\nHertfordshire, AL10 9AB, U.K.\n\nStatistical Services and Consultancy Unit Contact Details:\nTelephone: +44 (0) 1707 285574; Fax: +44 (0) 1707 285455\nE-mail: statistics at herts.ac.uk<http://statistics at herts.ac.uk>; WWW: http://go.herts.ac.uk/sscu\n\nPersonal Contact Details:\nTelephone: +44 (0) 1707 285529; Fax: +44 (0) 1707 285455\nE-mail: N.H.Spencer at herts.ac.uk<http://N.H.Spencer at herts.ac.uk>; WWW: http://go.herts.ac.uk/NeilSpencer\n==============================================================\ngetstats - A society in which our lives and choices are enriched by an understanding of statistics.\nGo to http://www.getstats.org.uk<http://www.getstats.org.uk/> for more information.\n==============================================================\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Computing for Graphical Models\n\n16 December 2011\n\nRoyal Statistical Society,  London\n\nOne day meeting of the Statistical Computing Section\n\n\n\nDetails and registration at\n\nhttp://tinyurl.com/RSS16Decem",
       "thread_id": "thread-5d28fe38687c",
       "thread_depth": 0,
-      "month": "2011-11"
+      "month": "2011-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20111111/22702b38/attachment.pl"
+      ]
     }
   ],
   "threads": [

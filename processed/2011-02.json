@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] mai in par",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110223/ce1bb859/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110223/ce1bb859/attachment.pl>",
+      "body_plain": "Dear R users,\n\nIn using par, it seems one can adjust the plot location using mai. but what\nis the unit for the number used in mai? Can I normalize it to the interval\n(0,1)? Thank you very much for any help in advance.\n\nwith best regards,\n\nChun\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear R users,\n\nIn using par, it seems one can adjust the plot location using mai. but what\nis the unit for the number used in mai? Can I normalize it to the interval\n(0,1)? Thank you very much for any",
       "thread_id": "thread-710982045492",
       "thread_depth": 0,
-      "month": "2011-02"
+      "month": "2011-02",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110223/ce1bb859/attachment.pl"
+      ]
     },
     {
       "id": "msg-2fa1323ee0a5",

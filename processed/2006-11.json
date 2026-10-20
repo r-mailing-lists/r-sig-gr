@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] how to do a principle component analysis with geo-referenced points",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20061110/3324b10c/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20061110/3324b10c/attachment.pl",
+      "body_plain": "Dear friends,\n\nI wanted to know how to do a principle component analysis (PCA) from\ngeo-referenced points.\n\nI have a list like:\n\ngeo$xy with coordinates,\n\nand geo$data with the data that I want to do the analysis\n\n…is this right?\n\n \n\n \n\n+++++++++++++++++++++++++++++++\n\nCarlos GUERRA\n\n \n\nInstituto Politécnico de Viana do Castelo\n\nEscola Superior Agrária de Ponte de Lima\n\n \n\nMosteiro de Refóios do Lima\n\n4990-706 Ponte de Lima\n\nPORTUGAL\n\n \n\nMAIL: carlosguerra at esa.ipvc.pt\n\nTEL: +351 912 407 109\n\n+++++++++++++++++++++++++++++++\n\n \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear friends,\n\nI wanted to know how to do a principle component analysis (PCA) from\ngeo-referenced points.\n\nI have a list like:\n\ngeo$xy with coordinates,\n\nand geo$data with the data that I want to do ",
       "thread_id": "thread-f56d9dab0943",
       "thread_depth": 0,
-      "month": "2006-11"
+      "month": "2006-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20061110/3324b10c/attachment.pl"
+      ]
     }
   ],
   "threads": [

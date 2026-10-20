@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] Manish (India)",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070831/704522fe/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070831/704522fe/attachment.pl",
+      "body_plain": "Respected Sir,\nI am working on Graph Theory in the Field of Bioinformatics. I am using\nGraph for R Package but I am not able to make a graph with this following\ndata . Can you help me? I will be really thankful to you .\nManish Gupta\n(M.Sc Bioinformatics IV sem )\nJamia Millia Islamia\n\ntype node1  type node2    here node1 and node 2 are interacting .Please Sir\ndo help me.\nDIP:100E    DIP:376N\nDIP:103E    DIP:376N\nDIP:123E    DIP:41N\nDIP:124E    DIP:365N\nDIP:125E    DIP:671N\nDIP:126E    DIP:744N\nDIP:127E    DIP:744N\nDIP:128E    DIP:744N\nDIP:129E    DIP:823N\nDIP:130E    DIP:753N\nDIP:133E    DIP:25N\nDIP:134E    DIP:25N\nDIP:135E    DIP:970N\nDIP:136E    DIP:25N\nDIP:137E    DIP:25N\nDIP:138E    DIP:25N\nDIP:139E    DIP:589N\nDIP:140E    DIP:589N\nDIP:141E    DIP:796N\nDIP:142E    DIP:542N\nDIP:143E    DIP:1023N\nDIP:144E    DIP:338N\nDIP:145E    DIP:338N\nDIP:146E    DIP:811N\nDIP:154E    DIP:44N\nDIP:155E    DIP:839N\nDIP:159E    DIP:44N\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Respected Sir,\nI am working on Graph Theory in the Field of Bioinformatics. I am using\nGraph for R Package but I am not able to make a graph with this following\ndata . Can you help me? I will be reall",
       "thread_id": "thread-50c3f3eaa92b",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070831/704522fe/attachment.pl"
+      ]
     }
   ],
   "threads": [

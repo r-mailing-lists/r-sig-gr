@@ -82,11 +82,14 @@
         "<000101c5bf5b$07ec1a10$e0fda8c0@ASUS>",
         "<Pine.GSO.4.58.0509241727160.4320@gram.math.aau.dk>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050925/642b95a0/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050925/642b95a0/attachment.pl",
+      "body_plain": "could anyone suggest some reference using BN on microarray data analysis?\n\nthanks,\n\nweiwei\n\nOn 9/24/05, Claus Dethlefsen <dethlef at math.aau.dk> wrote:\n>\n> Dear Alberto\n>\n> You can checkout the R-package 'deal'\n> R> install.packages(\"deal\",depend=TRUE)\n>\n> and then check one of the demo's:\n>\n> R> library(deal)\n> R> demo(ksl)\n>\n> In addition, you might want to look at the Bioconductor-project:\n> www.bioconductor.org <http://www.bioconductor.org>\n>\n> Best regards,\n>\n> Claus\n>\n> ___________________________________\n> Claus Dethlefsen, Msc, PhD Statistiker\n> ved Kardiovaskulært Forskningscenter\n>\n> Forskningens Hus\n> Aalborg Sygehus\n> Sdr. Skovvej 15\n> 9000 Aalborg\n> email: aas.claus.dethlefsen at nja.dk\n>\n> On Thu, 22 Sep 2005, Alberto Goldoni wrote:\n>\n> > Hi to everybody,\n> >\n> > I'm using bayesian approach in order to analyse microarray data\n> > too.\n> > But I have seen only DBNs (dynamic Bayesian networks) on matlab\n> > (BNTstructure is the name of the package) and I suppose there are the\n> > same package on R but I wanna apply BN (Bayesian network) too. My\n> > question is:\n> > There are specific package for R in order to apply only BNs and not\n> > DBNs.\n> >\n> > Dr Alberto Goldoni\n> >\n> > Medical Genetics Unit\n> >\n> > S. Orsola-Malpighi Hospital\n> >\n> > Via Massarenti n.9, Pad 11\n> >\n> > 40100 Bologna, Italy\n> >\n> > Mobile Phone: +39-338-4145970\n> >\n> > Fax: +39-051-636-4004\n> >\n> > alberto.goldoni at eurogene.org\n> >\n> > www.eurogene.org <http://www.eurogene.org>\n> >\n> > www.lagem.it <http://www.lagem.it>\n> >\n> > _______________________________________________\n> > R-sig-gR mailing list\n> > R-sig-gR at stat.math.ethz.ch\n> > https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n> >\n> >\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>\n\n\n\n--\nWeiwei Shi, Ph.D\n\n\"Did you always know?\"\n\"No, I did not. But I believed...\"\n---Matrix III\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "could anyone suggest some reference using BN on microarray data analysis?\n\nthanks,\n\nweiwei\n\nOn 9/24/05, Claus Dethlefsen <dethlef at math.aau.dk> wrote:\n>\n> Dear Alberto\n>\n> You can checkout the R-pac",
       "thread_id": "thread-0d746a63ff00",
       "thread_depth": 2,
-      "month": "2005-09"
+      "month": "2005-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050925/642b95a0/attachment.pl"
+      ]
     }
   ],
   "threads": [

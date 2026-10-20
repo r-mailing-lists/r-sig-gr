@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] Modelling data at two separate locations",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20120118/843f1fab/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20120118/843f1fab/attachment.pl>",
+      "body_plain": "Hello,\n\nI am looking for advice on what kind of models I can use for my data.\n\nThe dependent (y) variable are count data (poisson) and are located at an irregular pattern. The independent data (x1, x2, x3, ...) are based on regions (closed polygons) (but could be represented at the centroids of these regions if this helped, but these centroid will not correspond to the location of the y's). My problem is that I do not have an exact (other than geographical) data match between the y's and x's. In particular I have about 8,000 y observation points and 20,000 x regions.\n\nWhat I would like to examine is how the proximity of various regions (via their x1, x2, x3, ... values) influenced the value of my y variable. I have looked at some common spatial models (SEM, SAR and GWR) but they all require the y and x data to be observed at the same locations. What I have done is to aggregate my y counts to the region geography, so that I have for each region a y aggregated count and the corresponding x1, x2, x3, ... , but I have lots of missing values where a region has no y count, and my concern is that these missing values will mean I lose the information about these regions in forming my relationship.\n\nThanks.\n\n--\nStephen Clark,\nFirst year PhD,\nSchool of Geography\n0113 343 6707\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello,\n\nI am looking for advice on what kind of models I can use for my data.\n\nThe dependent (y) variable are count data (poisson) and are located at an irregular pattern. The independent data (x1, x2",
       "thread_id": "thread-aaee5e6f785f",
       "thread_depth": 0,
-      "month": "2012-01"
+      "month": "2012-01",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20120118/843f1fab/attachment.pl"
+      ]
     }
   ],
   "threads": [

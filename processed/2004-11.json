@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] Fw: [BUGS] OpenBUGS",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041109/37ed4c68/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041109/37ed4c68/attachment.pl",
+      "body_plain": "Andrew has asked me to forward this to the gR-list. Have fun\nSteffen\n----- Original Message ----- \nFrom: Andrew Thomas \nTo: BUGS at jiscmail.ac.uk \nSent: Wednesday, September 29, 2004 12:53 PM\nSubject: [BUGS] OpenBUGS\n\n\nWe would like to announce that OpenBUGS an open source version of BUGS is now available and has its own web page at http://mathstat.helsinki.fi/openbugs/\n\nEventually the OpenBUGS code base will replace v1.4 of WinBUGS\n\nEnjoy\n\n    Andrew Thomas\n\n\n------------------------------------------------------------------- This list is for discussion of modelling issues and the BUGS software. For help with crashes and error messages, first mail bugs at mrc-bsu.cam.ac.uk \nTo mail the BUGS list, mail to bugs at jiscmail.ac.uk Before mailing, please check the archive at www.jiscmail.ac.uk/lists/bugs.html Please do not mail attachments to the list. \n\nTo leave the BUGS list, send LEAVE BUGS to jiscmail at jiscmail.ac.uk If this fails, mail bugs-request at jiscmail.ac.uk, NOT the whole list \n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Andrew has asked me to forward this to the gR-list. Have fun\nSteffen\n----- Original Message ----- \nFrom: Andrew Thomas \nTo: BUGS at jiscmail.ac.uk \nSent: Wednesday, September 29, 2004 12:53 PM\nSubject",
       "thread_id": "thread-d239661b7409",
       "thread_depth": 0,
-      "month": "2004-11"
+      "month": "2004-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041109/37ed4c68/attachment.pl"
+      ]
     }
   ],
   "threads": [

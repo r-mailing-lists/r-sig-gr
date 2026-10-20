@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] Advanced Bayesian Classifiers",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20120308/71a61bbc/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20120308/71a61bbc/attachment.pl>",
+      "body_plain": "Dear members of the gR community,\n\nI am about to start working on classification on neuroscience data and I am\nwondering if anyone is aware of plans to implement some advanced Bayesian\nclassifiers in R. Namely: semi-naive Bayes, tree-augmented or k-dependence.\nAny additions to the naive Bayes functionalities available in several\npackages (e.g. e1071, klaR), such as bayesian approaches to the estimation\nof parameters, would be interesting to me.\n\nThanks a lot,\n-- \nBojan\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear members of the gR community,\n\nI am about to start working on classification on neuroscience data and I am\nwondering if anyone is aware of plans to implement some advanced Bayesian\nclassifiers in ",
       "thread_id": "thread-f67c95df9df4",
       "thread_depth": 0,
-      "month": "2012-03"
+      "month": "2012-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20120308/71a61bbc/attachment.pl"
+      ]
     }
   ],
   "threads": [

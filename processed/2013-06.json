@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] Hierarchical Multi-Label Classification",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20130602/d88a640c/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20130602/d88a640c/attachment.pl>",
+      "body_plain": "Hi,\n\nThanks in advance.\n\nI am using R-3.0.1 on Windows XP.\n\nMay I request you to assist me for the following please.\n\nI have a project to deal with \"Hierarchical Multi-Label Classification\".\n\nThe inputs variables are X: x1, x2, ..., xn and the target variables are C:\nc1, c2, ..., cm (e.g., class variables).\n\nThe inputs variables may be either discrete or numeric (integer or\ncontinuous) or both.\n\nThe target variables (e.g., class variables) take values either 0 or 1.\n\nI am looking for a model or models for this problem.\n1. - My objective is to predict class variables C for given inputs X\n    - I am also interested to know the hierarchies in the class variables\n(e.g., c6 <--- c1 <--- c2, c5; c10 <--- c3, c9, c10\n\n2. Is there any Bayesian Model(s) for this?\n\n3. I like to know other model(s) as well.\n\n4. Any R package(s). I like to know other softwares as well.\n\n5. Any literature would be appreciated\n\nOnce again, thank you very much for the time you have given.\n\nRegards,\nDeb\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\n\nThanks in advance.\n\nI am using R-3.0.1 on Windows XP.\n\nMay I request you to assist me for the following please.\n\nI have a project to deal with \"Hierarchical Multi-Label Classification\".\n\nThe inpu",
       "thread_id": "thread-fa076b2f937b",
       "thread_depth": 0,
-      "month": "2013-06"
+      "month": "2013-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20130602/d88a640c/attachment.pl"
+      ]
     }
   ],
   "threads": [

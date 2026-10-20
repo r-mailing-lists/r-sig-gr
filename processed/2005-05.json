@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] gR task view",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050512/b25d6a50/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050512/b25d6a50/attachment.pl",
+      "body_plain": "Dear all\n \nI have tried to put together a \"task view\" (new invention on CRAN) concerning gRaphical models. You can check out the view at http://cran.r-project.org/src/contrib/Views/gR.html. If you have comments, omissions etc. please contact me and I will adjust the task view. Currently, the package 'mathgraph' is not available on CRAN, but hopefully will reappear soon.\n \nFor more on task views, see the new issue of Rnews available on the R homepage www.r-project.org.\n \nBest to all,\nClaus\n\n________________________________\n\nClaus Dethlefsen, Msc, PhD\nStatistiker ved Kardiovaskulært Forskningscenter\nKlinisk Epidemiologisk Afdeling\n\nAalborg Sygehus Nord\nStengade 10, 2. sal\n9000 Aalborg\n\nTlf:   9932 1086\n       9932 1094 (direkte)\nFax:   9932 1088\nemail:  <mailto:aas.claus.dethlefsen at nja.dk> aas.claus.dethlefsen at nja.dk\n\n \n\n \n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all\n \nI have tried to put together a \"task view\" (new invention on CRAN) concerning gRaphical models. You can check out the view at http://cran.r-project.org/src/contrib/Views/gR.html. If you hav",
       "thread_id": "thread-f9df571d52e1",
       "thread_depth": 0,
-      "month": "2005-05"
+      "month": "2005-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050512/b25d6a50/attachment.pl"
+      ]
     },
     {
       "id": "msg-527603784096",

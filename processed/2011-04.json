@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] succession graphic",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110420/0994ff17/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110420/0994ff17/attachment.pl>",
+      "body_plain": "I would like to produce charts of phytoplankton biomass changes \nthrough time. Each species has a line, and the biomass varies in \nmirror form along the line for each species along the X time axis. \nHere is an example of what I'd like to do: \nhttp://www.er.uqam.ca/nobel/r30240/Succession.jpg\n\nThanks\nDavid Bird\nUQAM, Montreal\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I would like to produce charts of phytoplankton biomass changes \nthrough time. Each species has a line, and the biomass varies in \nmirror form along the line for each species along the X time axis. \nH",
       "thread_id": "thread-3ed03d417ba8",
       "thread_depth": 0,
-      "month": "2011-04"
+      "month": "2011-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110420/0994ff17/attachment.pl"
+      ]
     },
     {
       "id": "msg-dd549a1a4dba",

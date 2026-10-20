@@ -13,11 +13,14 @@
       "subject_clean": "[R--gR] Plotting in Coxph using psplines",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060503/3e1a937d/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060503/3e1a937d/attachment.pl",
+      "body_plain": "I would like to produce a GAM-like graph in coxph \nwhen incorporating psplines into a Cox model. \nBasically, I would like to plot the MLE and 95% \nconf. bands as well as obtain a rug plot.\nIf anyone has such a function, it would be well-appreciated.\n\n\n_____________________________________________\nMark S. Goldberg, PhD\nAssociate Professor, Department of Medicine, \nMcGill University\nMedical Scientist, Royal Victoria Hospital, McGill University Health Centre\nMember, Division of Clinical Epidemiology, Royal Victoria Hospital, MUHC\nAssociate Member, Joint Departments of \nEpidemiology and Biostatistics and Occupational \nHealth, Department of Oncology, and the McGill School of the Environment\nMailing address:\nDivision of Clinical Epidemiology/Division d'épidémiologie clinique\nMcGill University Health Center - RVH\n687 Pine Avenue West, R4.29\nMontreal, Quebec  H3A 1A1\nTel:  (514) 934-1934, ext 36917\nFax: (514) 843-1493\nEmail:         mark.goldberg at mcgill.ca\nWeb page: http://www.med.mcgill.ca/epidemiology/goldberg/\n_____________________________________________  \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I would like to produce a GAM-like graph in coxph \nwhen incorporating psplines into a Cox model. \nBasically, I would like to plot the MLE and 95% \nconf. bands as well as obtain a rug plot.\nIf anyone h",
       "thread_id": "thread-8f6710bf8c94",
       "thread_depth": 0,
-      "month": "2006-05"
+      "month": "2006-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060503/3e1a937d/attachment.pl"
+      ]
     }
   ],
   "threads": [

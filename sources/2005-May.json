@@ -1,0 +1,11 @@
+{
+  "period": "2005-May",
+  "articles": [
+    "000067",
+    null
+  ],
+  "fixes": {},
+  "rejected": {
+    "000068": "878184D41285C04B92FE9DBAD4E866710D1D5A@SFEXC00002.amtg.NJA.local"
+  }
+}

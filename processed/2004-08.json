@@ -17,7 +17,8 @@
       "body_snippet": "Dear gRs\n\nThe mailing list has been silent for a long time and this little newsletter\nis an attempt to bring it a bit to life again.\n\nMany things have indeed happened within gR:\n\nPersonally, I have mo",
       "thread_id": "thread-d1bafa458076",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000029.html"
     },
     {
       "id": "msg-fccff74f2384",
@@ -33,7 +34,8 @@
       "body_snippet": "This workshop could well be of interest to the gRpeople. Hope to see many of\nyou there.\n\nGreetings from Toronto, where the gR session was very well attended.\n\nSteffen\n\n----- Original Message ----- \nFr",
       "thread_id": "thread-fccff74f2384",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000030.html"
     },
     {
       "id": "msg-7728aaecb312",
@@ -50,6 +52,7 @@
       "thread_id": "thread-7728aaecb312",
       "thread_depth": 0,
       "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000031.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040811/a08ebe2c/attachment.ksh"
       ]
@@ -69,6 +72,7 @@
       "thread_id": "thread-109f05f825a6",
       "thread_depth": 0,
       "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000032.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20040812/cdd21964/attachment.asc"
       ]
@@ -87,7 +91,8 @@
       "body_snippet": "Dear gR-folk!\n\nAs Steffen previously announced, Michael Perlman and I have been doing\nsome work on model selection in Gaussian graphical models.\n\nIn a Gaussian graphical model, the conditional indepen",
       "thread_id": "thread-d1485c3e95bb",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000033.html"
     },
     {
       "id": "msg-0a1fba60b1b3",
@@ -103,7 +108,8 @@
       "body_snippet": "Dear all\n\n- gRbase version 0.1.2 is soon available on CRAN (the previous version 0.1.0\nreleased last week is thereby obsolete). An easy way to install gRbase (and\ndynamicGraph which is needed) is to s",
       "thread_id": "thread-0a1fba60b1b3",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000034.html"
     },
     {
       "id": "msg-ad9ac72c7d38",
@@ -119,7 +125,8 @@
       "body_snippet": "Dear gR-folks\n\nThe Danish gR-gang have been talking about describing a model language for\ngraphical models that\n\n1) could specify at least chain graph models, based on the most general\nhierarchical mi",
       "thread_id": "thread-ad9ac72c7d38",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000035.html"
     },
     {
       "id": "msg-fc313dcb12f6",
@@ -135,7 +142,8 @@
       "body_snippet": "Dear Steffen (and other gRs)\n\nI think it is absolutely the way ahead. Some quick questions and\ncomments\n\n1. At first sight it seems confusing to use parentheses to mark block\ncomponents, I think I'd p",
       "thread_id": "thread-fc313dcb12f6",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000036.html"
     },
     {
       "id": "msg-f726c3dd11ee",
@@ -153,7 +161,8 @@
       "body_snippet": "just 2 comments:\n\n> \n> ~ (A+B)*C|D & B*E|E & D|E   or equivalently\n> ~ b(A+B)*C|D, B*E|E, D|E)\n\nI think you will have to use the b() notation. The '&' operator will\nprobably confuse the formula parser",
       "thread_id": "thread-fc313dcb12f6",
       "thread_depth": 1,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000037.html"
     },
     {
       "id": "msg-16630eb0eb3b",
@@ -165,11 +174,12 @@
       "subject_clean": "[R--gR] gR web page updated",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "It's great to see so much going within gR: I tried to reflect the latest\nadvances on the gR web page\n  http://www.R-project.org/gR/\nby adding prominent links to the release announcements.\n\nI also tried to update the list of CRAN packages somehow related to gR.\nIn addition to the packages announced on this list, two interfaces to\nBUGS became available as CRAN packages.\n\nLet me know if I missed anything.\n\nFor the CRAN package authors (i.e. in particular Claus, Jens Henrik,\nMathias, S?ren): I guess it would be a good idea to announce the new\npackages on the R-packages list\n  https://stat.ethz.ch/mailman/listinfo/r-packages\n(which is sort of under-used anyway). Probably, you'll gain a few more\ninterested users (i.e., potential bug-fixers etc.) by doing so.\n\nBest wishes,\nAchim",
+      "body_plain": "It's great to see so much going within gR: I tried to reflect the latest\nadvances on the gR web page\n  http://www.R-project.org/gR/\nby adding prominent links to the release announcements.\n\nI also tried to update the list of CRAN packages somehow related to gR.\nIn addition to the packages announced on this list, two interfaces to\nBUGS became available as CRAN packages.\n\nLet me know if I missed anything.\n\nFor the CRAN package authors (i.e. in particular Claus, Jens Henrik,\nMathias, Søren): I guess it would be a good idea to announce the new\npackages on the R-packages list\n  https://stat.ethz.ch/mailman/listinfo/r-packages\n(which is sort of under-used anyway). Probably, you'll gain a few more\ninterested users (i.e., potential bug-fixers etc.) by doing so.\n\nBest wishes,\nAchim",
       "body_snippet": "It's great to see so much going within gR: I tried to reflect the latest\nadvances on the gR web page\n  http://www.R-project.org/gR/\nby adding prominent links to the release announcements.\n\nI also trie",
       "thread_id": "thread-16630eb0eb3b",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000038.html"
     },
     {
       "id": "msg-2a9b76a196a9",
@@ -187,7 +197,8 @@
       "body_snippet": "Just a quick reply to some of David E's comments (David M's comments have\nbeen recorded):\n\n> 2. Syntax constraints\n> * Interactions between continuous variables of max order 2, eg\n> X*Y*Z is illegal\n>",
       "thread_id": "thread-fc313dcb12f6",
       "thread_depth": 1,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000039.html"
     },
     {
       "id": "msg-02924cfd1d14",
@@ -203,7 +214,8 @@
       "body_snippet": "By the way, does anyone know an authoritative reference for the usual \"model\nalgebra\", originating (I presume) with Nelder and Wilkinson and forming the\nbasis for GLIM model specification and analysis",
       "thread_id": "thread-02924cfd1d14",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000040.html"
     },
     {
       "id": "msg-2f3e11a39102",
@@ -222,7 +234,8 @@
       "body_snippet": "[...]\n\n> \n> > * Conditioning symbol | is followed by a simple variable list eg\n> > (X,Y,A)\n> \n> yes, but not with parentheses (as commented by David M)\n\nand neither with colons: things like\n\nfun(~ A +",
       "thread_id": "thread-fc313dcb12f6",
       "thread_depth": 2,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000041.html"
     },
     {
       "id": "msg-5fb83c29f158",
@@ -240,7 +253,8 @@
       "body_snippet": ">>>>> On Thu, 19 Aug 2004 16:56:59 +0100,\n>>>>> Steffen Lauritzen (SL) wrote:\n\n  > By the way, does anyone know an authoritative reference for the usual \"model\n  > algebra\", originating (I presume) wi",
       "thread_id": "thread-02924cfd1d14",
       "thread_depth": 1,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000042.html"
     },
     {
       "id": "msg-e4ef8e428935",
@@ -259,7 +273,8 @@
       "body_snippet": "Yes, I am sure this is right, thank you. It has no doubt developed a bit\nsince then, possibly in a partly anarchistic way.\n\nSteffen\n\n----- Original Message ----- \nFrom: <Friedrich.Leisch at tuwien.ac.",
       "thread_id": "thread-02924cfd1d14",
       "thread_depth": 2,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000043.html"
     },
     {
       "id": "msg-ab63d4ec5b2e",
@@ -277,7 +292,8 @@
       "body_snippet": "A few comments - just to clear my mind.\n\nSteffen Lauritzen wrote:\n\n>Dear gR-folks\n>\n>The Danish gR-gang have been talking about describing a model language for\n>graphical models that\n>\n>1) could speci",
       "thread_id": "thread-ad9ac72c7d38",
       "thread_depth": 1,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000044.html"
     },
     {
       "id": "msg-16c750ddb42d",
@@ -296,7 +312,8 @@
       "body_snippet": "In a slightly longer perspective, I think the \"CoCoCg\"-models are far from\nbeing sufficient, so the language should preferably be extendable to express\nmany other models, and their combinations, to ac",
       "thread_id": "thread-ad9ac72c7d38",
       "thread_depth": 2,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000045.html"
     },
     {
       "id": "msg-ce59f95d2b9a",
@@ -316,7 +333,8 @@
       "body_snippet": ">>>>> On Fri, 20 Aug 2004 08:12:34 +0100,\n>>>>> Steffen Lauritzen (SL) wrote:\n\n  > Yes, I am sure this is right, thank you.\n\nYou're welcome.\n\n  > It has no doubt developed a bit\n  > since then, possib",
       "thread_id": "thread-02924cfd1d14",
       "thread_depth": 3,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000046.html"
     },
     {
       "id": "msg-8c9a76b8ec68",
@@ -335,7 +353,8 @@
       "body_snippet": "On Fri, 20 Aug 2004 08:45:58 +0200 Friedrich.Leisch at tuwien.ac.at wrote:\n\n> >>>>> On Thu, 19 Aug 2004 16:56:59 +0100,\n> >>>>> Steffen Lauritzen (SL) wrote:\n> \n>   > By the way, does anyone know an a",
       "thread_id": "thread-02924cfd1d14",
       "thread_depth": 2,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000047.html"
     },
     {
       "id": "msg-29d0ee2c41c5",
@@ -351,7 +370,8 @@
       "body_snippet": "Peter McCullagh has done some work on 'model algebra' that's possibly\nrelevant?:\nhttp://galton.uchicago.edu/~pmcc/TR.html\nbr David\n\n-----Original Message-----\nFrom: r-sig-gr-bounces at stat.math.ethz.",
       "thread_id": "thread-29d0ee2c41c5",
       "thread_depth": 0,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000048.html"
     },
     {
       "id": "msg-c8ddef7ed2ea",
@@ -372,7 +392,8 @@
       "body_snippet": "Friedrich.Leisch at tuwien.ac.at writes:\n\n> >>>>> On Fri, 20 Aug 2004 08:12:34 +0100,\n> >>>>> Steffen Lauritzen (SL) wrote:\n> \n>   > Yes, I am sure this is right, thank you.\n> \n> You're welcome.\n> \n> ",
       "thread_id": "thread-02924cfd1d14",
       "thread_depth": 4,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000049.html"
     },
     {
       "id": "msg-338f991129be",
@@ -390,7 +411,8 @@
       "body_snippet": "On Fri, 20 Aug 2004 13:34:49 +0200 DED (David George Edwards) wrote:\n\n> Peter McCullagh has done some work on 'model algebra' that's possibly\n> relevant?:\n> http://galton.uchicago.edu/~pmcc/TR.html\n\nI",
       "thread_id": "thread-29d0ee2c41c5",
       "thread_depth": 1,
-      "month": "2004-08"
+      "month": "2004-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-August/000050.html"
     }
   ],
   "threads": [

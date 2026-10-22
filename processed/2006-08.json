@@ -17,7 +17,8 @@
       "body_snippet": "Hi there,\n\nI wonder does anybody know if it's possible to just print only one scatterplot per comparison (A is a function of B, but B is not a function of A) using the scatterplot.matrix module. I kno",
       "thread_id": "thread-e24ebccd3004",
       "thread_depth": 0,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-August/000104.html"
     },
     {
       "id": "msg-0c407a85c986",
@@ -35,7 +36,8 @@
       "body_snippet": "Dan McElligott wrote:\n> Hi there,\n> \n> I wonder does anybody know if it's possible to just print only one scatterplot per comparison (A is a function of B, but B is not a function of A) using the scat",
       "thread_id": "thread-e24ebccd3004",
       "thread_depth": 1,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-August/000105.html"
     },
     {
       "id": "msg-57b5d6b8b626",
@@ -51,7 +53,8 @@
       "body_snippet": "I am unable to persuade any high level routine in R to provide image,\ncontour or perspective plots of unordered 3 dimensional triples\n(y1,y2,y3) in the same way that plot (y1,y2) will do.  Pairwise\nco",
       "thread_id": "thread-57b5d6b8b626",
       "thread_depth": 0,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-August/000106.html"
     },
     {
       "id": "msg-59e27dd57046",
@@ -69,7 +72,8 @@
       "body_snippet": "Michael Grant wrote:\n> I am unable to persuade any high level routine in R to provide image,\n> contour or perspective plots of unordered 3 dimensional triples\n> (y1,y2,y3) in the same way that plot (y",
       "thread_id": "thread-57b5d6b8b626",
       "thread_depth": 1,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-August/000107.html"
     },
     {
       "id": "msg-6a040413c12e",
@@ -88,7 +92,8 @@
       "body_snippet": "BTW: This is more an R-help question but has not much to do with the \ntopic of this list, AFAICS.\n\nUwe Ligges wrote:\n> \n> \n> Michael Grant wrote:\n>> I am unable to persuade any high level routine in R",
       "thread_id": "thread-57b5d6b8b626",
       "thread_depth": 2,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-August/000108.html"
     },
     {
       "id": "msg-a75b576e2c88",
@@ -106,7 +111,8 @@
       "body_snippet": "PLEASE, Michael,\n\ndo not (again !?) misuse the R-sig-gR  mailing list for simple\nquestion about R -- which clearly belong to nowhere else but R-help !\n\n> I am unable to persuade any high level routine",
       "thread_id": "thread-57b5d6b8b626",
       "thread_depth": 1,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-August/000109.html"
     }
   ],
   "threads": [

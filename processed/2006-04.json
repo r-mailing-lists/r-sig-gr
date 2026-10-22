@@ -17,7 +17,8 @@
       "body_snippet": "Dear gR-list:\n\nThe paper below might be interesting for people working on displaying \ngraphs in R.  (I have not tried anything out.)\n\n  Pedigree-drawing with R and graphviz\n \tJing Hua Zhao\n \tBioinform",
       "thread_id": "thread-c66ae7e099a7",
       "thread_depth": 0,
-      "month": "2006-04"
+      "month": "2006-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-April/000100.html"
     }
   ],
   "threads": [

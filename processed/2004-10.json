@@ -18,6 +18,7 @@
       "thread_id": "thread-bb1ac24943a9",
       "thread_depth": 0,
       "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-October/000051.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041005/26e93b5f/attachment.ksh"
       ]
@@ -36,7 +37,8 @@
       "body_snippet": "Dear list\n\nThe message below from Andrew Gelman posted on the Bugs mailing list is\nlikely of interest to the gR-community. If you are already subscribed to the\nBugs-list and have seen Andrews' message",
       "thread_id": "thread-65fe5584625c",
       "thread_depth": 0,
-      "month": "2004-10"
+      "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-October/000052.html"
     },
     {
       "id": "msg-57df0f8e3fe7",
@@ -52,7 +54,8 @@
       "body_snippet": "Hello gRers,\n\nIn the (well-attended) session on gR at the JSM meeting in Toronto in\nAugust I mentioned that other researchers have developed quite powerful\nopen source tools for displaying, and intera",
       "thread_id": "thread-57df0f8e3fe7",
       "thread_depth": 0,
-      "month": "2004-10"
+      "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-October/000053.html"
     },
     {
       "id": "msg-d67e94d7bf0d",
@@ -69,6 +72,7 @@
       "thread_id": "thread-d67e94d7bf0d",
       "thread_depth": 0,
       "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-October/000054.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041020/585d04cd/attachment.pl"
       ]
@@ -83,11 +87,12 @@
       "subject_clean": "[R--gR] Graphs and Metro's",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "hi,\n\nsince i live in Barcelona and use its metro network i'll answer this :)\n\nthe area of research for this is called \"graph drawing\" and a good link\nto get acquainted with it is\n\nhttp://www.cs.brown.edu/people/rt/gd.html\n\na friend of mine who works in automated cartography has recommended me\nthis link and has told me that the first two links, a book and a\npdf-tutorial, are quite good as a starting point.\n\nhe also pointed out to me that it's very different to draw with straight\nsegments than with curves as the number of edge crossings can be very\ndifferent. minimizing crossings is NP-hard however if the number of\ncrossings is small the following reference (and references therein) can\nbe useful:\n\nComputing Crossing Numbers in Quadratic Time  .\n  Journal of Computer and System Sciences, 68(2):285-302, 2004.\n  Conference version appeared in Proceedings of the 32nd ACM Symposium\n  on Theory of Computing (STOC'01), pp.231-236, 2001.\n  http://www.informatik.hu-berlin.de/~grohe/pub/cross.ps\n\n\ni hope this helps,\nrobert.\n\nOn Wed, 2004-10-20 at 01:26, S?ren H?jsgaard wrote:\n> Dear all,\n> Yesterday, I looked at a map of the metro in Barcelona, and I came to think about whether we could learn something from such maps when producing graphs for graphical models. (With many variables, a graphical model tends to look \"messy\").\n> \n> Edges in metro-maps are often not straight lines - they tend to be composed of line segments forming 0, 45 and 90 degrees angles relative to some coordinate system - and that really makes the maps easier to look at. Have anyone looked at this idea? (It is not a particularly original idea so I guess the answer is \"yes\"!) \n> \n> It should be reasonably straight forward to formulate a heuristic for creating such edges: 1) The length of an edge should be small under the constraints that, 2) there is a \"low price\" on horisontal and vertical line segments and 3) a \"high price\" on 45-degree, 135 degree and so on lines. The actual shape of an edge under such requirements is not unique, for example the lines \n> o--       o-\n>    \\        \\        .......\n>     --o       ---o\n> will have the same \"price\" - so some heuristic is needed to choose one from another. \n> \n> Comments, ideas, references??\n> \n> Best regards\n> S?ren\n> \n> ============================================================================================= \n> S?ren H?jsgaard,  MSc, PhD (Statistics),        Phone: +45 8999 1703 \n> Head of Biometry Research Unit,                 Fax:     +45 8999 1300 \n> Danish Institute of Agricultural Sciences       E-mail: sorenh at agrsci.dk \n> Research Centre Foulum, DK-8830 Tjele, Denmark  Homepage : http://www.jbs.agrsci.dk/~sorenh/ \n> \n> .... Time flies like an arrow, fruit flies like a banana ....\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr",
+      "body_plain": "hi,\n\nsince i live in Barcelona and use its metro network i'll answer this :)\n\nthe area of research for this is called \"graph drawing\" and a good link\nto get acquainted with it is\n\nhttp://www.cs.brown.edu/people/rt/gd.html\n\na friend of mine who works in automated cartography has recommended me\nthis link and has told me that the first two links, a book and a\npdf-tutorial, are quite good as a starting point.\n\nhe also pointed out to me that it's very different to draw with straight\nsegments than with curves as the number of edge crossings can be very\ndifferent. minimizing crossings is NP-hard however if the number of\ncrossings is small the following reference (and references therein) can\nbe useful:\n\nComputing Crossing Numbers in Quadratic Time  .\n  Journal of Computer and System Sciences, 68(2):285-302, 2004.\n  Conference version appeared in Proceedings of the 32nd ACM Symposium\n  on Theory of Computing (STOC'01), pp.231-236, 2001.\n  http://www.informatik.hu-berlin.de/~grohe/pub/cross.ps\n\n\ni hope this helps,\nrobert.\n\nOn Wed, 2004-10-20 at 01:26, Søren Højsgaard wrote:\n> Dear all,\n> Yesterday, I looked at a map of the metro in Barcelona, and I came to think about whether we could learn something from such maps when producing graphs for graphical models. (With many variables, a graphical model tends to look \"messy\").\n> \n> Edges in metro-maps are often not straight lines - they tend to be composed of line segments forming 0, 45 and 90 degrees angles relative to some coordinate system - and that really makes the maps easier to look at. Have anyone looked at this idea? (It is not a particularly original idea so I guess the answer is \"yes\"!) \n> \n> It should be reasonably straight forward to formulate a heuristic for creating such edges: 1) The length of an edge should be small under the constraints that, 2) there is a \"low price\" on horisontal and vertical line segments and 3) a \"high price\" on 45-degree, 135 degree and so on lines. The actual shape of an edge under such requirements is not unique, for example the lines \n> o--       o-\n>    \\        \\        .......\n>     --o       ---o\n> will have the same \"price\" - so some heuristic is needed to choose one from another. \n> \n> Comments, ideas, references??\n> \n> Best regards\n> Søren\n> \n> ============================================================================================= \n> Søren Højsgaard,  MSc, PhD (Statistics),        Phone: +45 8999 1703 \n> Head of Biometry Research Unit,                 Fax:     +45 8999 1300 \n> Danish Institute of Agricultural Sciences       E-mail: sorenh at agrsci.dk \n> Research Centre Foulum, DK-8830 Tjele, Denmark  Homepage : http://www.jbs.agrsci.dk/~sorenh/ \n> \n> .... Time flies like an arrow, fruit flies like a banana ....\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr",
       "body_snippet": "hi,\n\nsince i live in Barcelona and use its metro network i'll answer this :)\n\nthe area of research for this is called \"graph drawing\" and a good link\nto get acquainted with it is\n\nhttp://www.cs.brown.",
       "thread_id": "thread-e60254a6dd0e",
       "thread_depth": 0,
-      "month": "2004-10"
+      "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-October/000055.html"
     },
     {
       "id": "msg-ecb7d1f32214",
@@ -103,7 +108,8 @@
       "body_snippet": "hi, everyone,\n\nthis is the first time for me to use R,\nwould you like to tell me how to use this command? thank you in advance.\n\nfit <- principal.curve(y, plot = TRUE, smooth=\"periodic.lowess\", iter=0",
       "thread_id": "thread-ecb7d1f32214",
       "thread_depth": 0,
-      "month": "2004-10"
+      "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-October/000056.html"
     },
     {
       "id": "msg-e48f046847ea",
@@ -121,7 +127,8 @@
       "body_snippet": "Moved to R-help from R-SIG-gR.\n\nOn Thu, 21 Oct 2004 17:44:27 +0800 XP Sun wrote:\n\n> hi, everyone,\n> \n> this is the first time for me to use R,\n> would you like to tell me how to use this command? than",
       "thread_id": "thread-ecb7d1f32214",
       "thread_depth": 1,
-      "month": "2004-10"
+      "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-October/000057.html"
     },
     {
       "id": "msg-8dc3f3d805c3",
@@ -138,6 +145,7 @@
       "thread_id": "thread-8dc3f3d805c3",
       "thread_depth": 0,
       "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-October/000058.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20041026/6bfabc46/attachment.pl"
       ]

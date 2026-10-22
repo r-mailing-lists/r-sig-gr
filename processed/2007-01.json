@@ -17,7 +17,8 @@
       "body_snippet": "Dear All,\na new R package is now available on CRAN. It is named \"qp\" and \nimplements the procedure described in\n\nCastelo, R. and Roverato, A. (2006). A robust procedure for Gaussian \ngraphical model s",
       "thread_id": "thread-8e2427065f6e",
       "thread_depth": 0,
-      "month": "2007-01"
+      "month": "2007-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2007-January/000114.html"
     },
     {
       "id": "msg-1204a41fa3c6",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear group members,\nI have tried using the function likfit in geoRglm and got some output. Howvever my data is \nBernoulli so it is more appropriate to use glsm.mcmc. I used the following code: \n------",
       "thread_id": "thread-1204a41fa3c6",
       "thread_depth": 0,
-      "month": "2007-01"
+      "month": "2007-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2007-January/000115.html"
     }
   ],
   "threads": [

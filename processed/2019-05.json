@@ -13,11 +13,12 @@
       "subject_clean": "[R--gR] spectralGraphTopology release 0.1.0 is on CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi everyone,\n\nI'm glad to announce the very first release of the spectralGraphTopology\npackage on CRAN.  spectralGraphTopology provides functions to estimate\nundirected weighted graphs from observational data.  It implements the\nmethods and algorithms recently developed in\nhttps://arxiv.org/abs/1904.09792 and a more well-known graph clustering\nmethod published in https://dl.acm.org/citation.cfm?id=3016174.\n\nspectralGraphTopology lives on GitHub:\nhttps://github.com/dppalomar/spectralGraphTopology.  We welcome all sorts\nof contributions and feedback.  See\nhttps://mirca.github.io/spectralGraphTopology for documentation.\n\nThanks,\nVin?cius\n-- \nwebpage: https://mirca.github.io\ngithub: @mirca <https://www.github.com/mirca>\ntwitter: @mircaze <https://www.twitter.com/mircaze>\n\n\t[[alternative HTML version deleted]]",
+      "body_plain": "Hi everyone,\n\nI'm glad to announce the very first release of the spectralGraphTopology\npackage on CRAN.  spectralGraphTopology provides functions to estimate\nundirected weighted graphs from observational data.  It implements the\nmethods and algorithms recently developed in\nhttps://arxiv.org/abs/1904.09792 and a more well-known graph clustering\nmethod published in https://dl.acm.org/citation.cfm?id=3016174.\n\nspectralGraphTopology lives on GitHub:\nhttps://github.com/dppalomar/spectralGraphTopology.  We welcome all sorts\nof contributions and feedback.  See\nhttps://mirca.github.io/spectralGraphTopology for documentation.\n\nThanks,\nVinícius\n-- \nwebpage: https://mirca.github.io\ngithub: @mirca <https://www.github.com/mirca>\ntwitter: @mircaze <https://www.twitter.com/mircaze>\n\n\t[[alternative HTML version deleted]]",
       "body_snippet": "Hi everyone,\n\nI'm glad to announce the very first release of the spectralGraphTopology\npackage on CRAN.  spectralGraphTopology provides functions to estimate\nundirected weighted graphs from observatio",
       "thread_id": "thread-366096fae99a",
       "thread_depth": 0,
-      "month": "2019-05"
+      "month": "2019-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2019-May/000170.html"
     }
   ],
   "threads": [

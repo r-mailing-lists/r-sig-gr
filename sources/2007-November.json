@@ -1,0 +1,18 @@
+{
+  "period": "2007-November",
+  "articles": [
+    "000122",
+    "000123",
+    null,
+    null,
+    null
+  ],
+  "fixes": {
+    "000123": "é?í"
+  },
+  "rejected": {
+    "000124": "758619.36603.qm@web30508.mail.mud.yahoo.com",
+    "000125": "4731F9E0.7090500@stats.uwo.ca",
+    "000126": "758619.36603.qm@web30508.mail.mud.yahoo.com"
+  }
+}

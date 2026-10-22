@@ -18,6 +18,7 @@
       "thread_id": "thread-dc36e2cdd9d6",
       "thread_depth": 0,
       "month": "2005-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2005-June/000069.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050609/5f8142b9/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "Neha:\n\n1. This mailing list is about \"graphical models in R\" not about\n\"graphics\" (or whatever the rationale was for choosing this list).\nR-help is the right mailing list for this kind of questions. I",
       "thread_id": "thread-dc36e2cdd9d6",
       "thread_depth": 1,
-      "month": "2005-06"
+      "month": "2005-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2005-June/000070.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Can anyone help with this?\nSteffen\n\n-----Original Message-----\nFrom: jw2256 at columbia.edu [mailto:jw2256 at columbia.edu] \nSent: 14 September 2005 10:48\nTo: Steffen Lauritzen\nSubject: mixed graphica",
       "thread_id": "thread-516242b40f09",
       "thread_depth": 0,
-      "month": "2005-09"
+      "month": "2005-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2005-September/000072.html"
     },
     {
       "id": "msg-1e0341809807",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear Jubai Wang\n\nTo understand what is going on here you need to consult my book\n'Introduction to Graphical Modelling', 2nd edition, appendix D, that\ndescribes the MIPS algorithm in detail. Everything",
       "thread_id": "thread-1e0341809807",
       "thread_depth": 0,
-      "month": "2005-09"
+      "month": "2005-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2005-September/000073.html"
     },
     {
       "id": "msg-0d746a63ff00",
@@ -49,7 +51,8 @@
       "body_snippet": "Hi to everybody,\n\n\tI'm using bayesian approach in order to analyse microarray data\ntoo.\nBut I have seen only DBNs (dynamic Bayesian networks) on matlab\n(BNTstructure is the name of the package) and I ",
       "thread_id": "thread-0d746a63ff00",
       "thread_depth": 0,
-      "month": "2005-09"
+      "month": "2005-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2005-September/000074.html"
     },
     {
       "id": "msg-b71d41f41af1",
@@ -87,6 +90,7 @@
       "thread_id": "thread-0d746a63ff00",
       "thread_depth": 2,
       "month": "2005-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2005-September/000076.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20050925/642b95a0/attachment.pl"
       ]

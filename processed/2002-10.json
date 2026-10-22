@@ -17,7 +17,8 @@
       "body_snippet": "Dear Fritz (and others in gR-sig),\n\nBelow I have tried to compile a list of things I would like to be able\nto do with graphs. Some of them may need a little explanation, but I\nthought the first thing ",
       "thread_id": "thread-ca0e726a41ef",
       "thread_depth": 0,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000001.html"
     },
     {
       "id": "msg-b64ca0ea0d1d",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear Steffen and other gR-sig members,\n\nI am sure that the other graphical programs have procedures taking care of\nthe graph computations, and that they probably are more efficient than the\nprocedures",
       "thread_id": "thread-ca0e726a41ef",
       "thread_depth": 1,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000002.html"
     },
     {
       "id": "msg-af1c67317771",
@@ -49,7 +51,8 @@
       "body_snippet": "Dear all\n\nMore remarks:\n\n1. Perhaps a class hierarchy, with\n      general graphs (any link type, node type, perhaps multiple links\nbetween nodes)\n           / directed\n              / DAGS \n          ",
       "thread_id": "thread-af1c67317771",
       "thread_depth": 0,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000003.html"
     },
     {
       "id": "msg-ab9feb8675ce",
@@ -61,11 +64,12 @@
       "subject_clean": "[R--gR] CFP: DSC 2003",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear gR members,\n\nattached you find the CFP for the DSC workshop next March which has\nbeen mentioned at the gR meeting. DSC will have one session on\ngRaphical models and hence be the first followup meeting to gR\n2002.\n\nBest,\nFritz\n\nPS: I apologize if you receive this CFP multiple times.\n\n**********************************************************\n\nDSC 2003\nInternational Workshop on Distributed Statistical Computing\nhttp://www.ci.tuwien.ac.at/Conferences/DSC-2003/\nMarch 20--22, 2003\nVienna, Austria\n\nThe third international workshop on 'Distributed Statistical Computing'\n(DSC 2003) will take place at the Technische Universit?t Wien in Vienna,\nAustria from 2003-03-20 to 2003-03-22.  This workshop will deal with\nfuture directions in (open source) statistical computing and graphics.\n\nTopics of particular interest include\n\n       Bioinformatics\n       Database Connectivity\n       Graphical Modeling\n       GUIs and Office Integration\n       Resample and Combine Methods\n       Spatial Statistics\n       Visualization\n\nEmphasis will be given to the R (http://www.R-project.org/), Omegahat\n(http://www.omegahat.org/), and BioConductor\n(http://www.bioconductor.org/) projects.  DSC 2003 builds on the spirit\nand success of DSC 1999 and 2001, which were seminal to the further\ndevelopment of R and Omegahat.\n\nParticipants will include\n\n  Doug Bates\t\t\tUniversity of Wisconsin, Madison\n  Roger Bivand\t\t\tUniversity of Bergen\n  John Chambers\t\t\tBell Labs, Lucent Technologies\n  Peter Dalgaard\t\tUniversity of Copenhagen\n  Robert Gentleman\t\tHarvard University\n  Kurt Hornik\t\t\tWirtschaftsuniversit?t Wien\n  Torsten Hothorn\t\tUniversit?t Erlangen\n  Stefano Iacus\t\t\tUniversit? degli Studi di Milano\n  Ross Ihaka\t\t\tUniversity of Auckland\n  David James\t\t\tBell Labs, Lucent Technologies\n  Steffen Lauritzen\t\tAalborg University\n  Friedrich Leisch\t\tTechnische Universit?t Wien\n  Thomas Lumley\t\t\tUniversity of Washington\n  Martin M?chler\t\tETH Zurich\n  Paul Murrell\t\t\tUniversity of Auckland\n  Brian Ripley\t\t\tUniversity of Oxford\n  Duncan Temple Lang\t\tBell Labs, Lucent Technologies\n  Luke Tierney\t\t\tUniversity of Iowa\n  Simon Urbanek\t\t\tUniversit?t Augsburg\n\nWe invite papers on topics related to statistical computing.  Deadline\nfor submission of papers is 2002-11-30.  Notification about acceptance\nor rejection will be sent before 2002-01-31.\n\nDeadline for registration is 2003-03-14.  There will be a conference fee\nof EUR 200 for 'early' registrations made before 2003-02-14, and EUR 250\nfor registrations made afterwards.\n\nOn 2003-03-19 there will be several half-day tutorials, with topics\ncurrently including\n\n\tAn Introduction to BioConductor\n\tExploring Genomic Data using R and BioConductor\n\tR Graphics\n\tWriting R Extensions\n\nFees for each tutorial are EUR 50 (academic) or EUR 250 (non-academic).\n\n\nPlease contact the organizing committee at dsc-org at ci.tuwien.ac.at for\nfurther information.",
+      "body_plain": "Dear gR members,\n\nattached you find the CFP for the DSC workshop next March which has\nbeen mentioned at the gR meeting. DSC will have one session on\ngRaphical models and hence be the first followup meeting to gR\n2002.\n\nBest,\nFritz\n\nPS: I apologize if you receive this CFP multiple times.\n\n**********************************************************\n\nDSC 2003\nInternational Workshop on Distributed Statistical Computing\nhttp://www.ci.tuwien.ac.at/Conferences/DSC-2003/\nMarch 20--22, 2003\nVienna, Austria\n\nThe third international workshop on 'Distributed Statistical Computing'\n(DSC 2003) will take place at the Technische Universität Wien in Vienna,\nAustria from 2003-03-20 to 2003-03-22.  This workshop will deal with\nfuture directions in (open source) statistical computing and graphics.\n\nTopics of particular interest include\n\n       Bioinformatics\n       Database Connectivity\n       Graphical Modeling\n       GUIs and Office Integration\n       Resample and Combine Methods\n       Spatial Statistics\n       Visualization\n\nEmphasis will be given to the R (http://www.R-project.org/), Omegahat\n(http://www.omegahat.org/), and BioConductor\n(http://www.bioconductor.org/) projects.  DSC 2003 builds on the spirit\nand success of DSC 1999 and 2001, which were seminal to the further\ndevelopment of R and Omegahat.\n\nParticipants will include\n\n  Doug Bates\t\t\tUniversity of Wisconsin, Madison\n  Roger Bivand\t\t\tUniversity of Bergen\n  John Chambers\t\t\tBell Labs, Lucent Technologies\n  Peter Dalgaard\t\tUniversity of Copenhagen\n  Robert Gentleman\t\tHarvard University\n  Kurt Hornik\t\t\tWirtschaftsuniversität Wien\n  Torsten Hothorn\t\tUniversität Erlangen\n  Stefano Iacus\t\t\tUniversità degli Studi di Milano\n  Ross Ihaka\t\t\tUniversity of Auckland\n  David James\t\t\tBell Labs, Lucent Technologies\n  Steffen Lauritzen\t\tAalborg University\n  Friedrich Leisch\t\tTechnische Universität Wien\n  Thomas Lumley\t\t\tUniversity of Washington\n  Martin Mächler\t\tETH Zurich\n  Paul Murrell\t\t\tUniversity of Auckland\n  Brian Ripley\t\t\tUniversity of Oxford\n  Duncan Temple Lang\t\tBell Labs, Lucent Technologies\n  Luke Tierney\t\t\tUniversity of Iowa\n  Simon Urbanek\t\t\tUniversität Augsburg\n\nWe invite papers on topics related to statistical computing.  Deadline\nfor submission of papers is 2002-11-30.  Notification about acceptance\nor rejection will be sent before 2002-01-31.\n\nDeadline for registration is 2003-03-14.  There will be a conference fee\nof EUR 200 for 'early' registrations made before 2003-02-14, and EUR 250\nfor registrations made afterwards.\n\nOn 2003-03-19 there will be several half-day tutorials, with topics\ncurrently including\n\n\tAn Introduction to BioConductor\n\tExploring Genomic Data using R and BioConductor\n\tR Graphics\n\tWriting R Extensions\n\nFees for each tutorial are EUR 50 (academic) or EUR 250 (non-academic).\n\n\nPlease contact the organizing committee at dsc-org at ci.tuwien.ac.at for\nfurther information.",
       "body_snippet": "Dear gR members,\n\nattached you find the CFP for the DSC workshop next March which has\nbeen mentioned at the gR meeting. DSC will have one session on\ngRaphical models and hence be the first followup me",
       "thread_id": "thread-ab9feb8675ce",
       "thread_depth": 0,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000004.html"
     },
     {
       "id": "msg-cb7255d27789",
@@ -81,7 +85,8 @@
       "body_snippet": "Dear gR list,\n\nI added Steffen's article about the gR project which is forthcoming in\nthe next R News 2(3) to the web site\n  http://www.R-project.org/gR/\nIt contains some helpful information especiall",
       "thread_id": "thread-cb7255d27789",
       "thread_depth": 0,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000005.html"
     },
     {
       "id": "msg-b7398d49144a",
@@ -97,7 +102,8 @@
       "body_snippet": "Dear gRs,\n\nSufficient funding for the workshop gR2003 in Denmark has been obtained.\nMy idea of the workshop is that it should have a wider perspective and\nlarger participation than gR2002, which was a",
       "thread_id": "thread-b7398d49144a",
       "thread_depth": 0,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000006.html"
     },
     {
       "id": "msg-d74627cc8c9f",
@@ -113,7 +119,8 @@
       "body_snippet": "Dear all,\n\nDate and place are now definite: 16-20 September 2003 in Aalborg.\nSeminar room is reserved. Details to be arranged later. Put dates in\nyour diary.\n\nBest regards\nsteffen\n\n-- \nSteffen L. Laur",
       "thread_id": "thread-d74627cc8c9f",
       "thread_depth": 0,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000007.html"
     },
     {
       "id": "msg-52881099f6c1",
@@ -129,7 +136,8 @@
       "body_snippet": "Dear gRs,\n\nBelow I have tried to identify some central and helpful algorithms that\nit would be nice to have within R. Some of them are implemented already\nsomewhere, so porting or slight modification ",
       "thread_id": "thread-52881099f6c1",
       "thread_depth": 0,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000008.html"
     },
     {
       "id": "msg-b8819321d207",
@@ -145,7 +153,8 @@
       "body_snippet": "*** Model formulae for graphical models in R ***\n  \nI would like to suggest that one way to specify  graphical models in R \nis via model formulae, in  Wilkinson and Rogers' (not MIM) notation.\nThe exi",
       "thread_id": "thread-b8819321d207",
       "thread_depth": 0,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000009.html"
     },
     {
       "id": "msg-cb710f71840a",
@@ -161,7 +170,8 @@
       "body_snippet": "Dear gR-folks,\n\nIt has been my intention for a long time to make the above available\nelectronically. These notes are from 1979, revised and updated 1982 and\n1989, so they are a bit \"oldfashioned\" in t",
       "thread_id": "thread-cb710f71840a",
       "thread_depth": 0,
-      "month": "2002-10"
+      "month": "2002-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-October/000010.html"
     }
   ],
   "threads": [

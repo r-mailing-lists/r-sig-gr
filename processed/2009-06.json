@@ -17,7 +17,8 @@
       "body_snippet": "Dear gRaphical models members\n\nI am not sure if I'd better address my question to the Mac Port SIG.\nI am trying to get Rgraphviz running on a mac ppc vers. 10.4.11.\nThe installation process doesn't co",
       "thread_id": "thread-11c5ae49dcad",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000138.html"
     },
     {
       "id": "msg-59526a211885",
@@ -35,7 +36,8 @@
       "body_snippet": "On Fri, 5 Jun 2009, Alex Biedermann wrote:\n\n> Dear gRaphical models members\n>\n> I am not sure if I'd better address my question to the Mac Port SIG.\n> I am trying to get Rgraphviz running on a mac ppc",
       "thread_id": "thread-11c5ae49dcad",
       "thread_depth": 1,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000139.html"
     },
     {
       "id": "msg-9cd6b6dffb90",
@@ -51,7 +53,8 @@
       "body_snippet": "I am new to this group and would like to know a little more about the \n\"level\" of the group --- how can I look at the archives?\n\nThanks,\n--V. Stokes",
       "thread_id": "thread-9cd6b6dffb90",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000140.html"
     },
     {
       "id": "msg-c3320c7e4a4d",
@@ -69,7 +72,8 @@
       "body_snippet": "Virgil Stokes wrote:\n> I am new to this group and would like to know a little more about the \n> \"level\" of the group --- how can I look at the archives?\n>\n> Thanks,\n> --V. Stokes\n>\n> _________________",
       "thread_id": "thread-9cd6b6dffb90",
       "thread_depth": 1,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000141.html"
     },
     {
       "id": "msg-5509898cbc7a",
@@ -85,7 +89,8 @@
       "body_snippet": "Has anyone tried to use R and its fantastic graphics to produce \n\"dynamic\" graphics for statistical data? That is, something like Hans \nRosling has produced --- take a look at;\n\n  http://www.gapminder",
       "thread_id": "thread-5509898cbc7a",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000142.html"
     },
     {
       "id": "msg-f0869285a256",
@@ -104,7 +109,8 @@
       "body_snippet": "Uwe Ligges wrote:\n>\n>\n> Virgil Stokes wrote:\n>> Has anyone tried to use R and its fantastic graphics to produce \n>> \"dynamic\" graphics for statistical data? That is, something like Hans \n>> Rosling ha",
       "thread_id": "thread-f0869285a256",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000143.html"
     },
     {
       "id": "msg-ef7fd8e666fe",
@@ -121,6 +127,7 @@
       "thread_id": "thread-ef7fd8e666fe",
       "thread_depth": 0,
       "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000144.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090618/af1ed6f8/attachment.pl"
       ]
@@ -140,6 +147,7 @@
       "thread_id": "thread-190ffa213e98",
       "thread_depth": 0,
       "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000145.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090619/cb345b51/attachment.pl"
       ]
@@ -159,6 +167,7 @@
       "thread_id": "thread-68c7063d9cdb",
       "thread_depth": 0,
       "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000146.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/2ec335e9/attachment.pl"
       ]
@@ -178,6 +187,7 @@
       "thread_id": "thread-567987669a66",
       "thread_depth": 0,
       "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000147.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090622/026f7bb4/attachment.pl"
       ]
@@ -198,7 +208,8 @@
       "body_snippet": "You should ask this question on R-help. Subscribe at http://www.r- \nproject.org/mail.html\n\nKjell\n\nOn Jun 22, 2009, at 5:58 PM, FMH wrote:\n\n> Dear All,\n>\n> I used an  AR(1) model to explain the process",
       "thread_id": "thread-567987669a66",
       "thread_depth": 1,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000148.html"
     },
     {
       "id": "msg-994c966f3632",
@@ -215,6 +226,7 @@
       "thread_id": "thread-994c966f3632",
       "thread_depth": 0,
       "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2009-June/000149.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20090624/e2a0f348/attachment.pl"
       ]

@@ -18,6 +18,7 @@
       "thread_id": "thread-626d247eb858",
       "thread_depth": 0,
       "month": "2007-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2007-March/000116.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070306/fee7b1fa/attachment.pl"
       ]
@@ -37,6 +38,7 @@
       "thread_id": "thread-1f05bf4c7c97",
       "thread_depth": 0,
       "month": "2007-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2007-March/000117.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20070320/59012cd1/attachment.pl"
       ]
@@ -55,7 +57,8 @@
       "body_snippet": "On Tue, 20 Mar 2007, gpomonis wrote:\n\n> Hi there,\n> I want to plot two quant reg objects in one figure. For example:\n> plot(summary(rq(......))), plots an object to one figure,\n> plot(....            ",
       "thread_id": "thread-1f05bf4c7c97",
       "thread_depth": 1,
-      "month": "2007-03"
+      "month": "2007-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2007-March/000118.html"
     }
   ],
   "threads": [

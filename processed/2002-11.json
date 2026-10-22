@@ -17,7 +17,8 @@
       "body_snippet": "Some ideas about specifying models in gR.\n\nQuick Win\n----------\n1. For graphical models (ie where the graph is sufficient to define the\nmodel, the distributional part being implicit), just use the gra",
       "thread_id": "thread-9b6f87284c55",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2002-November/000011.html"
     }
   ],
   "threads": [

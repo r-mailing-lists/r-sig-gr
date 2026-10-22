@@ -18,6 +18,7 @@
       "thread_id": "thread-710982045492",
       "thread_depth": 0,
       "month": "2011-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2011-February/000159.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110223/ce1bb859/attachment.pl"
       ]
@@ -36,7 +37,8 @@
       "body_snippet": "This list is for graphical models - not graphics. You should ask questions\nlike this on the R-help list. Regarding your question, you should read the\nman page for par carefully. All of the various met",
       "thread_id": "thread-710982045492",
       "thread_depth": 1,
-      "month": "2011-02"
+      "month": "2011-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2011-February/000160.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Hello all,\n\nI am brand new to this list; forgive me if I mis-step!\n\nI am relatively new, also, to R, which I am using  in\nconjunction with an open source java network visualization\ntool, cytoscape (se",
       "thread_id": "thread-6161ce831357",
       "thread_depth": 0,
-      "month": "2003-12"
+      "month": "2003-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2003-December/000022.html"
     },
     {
       "id": "msg-c42a5a0a81da",
@@ -35,7 +36,8 @@
       "body_snippet": "On Thursday 18 December 2003 15:24, Paul Shannon wrote:\n\n> I wonder:  has this group defined an R data structure for\n> representing network graphs, with nodes and edges (and\n> perhaps with node and ed",
       "thread_id": "thread-6161ce831357",
       "thread_depth": 1,
-      "month": "2003-12"
+      "month": "2003-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2003-December/000023.html"
     },
     {
       "id": "msg-f0b0122d0269",
@@ -54,7 +56,8 @@
       "body_snippet": "On Fri, Dec 19, 2003 at 12:00:26PM +0100, Giovanni Marchetti wrote:\n> On Thursday 18 December 2003 15:24, Paul Shannon wrote:\n> \n> > I wonder:  has this group defined an R data structure for\n> > repre",
       "thread_id": "thread-6161ce831357",
       "thread_depth": 2,
-      "month": "2003-12"
+      "month": "2003-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2003-December/000024.html"
     }
   ],
   "threads": [

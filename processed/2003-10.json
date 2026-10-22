@@ -19,7 +19,8 @@
       "body_snippet": "Hi Kevin,\n\n>>>>> \"Kevin\" == Kevin Patrick Murphy <murphyk at ai.mit.edu>\n>>>>>     on Tue, 30 Sep 2003 13:33:38 -0400 (EDT) writes:\n\n    Kevin> I have written a paper on my proposed design for gR,\n   ",
       "thread_id": "thread-d6409e668304",
       "thread_depth": 0,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2003-October/000017.html"
     },
     {
       "id": "msg-55799ce2fa81",
@@ -35,7 +36,8 @@
       "body_snippet": "Hi gRs,\n\n does anyone know how to write a R function which creates a list with\nelements name0, name1... nameN where the names are strings? I have found a\nway of creating R objects to represent name0, ",
       "thread_id": "thread-55799ce2fa81",
       "thread_depth": 0,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2003-October/000018.html"
     },
     {
       "id": "msg-42396968ee44",
@@ -53,7 +55,8 @@
       "body_snippet": "On Monday 13 October 2003 15:32, Thomas, Andrew wrote:\n\n> Hi gRs,\n>\n>  does anyone know how to write a R function which creates a list\n> with elements name0, name1... nameN where the names are strings",
       "thread_id": "thread-55799ce2fa81",
       "thread_depth": 1,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2003-October/000019.html"
     }
   ],
   "threads": [

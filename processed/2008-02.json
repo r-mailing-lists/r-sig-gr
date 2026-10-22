@@ -17,7 +17,8 @@
       "body_snippet": "Hello\n\nI'm working with filled contour graphics trough the filled.contour  \nfunction.\n\nI'd like to know how do I change the position of the key legend (the  \ncolour label). I can't find the argument.\n",
       "thread_id": "thread-1bbe79861443",
       "thread_depth": 0,
-      "month": "2008-02"
+      "month": "2008-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2008-February/000129.html"
     },
     {
       "id": "msg-d0f3175912f2",
@@ -33,7 +34,8 @@
       "body_snippet": "On Tue, 26 Feb 2008, Miguel Leal wrote:\n\n> Hello\n>\n> I'm working with filled contour graphics trough the filled.contour\n> function.\n\nThis mailing list is about \"graphical models\", not about statistica",
       "thread_id": "thread-1bbe79861443",
       "thread_depth": 1,
-      "month": "2008-02"
+      "month": "2008-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2008-February/000130.html"
     }
   ],
   "threads": [

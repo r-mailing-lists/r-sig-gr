@@ -17,7 +17,8 @@
       "body_snippet": "Dear gR subscribers,\n\nI have written a suite of functions for R that implements\nsome functions for imsets. Imsets are algebraic\nrepresentatives of conditional independence models\n(similarly as, e.g., ",
       "thread_id": "thread-6ad4f171fdfa",
       "thread_depth": 0,
-      "month": "2007-09"
+      "month": "2007-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2007-September/000120.html"
     },
     {
       "id": "msg-9044a3068b1b",
@@ -33,7 +34,8 @@
       "body_snippet": "Hello,\n\nI would like to know if there is any publicly available code (preferably \nin R or Matlab) for the computation of the separator sets of two nodes \nin a graph. Any help would be appreciated.\n\nTh",
       "thread_id": "thread-9044a3068b1b",
       "thread_depth": 0,
-      "month": "2007-09"
+      "month": "2007-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2007-September/000121.html"
     }
   ],
   "threads": [

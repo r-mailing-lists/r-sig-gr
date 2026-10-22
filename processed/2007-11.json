@@ -17,7 +17,8 @@
       "body_snippet": "Hi Graphical Modellers,\nWe are organising a session at the Compstat08 meeting in Porto\nentitled Computation for Graphical Models and Bayes Nets. The invited\nsession will consist of talks from Giovanni",
       "thread_id": "thread-ed00eabd56fa",
       "thread_depth": 0,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2007-November/000122.html"
     },
     {
       "id": "msg-0177d47fc8e2",
@@ -29,11 +30,12 @@
       "subject_clean": "[R--gR] Save as postScrips latest R version",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi,\n\nI was using the 2.4.1 R version and I had no problem\nsaving my plots as postScript. Now that I have\ninstalled the latest version 2.6.0 I can not save any\nplot as postScript. When I try the following message\nappears:\n\nErro: Invalid font type\nAl?m disso: Warning messages:\n1: font family not found in PostScript font database \n2: font family not found in PostScript font database \n\nWhat should I do?\n\nThank you in advance,\n\nCamila\n\nCamila Pedroso Estevam de Souza\n  Mestrado em Estat?stica - UNICAMP\n  Master's Degree Student in Statistics - State University of Campinas",
+      "body_plain": "Hi,\n\nI was using the 2.4.1 R version and I had no problem\nsaving my plots as postScript. Now that I have\ninstalled the latest version 2.6.0 I can not save any\nplot as postScript. When I try the following message\nappears:\n\nErro: Invalid font type\nAlém disso: Warning messages:\n1: font family not found in PostScript font database \n2: font family not found in PostScript font database \n\nWhat should I do?\n\nThank you in advance,\n\nCamila\n\nCamila Pedroso Estevam de Souza\n  Mestrado em Estatística - UNICAMP\n  Master's Degree Student in Statistics - State University of Campinas",
       "body_snippet": "Hi,\n\nI was using the 2.4.1 R version and I had no problem\nsaving my plots as postScript. Now that I have\ninstalled the latest version 2.6.0 I can not save any\nplot as postScript. When I try the follow",
       "thread_id": "thread-0177d47fc8e2",
       "thread_depth": 0,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2007-November/000123.html"
     },
     {
       "id": "msg-a6667c68eec3",

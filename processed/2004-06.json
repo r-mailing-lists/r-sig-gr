@@ -17,7 +17,8 @@
       "body_snippet": "Dear gR,\n\n A new version, 1.6.1, of the CoCo bundle with CoCoCg is now available from\n www.jbs.agrsci.dk/Biometry/Software-Datasets/CoCo/CoCo.1.6 and from\n http://www.math.auc.dk/gr/material/CoCo/ .\n\n",
       "thread_id": "thread-44b1d92b11c9",
       "thread_depth": 0,
-      "month": "2004-06"
+      "month": "2004-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-June/000026.html"
     },
     {
       "id": "msg-dda3c915ef06",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear Bioconductor,\n\nI am running R non interactively from command line on my lunux AMD 64 remotely. My R scripts\nanalyze data and generates lots of jpeg files and puts in to directory. so,I am running",
       "thread_id": "thread-dda3c915ef06",
       "thread_depth": 0,
-      "month": "2004-06"
+      "month": "2004-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2004-June/000027.html"
     }
   ],
   "threads": [

@@ -18,6 +18,7 @@
       "thread_id": "thread-e8dcd3de712b",
       "thread_depth": 0,
       "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-June/000102.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20060607/af7f4113/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "Toby,\n\nthis is the SIG for \"graphical models\" which is not concerned with\n\"graphics\". It would be more appropriate (and more likely to generate\nanswers) to ask this question on R-help.\n\nBest,\nZ\n\n> I a",
       "thread_id": "thread-e8dcd3de712b",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-June/000103.html"
     }
   ],
   "threads": [

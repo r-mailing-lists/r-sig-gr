@@ -17,7 +17,8 @@
       "body_snippet": "I have updated package ggm working together with \nMathias Drton. The new version 0.8 is available at CRAN.  \n\nThis version contains:\n- new functions for defining ancestral graphs (makeAG, unmakeAG)\n- ",
       "thread_id": "thread-d87eaffc448a",
       "thread_depth": 0,
-      "month": "2003-11"
+      "month": "2003-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2003-November/000020.html"
     },
     {
       "id": "msg-aec6502301e4",
@@ -35,7 +36,8 @@
       "body_snippet": "excellent!\nSteffen\n\nGiovanni Marchetti wrote:\n> I have updated package ggm working together with \n> Mathias Drton. The new version 0.8 is available at CRAN.  \n> \n> This version contains:\n> - new funct",
       "thread_id": "thread-d87eaffc448a",
       "thread_depth": 1,
-      "month": "2003-11"
+      "month": "2003-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2003-November/000021.html"
     }
   ],
   "threads": [

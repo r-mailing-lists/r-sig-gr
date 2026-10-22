@@ -19,7 +19,8 @@
       "body_snippet": "PLEASE do use the R-help mailing list for questions about R.\n\nR-sig-gR has a very specialized focus (graphical models) about\nwhich you are not at all talking.\n\n>>>>> \"Luis\" == Luis Barreiro <barreiro ",
       "thread_id": "thread-72feb11ae4d6",
       "thread_depth": 1,
-      "month": "2006-09"
+      "month": "2006-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-September/000111.html"
     },
     {
       "id": "msg-72feb11ae4d6",
@@ -35,7 +36,8 @@
       "body_snippet": "Dear all,\n\nI arrive to do density plots using the function \"kde2d\" , and from this do \na countour plot. My problem is that I do not really understand what the \nlabels for the different levels mean??? ",
       "thread_id": "thread-72feb11ae4d6",
       "thread_depth": 0,
-      "month": "2006-09"
+      "month": "2006-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-September/000110.html"
     },
     {
       "id": "msg-69fe4907e591",
@@ -47,11 +49,12 @@
       "subject_clean": "[R--gR] New gR package",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "The gRcox package is now available on CRAN. The package can be used for inference in graphical Gaussian models with symmetry restrictions. The use of the package is described in: \n\nH?jsgaard, S. and Lauritzen, S. L. (2006). Inference in graphical Gaussian models with edge and vertex symmetries with the gRcox package for R,\n\navailable at:\n\nhttp://www.stats.ox.ac.uk/~steffen/papers/gRcox-JSS.pdf\n\nThe theoretical underpinning of the models and methods is described in:\n\nH?jsgaard, S. and Lauritzen, S. L. (2006). Graphical Gaussian models with edge and vertex symmetries,\n\navailable at:\n\nhttp://www.stats.ox.ac.uk/~steffen/papers/rcoxrss.pdf\n\nRegards\nSteffen\n--\nProfessor Steffen L. Lauritzen\nDepartment of Statistics, University of Oxford\n1 South Parks Road, Oxford OX1 3TG, United Kingdom\nTel: +44 (0)1865 272877; Fax: +44 (0)1865 272595 \nemail: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/",
-      "body_snippet": "The gRcox package is now available on CRAN. The package can be used for inference in graphical Gaussian models with symmetry restrictions. The use of the package is described in: \n\nH?jsgaard, S. and L",
+      "body_plain": "The gRcox package is now available on CRAN. The package can be used for inference in graphical Gaussian models with symmetry restrictions. The use of the package is described in: \n\nHøjsgaard, S. and Lauritzen, S. L. (2006). Inference in graphical Gaussian models with edge and vertex symmetries with the gRcox package for R,\n\navailable at:\n\nhttp://www.stats.ox.ac.uk/~steffen/papers/gRcox-JSS.pdf\n\nThe theoretical underpinning of the models and methods is described in:\n\nHøjsgaard, S. and Lauritzen, S. L. (2006). Graphical Gaussian models with edge and vertex symmetries,\n\navailable at:\n\nhttp://www.stats.ox.ac.uk/~steffen/papers/rcoxrss.pdf\n\nRegards\nSteffen\n--\nProfessor Steffen L. Lauritzen\nDepartment of Statistics, University of Oxford\n1 South Parks Road, Oxford OX1 3TG, United Kingdom\nTel: +44 (0)1865 272877; Fax: +44 (0)1865 272595 \nemail: steffen at stats.ox.ac.uk URL: www.stats.ox.ac.uk/~steffen/",
+      "body_snippet": "The gRcox package is now available on CRAN. The package can be used for inference in graphical Gaussian models with symmetry restrictions. The use of the package is described in: \n\nHøjsgaard, S. and L",
       "thread_id": "thread-69fe4907e591",
       "thread_depth": 0,
-      "month": "2006-09"
+      "month": "2006-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-September/000112.html"
     }
   ],
   "threads": [

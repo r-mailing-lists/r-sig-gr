@@ -17,7 +17,8 @@
       "body_snippet": "Dear R-sig-gR users,\n\nDoes someone know how to extract point values form the regression\nmodel of the recession function, package lfstat?\nI would like to have the coefficient that appears on the graph,",
       "thread_id": "thread-38d613f31b61",
       "thread_depth": 0,
-      "month": "2015-02"
+      "month": "2015-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2015-February/000168.html"
     }
   ],
   "threads": [

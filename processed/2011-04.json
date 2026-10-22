@@ -18,6 +18,7 @@
       "thread_id": "thread-3ed03d417ba8",
       "thread_depth": 0,
       "month": "2011-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2011-April/000161.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-gr/attachments/20110420/0994ff17/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "This list is for discussion of graphical models. You'll have better luck asking your question on R help.\n\nKjell\n\n\nOn Apr 20, 2011, at 10:20 PM, David Bird wrote:\n\n> I would like to produce charts of p",
       "thread_id": "thread-3ed03d417ba8",
       "thread_depth": 1,
-      "month": "2011-04"
+      "month": "2011-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2011-April/000162.html"
     }
   ],
   "threads": [

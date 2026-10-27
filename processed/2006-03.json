@@ -332,11 +332,12 @@
       "references": [
         "<442911AC.27304.6B5E5B@bips.uni-bremen.de>"
       ],
-      "body_plain": "You could take a look at Grappa: http://www.stats.bris.ac.uk/~peter/Grappa/\n\n- available as a package for Windows and Linux, but with a few health \nwarnings - it doesn't protect you from misspecifying a model, it only \ndeals with the discrete case, and it does not fully comply with CRAN \nstandards (of documentation, etc.)\n\nPeter Green\n\nRonja Foraita wrote:\n> Dear all,\n>\n> has any R-package the \"belief propagation algorithm\" implemented?\n>\n> Many thanks,\n> Ronja Foraita\n>\n> ---\n> Ronja Foraita, Dipl.-Stat.\n> Bremen Institute for Prevention Research and Social Medicine (BIPS)\n> Linzer Stra?e 10\n> D-28359 Bremen\n> Tel  +49 421 59 59 6-85\n> Fax +49 421 59 59 6-68\n> http://www.bips.uni-bremen.de\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>",
+      "body_plain": "You could take a look at Grappa: http://www.stats.bris.ac.uk/~peter/Grappa/\n\n- available as a package for Windows and Linux, but with a few health \nwarnings - it doesn't protect you from misspecifying a model, it only \ndeals with the discrete case, and it does not fully comply with CRAN \nstandards (of documentation, etc.)\n\nPeter Green\n\nRonja Foraita wrote:\n> Dear all,\n>\n> has any R-package the \"belief propagation algorithm\" implemented?\n>\n> Many thanks,\n> Ronja Foraita\n>\n> ---\n> Ronja Foraita, Dipl.-Stat.\n> Bremen Institute for Prevention Research and Social Medicine (BIPS)\n> Linzer Straße 10\n> D-28359 Bremen\n> Tel  +49 421 59 59 6-85\n> Fax +49 421 59 59 6-68\n> http://www.bips.uni-bremen.de\n>\n> _______________________________________________\n> R-sig-gR mailing list\n> R-sig-gR at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-gr\n>",
       "body_snippet": "You could take a look at Grappa: http://www.stats.bris.ac.uk/~peter/Grappa/\n\n- available as a package for Windows and Linux, but with a few health \nwarnings - it doesn't protect you from misspecifying",
       "thread_id": "thread-7a241a4dc6e7",
       "thread_depth": 1,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-gr/2006-March/000099.html"
     }
   ],
   "threads": [
